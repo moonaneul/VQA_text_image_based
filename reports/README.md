@@ -258,3 +258,42 @@ others → standard + direct
 Fresh audit의 price McNemar p=0.21875라 통계적 확정이라고 표현하지는 않는다. 대신 **사전 실용 gate를 독립 audit에서 통과했고 기존 두 validation에서도 같은 방향**이라고 기록한다.
 
 다음 실험은 이 audit을 더 만지지 않고 별도 dev pool에서 진행한다.
+
+
+## 다음 전략: B2-D scene-text grounding
+
+Price router는 이제 **freeze**한다. Audit도 다시 보면서 튜닝하지 않는다.
+
+다음으로 가장 큰 남은 기회는 scene_text다.
+
+Scene-text B0 오답 59개 중:
+- OCR recognition 21
+- exact-string confusion 11
+- target localization 3
+
+즉 **35개(59.3%)가 perception/grounding 계열**이다.
+
+기존 A1/A2처럼 "더 잘 읽어라" 또는 global max-resolution을 조금 올리는 실험은 이미 효과가 없었다.
+
+그래서 B2-D는 구조를 바꾼다:
+
+```text
+full image
++ four overlapping zoom crops
+        ↓
+choice logits per view
+        ↓
+full evidence + strongest crop evidence
+        ↓
+a / b / c / d
+```
+
+먼저 70개 diagnostic만 사용:
+- perception error 35
+- correct control 35
+
+Gate:
+- **8개 이상 rescue + control regression 3개 이하** → full scene_text run
+- 아니면 tiling branch 종료
+
+이렇게 해야 GPU 시간을 큰 full run 전에 mechanism 검증에만 쓴다.
