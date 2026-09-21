@@ -59,3 +59,18 @@ The future trainer must:
 - keep the new holdout untouched during optimization
 
 No full training starts until P0/P1 pass.
+
+
+## P1 completed: fresh holdout B0
+
+B0 on the new 400-row holdout:
+- **361/400 = 90.25%**
+- scene_text: 197/218 = 90.37%
+- price: 36/39 = 92.31%
+- spatial: 13/16 = 81.25%
+- menu: 10/12 = 83.33%
+- parse failures: 0
+
+The holdout score is close to the earlier random B0 (90.68%), which supports the split as a plausible evaluation set.
+
+Next: measure the already-locked price-only router on this same holdout, then freeze the current-best score before QLoRA.
