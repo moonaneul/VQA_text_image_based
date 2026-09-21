@@ -138,3 +138,36 @@ Gate:
 - **198+** → additive 가능, grouped confirmation
 - 197 → 약한 신호
 - **196 이하** → 결합 가치 없음, B2 layout grounding으로 이동
+
+
+## B1C 결과: 2×2 마지막 칸 성공
+
+| | direct | binding-aware |
+|---|---:|---:|
+| standard | B0 **194** | B1 **196** |
+| high | A2 **196** | **B1C 198** |
+
+B1C는 B0 대비 **+4, regression 0**이었다.
+
+더 중요한 점은 A2와 B1이 각각 고친 서로 다른 2개씩을 B1C가 **전부 보존**했다는 것이다.
+
+즉 random price+phone subset에서:
+- A2 효과 +2
+- B1 효과 +2
+- 결합 B1C +4
+
+로 additive pattern이 관찰됐다.
+
+다만 McNemar p=0.125이고 random split은 tuning에 반복 사용되었으므로 최종 채택은 아직 아니다.
+
+### 다음: grouped confirmation
+
+Grouped B0 price+phone baseline:
+- **202 / 223 = 90.58%**
+
+사전 gate:
+- **206+** → strong replication
+- **204–205** → directional replication
+- **203 이하** → not confirmed
+
+Grouped에서는 B1C만 한 번 확인하고, 결과를 본 뒤 selective routing 또는 B2 layout grounding으로 분기한다.
