@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 from pathlib import Path
 
 import pandas as pd
@@ -28,6 +29,14 @@ def prepare(path: Path, suffix: str) -> pd.DataFrame:
     })
 
 
+def exact_mcnemar_p_value(b: int, c: int) -> float:
+    n = b + c
+    if n == 0:
+        return 1.0
+    tail = sum(math.comb(n, k) for k in range(0, min(b, c) + 1)) / (2 ** n)
+    return min(1.0, 2.0 * tail)
+
+
 def summarize(frame: pd.DataFrame) -> dict:
     baseline_correct = frame["correct_baseline"]
     candidate_correct = frame["correct_candidate"]
@@ -50,6 +59,9 @@ def summarize(frame: pd.DataFrame) -> dict:
         "old_wrong_new_right": old_wrong_new_right,
         "old_right_new_wrong": old_right_new_wrong,
         "net_gain_samples": old_wrong_new_right - old_right_new_wrong,
+        "mcnemar_exact_p_value": exact_mcnemar_p_value(
+            old_wrong_new_right, old_right_new_wrong
+        ),
         "both_right": both_right,
         "both_wrong": both_wrong,
         "prediction_disagreement_rate": float(disagreement.mean()),
