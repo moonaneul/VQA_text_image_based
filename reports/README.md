@@ -112,3 +112,29 @@ Grouped split은 candidate가 생겼을 때만 쓰는 **confirmation set**으로
 
 - same fixes → prompt/high-res 둘 다 종료 → B2 layout grounding
 - different fixes → complementarity 가능 → 작은 조합 실험 검토
+
+
+## A2 vs B1: 점수는 같지만 고친 문제가 다르다
+
+A2와 B1은 둘 다 price+phone에서 **196/223 = 87.89%**였지만 prediction은 4개 달랐다.
+
+- A2만 맞음: **2**
+- B1만 맞음: **2**
+- 둘 다 맞음: **194**
+- 둘 다 틀림: **25**
+
+즉 B0에서 A2가 회수한 2개와 B1이 회수한 2개가 **서로 다른 sample**이다.
+
+### 다음: 2×2 실험의 마지막 칸
+
+| | direct | binding |
+|---|---:|---:|
+| standard | B0 194 | B1 196 |
+| high | A2 196 | **B1C ?** |
+
+이제 **high + binding**만 테스트하면 된다.
+
+Gate:
+- **198+** → additive 가능, grouped confirmation
+- 197 → 약한 신호
+- **196 이하** → 결합 가치 없음, B2 layout grounding으로 이동
