@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="360" viewBox="0 0 820 360" role="img" aria-labelledby="title desc">
+<title id="title">A2 paired outcomes versus B0</title>
+<desc id="desc">Both correct 1212, B0 wrong A2 right 5, B0 right A2 wrong 4, both wrong 120.</desc>
+<rect width="820" height="360" fill="#ffffff"/>
+<text x="32" y="38" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#111827">B0 vs A2 · paired outcomes</text>
+<text x="32" y="64" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">Only 9 / 1,341 predictions changed (0.67%)</text>
+<g font-family="Arial,sans-serif" font-size="14" fill="#111827">
+<text x="32" y="125">Both correct</text>
+<text x="32" y="185">B0 wrong → A2 right</text>
+<text x="32" y="245">B0 right → A2 wrong</text>
+<text x="32" y="305">Both wrong</text>
+</g>
+<g fill="#e5e7eb">
+<rect x="220" y="105" width="500" height="26" rx="6"/>
+<rect x="220" y="165" width="500" height="26" rx="6"/>
+<rect x="220" y="225" width="500" height="26" rx="6"/>
+<rect x="220" y="285" width="500" height="26" rx="6"/>
+</g>
+<rect x="220" y="105" width="452" height="26" rx="6" fill="#4f46e5"/>
+<rect x="220" y="165" width="34" height="26" rx="6" fill="#059669"/>
+<rect x="220" y="225" width="30" height="26" rx="6" fill="#dc2626"/>
+<rect x="220" y="285" width="45" height="26" rx="6" fill="#6b7280"/>
+<g font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#111827" text-anchor="end">
+<text x="785" y="124">1,212</text>
+<text x="785" y="184">5</text>
+<text x="785" y="244">4</text>
+<text x="785" y="304">120</text>
+</g>
+</svg>
