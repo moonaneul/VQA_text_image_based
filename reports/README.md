@@ -171,3 +171,39 @@ Grouped B0 price+phone baseline:
 - **203 이하** → not confirmed
 
 Grouped에서는 B1C만 한 번 확인하고, 결과를 본 뒤 selective routing 또는 B2 layout grounding으로 분기한다.
+
+
+## Grouped confirmation 결과
+
+B1C grouped:
+- **205 / 223 = 91.93%**
+- B0 grouped: 202 / 223
+- net **+3**
+- wins 6 / losses 3
+
+사전 gate상 **directional replication**이지만 strong replication은 아니다.
+
+더 중요한 건 category가 갈렸다.
+
+| Category | Random B1C vs B0 | Grouped B1C vs B0 |
+|---|---:|---:|
+| **price** | **+2** | **+4** |
+| phone | +2 | **-1** |
+
+따라서 현재 후보는 **price-only selective routing**이다.
+
+관측상 price-only hybrid는:
+- Random full: **90.83%** (+0.15 pp)
+- Grouped full: **92.03%** (+0.30 pp)
+
+하지만 이 rule은 grouped 결과를 본 뒤 정제됐으므로 바로 최종 채택하면 안 된다.
+
+### 다음: fresh audit holdout
+
+기존 random/grouped validation ID를 모두 제외한 train pool에서:
+- price 200
+- phone 100
+
+을 새로 뽑아 B0와 B1C를 한 번씩만 비교한다.
+
+여기서 price 효과가 다시 positive면 price-only routing을 lock하고, 이후 B2는 residual price/scene-text errors를 대상으로 진행한다.
