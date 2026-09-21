@@ -6,62 +6,67 @@
 
 ```mermaid
 flowchart LR
-    B0["B0<br/>Qwen2.5-VL-3B<br/>direct + 0.8MP<br/>90.68%"] --> A1["A1<br/>OCR-aware prompt<br/>90.68%<br/>REJECT"]
-    A1 --> A2["A2<br/>direct + 1.0MP<br/>NEXT"]
-    A2 --> A3["A3<br/>resolution sensitivity"]
-    A3 --> A4["A4<br/>constrained choice scoring"]
-    A4 --> D{"남은 오류는?"}
-    D -->|글자를 못 읽음| A5["Selective OCR / zoom"]
-    D -->|읽지만 판단 오류| A6["QLoRA"]
-    D -->|다른 영역을 봄| L["crop / localization"]
-    D -->|상호보완 오류| E["routing / ensemble"]
+    B0["B0<br/>direct + 0.8MP<br/>90.68%"] --> A1["A1<br/>OCR-aware prompt<br/>90.68%<br/>REJECT"]
+    A1 --> A2["A2<br/>direct + 1.0MP cap<br/>90.75%<br/>+0.07pp"]
+    A2 --> P["Paired diagnostic<br/>NEXT"]
+    P --> Q{"High path가<br/>보완적인가?"}
+    Q -->|No| A4["Constrained scoring"]
+    Q -->|Yes| R["Conditional high-res / routing"]
+    A4 --> D{"남은 오류 원인?"}
+    D -->|글자를 못 읽음| Z["crop / tiling / OCR"]
+    D -->|읽지만 판단 오류| F["QLoRA"]
 ```
 
 ## 실험 진행표
 
-| Stage | Pipeline | 한 가지 변경 | Random | Grouped | 결과 |
+| Stage | Pipeline | 한 가지 변경 | Random | Grouped | 결정 |
 |---|---|---|---:|---:|---|
-| **B0** | Qwen2.5-VL-3B + direct + 0.8MP + generation | 최초 zero-shot baseline | **90.68%** | **91.73%** | 기준점 |
-| **A1** | 동일 모델 + OCR-aware prompt + 0.8MP | **prompt만 변경** | **90.68%** | 생략 | **Reject** |
-| **A2** | 동일 모델 + direct + 1.0MP | **resolution만 변경** | TBD | TBD | **Next** |
-| A3 | winning setup | resolution sensitivity | TBD | TBD | Pending |
-| A4 | best prompt/resolution | generation → constrained scoring | TBD | TBD | Pending |
-| A5 | best VLM setup | selective OCR / zoom | TBD | TBD | Conditional |
-| A6 | best inference setup | zero-shot → QLoRA | TBD | TBD | Conditional |
+| **B0** | Qwen2.5-VL-3B + direct + ~0.8MP | baseline | **90.68%** | **91.73%** | 기준점 |
+| **A1** | same + OCR-aware prompt | prompt | **90.68%** | 생략 | **Reject** |
+| **A2** | same + ~1.0MP max cap | resolution cap | **90.75%** | 생략 | **보류/Reject as global** |
+| **A2-D** | B0 vs A2 prediction comparison | no inference | TBD | - | **Next** |
+| A4 | best setup | constrained choice scoring | TBD | TBD | Pending |
+| A5 | targeted visual/OCR path | crop/tiling/OCR | TBD | TBD | Conditional |
+| A6 | best inference setup | QLoRA | TBD | TBD | Conditional |
 
-## B0 — 강한 zero-shot 기준점
+## B0
 
 - Model: **Qwen2.5-VL-3B-Instruct**
-- Prompt: direct
-- Resolution: ~0.8MP
-- Random: **90.68%**
-- Grouped: **91.73%**
-- OCR-heavy random: **89.91%**
-- Parse failure: **0**
-
-핵심 발견: random validation 오답 125개 중 **93개(74.4%)**가 OCR-heavy 유형.
+- direct prompt
+- standard max ~0.8MP
+- Random **90.68%**
+- Grouped **91.73%**
 
 ## A1 — OCR-aware prompt
 
-### 변경
-Prompt 하나만:
-`direct → ocr_deliberate`
+- Overall: **90.68% → 90.68%**
+- OCR-heavy: **89.91% → 89.70%**
+- Decision: **Reject**
 
-### 결과
-- Overall: **90.68% → 90.68% (0.00 pp)**
-- OCR-heavy: **89.91% → 89.70% (-0.22 pp)**
-- scene_text: **91.17% → 90.87% (-0.30 pp)**
-- spatial: **84.21% → 87.72% (+3.51 pp)**
-- runtime: 약 **+1.6%**
+프롬프트에서 OCR을 강조하는 것만으로는 개선되지 않았다.
 
-![A1 delta vs B0](figures/a1_delta_vs_b0.svg)
+## A2 — High max-resolution cap
+
+- Overall: **90.68% → 90.75% (+0.07 pp)**
+- Correct: **+1**
+- OCR-heavy: **+0.11 pp**
+- phone: **+2.33 pp**
+- price: **+0.56 pp**
+- scene_text: **-0.15 pp**
+- Runtime: **+2.74%**
+
+![A2 delta vs B0](figures/a2_delta_vs_b0.svg)
 
 ### 판단
-**Reject.** 더 긴 OCR-aware prompt는 비용만 늘고 전체/OCR-heavy 성능을 개선하지 못했다.
+
+**Global default로는 채택하지 않는다.**
+
++1문제는 실질적 개선이라고 보기 어렵다.
+
+또한 max_pixels 증가 자체는 모든 이미지를 업스케일하지 않는다. 중앙 이미지 크기가 약 0.69MP이므로 standard 0.8MP cap 이하 이미지는 high 설정에서도 새 시각 정보가 생기지 않는다.
 
 ### 다음
-**A2: direct prompt 유지 + high (~1.0MP) resolution.**
 
----
+새 GPU run 전에 **B0와 A2의 sample-level prediction 변화**를 분석한다.
 
-최종 목표는 기법을 많이 붙이는 것이 아니라, **각 성능 변화의 이유가 설명 가능한 pipeline**을 만드는 것이다.
+목표는 high path가 단순 noise인지, 특정 샘플에서 상호보완적인지 판단하는 것이다.
