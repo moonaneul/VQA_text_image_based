@@ -116,3 +116,25 @@ assistant-generation context에서도 모두 **1 token**이다.
 GPU run 전에 `raw_output` exact-one-letter 비율을 검사한다.
 
 **전략:** scoring 기법을 구현할 수 있다는 이유만으로 실험하지 않는다. 실제로 prediction을 바꿀 가능성이 있는지 먼저 확인한다.
+
+
+## A4-P1 — Generation-format diagnostic
+
+B0 raw outputs:
+
+- exact one-letter: **1,240 / 1,341 (92.47%)**
+- non-exact: **101 / 1,341 (7.53%)**
+- non-exact but choice-like: **101 / 101**
+- parse failure: **0**
+
+### 해석
+
+Parser 문제는 아니다.
+
+하지만 `(d)`처럼 첫 token이 괄호일 수 있는 101개에서는 constrained a/b/c/d logits가 현재 parsed answer와 달라질 가능성이 있다.
+
+### 결정
+
+전체 scoring run 전에 **101개 non-exact subset의 현재 accuracy/category를 CPU로 분석**한다.
+
+그 subset이 실제로 취약하다면 그때 101개만 targeted scoring하여 정보 대비 GPU 비용을 최소화한다.
