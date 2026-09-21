@@ -442,3 +442,23 @@ This second fresh check moved opposite to the earlier audit, so the price route 
 **Reference returns to B0 direct + standard.**
 
 Next: create inner train/dev from qlora_train and tune QLoRA only there; final 400-row holdout is frozen.
+
+
+## B3-P2 smoke — provisional, gradient check added
+
+32-row QLoRA smoke:
+- completed in ~50 s
+- peak VRAM **5.81 GB**
+- no OOM
+- finite loss
+- adapter save succeeded
+
+But PyTorch warned that checkpoint inputs did not require gradients under the re-entrant path.
+
+Before any full run, the trainer was hardened:
+- non-reentrant checkpointing
+- first-microbatch LoRA gradient assertion
+- adapter parameter-change assertion
+- non-finite loss abort
+
+One corrected 32-row smoke rerun is required.
