@@ -357,3 +357,47 @@ PEFT / 4-bit 환경 preflight
 Random B0 90.68%와 가까워 split이 과도하게 쉽거나 어려운 징후는 크지 않다.
 
 다음은 이미 lock한 **price-only router**를 이 400개에 적용해 실제 current-best 기준점을 고정한다. 그 점수를 QLoRA가 넘어야 한다.
+
+
+## 중요 수정: price router는 최종 reference에서 제외
+
+새 QLoRA holdout 400개에서:
+- B0 = **361/400 (90.25%)**
+- price router = **360/400 (90.00%)**
+
+Price 39개만 보면:
+- B0 36/39
+- specialist 35/39
+- net -1
+
+즉 이전 audit의 positive signal이 두 번째 fresh sample에서 재현되지 않았다.
+
+따라서 현재 최종 reference는 다시:
+
+```text
+Qwen2.5-VL-3B
++ direct
++ standard
+= B0
+```
+
+로 돌아간다.
+
+### QLoRA는 inner dev에서만 개발
+
+400 final holdout은 이제 freeze.
+
+3,594 qlora_train을:
+- inner train ≈3,294
+- inner dev ≈300
+
+으로 다시 나누고, QLoRA 설정은 inner dev로만 선택한다.
+
+첫 config는 보수적으로:
+- 4-bit NF4
+- BF16
+- LoRA q/k/v/o only
+- r8 / alpha16
+- lr 5e-5
+- 1 epoch
+- answer-token-only loss
