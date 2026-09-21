@@ -64,3 +64,23 @@ flowchart TD
 **GPU 시간을 쓰기 전에 기존 결과에서 최대한 정보를 뽑는다.**
 
 이 프로젝트의 목표는 많은 실험이 아니라 **정보 효율이 높은 실험 순서**다.
+
+
+## A2-D 결론
+
+B0와 A2는 **99.33%의 sample에서 동일한 prediction**을 냈다.
+
+따라서 high cap은:
+- global default로 채택하지 않음
+- ensemble에도 사용하지 않음
+- phone/price routing rule도 현재 validation만 보고 만들지 않음
+
+가장 중요한 새 단서는 **resolution에 반응한 sample이 모두 OCR-heavy였다는 점**이다.
+
+이는 향후 full-image high cap보다 **crop / tiling / explicit zoom**이 더 합리적인 시각 개선 후보임을 시사한다.
+
+## 다음
+
+**Choice scoring pre-check**
+
+먼저 tokenizer가 a/b/c/d를 어떻게 표현하는지 확인한 뒤, free generation과 비교할 constrained scoring을 구현한다.
