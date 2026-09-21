@@ -233,3 +233,29 @@ GPU를 쓰기 전에 **A2 vs B1 price+phone complementarity**를 확인한다.
 
 같은 샘플을 고쳤다면 prompt/high-res branch를 닫고 B2 layout-aware grounding으로 이동한다.
 서로 다른 샘플을 고쳤다면 두 intervention 조합 가능성을 작은 subset에서 검토한다.
+
+
+## B1-D — A2 vs B1 complementarity
+
+price+phone 223개에서 A2와 B1은 둘 다 **196/223 (87.89%)**였다.
+
+하지만:
+- A2-only correct: **2**
+- B1-only correct: **2**
+- both correct: **194**
+- both wrong: **25**
+- disagreement: **4/223 = 1.79%**
+
+B0 대비 A2와 B1은 각각 +2, regression 0이었으므로 **각 intervention이 고친 2개가 서로 겹치지 않는다.**
+
+### 다음
+
+2×2 factorial의 마지막 cell을 채운다:
+
+- standard/direct = B0
+- high/direct = A2
+- standard/binding = B1
+- **high/binding = B1C (next)**
+
+B1C가 **198/223 이상**이면 additive 가능성이 있어 grouped confirmation을 검토한다.
+196 이하라면 prompt/high-resolution branch를 닫고 layout-aware grounding으로 이동한다.
