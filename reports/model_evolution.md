@@ -138,3 +138,28 @@ Parser 문제는 아니다.
 전체 scoring run 전에 **101개 non-exact subset의 현재 accuracy/category를 CPU로 분석**한다.
 
 그 subset이 실제로 취약하다면 그때 101개만 targeted scoring하여 정보 대비 GPU 비용을 최소화한다.
+
+
+## A4-P2 — Exact vs non-exact accuracy
+
+- exact one-letter: **1,240개, 90.08%, 123 errors**
+- non-exact: **101개, 98.02%, 2 errors**
+- 전체 오류 125개 중 **123개(98.4%)**가 exact output에서 발생
+
+### 판단
+
+Output formatting / parsing / constrained scoring은 핵심 병목이 아니다.
+
+**A4 full scoring run은 생략한다.**
+
+### 다음
+
+B0의 125개 오류를 root cause로 분류한다.
+
+결과에 따라:
+- OCR recognition → crop/tiling/OCR
+- localization → region-focused inference
+- binding/reasoning → QLoRA
+- mixed → routing
+
+으로 분기한다.
