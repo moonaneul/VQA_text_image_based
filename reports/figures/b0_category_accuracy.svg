@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-labelledby="title desc">
+<title id="title">B0 random validation category accuracy</title>
+<desc id="desc">Category accuracies: phone 83.72, menu 83.87, spatial 84.21, price 87.78, scene text 91.17, other 93.39, count 100, color 100 percent.</desc>
+<rect width="900" height="470" fill="#ffffff"/>
+<text x="32" y="38" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">B0 random validation · category accuracy</text>
+<text x="32" y="64" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Low accuracy + high sample count = highest-value improvement target</text>
+<g font-family="Arial, sans-serif" font-size="14" fill="#111827">
+<text x="32" y="113">phone (n=43)</text>
+<text x="32" y="158">menu (n=31)</text>
+<text x="32" y="203">spatial (n=57)</text>
+<text x="32" y="248">price (n=180)</text>
+<text x="32" y="293">scene_text (n=668)</text>
+<text x="32" y="338">other (n=348)</text>
+<text x="32" y="383">count (n=10)</text>
+<text x="32" y="428">color (n=4)</text>
+</g>
+<g fill="#e5e7eb">
+<rect x="180" y="92" width="600" height="24" rx="5"/>
+<rect x="180" y="137" width="600" height="24" rx="5"/>
+<rect x="180" y="182" width="600" height="24" rx="5"/>
+<rect x="180" y="227" width="600" height="24" rx="5"/>
+<rect x="180" y="272" width="600" height="24" rx="5"/>
+<rect x="180" y="317" width="600" height="24" rx="5"/>
+<rect x="180" y="362" width="600" height="24" rx="5"/>
+<rect x="180" y="407" width="600" height="24" rx="5"/>
+</g>
+<g fill="#4f46e5">
+<rect x="180" y="92" width="502.3" height="24" rx="5"/>
+<rect x="180" y="137" width="503.2" height="24" rx="5"/>
+<rect x="180" y="182" width="505.3" height="24" rx="5"/>
+<rect x="180" y="227" width="526.7" height="24" rx="5"/>
+<rect x="180" y="272" width="547.0" height="24" rx="5"/>
+<rect x="180" y="317" width="560.3" height="24" rx="5"/>
+<rect x="180" y="362" width="600" height="24" rx="5"/>
+<rect x="180" y="407" width="600" height="24" rx="5"/>
+</g>
+<g font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#111827" text-anchor="end">
+<text x="850" y="110">83.72%</text>
+<text x="850" y="155">83.87%</text>
+<text x="850" y="200">84.21%</text>
+<text x="850" y="245">87.78%</text>
+<text x="850" y="290">91.17%</text>
+<text x="850" y="335">93.39%</text>
+<text x="850" y="380">100.00%</text>
+<text x="850" y="425">100.00%</text>
+</g>
+</svg>
