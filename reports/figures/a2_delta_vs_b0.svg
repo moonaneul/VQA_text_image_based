@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+<title id="title">A2 delta versus B0</title>
+<desc id="desc">High resolution cap improved overall by 0.07 percentage points, OCR heavy by 0.11, phone by 2.33, price by 0.56, while scene text dropped 0.15.</desc>
+<rect width="900" height="430" fill="#ffffff"/>
+<text x="32" y="38" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#111827">A2 vs B0 · accuracy change</text>
+<text x="32" y="64" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">Only max resolution cap changed · positive = A2 better</text>
+<line x1="450" y1="90" x2="450" y2="405" stroke="#9ca3af" stroke-width="2"/>
+<g font-family="Arial,sans-serif" font-size="14" fill="#111827">
+<text x="32" y="122">Overall</text><text x="32" y="167">OCR-heavy</text><text x="32" y="212">scene_text</text><text x="32" y="257">price</text><text x="32" y="302">phone</text><text x="32" y="347">menu</text><text x="32" y="392">runtime</text>
+</g>
+<rect x="450" y="104" width="7" height="22" rx="3" fill="#059669"/>
+<rect x="450" y="149" width="11" height="22" rx="3" fill="#059669"/>
+<rect x="435" y="194" width="15" height="22" rx="3" fill="#dc2626"/>
+<rect x="450" y="239" width="56" height="22" rx="3" fill="#059669"/>
+<rect x="450" y="284" width="233" height="22" rx="3" fill="#059669"/>
+<rect x="448" y="329" width="4" height="22" rx="3" fill="#6b7280"/>
+<rect x="450" y="374" width="274" height="22" rx="3" fill="#6b7280"/>
+<g font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#111827">
+<text x="780" y="121">+0.07 pp</text><text x="780" y="166">+0.11 pp</text><text x="780" y="211">-0.15 pp</text><text x="780" y="256">+0.56 pp</text><text x="780" y="301">+2.33 pp</text><text x="780" y="346">0.00 pp</text><text x="780" y="391">+2.74%</text>
+</g>
+</svg>
