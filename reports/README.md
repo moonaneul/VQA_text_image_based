@@ -310,3 +310,35 @@ Gate:
 후자는 약한 crop도 상대적으로 과신하게 만들 수 있다.
 
 따라서 **버그 수정 1회 rerun만 허용**한다. 데이터, crop, prompt, resolution, aggregation, gate는 그대로 유지한다.
+
+
+## B2-D 종료
+
+Corrected tiling 결과:
+- **4 rescue**
+- **2 regression**
+- net +2
+- OCR 3/21 rescue
+- exact-string 1/11
+- localization 0/3
+
+사전 gate(8 rescue)를 크게 못 넘었으므로 **tiling branch는 종료**한다.
+
+### 다음 전략: B3 training-side adaptation
+
+이제 바로 학습부터 하지 않는다.
+
+순서:
+```text
+기존 val/audit 전부 제외
+        ↓
+새 QLoRA holdout 먼저 고정
+        ↓
+PEFT / 4-bit 환경 preflight
+        ↓
+새 holdout B0 측정
+        ↓
+그 다음에만 QLoRA/LoRA
+```
+
+이렇게 해야 기존 90%대 baseline을 망가뜨리는 무작정 fine-tuning을 피할 수 있다.
