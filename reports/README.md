@@ -207,3 +207,27 @@ B1C grouped:
 을 새로 뽑아 B0와 B1C를 한 번씩만 비교한다.
 
 여기서 price 효과가 다시 positive면 price-only routing을 lock하고, 이후 B2는 residual price/scene-text errors를 대상으로 진행한다.
+
+
+## Fresh audit split 생성 완료
+
+기존 random/grouped validation ID를 모두 제외하고 새 audit을 만들었다.
+
+- untouched pool: **4,294**
+- audit: **300**
+  - price 200
+  - phone 100
+
+이제 같은 300개에 딱 두 설정만 실행한다:
+
+1. B0 = standard + direct
+2. B1C = high + binding-aware
+
+**결과를 본 뒤 prompt나 threshold를 바꾸지 않는다.**
+
+Price decision gate:
+- **net +4 이상 + regressions <=2** → price-only routing 후보 유지
+- +2~3 → 약한 재현
+- <=+1 → routing branch 종료
+
+이 audit 300개는 이후 QLoRA 학습 데이터에서도 제외한다.
