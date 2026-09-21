@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+<title id="title">B0 validation accuracy</title>
+<desc id="desc">Random validation accuracy is 90.68 percent and grouped validation accuracy is 91.73 percent.</desc>
+<rect width="760" height="300" fill="#ffffff"/>
+<text x="32" y="38" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">B0 validation accuracy</text>
+<text x="32" y="64" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Qwen2.5-VL-3B-Instruct · direct prompt · max ~0.8MP</text>
+<text x="32" y="125" font-family="Arial, sans-serif" font-size="16" fill="#111827">Random</text>
+<rect x="150" y="102" width="520" height="32" rx="6" fill="#e5e7eb"/>
+<rect x="150" y="102" width="471.5" height="32" rx="6" fill="#4f46e5"/>
+<text x="686" y="125" text-anchor="end" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">90.68%</text>
+<text x="32" y="190" font-family="Arial, sans-serif" font-size="16" fill="#111827">Grouped</text>
+<rect x="150" y="167" width="520" height="32" rx="6" fill="#e5e7eb"/>
+<rect x="150" y="167" width="476.9" height="32" rx="6" fill="#059669"/>
+<text x="686" y="190" text-anchor="end" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">91.73%</text>
+<text x="32" y="252" font-family="Arial, sans-serif" font-size="14" fill="#374151">Grouped is +1.06 pp higher. B0 is zero-shot, so this is not evidence of train-template memorization.</text>
+</svg>
