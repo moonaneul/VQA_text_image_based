@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="380" viewBox="0 0 860 380" role="img" aria-labelledby="title desc">
+<title id="title">A1 accuracy delta versus B0</title>
+<desc id="desc">Overall accuracy changed by zero percentage points. OCR-heavy accuracy decreased 0.22 points, scene text decreased 0.30, spatial increased 3.51, and other tracked categories were unchanged.</desc>
+<rect width="860" height="380" fill="#ffffff"/>
+<text x="30" y="38" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">A1 vs B0 · accuracy change</text>
+<text x="30" y="64" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Only the prompt changed: direct → OCR-aware</text>
+<line x1="430" y1="92" x2="430" y2="340" stroke="#9ca3af" stroke-width="1"/>
+<g font-family="Arial, sans-serif" font-size="14" fill="#111827">
+<text x="30" y="115">Overall</text>
+<text x="30" y="160">OCR-heavy</text>
+<text x="30" y="205">scene_text</text>
+<text x="30" y="250">spatial</text>
+<text x="30" y="295">price / phone / menu / other</text>
+</g>
+<g>
+<rect x="430" y="98" width="2" height="24" fill="#6b7280"/>
+<rect x="408" y="143" width="22" height="24" rx="4" fill="#dc2626"/>
+<rect x="400" y="188" width="30" height="24" rx="4" fill="#dc2626"/>
+<rect x="430" y="233" width="351" height="24" rx="4" fill="#059669"/>
+<rect x="430" y="278" width="2" height="24" fill="#6b7280"/>
+</g>
+<g font-family="Arial, sans-serif" font-size="14" font-weight="700">
+<text x="448" y="115" fill="#111827">0.00 pp</text>
+<text x="395" y="160" text-anchor="end" fill="#991b1b">-0.22 pp</text>
+<text x="387" y="205" text-anchor="end" fill="#991b1b">-0.30 pp</text>
+<text x="795" y="250" fill="#065f46">+3.51 pp</text>
+<text x="448" y="295" fill="#111827">0.00 pp</text>
+</g>
+<text x="30" y="352" font-family="Arial, sans-serif" font-size="14" fill="#374151">Decision: reject A1. Keep the simpler direct prompt and test image resolution next.</text>
+</svg>
