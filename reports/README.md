@@ -342,3 +342,18 @@ PEFT / 4-bit 환경 preflight
 ```
 
 이렇게 해야 기존 90%대 baseline을 망가뜨리는 무작정 fine-tuning을 피할 수 있다.
+
+
+## B3-P1 fresh holdout baseline
+
+새 QLoRA holdout 400개에서 B0:
+
+- **361 / 400 = 90.25%**
+- scene_text: **90.37%** (218)
+- price: **92.31%** (39)
+- spatial: **81.25%** (16)
+- menu: **83.33%** (12)
+
+Random B0 90.68%와 가까워 split이 과도하게 쉽거나 어려운 징후는 크지 않다.
+
+다음은 이미 lock한 **price-only router**를 이 400개에 적용해 실제 current-best 기준점을 고정한다. 그 점수를 QLoRA가 넘어야 한다.
