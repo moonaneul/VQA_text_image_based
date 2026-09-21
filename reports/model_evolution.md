@@ -163,3 +163,30 @@ B0의 125개 오류를 root cause로 분류한다.
 - mixed → routing
 
 으로 분기한다.
+
+
+## B0 root-cause review — 125/125 complete
+
+가장 큰 failure cause:
+
+1. **number_text_binding: 42 (33.6%)**
+2. OCR recognition: 21
+3. question understanding: 20
+4. visual/spatial reasoning: 18
+5. exact-string confusion: 13
+6. target localization: 7
+7. ambiguity/label: 4
+
+Reasoning/association 계열(binding + question understanding + spatial)은 **80/125 = 64%**다.
+
+### 전략 수정
+
+초기에는 OCR-heavy dataset이므로 OCR 자체가 주 병목일 가능성을 의심했다.
+
+하지만 prompt/resolution/scoring ablation과 수동 오류 분석을 합치면, 핵심은 **OCR recognition보다 target ↔ number/text binding과 reasoning**이다.
+
+### 다음
+
+**B1: price+phone selective binding-aware prompt.**
+
+Random은 이제 반복 tuning에 사용된 dev set으로 보고, grouped는 candidate confirmation에만 사용한다.
