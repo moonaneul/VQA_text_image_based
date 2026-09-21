@@ -74,3 +74,16 @@ B0 on the new 400-row holdout:
 The holdout score is close to the earlier random B0 (90.68%), which supports the split as a plausible evaluation set.
 
 Next: measure the already-locked price-only router on this same holdout, then freeze the current-best score before QLoRA.
+
+
+## Router re-check on final holdout
+
+The fixed price-only router did not replicate:
+- B0: **361/400**
+- routed: **360/400**
+- price: 36/39 → 35/39
+- wrong→right 0 / right→wrong 1
+
+Therefore the deployment/reference baseline returns to **B0 direct + standard**.
+
+The 400-row holdout is frozen from this point for training evaluation. QLoRA configuration selection moves to a new inner dev split drawn only from qlora_train.
