@@ -92,3 +92,27 @@ High cap은 global improvement도 아니고 ensemble partner로도 너무 유사
 ### 다음
 
 **A4 choice-scoring pre-check.** 먼저 a/b/c/d tokenization을 확인하고 올바른 scoring 구현을 선택한다.
+
+
+## A4-P0 — Choice-token pre-check
+
+Qwen tokenizer를 확인한 결과:
+
+```text
+a -> id 64
+b -> id 65
+c -> id 66
+d -> id 67
+```
+
+assistant-generation context에서도 모두 **1 token**이다.
+
+따라서 constrained choice scoring은 구현상 단순하다.
+
+하지만 현재 greedy generation이 이미 모든 sample에서 정확히 한 글자 a/b/c/d를 출력한다면 next-token constrained scoring은 동일한 prediction을 만들 수밖에 없다.
+
+### 다음
+
+GPU run 전에 `raw_output` exact-one-letter 비율을 검사한다.
+
+**전략:** scoring 기법을 구현할 수 있다는 이유만으로 실험하지 않는다. 실제로 prediction을 바꿀 가능성이 있는지 먼저 확인한다.
