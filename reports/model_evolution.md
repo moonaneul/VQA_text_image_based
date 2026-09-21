@@ -210,3 +210,26 @@ B0 on this subset:
 - 그 미만 → prompt path 종료 후 layout-aware grounding(B2)
 
 Random은 tuning/dev, grouped는 confirmation 용도로 유지한다.
+
+
+## B1 result — binding-aware selective prompt
+
+price+phone 223개에서:
+
+- B0: **194/223 = 87.00%**
+- B1: **196/223 = 87.89%**
+- Wrong→Right: **2**
+- Right→Wrong: **0**
+- Net: **+2**
+- McNemar exact p: **0.50**
+
+사전 성공 기준 **net +5**에 미달하므로 B1은 채택하지 않는다.
+
+다만 phone +1, price +1이라는 패턴이 A2 high-resolution과 aggregate 수준에서 동일하다.
+
+### 다음
+
+GPU를 쓰기 전에 **A2 vs B1 price+phone complementarity**를 확인한다.
+
+같은 샘플을 고쳤다면 prompt/high-res branch를 닫고 B2 layout-aware grounding으로 이동한다.
+서로 다른 샘플을 고쳤다면 두 intervention 조합 가능성을 작은 subset에서 검토한다.
