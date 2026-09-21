@@ -80,3 +80,27 @@ Final adoption:
 - **365/400 or better** is a clear practical win (+1.0 pp)
 - 362–364 is marginal and should be weighed against complexity
 - <=361 reject
+
+
+## Smoke-test correction after first run
+
+The first 32-row smoke completed without OOM:
+- peak VRAM: **5.81 GB**
+- mean microbatch loss: **0.863**
+- adapter files saved
+
+However PyTorch emitted:
+- `None of the inputs have requires_grad=True. Gradients will be None`
+
+Because the run used re-entrant gradient checkpointing, this warning makes gradient flow ambiguous enough that the smoke cannot be accepted as final proof of a valid training path.
+
+The trainer is corrected to:
+- use **non-reentrant gradient checkpointing**
+- assert a non-zero LoRA gradient norm on the first microbatch
+- assert at least one trainable parameter receives non-zero gradient
+- compute and assert non-zero LoRA parameter change after training
+- abort immediately on non-finite loss
+
+The smoke gate is unchanged, with two explicit additions:
+- non-zero first gradient norm
+- non-zero adapter parameter L2 change
