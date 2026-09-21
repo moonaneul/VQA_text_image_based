@@ -83,3 +83,30 @@ The threshold is fixed before the run.
 Because 35 scene_text errors are specifically perception/localization related and may be recoverable without training.
 
 If B2-D fails, that is evidence to stop spending inference complexity on this branch and move toward reasoning-focused QLoRA.
+
+
+## Implementation correction before final B2-D decision
+
+The first local run produced:
+- rescued errors: 4
+- broken controls: 2
+- net +2
+
+That would fail the pre-registered gate.
+
+However, inspection found the implementation normalized logits **only across a/b/c/d within each view** before cross-view aggregation. The locked method above specifies **log P(choice)**, which requires normalizing over the full vocabulary first. Choice-only normalization can make a weak crop look artificially confident and is therefore not faithful to the planned aggregation.
+
+This is treated as an implementation correction, not a new tuned variant.
+
+A single corrected rerun is allowed:
+- same 70 rows
+- same crops
+- same prompt
+- same resolution
+- same aggregation rule
+- only the probability normalization is fixed
+
+The original gate remains unchanged:
+- >=8 rescued and <=3 broken → full scene_text
+- 5–7 rescued and <=3 broken → inspect
+- otherwise → stop tiling branch
