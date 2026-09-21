@@ -1,20 +1,20 @@
 [object Object]
 
-## A4 scoring 사전 점검
+## A4-P1 generation-format 진단
 
-Tokenizer 검사 결과 a/b/c/d는 assistant answer 위치에서 각각 **단일 token**이다.
+B0의 raw output을 확인했다.
 
-그래서 next-token logits scoring 자체는 쉽게 구현할 수 있다.
+- 정확히 a/b/c/d 한 글자: **92.47%**
+- `(d)`, `(c)` 등 non-exact: **7.53% (101개)**
+- 101개 모두 parser가 choice를 찾을 수 있음
+- parse failure: **0**
 
-하지만 B0가 이미 greedy generation으로 정확히 한 글자만 출력했다면 scoring은 같은 결과가 된다.
+따라서 scoring은 parsing을 고치는 실험이 아니다.
 
-따라서 다음은 **GPU를 쓰지 않는 raw-output 진단**이다.
+대신 `(d)`처럼 첫 token이 괄호인 101개에서는 **처음부터 a/b/c/d logits만 비교하는 방식**이 다른 결정을 낼 수 있다.
 
-```text
-B0 predictions.csv
-→ raw_output이 정말 100% a/b/c/d 한 글자인가?
-→ Yes: scoring full run 생략
-→ No: scoring 실험 진행
-```
+### 다음
 
-이렇게 해야 "해볼 수 있는 기법"이 아니라 **실제로 정보를 줄 기법**만 실행한다.
+전체 GPU run 전에 101개 subset의 현재 accuracy와 category를 분석한다.
+
+이 subset이 실제로 더 약하면 그때 **101개만 constrained scoring**한다.
