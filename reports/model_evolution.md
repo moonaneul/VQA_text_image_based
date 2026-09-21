@@ -380,3 +380,15 @@ Diagnostic:
 Gate:
 - **>=8 rescues, <=3 control regressions** → full scene_text evaluation
 - otherwise stop tiling branch
+
+
+## B2-D v1 implementation check
+
+First local result:
+- rescues 4
+- control regressions 2
+- net +2
+
+This would fail the gate, but code review found a mismatch with the locked method: each view was normalized only over a/b/c/d before cross-view aggregation instead of using full-vocabulary log P(choice).
+
+One corrected rerun is permitted as a bug fix; the 70-row set, crops, prompt, resolution, aggregation, and decision gate remain unchanged.
