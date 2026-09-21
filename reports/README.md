@@ -297,3 +297,16 @@ Gate:
 - 아니면 tiling branch 종료
 
 이렇게 해야 GPU 시간을 큰 full run 전에 mechanism 검증에만 쓴다.
+
+
+## B2-D 구현 점검
+
+첫 run은 4 rescue / 2 regression으로 gate 미달이었다.
+
+다만 cross-view score 구현이 계획과 달랐다:
+- 계획: full-vocabulary **log P(a/b/c/d)**
+- v1 코드: a/b/c/d 4개 안에서만 softmax
+
+후자는 약한 crop도 상대적으로 과신하게 만들 수 있다.
+
+따라서 **버그 수정 1회 rerun만 허용**한다. 데이터, crop, prompt, resolution, aggregation, gate는 그대로 유지한다.
