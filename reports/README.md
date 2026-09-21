@@ -231,3 +231,30 @@ Price decision gate:
 - <=+1 → routing branch 종료
 
 이 audit 300개는 이후 QLoRA 학습 데이터에서도 제외한다.
+
+
+## Fresh audit: price-only routing 통과
+
+Fresh untouched audit 결과:
+
+| Category | B0 | B1C | Net |
+|---|---:|---:|---:|
+| **price (200)** | 90.0% | **92.0%** | **+4** |
+| phone (100) | 89.0% | 87.0% | **-2** |
+
+Price는 사전 gate인 **net +4, regressions <=2**를 정확히 통과했다.
+
+따라서 현재 locked candidate:
+
+```text
+price → high + binding-aware
+others → standard + direct
+```
+
+이 route를 적용한 full validation 관측값:
+- Random: **90.68 → 90.83%**
+- Grouped: **91.73 → 92.03%**
+
+Fresh audit의 price McNemar p=0.21875라 통계적 확정이라고 표현하지는 않는다. 대신 **사전 실용 gate를 독립 audit에서 통과했고 기존 두 validation에서도 같은 방향**이라고 기록한다.
+
+다음 실험은 이 audit을 더 만지지 않고 별도 dev pool에서 진행한다.
