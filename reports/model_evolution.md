@@ -259,3 +259,32 @@ B0 대비 A2와 B1은 각각 +2, regression 0이었으므로 **각 intervention�
 
 B1C가 **198/223 이상**이면 additive 가능성이 있어 grouped confirmation을 검토한다.
 196 이하라면 prompt/high-resolution branch를 닫고 layout-aware grounding으로 이동한다.
+
+
+## B1C — high + binding-aware
+
+price+phone random subset에서:
+
+- B0: **194/223**
+- A2: **196/223**
+- B1: **196/223**
+- **B1C: 198/223 (88.79%)**
+
+B0 대비:
+- wrong→right **4**
+- right→wrong **0**
+- net **+4**
+- McNemar exact p **0.125**
+
+A2와 B1이 각각 고친 서로 다른 2개씩을 B1C가 모두 보존했다. 즉 이 subset에서는 두 intervention의 oracle union인 **198 correct**를 실제 결합 설정이 그대로 달성했다.
+
+### 결정
+
+사전 gate 198/223을 충족했으므로 **grouped confirmation 진행**.
+
+Grouped B0 price+phone baseline은 **202/223**.
+
+Confirmation gate:
+- 206+ = strong replication
+- 204–205 = directional replication
+- 203 이하 = not confirmed
