@@ -1,91 +1,59 @@
 # Modeling Dashboard
 
-> **Current status:** Strong zero-shot baseline established. The next experiment changes only the prompt to test whether OCR-aware instruction improves text-heavy questions.
+> **현재 상태:** B0는 90.68%의 강한 zero-shot baseline. A1 OCR-aware prompt는 개선이 없어 폐기했다. 다음은 **A2: 해상도만 ~1.0MP로 증가**한다.
 
-## Current best-known baseline
+## 지금까지 한눈에 보기
 
-| Item | Value |
+| Stage | 변경 | Random acc. | Δ vs B0 | 결정 |
+|---|---|---:|---:|---|
+| **B0** | Qwen2.5-VL-3B + direct + ~0.8MP | **90.68%** | 기준 | Keep |
+| **A1** | prompt만 OCR-aware로 변경 | **90.68%** | **0.00 pp** | **Reject** |
+| **A2** | resolution만 ~1.0MP로 변경 | TBD | TBD | **Next** |
+
+![A1 delta vs B0](figures/a1_delta_vs_b0.svg)
+
+## A1에서 배운 점
+
+"텍스트를 더 꼼꼼히 보라"는 지시만으로는 OCR-heavy 오류가 줄지 않았다.
+
+- OCR-heavy: **89.91% → 89.70%**
+- scene_text: **91.17% → 90.87%**
+- overall: **변화 없음**
+- runtime: **약 +1.6%**
+
+따라서 현재 best는 여전히:
+
+| 항목 | 값 |
 |---|---|
 | Model | **Qwen2.5-VL-3B-Instruct** |
-| Strategy | Zero-shot multimodal inference |
-| Prompt | Direct multiple-choice |
-| Resolution | Dynamic, max ~0.8MP |
-| Random validation | **90.68%** |
-| Grouped validation | **91.73%** |
-| OCR-heavy random accuracy | **89.91%** |
-| GPU | RTX 5060 Ti 16GB |
-| Next experiment | **A1: OCR-aware prompt ablation** |
+| Prompt | **direct** |
+| Resolution | **standard ~0.8MP** |
+| Decision | free generation |
+| Random | **90.68%** |
+| Grouped | **91.73%** |
 
-![Validation accuracy](figures/b0_validation_accuracy.svg)
-
-## Why we are not fine-tuning yet
-
-The dataset analysis showed that about **68%** of questions are scene-text / price / phone / menu related.
-
-In B0, those OCR-heavy categories account for **74.4% of all random-validation errors**.
-
-That means the most valuable next question is:
-
-> Is the model failing because it does not inspect text carefully enough, because the image resolution is insufficient, or because it reads the text but reasons incorrectly?
-
-We answer those possibilities one at a time.
-
-## Improvement strategy
+## 다음 전략
 
 ```mermaid
 flowchart TD
-    EDA["EDA<br/>OCR-heavy questions ≈ 68%"] --> B0["B0<br/>Qwen2.5-VL-3B zero-shot<br/>90.68% random"]
-    B0 --> A1["A1<br/>Prompt only<br/>Does OCR-aware instruction help?"]
-    A1 --> A2["A2/A3<br/>Resolution only<br/>Is small text visibility the bottleneck?"]
-    A2 --> A4["A4<br/>Choice scoring only<br/>Is decision/output instability the bottleneck?"]
-    A4 --> ERR["Manual error analysis"]
-    ERR --> OCR["If recognition fails<br/>Selective external OCR"]
-    ERR --> FT["If text is visible but reasoning fails<br/>QLoRA"]
-    ERR --> LOC["If wrong region is read<br/>crop / bbox / localization"]
+    B0["B0 direct + 0.8MP<br/>90.68%"] --> A1["A1 OCR-aware prompt<br/>90.68% · Reject"]
+    A1 --> A2["A2 direct + 1.0MP<br/>NEXT"]
+    A2 --> Q{"OCR-heavy가 개선되는가?"}
+    Q -->|Yes| KEEP["High-res 채택"]
+    Q -->|No| NEXT["Scoring / error diagnosis"]
 ```
 
-## What the baseline is weak at
+### A2의 질문
 
-![Category accuracy](figures/b0_category_accuracy.svg)
+> 작은 글자 자체가 충분히 보이지 않는 것이 병목인가?
 
-The lowest random-validation accuracies are:
+고정:
+- model
+- direct prompt
+- seed
+- generation
 
-- phone: **83.72%**
-- menu: **83.87%**
-- spatial: **84.21%**
-- price: **87.78%**
+변경:
+- **standard → high resolution**
 
-However, scene_text has the largest absolute error count because it contains far more samples.
-
-So experiments are selected using both:
-
-1. **accuracy weakness**, and
-2. **number of errors that can realistically be recovered**.
-
-## Decision discipline
-
-Every experiment must answer one question.
-
-We do **not** change prompt + resolution + OCR + fine-tuning together.
-
-A change is adopted only when we can explain:
-
-- what changed
-- how much the score changed
-- which samples/categories changed
-- whether the gain survives grouped validation
-- what new bottleneck becomes visible
-
-## Portfolio view
-
-This project is intentionally documented as an ML decision process:
-
-**data inspection → validation design → baseline → controlled ablation → error diagnosis → targeted improvement**
-
-See:
-
-- [Model evolution](model_evolution.md)
-- [Modeling strategy](modeling_strategy.md)
-- [B0 experiment report](experiments/B0_zero_shot_baseline.md)
-- [Ablation plan](../experiments/ablation_plan.md)
-- [Experiment reporting standard](../experiments/reporting_standard.md)
+실험은 항상 **한 질문에 하나의 변수**만 바꾼다.
