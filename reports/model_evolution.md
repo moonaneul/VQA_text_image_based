@@ -26,7 +26,8 @@ flowchart LR
 | **A2** | same + ~1.0MP max cap | resolution cap | **90.75%** | 생략 | **보류/Reject as global** |
 | **A2-D** | B0 vs A2 prediction comparison | no inference | **5 wins / 4 losses** | - | **High/ensemble 종료** |
 | **A4** | B0 setup | constrained choice scoring | TBD | TBD | **Next** |
-| A5 | targeted visual/OCR path | crop/tiling/OCR | TBD | TBD | Conditional |
+| **B1** | price+phone subset | binding-aware prompt | TBD | confirm only if pass | **Next** |
+| B2 | layout-aware grounding | crop/bbox/OCR-layout | TBD | TBD | Conditional |
 | A6 | best inference setup | QLoRA | TBD | TBD | Conditional |
 
 ## B0
@@ -190,3 +191,22 @@ Reasoning/association 계열(binding + question understanding + spatial)은 **80
 **B1: price+phone selective binding-aware prompt.**
 
 Random은 이제 반복 tuning에 사용된 dev set으로 보고, grouped는 candidate confirmation에만 사용한다.
+
+
+## B1 — Selective binding-aware prompt
+
+Target: **price + phone 223 samples**.
+
+B0 on this subset:
+- correct: **194**
+- errors: **29**
+- accuracy: **87.00%**
+
+오답 root cause가 price 22/22, phone 7/7 모두 number/text binding이므로 prompt에서 OCR recognition이 아니라 **target ↔ value association**을 직접 지시한다.
+
+### Gate
+
+- Random subset **net +5 samples 이상** → grouped confirmation
+- 그 미만 → prompt path 종료 후 layout-aware grounding(B2)
+
+Random은 tuning/dev, grouped는 confirmation 용도로 유지한다.
