@@ -1,20 +1,30 @@
 [object Object]
 
-## A4-P1 generation-format 진단
+## A4-P2 결론: scoring은 건너뛴다
 
-B0의 raw output을 확인했다.
+정확히 한 글자만 출력한 1,240개가 오히려 더 어려웠다.
 
-- 정확히 a/b/c/d 한 글자: **92.47%**
-- `(d)`, `(c)` 등 non-exact: **7.53% (101개)**
-- 101개 모두 parser가 choice를 찾을 수 있음
-- parse failure: **0**
+| Output type | Accuracy | Errors |
+|---|---:|---:|
+| exact a/b/c/d | **90.08%** | **123** |
+| non-exact | **98.02%** | **2** |
 
-따라서 scoring은 parsing을 고치는 실험이 아니다.
+즉 전체 오류의 **98.4%가 이미 clean one-letter decision**이었다.
 
-대신 `(d)`처럼 첫 token이 괄호인 101개에서는 **처음부터 a/b/c/d logits만 비교하는 방식**이 다른 결정을 낼 수 있다.
+따라서 다음 문제는 output format이 아니라 **왜 잘못된 선택지를 골랐는지**다.
 
-### 다음
+### 다음 단계
 
-전체 GPU run 전에 101개 subset의 현재 accuracy와 category를 분석한다.
+**125개 오답 root-cause review**
 
-이 subset이 실제로 더 약하면 그때 **101개만 constrained scoring**한다.
+```text
+OCR recognition?
+target localization?
+number/text binding?
+exact-string confusion?
+question understanding?
+visual reasoning?
+label ambiguity?
+```
+
+이 결과를 보고 crop/OCR/QLoRA 중 어디에 투자할지 결정한다.
