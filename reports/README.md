@@ -401,3 +401,21 @@ Qwen2.5-VL-3B
 - lr 5e-5
 - 1 epoch
 - answer-token-only loss
+
+
+## QLoRA smoke: 메모리는 충분하지만 gradient sanity를 한 번 더 확인
+
+첫 32-row smoke:
+- peak VRAM **5.81 GB**
+- OOM 없음
+- loss finite
+- adapter 저장 성공
+
+하지만 re-entrant gradient checkpointing 경고가 발생했다.
+
+그래서 full training으로 바로 가지 않고 trainer를 수정했다:
+- non-reentrant checkpointing
+- 첫 microbatch gradient norm 검증
+- 실제 LoRA parameter 변화 검증
+
+**수정 smoke 1회 통과 후에만 full inner-train으로 간다.**
