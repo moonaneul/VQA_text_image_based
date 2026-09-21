@@ -315,3 +315,20 @@ Price는 random +2, grouped +4로 방향이 일관되고, phone은 random +2 / g
 Grouped 결과를 보고 price-only rule을 정제했기 때문에 바로 채택하지 않고 **fresh audit holdout**에서 마지막 독립 확인을 한다.
 
 Random/grouped val ID를 모두 제외한 train pool에서 price 200 + phone 100을 고정 seed로 추출해 B0 vs B1C를 비교한다.
+
+
+## Fresh audit split locked
+
+After excluding all IDs used by random/grouped validation:
+
+- remaining train pool: **4,294**
+- price available: **570**
+- phone available: **142**
+- audit: **200 price + 100 phone = 300**
+
+Decision rule is locked before inference:
+- price net **+4 or more** with <=2 regressions → price-only routing candidate survives
+- +2~3 → weak replication
+- <=+1 → close routing branch
+
+These 300 IDs are now reserved from future fine-tuning.
