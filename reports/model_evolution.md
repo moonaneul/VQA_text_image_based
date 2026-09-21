@@ -415,3 +415,16 @@ Before training:
 4. benchmark B0 on the new holdout
 
 Only then build/run LoRA or QLoRA.
+
+
+## B3-P1 — fresh QLoRA holdout baseline
+
+On the untouched 400-row QLoRA holdout:
+- **B0 = 361/400 = 90.25%**
+- scene_text = 90.37% (218)
+- price = 92.31% (39)
+- spatial = 81.25% (16)
+- menu = 83.33% (12)
+- parse failures = 0
+
+Next: evaluate the already-frozen price-only router on the same holdout and lock the actual current-best inference baseline before training.
