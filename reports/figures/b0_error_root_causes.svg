@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="510" viewBox="0 0 940 510" role="img" aria-labelledby="title desc">
+<title id="title">B0 error root causes</title>
+<desc id="desc">Number text binding 42, OCR recognition 21, question understanding 20, visual spatial reasoning 18, exact string confusion 13, target localization 7, ambiguity or label issue 4.</desc>
+<rect width="940" height="510" fill="#ffffff"/>
+<text x="32" y="40" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#111827">B0 error root causes · 125 errors</text>
+<text x="32" y="67" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">Primary cause from full manual review · bar length = error count</text>
+<g font-family="Arial,sans-serif" font-size="14" fill="#111827">
+<text x="32" y="125">number_text_binding</text>
+<text x="32" y="180">ocr_recognition</text>
+<text x="32" y="235">question_understanding</text>
+<text x="32" y="290">visual_spatial_reasoning</text>
+<text x="32" y="345">exact_string_confusion</text>
+<text x="32" y="400">target_localization</text>
+<text x="32" y="455">ambiguity_or_label_issue</text>
+</g>
+<g fill="#e5e7eb">
+<rect x="240" y="105" width="560" height="26" rx="6"/><rect x="240" y="160" width="560" height="26" rx="6"/>
+<rect x="240" y="215" width="560" height="26" rx="6"/><rect x="240" y="270" width="560" height="26" rx="6"/>
+<rect x="240" y="325" width="560" height="26" rx="6"/><rect x="240" y="380" width="560" height="26" rx="6"/>
+<rect x="240" y="435" width="560" height="26" rx="6"/>
+</g>
+<rect x="240" y="105" width="560" height="26" rx="6" fill="#4f46e5"/>
+<rect x="240" y="160" width="280" height="26" rx="6" fill="#6b7280"/>
+<rect x="240" y="215" width="267" height="26" rx="6" fill="#6b7280"/>
+<rect x="240" y="270" width="240" height="26" rx="6" fill="#6b7280"/>
+<rect x="240" y="325" width="173" height="26" rx="6" fill="#6b7280"/>
+<rect x="240" y="380" width="93" height="26" rx="6" fill="#6b7280"/>
+<rect x="240" y="435" width="53" height="26" rx="6" fill="#6b7280"/>
+<g font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#111827">
+<text x="820" y="124">42 · 33.6% · max +3.13pp</text>
+<text x="820" y="179">21 · 16.8%</text>
+<text x="820" y="234">20 · 16.0%</text>
+<text x="820" y="289">18 · 14.4%</text>
+<text x="820" y="344">13 · 10.4%</text>
+<text x="820" y="399">7 · 5.6%</text>
+<text x="820" y="454">4 · 3.2%</text>
+</g>
+</svg>
