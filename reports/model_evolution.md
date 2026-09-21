@@ -356,3 +356,27 @@ Observed full-validation hybrid gains:
 - Grouped: **+0.30 pp**
 
 Audit is now frozen and excluded from future training.
+
+
+## Next strategic branch — B2-D scene-text grounding
+
+Price-only routing is frozen; the audit will not be touched again.
+
+Largest remaining category: scene_text (59 B0 errors).
+
+Of those, **35/59 = 59.3%** are:
+- OCR recognition 21
+- exact-string confusion 11
+- target localization 3
+
+A1 prompt and A2 global resolution did not solve them, so B2 tests **explicit local views** rather than another global prompt/resolution tweak.
+
+Diagnostic:
+- 35 perception errors
+- 35 matched correct controls
+- full image + four overlapping 60% crops
+- choice-logit aggregation
+
+Gate:
+- **>=8 rescues, <=3 control regressions** → full scene_text evaluation
+- otherwise stop tiling branch
