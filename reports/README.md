@@ -1,59 +1,66 @@
 # Modeling Dashboard
 
-> **현재 상태:** B0는 90.68%의 강한 zero-shot baseline. A1 OCR-aware prompt는 개선이 없어 폐기했다. 다음은 **A2: 해상도만 ~1.0MP로 증가**한다.
+> **현재 best:** Qwen2.5-VL-3B-Instruct + direct prompt + standard (~0.8MP). A2 high cap은 +1문제뿐이라 global 설정으로는 채택하지 않는다.
 
-## 지금까지 한눈에 보기
+## 지금까지
 
-| Stage | 변경 | Random acc. | Δ vs B0 | 결정 |
+| Stage | 변경 | Random | 변화 | 결정 |
 |---|---|---:|---:|---|
-| **B0** | Qwen2.5-VL-3B + direct + ~0.8MP | **90.68%** | 기준 | Keep |
-| **A1** | prompt만 OCR-aware로 변경 | **90.68%** | **0.00 pp** | **Reject** |
-| **A2** | resolution만 ~1.0MP로 변경 | TBD | TBD | **Next** |
+| **B0** | direct + ~0.8MP | **90.68%** | 기준 | **Current best/reference** |
+| A1 | OCR-aware prompt | **90.68%** | 0.00 pp | Reject |
+| A2 | max cap ~0.8 → ~1.0MP | **90.75%** | +0.07 pp / +1문제 | 보류/Reject as global |
 
-![A1 delta vs B0](figures/a1_delta_vs_b0.svg)
+![A2 delta vs B0](figures/a2_delta_vs_b0.svg)
 
-## A1에서 배운 점
+## A2에서 중요한 점
 
-"텍스트를 더 꼼꼼히 보라"는 지시만으로는 OCR-heavy 오류가 줄지 않았다.
+A2를 보고 **"해상도는 중요하지 않다"**고 결론 내리면 안 된다.
 
-- OCR-heavy: **89.91% → 89.70%**
-- scene_text: **91.17% → 90.87%**
-- overall: **변화 없음**
-- runtime: **약 +1.6%**
+EDA 이미지 중앙값은 약 0.69MP이고 standard cap은 약 0.80MP다.
 
-따라서 현재 best는 여전히:
+즉 high의 1.0MP 설정은 모든 이미지를 확대하는 게 아니라, 큰 이미지의 downsampling을 조금 덜 하는 실험이다.
 
-| 항목 | 값 |
-|---|---|
-| Model | **Qwen2.5-VL-3B-Instruct** |
-| Prompt | **direct** |
-| Resolution | **standard ~0.8MP** |
-| Decision | free generation |
-| Random | **90.68%** |
-| Grouped | **91.73%** |
+측정 결과:
 
-## 다음 전략
+- Overall **+0.07 pp**
+- OCR-heavy **+0.11 pp**
+- phone **+2.33 pp**
+- price **+0.56 pp**
+- scene_text **-0.15 pp**
+- runtime **+2.74%**
+
+현재 근거만으로 추가 비용을 감수할 이유가 없다.
+
+## 지금 가장 전략적인 다음 행동
+
+새 모델 추론을 바로 돌리지 않는다.
+
+먼저 이미 있는 두 prediction 파일을 비교한다.
+
+```text
+B0 standard
+vs
+A2 high
+```
+
+확인:
+- wrong → right
+- right → wrong
+- disagreement rate
+- 바뀐 샘플의 category
+
+이 결과로 다음을 결정한다.
 
 ```mermaid
 flowchart TD
-    B0["B0 direct + 0.8MP<br/>90.68%"] --> A1["A1 OCR-aware prompt<br/>90.68% · Reject"]
-    A1 --> A2["A2 direct + 1.0MP<br/>NEXT"]
-    A2 --> Q{"OCR-heavy가 개선되는가?"}
-    Q -->|Yes| KEEP["High-res 채택"]
-    Q -->|No| NEXT["Scoring / error diagnosis"]
+    C["B0 vs A2 paired comparison"] --> Q{"prediction 차이가 의미 있게 보완적인가?"}
+    Q -->|거의 동일| S["high cap 종료<br/>constrained scoring으로 이동"]
+    Q -->|특정 OCR 유형에서 보완| R["conditional high-res / zoom 후보"]
+    R --> E["오답 원인 분석 후<br/>crop / tiling / OCR 판단"]
 ```
 
-### A2의 질문
+## 원칙
 
-> 작은 글자 자체가 충분히 보이지 않는 것이 병목인가?
+**GPU 시간을 쓰기 전에 기존 결과에서 최대한 정보를 뽑는다.**
 
-고정:
-- model
-- direct prompt
-- seed
-- generation
-
-변경:
-- **standard → high resolution**
-
-실험은 항상 **한 질문에 하나의 변수**만 바꾼다.
+이 프로젝트의 목표는 많은 실험이 아니라 **정보 효율이 높은 실험 순서**다.
