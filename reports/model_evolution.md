@@ -332,3 +332,27 @@ Decision rule is locked before inference:
 - <=+1 → close routing branch
 
 These 300 IDs are now reserved from future fine-tuning.
+
+
+## Fresh audit result — price-only router confirmed
+
+Fresh audit 300:
+- B0: **269/300 = 89.67%**
+- B1C: 271/300 = 90.33%
+
+Category split:
+- **price: 180→184 / 200, net +4, wins 5 / losses 1**
+- phone: 89→87 / 100, net -2
+
+Price passed the pre-registered gate exactly (**net +4, regressions 1 <= 2**).
+
+### Locked route
+
+- price → **high + binding-aware**
+- everything else → **standard + direct**
+
+Observed full-validation hybrid gains:
+- Random: **+0.15 pp**
+- Grouped: **+0.30 pp**
+
+Audit is now frozen and excluded from future training.
