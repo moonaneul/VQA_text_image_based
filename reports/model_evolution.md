@@ -288,3 +288,30 @@ Confirmation gate:
 - 206+ = strong replication
 - 204–205 = directional replication
 - 203 이하 = not confirmed
+
+
+## B1C grouped confirmation
+
+Grouped price+phone:
+- B0: **202/223 = 90.58%**
+- B1C: **205/223 = 91.93%**
+- wins 6 / losses 3 / net **+3**
+- McNemar p **0.508**
+
+사전 gate상 **directional replication**이지만 stability warning이 발생했다.
+
+Category:
+- price: **+4 net** (166→170)
+- phone: **-1 net** (36→35)
+
+### 해석
+
+B1C를 price+phone 전체에 적용하는 것은 채택하지 않는다.
+
+Price는 random +2, grouped +4로 방향이 일관되고, phone은 random +2 / grouped -1로 불안정하다.
+
+### 다음
+
+Grouped 결과를 보고 price-only rule을 정제했기 때문에 바로 채택하지 않고 **fresh audit holdout**에서 마지막 독립 확인을 한다.
+
+Random/grouped val ID를 모두 제외한 train pool에서 price 200 + phone 100을 고정 seed로 추출해 B0 vs B1C를 비교한다.
