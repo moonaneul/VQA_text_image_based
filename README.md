@@ -11,7 +11,7 @@
 - 주 평가는 정답과 질문 유형을 함께 층화한 random 80/20 split입니다. 동일 질문 템플릿과 동일 이미지가 양쪽에 걸치지 않는 grouped split을 함께 보고 일반화 차이를 측정합니다.
 - dev의 5개 응답은 정답으로 간주하지 않습니다. 2,026행에서 최다 득표가 3개이고, 4개 이상 일치는 한 건도 없으며 465행은 최다 득표 동률입니다.
 
-상세 근거는 `reports/eda/README.md`에 있습니다.
+상세 근거는 `reports/eda/README.md`에 있습니다. 모델링 전략은 `reports/modeling_strategy.md`, ablation 계획은 `experiments/ablation_plan.md`에 정리합니다.
 
 ## 폴더 구조
 
@@ -21,10 +21,14 @@ downloads/models/             로컬 사전학습 모델
 scripts/run_eda.py            CSV·이미지 무결성 및 분포 분석
 scripts/make_splits.py        random/grouped validation 생성
 scripts/run_vlm_baseline.py   validation 평가와 test 추론
+scripts/compare_runs.py       동일 샘플 기준 두 실험 paired 비교
 configs/                      고정된 실험 설정과 실행 예시
 splits/                       생성된 train/validation CSV
 reports/eda/                  EDA 요약, 표본, 이미지 메타데이터
+reports/modeling_strategy.md  모델링 의사결정과 진입 기준
 experiments/experiments.csv   실험 결과 누적 기록
+experiments/ablation_plan.md  순차 ablation 설계
+prompts/                      모델링 전문가 프롬프트
 output/baseline/              실행별 예측, 지표, 제출 파일
 ```
 
@@ -43,25 +47,67 @@ output/baseline/              실행별 예측, 지표, 제출 파일
 .\baseline\Scripts\python.exe .\scripts\run_vlm_baseline.py --csv .\splits\val_random.csv --prompt direct --resolution standard --max-samples 50
 ```
 
-정상 동작하면 전체 random validation을 실행하고, 같은 설정으로 grouped validation을 실행합니다.
+## B0: 첫 번째 실제 baseline
+
+변수는 고정합니다.
+
+- model: Qwen2.5-VL-3B-Instruct
+- prompt: direct
+- resolution: standard (~0.8MP max)
+- quantization: none
+- decision: free generation
+- seed: 20260921
+
+random validation을 먼저 실행합니다.
 
 ```powershell
-.\baseline\Scripts\python.exe .\scripts\run_vlm_baseline.py --csv .\splits\val_random.csv --prompt direct --resolution standard
-.\baseline\Scripts\python.exe .\scripts\run_vlm_baseline.py --csv .\splits\val_grouped.csv --prompt direct --resolution standard
+.\baseline\Scripts\python.exe .\scripts\run_vlm_baseline.py `
+  --csv .\splits\val_random.csv `
+  --prompt direct `
+  --resolution standard `
+  --run-id B0_random_direct_standard
 ```
 
-그다음 `direct × standard`를 기준으로 prompt만 바꾼 실험과 resolution만 바꾼 실험을 한 번에 하나씩 비교합니다. test 추론은 validation 설정을 확정한 후 수행합니다.
+그다음 같은 설정을 grouped validation에 적용합니다.
 
 ```powershell
-.\baseline\Scripts\python.exe .\scripts\run_vlm_baseline.py --csv .\data\test.csv --prompt ocr_deliberate --resolution high
+.\baseline\Scripts\python.exe .\scripts\run_vlm_baseline.py `
+  --csv .\splits\val_grouped.csv `
+  --prompt direct `
+  --resolution standard `
+  --run-id B0_grouped_direct_standard
 ```
+
+W&B를 사용할 경우 두 명령에 `--wandb --wandb-group B0`를 추가합니다.
+
+각 run은 다음을 남깁니다.
+
+- `predictions.csv`: sample-level answer/prediction/correct/category/raw output/latency
+- `run.json`: config, input CSV hash, git commit, environment, aggregate metrics, runtime/VRAM
+- `experiments/experiments.csv`: run summary
+- W&B 사용 시 evaluation artifact
+
+B0 결과가 확정되기 전에는 prompt, resolution, OCR, QLoRA를 동시에 변경하지 않습니다.
+
+## 다음 ablation
+
+B0 뒤에는 한 번에 한 변수만 바꿉니다.
+
+1. A1: `direct -> ocr_deliberate`, standard resolution 고정
+2. A2: winning prompt + high resolution
+3. A3: winning prompt + low resolution
+4. A4: best prompt/resolution에서 generation -> constrained choice scoring
+5. A5: 오류 분석이 요구할 때만 external OCR
+6. A6: inference-side 개선이 포화된 뒤에만 QLoRA
+
+두 run의 차이는 `scripts/compare_runs.py`로 paired 비교합니다.
 
 ## 실험 원칙
 
 1. 한 번에 한 요소만 바꿉니다.
 2. random과 grouped validation 점수를 함께 기록합니다.
-3. 전체 accuracy와 질문 유형별 accuracy를 함께 봅니다.
+3. 전체 accuracy와 질문 유형별 accuracy, OCR-heavy accuracy를 함께 봅니다.
 4. test 제출은 validation에서 선택한 설정으로만 만듭니다.
 5. dev 응답은 신뢰도 분석 전까지 학습 정답으로 사용하지 않습니다.
 6. LoRA를 시작할 때는 assistant 정답 토큰만 loss에 포함합니다. 기존 실습 노트북처럼 전체 prompt를 labels로 복사하지 않습니다.
-
+7. 작은 accuracy 차이는 sample-level paired change를 확인한 뒤 채택합니다.
