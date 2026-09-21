@@ -198,6 +198,7 @@ def main() -> None:
     model = prepare_model_for_kbit_training(
         model,
         use_gradient_checkpointing=True,
+        gradient_checkpointing_kwargs={"use_reentrant": False},
     )
     if hasattr(model, "enable_input_require_grads"):
         model.enable_input_require_grads()
@@ -215,6 +216,7 @@ def main() -> None:
     model.train()
 
     trainable = [parameter for parameter in model.parameters() if parameter.requires_grad]
+    initial_trainable = [parameter.detach().cpu().clone() for parameter in trainable]
     optimizer = torch.optim.AdamW(trainable, lr=args.lr, weight_decay=0.0)
 
     dataset = VQADataset(frame)
@@ -236,6 +238,8 @@ def main() -> None:
     global_update = 0
     micro_step = 0
     loss_sum = 0.0
+    first_grad_norm = None
+    first_grad_param_count = None
     started = time.time()
 
     for epoch in range(args.epochs):
@@ -247,8 +251,27 @@ def main() -> None:
             loss.backward()
 
             raw_loss = float(outputs.loss.detach().cpu())
+            if not math.isfinite(raw_loss):
+                raise RuntimeError(f"Non-finite loss detected at micro_step={micro_step + 1}: {raw_loss}")
             loss_sum += raw_loss
             micro_step += 1
+
+            if first_grad_norm is None:
+                grad_sq = 0.0
+                grad_count = 0
+                for parameter in trainable:
+                    if parameter.grad is not None:
+                        grad = parameter.grad.detach().float()
+                        grad_sq += float(torch.sum(grad * grad).cpu())
+                        if torch.any(grad != 0):
+                            grad_count += 1
+                first_grad_norm = math.sqrt(grad_sq)
+                first_grad_param_count = grad_count
+                if first_grad_norm == 0.0 or first_grad_param_count == 0:
+                    raise RuntimeError(
+                        "No non-zero LoRA gradients detected on the first microbatch. "
+                        "Stop before full training."
+                    )
 
             should_step = (micro_step % args.grad_accum == 0) or (micro_step == len(loader) * args.epochs)
             if should_step:
@@ -271,6 +294,14 @@ def main() -> None:
     model.save_pretrained(args.output_dir)
     processor.save_pretrained(args.output_dir)
 
+    adapter_change_sq = 0.0
+    for parameter, initial in zip(trainable, initial_trainable):
+        delta = parameter.detach().cpu().float() - initial.float()
+        adapter_change_sq += float(torch.sum(delta * delta))
+    adapter_parameter_l2_change = math.sqrt(adapter_change_sq)
+    if adapter_parameter_l2_change == 0.0:
+        raise RuntimeError("LoRA parameters did not change during training.")
+
     metadata = {
         "train_csv": str(args.train_csv),
         "train_rows": int(len(frame)),
@@ -288,6 +319,10 @@ def main() -> None:
         "optimizer": "AdamW",
         "total_updates": global_update,
         "mean_microbatch_loss": loss_sum / max(1, micro_step),
+        "first_grad_norm": first_grad_norm,
+        "first_grad_param_count": first_grad_param_count,
+        "adapter_parameter_l2_change": adapter_parameter_l2_change,
+        "gradient_checkpointing": "non_reentrant",
         "elapsed_seconds": time.time() - started,
         "peak_vram_gb": (
             float(torch.cuda.max_memory_allocated() / (1024 ** 3))
