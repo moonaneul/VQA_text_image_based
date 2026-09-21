@@ -140,10 +140,14 @@ def score_view(model, processor, device, image: Image.Image, prompt: str, token_
 
     with torch.inference_mode():
         outputs = model(**inputs, use_cache=False)
-        logits = outputs.logits[0, -1, token_ids].float()
-        log_probs = torch.log_softmax(logits, dim=-1).cpu()
+        # IMPORTANT: normalize over the full vocabulary first.
+        # The B2 plan defines log P(choice) per view. Normalizing only over
+        # a/b/c/d would discard absolute confidence and make weak crops look
+        # artificially confident when we aggregate across views.
+        full_log_probs = torch.log_softmax(outputs.logits[0, -1].float(), dim=-1)
+        choice_log_probs = full_log_probs[token_ids].cpu()
 
-    return log_probs
+    return choice_log_probs
 
 
 def main() -> None:
