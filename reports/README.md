@@ -84,3 +84,31 @@ prompt를 계속 미세조정하지 않는다.
 Random split은 반복 실험에 사용되었으므로 **development/tuning set**으로 취급한다.
 
 Grouped split은 candidate가 생겼을 때만 쓰는 **confirmation set**으로 아껴 둔다.
+
+
+## B1 결과
+
+| Metric | Result |
+|---|---:|
+| B0 price+phone | 194 / 223 (**87.00%**) |
+| B1 price+phone | 196 / 223 (**87.89%**) |
+| Wrong→Right | **2** |
+| Right→Wrong | **0** |
+| Net gain | **+2** |
+| McNemar exact p | **0.50** |
+
+사전 gate였던 **net +5**를 넘지 못했다.
+
+따라서:
+- B1 채택 안 함
+- grouped 확인 안 함
+- prompt 미세조정 중단
+
+다만 A2 high-resolution도 phone +1, price +1이었다.
+
+### 다음은 GPU 없이 확인
+
+**A2와 B1이 같은 2개를 고쳤는지 확인한다.**
+
+- same fixes → prompt/high-res 둘 다 종료 → B2 layout grounding
+- different fixes → complementarity 가능 → 작은 조합 실험 검토
