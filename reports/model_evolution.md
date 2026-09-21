@@ -392,3 +392,26 @@ First local result:
 This would fail the gate, but code review found a mismatch with the locked method: each view was normalized only over a/b/c/d before cross-view aggregation instead of using full-vocabulary log P(choice).
 
 One corrected rerun is permitted as a bug fix; the 70-row set, crops, prompt, resolution, aggregation, and decision gate remain unchanged.
+
+
+## B2-D final — branch closed
+
+Corrected B2-D:
+- perception rescues: **4/35**
+- control regressions: **2/35**
+- net +2
+- OCR rescue 3/21
+- exact-string rescue 1/11
+- localization rescue 0/3
+
+This is below the pre-registered gate. No full scene-text tiling run.
+
+### Next: B3 training-side adaptation
+
+Before training:
+1. create a new leakage-resistant holdout from untouched data
+2. exclude random/grouped/audit IDs permanently
+3. test PEFT/bitsandbytes/4-bit model loading
+4. benchmark B0 on the new holdout
+
+Only then build/run LoRA or QLoRA.
