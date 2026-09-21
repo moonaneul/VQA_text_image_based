@@ -428,3 +428,17 @@ On the untouched 400-row QLoRA holdout:
 - parse failures = 0
 
 Next: evaluate the already-frozen price-only router on the same holdout and lock the actual current-best inference baseline before training.
+
+
+## B3-P1b — price router no longer reference
+
+On the fresh 400-row training holdout:
+- B0: **361/400 = 90.25%**
+- price-routed: **360/400 = 90.00%**
+- price specialist: 36/39 → 35/39
+
+This second fresh check moved opposite to the earlier audit, so the price route is not robust enough to remain the default system.
+
+**Reference returns to B0 direct + standard.**
+
+Next: create inner train/dev from qlora_train and tune QLoRA only there; final 400-row holdout is frozen.
