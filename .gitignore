@@ -1,0 +1,11 @@
+baseline/
+downloads/
+data/
+output/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 아래 파일은 재생성 가능하지만 EDA 근거로 로컬에 보관합니다.
+reports/eda/image_metadata.csv
+reports/eda/eda_summary.json

@@ -1,0 +1,1342 @@
+﻿id,path,question,a,b,c,d,answer
+train_0002.jpg,train/train_0002.jpg,이 식당 '오봉집'에서 판매하는 대표 메뉴는 무엇인가요?,직화낙지와 오봉보쌈,된장찌개와 불고기,김치찌개와 삼겹살,비빔밥과 김밥,a
+train_0008.jpg,train/train_0008.jpg,이 배너에 나오는 공연 날짜는 언제인가요?,10월 1일,8월 15일,9월 18일,9월 20일,d
+train_0010.jpg,train/train_0010.jpg,사진 속 영수증에서 결제된 금액은 얼마인가요?,18.00 €,20.00 €,50.00 €,36.00 €,d
+train_0013.jpg,train/train_0013.jpg,이 사진에 보이는 죽 제품의 이름은 무엇인가요?,닭죽,전복죽,야채죽,소고기죽,c
+train_0020.jpg,train/train_0020.jpg,딸기쿠키프라페의 가격은 얼마인가요?,"\4,200","\3,900","\3,500","\4,500",b
+train_0026.jpg,train/train_0026.jpg,이 건물의 이름은 무엇인가요?,대전역,광주역,부산역,서울역,c
+train_0027.jpg,train/train_0027.jpg,사진 속 메모지에 적힌 문구는 무엇인가요?,바게트와 대파 세트 판매중,대파 500원 할인 행사,바게트가 품절이라 대파로 참아줘 -미루,오늘 대파 세일 중입니다,c
+train_0038.jpg,train/train_0038.jpg,더 탄탄병원 광고에서 강조하는 치료 방법이 아닌 것은 무엇인가요?,수술 치료,내과 치료,관절 탄탄 치료,비수술 치료,b
+train_0051.jpg,train/train_0051.jpg,녹색 박스에 적힌 과자의 맛은 무엇인가요?,녹차 크림 맛,초콜릿 맛,바닐라 맛,딸기 맛,a
+train_0052.jpg,train/train_0052.jpg,'그라운드 룰'에 적힌 내용 중 틀린 것은 무엇인가요?,항상 늦게 오기,웃으면서 말하기,인사 잘하기,자만하지 않기,a
+train_0054.jpg,train/train_0054.jpg,이 건물에 적힌 간판의 교회 이름은 무엇인가요?,순복음 하나교회,기독교 예심교회,순복음 예심교회,예심 복음교회,c
+train_0057.jpg,train/train_0057.jpg,이 이미지에 적힌 문구 중 할인 혜택에 관한 내용은 무엇인가요?,20% OFF,10% OFF,무료 음료 제공,할인 없음,b
+train_0066.jpg,train/train_0066.jpg,앞에 보이는 파란색 교통 안내판에 적힌 내용 중 올바른 것은 무엇인가요?,기다차차로 진입 40km,기다차차로 진입 400km,기다차차로 진입 40m,기다차차로 진입 400m,d
+train_0068.jpg,train/train_0068.jpg,이 위치표지판의 국가지점번호는 무엇인가요?,바사 5292 3871,다사 5293 3871,다사 5292 3871,바사 5293 3871,c
+train_0069.jpg,train/train_0069.jpg,이 건물에 걸린 현수막에 적힌 'WONDERLIVE2025' 행사는 언제 열리나요?,"09.20 WED, 21 THU, 22 FRI","12.01 MON, 02 TUE, 03 WED","10.10 THU, 11 FRI, 12 SAT","11.14 FRI, 15 SAT, 16 SUN",d
+train_0075.jpg,train/train_0075.jpg,삼각김밥 포장지에 적힌 내용 중 올바른 것은 무엇인가요?,유통기한 2023.10.10,칼로리 204kcal,단백질 15g,"가격 1,500원",b
+train_0086.jpg,train/train_0086.jpg,사진 속 안내문에서 잃어버린 물건은 무엇인가요?,노트북,아이폰 13,지갑,에어팟 프로,d
+train_0089.jpg,train/train_0089.jpg,이 공간에서 'SELF CAFE'라는 글자가 적힌 칸막이 부스에 붙어 있는 숫자는 무엇인가요?,1,TOILET,2,3,d
+train_0092.jpg,train/train_0092.jpg,이 트레드밀 기계에서 표시된 칼로리 소모량은 얼마인가요?,271.0,281.0,287.0,217.0,b
+train_0093.jpg,train/train_0093.jpg,이 도로 바닥에 노란색으로 적힌 글자는 무엇을 의미하나요?,횡단보도,일단정지,주차금지,속도제한,b
+train_0098.jpg,train/train_0098.jpg,포스터에 적힌 '해피 세종데이' 행사는 언제 열리나요?,6월 1일(목)부터 6월 3일(토)까지,5월 17일(수)부터 5월 19일(금)까지,5월 15일(월)부터 5월 20일(토)까지,5월 10일(수)부터 5월 12일(금)까지,b
+train_0100.jpg,train/train_0100.jpg,골프 연습장 '스카이골프'까지의 거리는 얼마인가요?,300m,500m,51m,120m,d
+train_0101.jpg,train/train_0101.jpg,사진 속 병에 적힌 술 이름은 무엇인가요?,좋은데이,참이슬 fresh,처음처럼,한라산,b
+train_0105.jpg,train/train_0105.jpg,이 표지판에 따르면 TOEIC 영어 말하기·쓰기 시험은 어느 층에서 치러지나요?,3층,1층,10층,5층,c
+train_0108.jpg,train/train_0108.jpg,이 네온사인에 적힌 문구는 무엇인가요?,진로 소주 전문점,한국의 맛 소주,전통 소주 명가,소주의 원조 진로,d
+train_0109.jpg,train/train_0109.jpg,모두탑365 정형외과의원의 평일 진료 시간이 어떻게 되나요?,09:00 ~ 14:00,10:00 ~ 18:00,13:00 ~ 14:00,09:00 ~ 20:00,d
+train_0112.jpg,train/train_0112.jpg,이 건물에 있는 'MONA' 관련 시설 중 1층에 위치한 곳은 무엇인가요?,MONA K-Clinic,MBC 아카데미 원,MONA CAFE,MONA 한의원,c
+train_0115.jpg,train/train_0115.jpg,사진 속 건물 4층에 위치한 병원의 이름은 무엇인가요?,스마트치과,아름다운의원,얼른산부인과,제일안과,a
+train_0117.jpg,train/train_0117.jpg,이 사진에 보이는 건물 주변에 주차된 차량들의 색상 중 가장 많이 보이는 색깔은 무엇인가요?,파란색,검은색,빨간색,흰색,d
+train_0118.jpg,train/train_0118.jpg,텐퍼센트 우베 음료 메뉴 중 가장 저렴한 가격은 얼마인가요?,"4,500w","4,600w","4,000w","4,800w",c
+train_0123.jpg,train/train_0123.jpg,이 음료수 병에 적힌 제품명은 무엇인가요?,달콤한 딸기 음료,오이오차 녹차,시원한 바나나 우유,맛있는 사과 주스,b
+train_0127.jpg,train/train_0127.jpg,"쓰레기를 배출하는 요일과 시간에 대한 안내문에 따르면, 재활용 쓰레기는 언제 배출해야 하나요?","화, 목, 일에 배출","월, 수, 금에 배출",아침에 배출,밤에 배출,a
+train_0128.jpg,train/train_0128.jpg,사진 속 컵라면에 적힌 일본어 'きつねうどん'의 의미는 무엇인가요?,유부 우동,해산물 우동,매운 우동,닭고기 우동,a
+train_0130.jpg,train/train_0130.jpg,이미지에 나온 '그리다성형외과'가 위치한 층은 어디인가요?,2층,12층,5층,10층,b
+train_0131.jpg,train/train_0131.jpg,이 문구점에서 사용할 수 있는 쿠폰은 무엇에 해당하나요?,문화상품권,주민등록증,민생회복 소비쿠폰,도서상품권,c
+train_0132.jpg,train/train_0132.jpg,이 건물 1층에 있는 가게 간판 중에서 아이스크림을 판매하는 가게 이름은 무엇인가요?,동네폰,365일 24시,무인아이스크림,셀프 빨래방,c
+train_0136.jpg,train/train_0136.jpg,"용소폭포 안내판에 따르면, 용이 되지 못한 이무기의 눈물에서 생긴 폭포의 이름은 무엇인가요?",천지폭포,용소폭포,비룡폭포,청룡폭포,b
+train_0139.jpg,train/train_0139.jpg,이 표지판에 안내된 역이 아닌 것은 무엇인가요?,강남역,차병원,서울역,역삼역,c
+train_0146.jpg,train/train_0146.jpg,이미지에 보이는 'SUPER DRY' 광고는 어떤 브랜드를 홍보하고 있나요?,CHINTAI,ZETTERIA,Asahi,Glico,c
+train_0163.jpg,train/train_0163.jpg,"이 편지 안내문에 따르면, 편지를 받고 싶은 날짜를 언제로 지정할 수 있나요?",2027년 내 아무 날짜나 선택 가능,2028년 내 아무 날짜나 선택 가능,2026년 내 아무 날짜나 선택 가능,2027년 3월 6일로만 지정 가능,a
+train_0173.jpg,train/train_0173.jpg,이 음료수 병 라벨에 적힌 음료 이름은 무엇인가요?,블랙 보리,흰 쌀 보리,검은 콩차,초록 보리,a
+train_0180.jpg,train/train_0180.jpg,이 비행기에 적힌 항공사 이름은 무엇인가요?,아시아나항공,대한항공,코리아익스프레스,에어코리아,b
+train_0184.jpg,train/train_0184.jpg,이 매장 행사에서 티셔츠의 최대 할인 가격은 얼마입니까?,"59,000원","39,900원","15,000원","19,000원",d
+train_0187.jpg,train/train_0187.jpg,이 이미지에 보이는 케첩 봉지에 적힌 문구는 무엇인가요?,스파이시 소스,머스타드 소스,칠리 소스,토마토 케첩,d
+train_0194.jpg,train/train_0194.jpg,이 식당의 간판에 적힌 상호명은 무엇인가요?,마양곱창,마양닭갈비,마양양꼬치,마양갈비,c
+train_0196.jpg,train/train_0196.jpg,이 소파의 이름과 가격은 무엇인가요?,"KIVIK, \180,000","EKTORP, \350,000","GL?STAD, \140,000","MALM, \200,000",c
+train_0204.jpg,train/train_0204.jpg,이 안내문에서 금지하는 행동은 무엇인가요?,흡연 금지,주차 금지,쓰레기 투기 금지,추락 위험으로 올라가지 말기,d
+train_0208.jpg,train/train_0208.jpg,주차장 출구에 붙어 있는 안내문에 적힌 내용 중 올바른 것은 무엇인가요?,주차장 출구는 차량 진입 금지,운전자는 주차장 내에서만 속도 제한이 적용된다,주차장 출구에는 CCTV가 설치되어 있지 않음,차단바 접촉사고 주의 파손시 운전자 배상책임,d
+train_0211.jpg,train/train_0211.jpg,"'쓰레기 무단투기 금지' 안내문에 따르면, 무단투기를 적발했을 때 부과되는 과태료는 얼마 이하인가요?",5만원 이하,50만원 이하,100만원 이하,500만원 이하,c
+train_0220.jpg,train/train_0220.jpg,이 건물에 입점한 돈까스 전문점의 이름은 무엇인가요?,오박사네 순두부 전문점,오박사네 비빔밥 전문점,오박사네 돈까스 전문점,오박사네 김치찌개 전문점,c
+train_0222.jpg,train/train_0222.jpg,이 표지판에 적힌 문구의 내용은 무엇인가요?,항상 누군가는 당신의 가치를 보지 않을 것이다. 당신이 그러지 않도록 하라.,이 구역은 출입 통제 구역입니다.,여기에 들어가는 것은 금지되어 있습니다.,쓰레기를 버리지 마세요.,a
+train_0224.jpg,train/train_0224.jpg,이 영화 포스터에 나온 캐릭터의 이름은 무엇인가요?,케빈,헨리,스튜어트,데이브,b
+train_0234.jpg,train/train_0234.jpg,이미지 속에 적힌 글자는 무엇인가요?,Silent Moon,Happy Day,Magic Night,Dark Forest,c
+train_0251.jpg,train/train_0251.jpg,이 식당에서 팔지 않는 메뉴는 무엇인가요?,돼지국밥,내장국밥,김치찌개,수육백반,c
+train_0254.jpg,train/train_0254.jpg,이 도로 표지판에 적혀 있는 문구는 무엇인가요?,주차 금지,속도 제한 50,횡단보도,상수도 소화전,d
+train_0261.jpg,train/train_0261.jpg,"사진 속 간판들 중에서 '드림렌즈', '백내장', '건조증' 관련 진료를 하는 곳은 어디인가요?",유라인외과의원,에버즈영어,에코드림안과,현대한의원,c
+train_0265.jpg,train/train_0265.jpg,이 에스컬레이터 앞 바닥에 적힌 문구는 무엇과 함께 이동할 때 주의해야 한다고 안내하고 있나요?,반려동물과 함께해요!,어린이와 함께해요!,"유모차, 카트 전용",음식물 반입 금지,a
+train_0269.jpg,train/train_0269.jpg,사진 속 건물에 적혀 있는 치과병원의 이름은 무엇인가요?,구미예치과병원,디스커버리,남경비양재,네셔널지오그래픽,a
+train_0284.jpg,train/train_0284.jpg,이 사진 속 AED(자동 심장 제세동기) 설치함에 적힌 서비스 전화번호는 무엇인가요?,010-9876-5432,1599-3233,1800-1234,02-3456-7890,b
+train_0298.jpg,train/train_0298.jpg,이미지 속 빨간색 간판에 적힌 문구 중 '유치권 행사중' 아래에 적힌 내용은 무엇인가요?,본 게시물 무단사용시 경고장 발부함,본 게시물 훼손시 권리행사 방해죄로 형사고발 조치함,본 게시물 도난시 경찰에 신고함,본 게시물 무단복제시 민사소송 제기함,b
+train_0303.jpg,train/train_0303.jpg,이 소주 병에 적힌 알코올 도수는 얼마인가요?,15%,25%,30%,20%,b
+train_0307.jpg,train/train_0307.jpg,이 옷 태그에 적힌 셔츠의 가격은 얼마인가요?,"39,900원","59,900원","49,900원","69,900원",c
+train_0309.jpg,train/train_0309.jpg,사진 속 간판에 적힌 문구 중 '전에' 다음에 나오는 단어는 무엇인가요?,막걸리,한잔,감성마을,콩국수,a
+train_0316.jpg,train/train_0316.jpg,"광고 문구 중 '종착역이 아닌 새로운 시작, 영웅 시대는 지금부터다!'가 적힌 곳은 무엇을 홍보하는 광고인가요?",영화 '영웅 시대',음악 페스티벌,IM HERO 앨범,책 '나는 오래된 거리처럼 나를 사랑하고',c
+train_0320.jpg,train/train_0320.jpg,이 간판에 적힌 가게 이름은 무엇인가요?,육회바른 연어,바른 고기집,회와 연어 전문점,신선한 회전초밥,a
+train_0322.jpg,train/train_0322.jpg,이 건물 3층에 위치한 업소는 무엇인가요?,빅사리 코인 노래 연습장,ABC-MART,킹스맨,코드 PC방,d
+train_0336.jpg,train/train_0336.jpg,이 사진 속 햄버거 포장지에 적힌 브랜드명은 무엇인가요?,FIVE GUYS,WHOPPER,KING BURGER,BIG MAC,b
+train_0339.jpg,train/train_0339.jpg,사진 속 게시판에 게시된 '주민참여예산 제안사업 공모'의 접수기간은 언제부터 언제까지인가요?,2023. 7. 1.(토) ~ 7. 14.(금) / 14일간,2023. 8. 1.(화) ~ 8. 14.(월) / 14일간,2023. 6. 1.(목) ~ 6. 14.(수) / 14일간,2023. 7. 10.(월) ~ 7. 24.(월) / 15일간,a
+train_0346.jpg,train/train_0346.jpg,사진 속 편의점 유리창에 적힌 문구는 무엇인가요?,Nice to CU,Welcome to CU,Happy to CU,Thanks to CU,a
+train_0352.jpg,train/train_0352.jpg,이 건물과 트럭에 공통으로 적혀 있는 회사 이름은 무엇인가요?,모트라스,현대모터스,현대자동차,모비스,a
+train_0353.jpg,train/train_0353.jpg,이 부동산 사무소의 전화번호는 무엇인가요?,010-5555-6666,010-9876-5432,010-1234-5678,010-7620-3897,d
+train_0355.jpg,train/train_0355.jpg,이 카페의 이름은 무엇인가요?,CAFE COFFEE,CAFE CHOI,CHOI BAKERY,CHOI DESSERT,b
+train_0357.jpg,train/train_0357.jpg,이 아이스크림의 이름은 무엇인가요?,초코 우유 아이스크림,바닐라 초코볼,딸기 요거트 초코볼,허니 요거트 초코볼,d
+train_0359.jpg,train/train_0359.jpg,포스터에 소개된 '떠먹는 말차 초코 크런치 아이박스'의 맛은 무엇인가요?,말차 초코 크런치 맛,바닐라 맛,망고 맛,딸기 맛,a
+train_0374.jpg,train/train_0374.jpg,"소화기 사용법 안내에 따르면, 손잡이를 어떻게 해야 하나요?",손잡이를 누르지 않는다.,손잡이를 꽉 움켜쥔다.,손잡이를 천천히 돌린다.,손잡이를 위로 당긴다.,b
+train_0381.jpg,train/train_0381.jpg,이 건물에 입주해 있는 병원이 아닌 곳은 어디인가요?,이민음치과,알앤비성형외과,리앤웰성형외과의원,서울치과병원,d
+train_0384.jpg,train/train_0384.jpg,"텀벙놀이터(물놀이장) 운영 안내에 따르면, 2026년 텀벙놀이터의 운영 기간은 언제부터 언제까지인가요?",2026년 6월 1일 ~ 7월 31일,2026년 7월 1일 ~ 7월 24일,2026년 8월 1일 ~ 8월 31일,2026년 7월 24일 ~ 8월 18일,d
+train_0387.jpg,train/train_0387.jpg,패스트푸드 포장지에 적힌 문구는 무엇인가요?,CRY CHEESE FRIES,CRY CHEESE SANDWICH,CRY CHEESE BURGER,CRY CHEESE PIZZA,c
+train_0396.jpg,train/train_0396.jpg,이 건물에 입점해 있는 상점의 이름은 무엇인가요?,Salvatore Ferragamo,Gucci,Louis Vuitton,Prada,a
+train_0400.jpg,train/train_0400.jpg,사진 속 약국 이름은 무엇인가요?,수온누리약국,센스데이청,역삼문구,비타스틱,a
+train_0401.jpg,train/train_0401.jpg,이미지에 나온 스누피 캐릭터 중 탐정 역할을 하는 캐릭터의 이름은 무엇인가요?,FIERCE PIRATE,FLASH BEAGLE,SUPER MARVEL,SECRET AGENT,d
+train_0407.jpg,train/train_0407.jpg,"마가렛 디저트 카페의 메뉴판에 따르면, 다음 중 논카페인(Non-Caffeine) 음료가 아닌 것은 무엇인가요?",허니자몽블랙티(Honey Grapefruit & Blacktea),레몬진저티(Lemon & Ginger Tea),말차밀크(Matcha Milk),초코밀크(Chocolate Milk),a
+train_0408.jpg,train/train_0408.jpg,이 치킨집 간판에 적힌 상호명은 무엇인가요?,장승아찌 숯불치킨,양념치킨,장승아찌치킨,장승치킨,b
+train_0417.jpg,train/train_0417.jpg,BLUEPOT의 100% 아라비카 핫 아메리카노 가격은 얼마인가요?,"\3,000","\1,800","\2,500","\2,100",d
+train_0426.jpg,train/train_0426.jpg,이 가게의 간판에 적힌 상호명은 무엇인가요?,을지칼국수,을지전골,을지수제비,을지분식,c
+train_0432.jpg,train/train_0432.jpg,이 사진에 보이는 금속 표지판에 적힌 문구는 무엇인가요?,주차허용 PARKING ALLOWED,주차제한 PARKING RESTRICTED,주차구역 PARKING ZONE,주차금지 NO PARKING,d
+train_0434.jpg,train/train_0434.jpg,사진 속 간판에 적힌 상호명은 무엇인가요?,도시락 전문점,전자제품 매장,한식뷔페,농수축산 유통센터,d
+train_0437.jpg,train/train_0437.jpg,이 간판에 적힌 가게 이름은 무엇인가요?,라운지 카페,라운지 볼링장,당구 카페,라운지 당구장,d
+train_0444.jpg,train/train_0444.jpg,이 음식점의 이름은 무엇인가요?,TKG,나리김치,아오리,이오리소스,c
+train_0463.jpg,train/train_0463.jpg,"'e-편한세상' 건물 안내판에 따르면, 107호는 어느 방향에 있나요?",오른쪽,위쪽,아래쪽,왼쪽,a
+train_0464.jpg,train/train_0464.jpg,이 가게 '껍질'에서 판매하는 제품은 무엇인가요?,신선한 과일과 채소,"14K, silver 주얼리 및 스마트폰 케이스",전자제품 및 가전제품,책과 문구류,b
+train_0468.jpg,train/train_0468.jpg,"식당 출구 안내문에 따르면, 식당 출구에서 19층 엘리베이터를 이용하려면 어떻게 해야 하나요?",계단에서 뛰어 올라가기,엘리베이터를 바로 이용,직진 후 엘리베이터 이용,계단으로 이동 후 19층 엘리베이터 이용,d
+train_0480.jpg,train/train_0480.jpg,사진 속 타이어 가게에서 진행하는 행사 중 '3+1' 이벤트는 어떤 품목에 적용되나요?,브레이크 패드,엔진 오일,배터리,타이어 전품목,d
+train_0482.jpg,train/train_0482.jpg,SSAFY AI SONG 만들기 과정 중 '감성적이고 창의적인 가사'를 만드는 단계는 몇 번째인가요?,1단계 사전토의,4단계 SUNO AI와 SONG 만들기,2단계 스토리 키워드 정리,3단계 AI와 가사 제작하기,d
+train_0486.jpg,train/train_0486.jpg,이 음식점의 전화번호는 무엇인가요?,031-594-8545,031-594-8546,594-8546,594-8545,d
+train_0494.jpg,train/train_0494.jpg,사진 속 식탁에 놓인 병에 적힌 맥주 브랜드 이름은 무엇인가요?,SOJU,CHIN-SU,OB,HANOI,d
+train_0504.jpg,train/train_0504.jpg,이 식당의 이름은 무엇인가요?,한식전문,서울식당,서울회관,삼도식당,c
+train_0519.jpg,train/train_0519.jpg,이 가게의 이름은 무엇인가요?,JEAN STORE,UNIQUE STORE,UNIQUE second,UNIQUE JEAN STORE,d
+train_0525.jpg,train/train_0525.jpg,이 사물함들 중에서 2-7번 사물함은 어디에 위치해 있나요?,오른쪽 아래,왼쪽 위,오른쪽 위,왼쪽 아래,a
+train_0527.jpg,train/train_0527.jpg,이 간판에 적힌 카페의 이름은 무엇인가요?,Morning Brew,Sunny Day,Cafe Mocha,Day Off CAFE,d
+train_0532.jpg,train/train_0532.jpg,건물에 적힌 'SEJONG'과 'KB 국민은행' 외에 주일 예배 시간 안내에서 오후 예배 시간은 몇 시인가요?,오후 2:10,오후 4:30,오후 3:00,오후 1:00,a
+train_0536.jpg,train/train_0536.jpg,"이 도로 표지판에 따르면, 지정차로 위반 시 화물차에 부과되는 벌금은 얼마인가요?",10만원,1만원,3만원,5만원,d
+train_0540.jpg,train/train_0540.jpg,이 간판에서 아침 식사 시작 시간은 몇 시입니까?,오전 7시,오전 6시,오전 8시,오전 5시,b
+train_0542.jpg,train/train_0542.jpg,이 과일의 이름은 무엇인가요?,천혜향,제주산 밀감,한라봉,감귤,b
+train_0544.jpg,train/train_0544.jpg,사진 속 쓰레기통에 적힌 '일반쓰레기'라는 표시는 무엇을 의미하나요?,유해 폐기물 쓰레기,일반적으로 버리는 쓰레기,음식물 쓰레기 전용,재활용이 가능한 쓰레기,b
+train_0546.jpg,train/train_0546.jpg,이 간판에 적힌 치과 이름은 무엇인가요?,한빛 치과,서울 중앙 치과,예인원 치과,행복한 치과,c
+train_0553.jpg,train/train_0553.jpg,뮤지컬 '청새치'에서 전민지 배우가 맡은 역할은 무엇인가요?,쿠바의 어부만 아는,그레고리오/에벌린,밀러/루소,바다의 움직임,c
+train_0565.jpg,train/train_0565.jpg,사진 속 창문 너머에 보이는 건물에 적힌 글자는 무엇인가요?,Orange Plane,Yellow Star,Green Field,Blue Sky,a
+train_0566.jpg,train/train_0566.jpg,목재문화 & 목조건축 페스티벌이 열리는 장소는 어디인가요?,서울시청 광장,세종문화회관,DCC 제2전시장 1·2홀,코엑스 전시장,c
+train_0567.jpg,train/train_0567.jpg,이 가게의 이름은 무엇인가요?,가비장,왕뼈다기해장국,동해물,복현구급,b
+train_0573.jpg,train/train_0573.jpg,핑크색 배경에 적힌 문구는 무엇인가요?,I love you,Love is forever,I like you,You love me,a
+train_0607.jpg,train/train_0607.jpg,이 안내문에 따르면 백화점 가는 이동 통로는 언제 폐쇄되나요?,8월 10일(일),7월 31일(금),8월 4일(월),8월 5일(화),c
+train_0608.jpg,train/train_0608.jpg,이 건물 1층에 있는 약국의 이름은 무엇인가요?,서울 치과,야간 약국,진약국,스타 부동산,c
+train_0609.jpg,train/train_0609.jpg,FIVE GUYS 매장의 영업시간은 어떻게 되나요?,24시간 연중무휴,"11 am - 10 pm, 평일 영업","10 am - 4 am, 7일 연속 영업","9 am - 9 pm, 주말 영업",c
+train_0611.jpg,train/train_0611.jpg,이 건물 1층에 입점해 있는 편의점의 이름은 무엇인가요?,7-ELEVEN,CU,MINISTOP,GS25,a
+train_0614.jpg,train/train_0614.jpg,이 기기의 이름은 무엇인가요?,자동 응급처치기,자동 혈압 측정기,자동 소화기,자동 심장 제세동기,d
+train_0616.jpg,train/train_0616.jpg,더벤티에서 음식에 대해 안내하는 내용은 무엇인가요?,더벤티는 음식 배달만 합니다.,남은 음식은 포장해서 가져가세요.,음식을 남겨도 괜찮습니다.,더벤티는 음식물을 재사용하지 않습니다.,d
+train_0618.jpg,train/train_0618.jpg,CU 출입문은 어디에 있나요?,건물 뒤편에 있습니다,건물 옥상에 있습니다,건물 입구에 있습니다,건물 지하에 있습니다,c
+train_0626.jpg,train/train_0626.jpg,이 가게에서 수박주스의 가격은 얼마인가요?,"12,000원","10,000원","5,000원","7,000원",d
+train_0632.jpg,train/train_0632.jpg,이 제품의 유통기한은 언제까지인가요?,2023.03.20까지,2023.06.30까지,2024.01.01까지,2023.12.31까지,a
+train_0633.jpg,train/train_0633.jpg,디트로이트 1달러 피자 1조각의 가격은 얼마인가요?,"1,500원","2,500원","2,000원","1,000원",a
+train_0635.jpg,train/train_0635.jpg,"포스트 콘크리초 시리얼 포장지에 적힌 문구 중, 시리얼의 특징으로 맞는 것은 무엇인가요?",3겹으로 더 바삭한!,100% 유기농 재료 사용,무설탕 시리얼,더 달콤한 초콜릿 맛,a
+train_0637.jpg,train/train_0637.jpg,사진 속 책 중 '2025 최신판'이라고 적혀 있는 책은 무엇인가요?,투자산운용사,컴퓨터활용능력 1급 필기,파워포인트 FOR 인포그래픽,ERP 정보관리사,d
+train_0640.jpg,train/train_0640.jpg,"이 도로 표지판에 따르면, '선릉역' 방향은 어느 쪽인가요?",아래쪽,위쪽,왼쪽,오른쪽,b
+train_0641.jpg,train/train_0641.jpg,예쁜동물나라 수족관 대전점의 영업시간은 언제인가요?,"오후 3시~8시, 수요일 휴무","오후 1시~7시, 일요일 휴무","오전 9시~오후 6시, 월요일 휴무","오전 10시~오후 5시, 토요일 휴무",a
+train_0646.jpg,train/train_0646.jpg,다음 중 이미지 속 빨간 용기의 라면 이름은 무엇인가요?,진라면,삼양라면,불닭볶음면,왕뚜껑,d
+train_0652.jpg,train/train_0652.jpg,이 사진에 나오는 역 이름은 무엇인가요?,서대구역,동대구역,북대구역,중대구역,b
+train_0653.jpg,train/train_0653.jpg,위 이미지에 보이는 두 과자 중 '초콜릿이 동째로'라는 문구가 적힌 과자는 무엇인가요?,롯데 칙촉,Market O 브라우니,롯데 초코파이,Market O 초코칩 쿠키,a
+train_0661.jpg,train/train_0661.jpg,이 차량 뒷면에 적힌 문구는 무엇인가요?,서울합기도,최고합기도,대한합기도,제일합기도,d
+train_0662.jpg,train/train_0662.jpg,이 가게의 이름은 무엇인가요?,버거하우스,버거옥,버거킹,버거왕,b
+train_0665.jpg,train/train_0665.jpg,이 자전거 앞에 붙어 있는 푯말에 적힌 글자는 무엇인가요?,타조,킥고잉,따릉이,카카오T,b
+train_0691.jpg,train/train_0691.jpg,이미지 속에 적힌 '2026 1인가구 트렌드' 책자의 주제는 무엇인가요?,2026년 여행지 추천,자기집권: 내 삶의 방식과 태도를 닮은 집,2026년 인기 요리 레시피 모음,2026년 신기술 트렌드,b
+train_0703.jpg,train/train_0703.jpg,이 이미지 속 화면에 표시된 문구는 무엇인가요?,클래시스 슈링크,슈링크 유니버스,유니버스 슈링크,클래시스,b
+train_0705.jpg,train/train_0705.jpg,버스에 적힌 큰 글씨 '송내역'은 무엇을 의미하나요?,백화점 이름,병원 이름,버스 회사 이름,지하철역 이름,d
+train_0706.jpg,train/train_0706.jpg,이 버스의 출발 시간은 언제인가요?,9:30,10:00,11:00,10:30,b
+train_0709.jpg,train/train_0709.jpg,이 간판에 적힌 전화번호는 무엇인가요?,031-9876543,02-1234567,03-5752882,042-1112222,c
+train_0717.jpg,train/train_0717.jpg,'Aqua Lofoten Coast Adventure' 포스터에 소개된 낚시 여행에 사용되는 배 이름은 무엇인가요?,Reilo,Trio II,Potato,Solbakken,b
+train_0719.jpg,train/train_0719.jpg,이 방의 간판에 적힌 가게의 업종은 무엇인가요?,도서관,커피 전문점,보드게임 룸카페,헬스장,c
+train_0734.jpg,train/train_0734.jpg,창문에 붙어 있는 종이에 적힌 내용은 무엇인가요?,휴게실은 3층에 있습니다.,전산실 창문 열지 마세요!!!!,화재 시 엘리베이터를 사용하지 마세요.,회의실 예약은 여기서 하세요.,b
+train_0744.jpg,train/train_0744.jpg,사진에 보이는 평양냉면의 가격은 얼마인가요?,"12,000원","10,000원","15,000원","18,000원",a
+train_0751.jpg,train/train_0751.jpg,위 사진에서 '희망배달마차'가 나누는 음식은 무엇인가요?,김치찌개,비빔밥,삼계탕,불고기,c
+train_0758.jpg,train/train_0758.jpg,"학교환경위생 정화구역 안내문에 따르면, 이 지역에서 금지되는 행위가 아닌 것은 무엇인가요?",각종 퇴폐 행위,변태영업,사행성영업,쓰레기 무단투기 행위가 아닌 것,d
+train_0764.jpg,train/train_0764.jpg,왼쪽 음료 패키지에 적힌 ABC 주스의 재료로 맞는 것은 무엇인가요?,"사과, 비트, 당근","배, 비트, 당근","사과, 포도, 당근","사과, 비트, 오렌지",a
+train_0772.jpg,train/train_0772.jpg,이 사진 속 역 이름은 무엇인가요?,부산역,광주역,동대구역,서울역,c
+train_0781.jpg,train/train_0781.jpg,이 명찰에 적힌 이름은 무엇인가요?,이서연,최영호,김민준,박정수,d
+train_0783.jpg,train/train_0783.jpg,힘내라정형외과병원 간판에 적힌 관절질환에 해당하지 않는 부위는 무엇인가요?,허리,어깨,팔꿈치,목,c
+train_0787.jpg,train/train_0787.jpg,이 사진에 적힌 문구는 무엇인가요?,HAVE A GOOD DAY!,HAVE A NICE MONSTERDAY!,HAVE A NICE MONSTER!,HAVE A NICE MONDAY!,b
+train_0788.jpg,train/train_0788.jpg,이 건설 현장 가림막에 적혀 있는 구청 이름은 무엇인가요?,서초구,마포구,강남구,송파구,c
+train_0789.jpg,train/train_0789.jpg,'온파크 스크린파크 골프'에서 연습 1시간과 원포인트 레슨을 포함한 한달 비용은 얼마인가요?,한달 10만원,한달 30만원,한달 25만원,한달 18만원,d
+train_0803.jpg,train/train_0803.jpg,이 건물 2층에 있는 업종은 무엇인가요?,피면식,커피숍,만화방,서울보석,c
+train_0805.jpg,train/train_0805.jpg,이 열차의 현재 위치는 어디인가요?,수원,대전,영등포,서울역,a
+train_0807.jpg,train/train_0807.jpg,이 음료의 1회 제공량 당 열량은 얼마인가요?,79 kcal,190 kcal,4.9 kcal,102 kcal,a
+train_0813.jpg,train/train_0813.jpg,이미지에 보이는 응급환자 발생 시 연락 가능한 전화번호는 무엇인가요?,02-345-6789,1544-1234,119,054-479-5119,d
+train_0816.jpg,train/train_0816.jpg,사진 속 노란색 종이에 적혀 있는 문구는 무엇인가요?,싸게 팔아요!,고장 났어요!,사진을 찍으세요!,만지지마세요!,d
+train_0818.jpg,train/train_0818.jpg,이미지 속에 보이는 물티슈 제품 중 '도톰한 엠보싱 물티슈'의 수량은 몇 매인가요?,110매,80매,50매,20매,a
+train_0820.jpg,train/train_0820.jpg,'빵 나오는 시간' 안내판에 따르면 9시 30분에 나오는 빵 종류는 무엇인가요?,블루베리 / 파핑단팥 / 시금치햄치즈,플레인 / 시나몬 / 치아샌드,크로플,솔라초코,a
+train_0823.jpg,train/train_0823.jpg,사진 속 만화책 페이지에 적힌 'Note Coffee'는 무엇을 의미하나요?,카페 이름,커피 브랜드,만화 제목,주인공 이름,a
+train_0843.jpg,train/train_0843.jpg,이 그림에 나온 SSAFY의 '작고 귀여운 녀석들'이 지켜야 할 규칙 중 두 번째는 무엇인가요?,취업 안되면 시장 탓하기,대장 말 잘 듣기,항상 웃으며 다니기,항상 귀여움을 유지하기,a
+train_0848.jpg,train/train_0848.jpg,이 사진에 보이는 가게의 주된 판매 품목은 무엇인가요?,닭갈비,떡볶이,장어,대게,d
+train_0855.jpg,train/train_0855.jpg,이 선풍기 조작부에 적힌 '절전모드' 뜻은 무엇인가요?,바람 세기를 최대로 하는 모드,타이머 기능을 끄는 모드,바람 방향을 고정하는 모드,전기를 적게 사용하는 모드,d
+train_0862.jpg,train/train_0862.jpg,이미지 속 빨간색 배경의 흰색 글씨 간판에 적힌 내용은 무엇인가요?,Best Hamburger & Best French Fries,Washington Flyer,"'... they cut potatoes, tear up fresh lettuce and slice tomatoes by hand.' CityPulse MI","Five Guys ... is so superb, it's my one and only carry-out suggestion.",c
+train_0876.jpg,train/train_0876.jpg,"사진 속 문에 붙어 있는 안내문에 따르면, 비상구를 이용할 때 어떤 문을 이용해야 하나요?",아무 문이나 이용해 주세요,앞문을 이용해 주세요,좌측 문을 이용해 주세요,우측 문을 이용해 주세요,d
+train_0880.jpg,train/train_0880.jpg,포스터에 적힌 '여름을 노래해'는 어떤 브랜드와 관련이 있나요?,MONSTER COFFEE,MEGA B COFFEE,비트박스,김밥천국,b
+train_0888.jpg,train/train_0888.jpg,이 건물에 있는 식당의 간판에 적혀 있는 주요 메뉴는 무엇인가요?,비빔밥,불고기,해물 짬뽕,김치찌개,c
+train_0891.jpg,train/train_0891.jpg,이 건물에서 운영하는 노래타운의 영업 시작 시간은 언제인가요?,오전 9시,오후 9시,오전 7시,오후 7시,c
+train_0895.jpg,train/train_0895.jpg,이 가게 앞에 걸려 있는 큰 현수막에 적힌 문구는 무엇인가요?,라면먹고갈래요?,라면먹고가요?,라멘먹고가요?,라멘먹고갈래요?,d
+train_0899.jpg,train/train_0899.jpg,벽에 크게 적힌 글씨의 첫 단어는 무엇인가요?,소방서,소주,소고기,소설가,b
+train_0901.jpg,train/train_0901.jpg,이 가게의 상호명은 무엇인가요?,marie claire store,marie claire shop,marie claire,marie claire bag,c
+train_0904.jpg,train/train_0904.jpg,이 노래방 화면에서 부른 노래의 제목은 무엇인가요?,Tears,Happiness,Sunshine,Rain,a
+train_0905.jpg,train/train_0905.jpg,이 식당의 이름은 무엇인가요?,정성 가득 김치찌개,바삭한 치킨 전문점,속시원한 대구탕,맑은 바다 생선구이,c
+train_0912.jpg,train/train_0912.jpg,이 건물에 입주해 있는 간판들 중에 실버케어 센터의 이름은 무엇인가요?,이경철 법률 사무소,한별관광 여행사,EDYA COFFEE,사랑 실버케어 센터,d
+train_0916.jpg,train/train_0916.jpg,사진 속 건물에 적힌 '?路獨協大?'는 무엇을 의미하나요?,히메지 독교 대학,히메지 독서 대학,히메지 독수리 대학,히메지 독립 대학,d
+train_0920.jpg,train/train_0920.jpg,서울시에서 노후주택 창호 교체 지원금을 받을 수 있는 지원금액 범위는 얼마인가요?,단독주택 최대 100만 ~ 200만원,"빌라, 다세대는 300만 ~ 500만원",전체 창호 교체시 100만 ~ 200만원 현금 입금,전체 창호 교체시 200만 ~ 300만원 현금 입금,d
+train_0922.jpg,train/train_0922.jpg,이 과자의 맛은 무엇인가요?,바나나맛 아몬드,초코맛 아몬드,딸기맛 아몬드,군옥수수맛 아몬드,d
+train_0926.jpg,train/train_0926.jpg,이 사진 속 신호등의 색깔은 무엇인가요?,초록색,파란색,빨간색,노란색,c
+train_0928.jpg,train/train_0928.jpg,오른쪽 병 라벨에 적힌 '群主'의 뜻으로 가장 알맞은 것은 무엇인가요?,국가 지정 명인,안동 소주,"우리의 주인, 군주",쌀로 만든 술,c
+train_0931.jpg,train/train_0931.jpg,그림 옆에 적힌 글귀는 무엇인가요?,사람 살라!,사람 살려!,사람 삼려!,사람 살려?,b
+train_0938.jpg,train/train_0938.jpg,이미지에 적힌 '부대일지' 작성 순서 중 첫 번째 단계는 무엇인가요?,참가협람,지시사항접수,연통(날짜·행정업무),순찰관리,c
+train_0939.jpg,train/train_0939.jpg,이 건물의 2층에 위치한 곳의 이름은 무엇인가요?,푸마,열린치과,배스킨라빈스,미즈노,b
+train_0943.jpg,train/train_0943.jpg,이 식당 메뉴판에 적힌 '튀김우동'의 가격은 얼마인가요?,"7,500원","7,000원","8,000원","6,500원",c
+train_0944.jpg,train/train_0944.jpg,이 건물 2층에 위치한 상호명은 무엇인가요?,스파지노,세무사 송정영,HIO COFFEE,?? B/D,a
+train_0945.jpg,train/train_0945.jpg,4번 승강장의 평일 운영 시간은 언제부터 언제까지인가요?,05:36~08:18,05:36~10:24,06:00~09:00,05:00~08:00,a
+train_0958.jpg,train/train_0958.jpg,이 가게에서 제공하는 와이파이 비밀번호는 무엇인가요?,aaa7364249,AG00NG,AG0ONG,aaa7364248,d
+train_0966.jpg,train/train_0966.jpg,'울림한의원'은 언제 개원한다고 적혀 있나요?,7월 개원,9월 개원,8월 개원,10월 개원,c
+train_0968.jpg,train/train_0968.jpg,이 가게 앞 유리창에 붙어 있는 큰 글씨는 무엇이라고 적혀 있나요?,아이스크림 할인점,일대분의,일대분양,꿀단지 아이스크림 할인점,d
+train_0973.jpg,train/train_0973.jpg,왕갈비짬뽕의 가격은 얼마인가요?,"13,000원","14,000원","11,000원","12,000원",b
+train_0974.jpg,train/train_0974.jpg,"Turu 주차장 이용 안내에 따르면, 최초 30분 주차 요금은 얼마인가요?","\2,000","\1,000","\5,000","\3,000",d
+train_0978.jpg,train/train_0978.jpg,'올리브 무침' 메뉴의 맛을 설명한 문구 중 올바른 것은 무엇인가요?,"그린·블랙 올리브의 새콤달콤한 맛, 정성껏 직접 말린 썬드라이 토마토의 깊은 맛",신선한 바질과 직접 갈아 넣은 썬드라이토마토를 함께 넣어 풍부한 맛,40℃ 미만의 낮은 온도에서 정성껏 말린 방울토마토의 풍미와 쫄깃한 식감,"올리브 오일과 마늘의 깊은 풍미, 허브와 레몬의 산뜻함, 페페론치노의 은은한 매콤함",d
+train_0981.jpg,train/train_0981.jpg,이 비석에 새겨진 인물의 이름은 무엇인가요?,OBIT AN A P V CDXXXVII,NICOLAVS MACHIAVELLI,PETRUS ANTONIUS MICHELINUS,TANTO NOMINI NVLLVM PAR ELOGIVM,d
+train_0982.jpg,train/train_0982.jpg,이 트럭 뒷면에 적힌 문구는 무엇입니까?,냉장식품운반차량,화물운송전문차량,긴급농산물수송차량,위험물운반차량,c
+train_0983.jpg,train/train_0983.jpg,이미지 속 전광판에 표시된 시간은 무엇인가요?,06:04,08:15,05:50,07:29,a
+train_0993.jpg,train/train_0993.jpg,이 건물의 5층에 위치한 학원의 주된 교육 내용은 무엇인가요?,경희 올바른 한의원,한술요리·커피제과·제빵 학원,컴퓨터 프로그래밍 학원,피부관리·체형관리·한방치료,b
+train_0994.jpg,train/train_0994.jpg,사진에 보이는 은행의 이름은 무엇인가요?,우리은행,신한은행,하나은행,국민은행,c
+train_0995.jpg,train/train_0995.jpg,이 사진에서 노란색 간판에 적힌 가게 이름은 무엇인가요?,빠레방,플라워 카페,MEDIA COFFEE,사격 전문점,c
+train_1011.jpg,train/train_1011.jpg,왼쪽 제품 'hince 세컨 스킨 글로우 쿠션'의 색상은 무엇인가요?,21 IVORY 아이보리,15 BEIGE 베이지,02 WHITE 화이트,30 NATURAL 내추럴,a
+train_1013.jpg,train/train_1013.jpg,이 사진에 보이는 서점의 이름은 무엇인가요?,동문서점,한빛서점,계천서점,만물상단,c
+train_1020.jpg,train/train_1020.jpg,이 가게에서 주문 제작하는 품목은 무엇인가요?,전자제품,음식 재료,가구,"단체복, 유니폼",d
+train_1021.jpg,train/train_1021.jpg,병뚜껑에 적힌 글자는 무엇인가요?,SON7,SONZ,SON1,SONI,a
+train_1022.jpg,train/train_1022.jpg,이 열차의 출발 시간은 언제인가요?,19:45,21:10,20:30,22:00,b
+train_1025.jpg,train/train_1025.jpg,이 건물 외벽에 적혀 있는 간판의 글자는 무엇인가요?,multicampu,multicampas,multicampuss,multicampus,d
+train_1028.jpg,train/train_1028.jpg,주차장으로 가려면 어떻게 해야 하나요?,반대편쪽 고객센터 옆 무빙워크를 이용하세요,직진해서 엘리베이터를 이용하세요,계단을 이용해 지상 1층으로 올라가세요,주차장 입구에서 왼쪽으로 돌으세요,a
+train_1032.jpg,train/train_1032.jpg,영수증에 적힌 '春風得意腸'의 가격은 얼마인가요?,$7,$33,$80,$40,b
+train_1045.jpg,train/train_1045.jpg,이 음식점에서 제공하는 음료수 이름 중 하나가 아닌 것은 무엇인가요?,TANARINDO,JAMAICA,HORSCHATA,TAMARINDO,a
+train_1049.jpg,train/train_1049.jpg,만년닭강정 가게의 영업시간은 언제부터 언제까지인가요?,오전 10시부터 오후 10시까지,오전 9시부터 오후 11시까지,오전 11시부터 오후 12시까지,오전 8시부터 오후 9시까지,b
+train_1051.jpg,train/train_1051.jpg,사진 속 부스에서 한국수출입은행이 50주년을 맞이한 해는 언제인가요?,1980년,1960년,1976년,2026년,d
+train_1054.jpg,train/train_1054.jpg,다음 중 이미지에 보이는 가게 전화번호가 맞는 것은 무엇인가요?,02-1234-5678,02-4567-8901,02-3456-7890,02-2345-6789,a
+train_1055.jpg,train/train_1055.jpg,이 전화 부스 위에 적힌 글자는 무엇인가요?,TELEPHOEN,TELEPHANE,TELEPHONE,TELEPHON,c
+train_1067.jpg,train/train_1067.jpg,이 키보드에서 'Page Down' 키의 영어 표기는 무엇인가요?,Pg Dn,Pg Down,Pg Up,Page Dn,a
+train_1074.jpg,train/train_1074.jpg,이 건물 외벽에 적힌 전화번호는 무엇인가요?,031-987-6543,02-888-9001,02-123-4567,062-6416,b
+train_1079.jpg,train/train_1079.jpg,이 사진에 보이는 네온사인에 적힌 글자는 무엇인가요?,DISNEYLAND CKHARA FUN PARK,CKHARA DISNEY FUN LAND PARK,FUN PARK CKHARA DISNEYLAND,CKHARA DISNEYLAND FUN PARK,d
+train_1089.jpg,train/train_1089.jpg,이 가게에서 배달 주문 시 추가되는 배달비는 얼마인가요?,"2,000원","5,000원","3,000원",무료,c
+train_1092.jpg,train/train_1092.jpg,이 사진에서 세 가지 메뉴 중 샐러드와 샌드위치 COMBO 사이에 놓여 있는 메뉴는 무엇인가요?,도시락,샐러드,샌드위치 COMBO,국수,a
+train_1094.jpg,train/train_1094.jpg,이 가게의 대표전화 앞자리 번호는 무엇인가요?,010,031,1644,02,c
+train_1098.jpg,train/train_1098.jpg,이 가게의 이름은 무엇인가요?,COFFEE SHOP,SUMMER BOOST,MEXICAN,KALDI COFFEE FARM,d
+train_1099.jpg,train/train_1099.jpg,FITCRUNCH 단백질 바의 피넛버터와 젤리 맛 5개들이 한 팩의 가격은 얼마인가요?,$6.98,$5.98,$8.98,$7.98,a
+train_1102.jpg,train/train_1102.jpg,이 건물에 관련된 기관명은 무엇인가요?,한국문화연구소,한국미술관,한국미술사연구소,한국역사연구소,c
+train_1105.jpg,train/train_1105.jpg,사진 속 맥주잔에 적혀 있는 문구는 무엇인가요?,내 인생의 행복 역전할맥,내 인생의 승리 역전할맥,내 인생의 역전 역전할맥,내 인생의 역전 역전소맥,c
+train_1107.jpg,train/train_1107.jpg,전기차 충전 전용 주차구역에서 충전이 완료된 후에도 계속 주차하는 행위에 부과되는 과태료는 얼마인가요?,과태료 10만원,과태료 20만원,과태료 5만원,과태료 15만원,a
+train_1119.jpg,train/train_1119.jpg,위 이미지에 있는 '광고물 부착 금지' 안내문에 적힌 전화번호는 무엇인가요?,010-7734-5878,031-987-6543,010-1234-5678,02-123-4567,a
+train_1122.jpg,train/train_1122.jpg,에너지 음료 캔에 적힌 문구 중 올바른 것은 무엇인가요?,ZERO SUGAR,ZERO CALORIES,HIGH CAFFEINE,HIGH SUGAR,a
+train_1126.jpg,train/train_1126.jpg,이 버스 정류장의 정류소 ID는 무엇입니까?,23-305,45-678,12-204,33-109,a
+train_1128.jpg,train/train_1128.jpg,이미지 속 큰 기둥에 적힌 문구는 무엇인가요?,대한민국 철도 KTX,대한민국 대표 철도 KTX,한국철도 꿈이 열리는 KTX,한국철도 미래를 여는 KTX,c
+train_1132.jpg,train/train_1132.jpg,이 사진에 보이는 핀버튼 세트 중에서 '무슨 책 읽어?'라는 문구가 적힌 핀버튼 세트는 어떤 색 배경에 있나요?,노란색 배경,파란색 배경,분홍색 배경,흰색 배경,c
+train_1137.jpg,train/train_1137.jpg,사진 속 라면 중에서 2+1 행사 중인 라면의 가격은 얼마인가요?,"1,000원","1,250원",900원,"1,750원",c
+train_1142.jpg,train/train_1142.jpg,통역실 앞에 붙어 있는 안내문에 따르면 식당 출구로 가려면 어떻게 해야 하나요?,통역실 안으로 들어가서 안내를 받는다,19층에서 바로 나가면 식당 출구가 있다,계단으로 이동 후 19층 엘리베이터를 이용한다,엘리베이터를 타고 바로 식당 출구로 간다,c
+train_1149.jpg,train/train_1149.jpg,이 봉투는 어떤 용도로 사용되는 봉투인가요?,종이류 수거용 봉투,생활폐기물용 봉투,음식물 쓰레기용 봉투,재활용품 수거용 봉투,b
+train_1150.jpg,train/train_1150.jpg,"이 나무에 붙어 있는 안내문에 따르면, 무단 훼손 시 처벌받을 수 있는 벌금은 얼마인가요?",5백만원,1천만원,3천만원,1억원,c
+train_1153.jpg,train/train_1153.jpg,햇반 컵반 제품 중에서 '직화짜장 덮밥'과 함께 보이는 또 다른 직화 제품은 무엇인가요?,절판 김치 덮밥,참치마요 덮밥,사골곰탕 국밥,직화불고기 덮밥,d
+train_1160.jpg,train/train_1160.jpg,롯데마트&슈퍼 통큰데이 행사 기간은 언제부터 언제까지인가요?,8월 13일 ~ 8월 17일,8월 10일 ~ 8월 15일,8월 20일 ~ 8월 25일,8월 1일 ~ 8월 5일,a
+train_1166.jpg,train/train_1166.jpg,노래 추천 검색어 중 곡수가 3인 노래 제목은 무엇인가요?,7년간의 사랑,칠년간 영원이 될 때,초 난강,"신혜성, 초 난강",a
+train_1167.jpg,train/train_1167.jpg,이미지 속 이클립스 캔디 중에서 청포도향이 첨가된 제품의 색상은 무엇인가요?,노란색,빨간색,파란색,초록색,d
+train_1168.jpg,train/train_1168.jpg,이 건물에 입주해 있는 곳이 아닌 것은 무엇인가요?,역삼365치과의원,세무법인이화,대한사회복지회,강남구청,d
+train_1172.jpg,train/train_1172.jpg,사진 속 손에 들려 있는 물건에 적힌 글자는 무엇인가요?,OVERWATCH,WORLD of WARCRAFT,CALL of DUTY,LEAGUE of LEGENDS,d
+train_1184.jpg,train/train_1184.jpg,이 세탁소에서는 세탁부터 건조까지 걸리는 시간이 얼마라고 안내하고 있나요?,2시간 이내,30분 이내,3시간 이내,1시간 이내,d
+train_1192.jpg,train/train_1192.jpg,이 사진에 보이는 도로명 표지판에 적힌 도로 이름은 무엇인가요?,테헤란로32길,테헤란로33길,테헤란로34길,테헤란로30길,c
+train_1195.jpg,train/train_1195.jpg,이미지 속 'BABY SHARK' 유튜브 채널이 받은 실버 버튼 개수는 몇 개인가요?,1개,7개,39개,23개,c
+train_1197.jpg,train/train_1197.jpg,이 가게의 이름은 무엇인가요?,우리집 반찬,친구손 반찬,아빠손 반찬,엄마손 반찬,d
+train_1198.jpg,train/train_1198.jpg,이 광고판에 나온 피임약의 이름은 무엇인가요?,센스데이,유한양행,노스키나,마그네슘,a
+train_1207.jpg,train/train_1207.jpg,이 시장 입구 간판에 적힌 가게 이름은 무엇인가요?,금강 청과·채소시장,동대문 채소 상회,서울 농산물 시장,한강 과일 마켓,a
+train_1208.jpg,train/train_1208.jpg,이 만화 캐릭터가 말하는 내용은 무엇인가요?,언니 와줘서 고마워~,여기 와서 즐거워~,오늘 날씨가 좋아~,친구들 만나서 반가워~,a
+train_1221.jpg,train/train_1221.jpg,이 사진 속 가게 간판에 적힌 가게 이름은 무엇인가요?,꽃가게,꽃집,꽃밭,꽃자,d
+train_1225.jpg,train/train_1225.jpg,던킨 매장 앞에 붙어 있는 할인 행사 내용은 무엇인가요?,20% 할인 행사,할인 행사 없음,50% 할인 행사,무료 증정 행사,c
+train_1228.jpg,train/train_1228.jpg,'인피니티 써클' 작품의 의미로 옳지 않은 것은 무엇인가요?,작품의 앞면에는 도시 속 자연을 담은 힐링공간을 표현한다.,작품은 빛의 속도를 측정하는 과학 실험 장비이다.,작품과 바닥면의 미러링 효과를 통해 원의 무한성을 표현한다.,원의 영원한 순환성을 형상화한 미디어 조각 작품이다.,b
+train_1229.jpg,train/train_1229.jpg,사진에 보이는 음료용 텀블러 브랜드는 무엇인가요?,STANLEY,Zojirushi,Thermos,Contigo,a
+train_1231.jpg,train/train_1231.jpg,큰 컵에 적혀 있는 음료 이름은 무엇인가요?,레몬 사워,오렌지 주스,콜라,사과 주스,a
+train_1232.jpg,train/train_1232.jpg,정품 등록 혜택으로 제공되지 않는 것은 무엇입니까?,제품 구매 후 60일 이내 등록 시 추가 혜택 제공,"제품 수리, 액세서리 구매, 아카데미 수강 할인 쿠폰 제공",다양한 이벤트 및 출사 혜택,1+1 무상수리 제공,a
+train_1234.jpg,train/train_1234.jpg,왼쪽 손에 들린 과자의 맛은 무엇인가요?,속초새우맛,속초오징어맛,속초홍게살맛,속초멸치맛,b
+train_1242.jpg,train/train_1242.jpg,이 건물에 입주해 있는 노래방 이름은 무엇인가요?,테라 노래방,로강 뷰티,라마 앤 터 베이커리,바다와,a
+train_1244.jpg,train/train_1244.jpg,GS25 아이스크림 초특가 행사에서 9개 구매 시 가격은 얼마인가요?,"9,900원","22,500원","5,000원","11,000원",a
+train_1255.jpg,train/train_1255.jpg,이 표지판이 가리키는 역 이름은 무엇인가요?,부산역,서울역,광주역,대전역,a
+train_1256.jpg,train/train_1256.jpg,이 가게의 이름은 무엇인가요?,진수당,제주에서 온 100% 착즙 주스,"4,000원",시원한 주스,a
+train_1263.jpg,train/train_1263.jpg,사진 속 간판에 적힌 상호명은 무엇인가요?,casamia,CASAMIAL,PET FRIENDLY ZONE,GLASS GARDEN,a
+train_1269.jpg,train/train_1269.jpg,이 책 『오늘은 좀 돌아가 볼까』의 저자는 누구인가요?,조해진,오늘은 좀 돌아가 볼까,송지현,다산북스,c
+train_1272.jpg,train/train_1272.jpg,이 음식점이 매주 쉬는 날은 언제인가요?,매주 수요일,매주 일요일,매주 토요일,매주 월요일,b
+train_1277.jpg,train/train_1277.jpg,사진 속 건물에 있는 'hb' 간판 아래에 적혀 있는 세 가지 음료는 무엇인가요?,"커피, 맥주, 소주","커피, 와인, 위스키","차, 맥주, 소주","커피, 맥주, 위스키",d
+train_1283.jpg,train/train_1283.jpg,'한국이민비자센터'에서 제공하는 서비스는 무엇인가요?,김밥 판매,한의원 진료,이민 비자 업무,치과 치료,c
+train_1285.jpg,train/train_1285.jpg,'지노키오' 제품 중에서 차렵이불+베개커버 2P+패드 세트의 Q 사이즈 가격은 얼마인가요?,"153,000원","187,000원","181,000원","200,000원",c
+train_1288.jpg,train/train_1288.jpg,다음 중 표지판에 적힌 장소가 아닌 것은 무엇인가요?,GARDEN SPA,TIMES SQUARE,CENTRAL PARK,KIDS PLAYGROUND,c
+train_1289.jpg,train/train_1289.jpg,문 손잡이에 적힌 문구는 무엇인가요?,열림,닫힘,미세요,당기세요,c
+train_1295.jpg,train/train_1295.jpg,이 티셔츠 판매대에 걸려 있는 티셔츠의 가격은 얼마인가요?,"\29,900","\39,900","\49,900","\19,900",a
+train_1307.jpg,train/train_1307.jpg,"이 이미지에 적힌 '매표 무인화 안내'에 따르면, 티켓 교환·환불·현장 할인 발권은 어디에서 가능합니까?",매점에서 가능하다,고객센터에서 가능하다,온라인에서 가능하다,티켓판매기에서 가능하다,a
+train_1316.jpg,train/train_1316.jpg,사진 속 식당 '미남이네집'에서 판매하는 음식 메뉴가 아닌 것은 무엇인가요?,된장찌개,삼겹살,김밥,창발,d
+train_1322.jpg,train/train_1322.jpg,이 이미지에 보이는 글자 중에 완전히 보이는 단어는 무엇인가요?,ALCOHOL,PORT,A BEACH,MAN,c
+train_1325.jpg,train/train_1325.jpg,이 제품의 가격은 얼마인가요?,\15000,\35000,\25000,\45000,c
+train_1348.jpg,train/train_1348.jpg,이 랩톱의 모델명은 무엇인가요?,Dell Inspiron 15 7000,Lenovo ideapad 330S-15IKB GTX1050,Lenovo ThinkPad X1 Carbon,HP Pavilion 14-ce0056TX,b
+train_1352.jpg,train/train_1352.jpg,이 출입문에 적혀 있는 경고 문구는 무엇인가요?,출입문,대한사회복지회,주차금지,Korea Welfare Services,c
+train_1363.jpg,train/train_1363.jpg,2026 오픈소스 컨트리뷰션 아카데미 발대식이 열리는 날짜는 언제인가요?,2026년 8월 15일,2026년 9월 30일,2026년 7월 11일,2026년 6월 1일,c
+train_1368.jpg,train/train_1368.jpg,이 식당에서 음식물 쓰레기를 버릴 때 강조하는 내용은 무엇인가요?,음식물 쓰레기를 적당히 버리세요,음식물 쓰레기는 아무 데나 버려도 됩니다,음식물 쓰레기는 물에 버리세요,음식물 쓰레기를 꼭 분리 배출하세요,a
+train_1372.jpg,train/train_1372.jpg,경북대 딸기잼의 가격은 얼마인가요?,"4,500원","6,000원","7,200원","5,300원",d
+train_1385.jpg,train/train_1385.jpg,이 건물 앞에 걸려 있는 현수막에 적힌 팀 이름은 무엇인가요?,TEAM CHAMPIONS!,TEAM DOOSAN!,TEAM BEARS!,TEAM SEOUL!,b
+train_1388.jpg,train/train_1388.jpg,사진 속 빵집의 이름은 무엇인가요?,LE PAIN,호텔 & 카페,아르네발란 & 필라테스,BAKERY CAFE,a
+train_1391.jpg,train/train_1391.jpg,이 역의 이름은 무엇인가요?,Baker Street,Emotion Air,Balloon Museum,London Station,a
+train_1404.jpg,train/train_1404.jpg,이 사진의 건물 간판에 적힌 글자는 무엇인가요?,SEOUL TOWER,BUSAN TOWER,TOKYO TOWER,FUKUOKA TOWER,d
+train_1411.jpg,train/train_1411.jpg,이 가게 유리문에 적힌 '상가임대' 안내문에 적힌 전화번호는 무엇인가요?,031-987-6543,010-9466-2999,02-345-6789,010-1234-5678,b
+train_1417.jpg,train/train_1417.jpg,이 건물에 있는 전광판에 표시된 시간은 무엇인가요?,08:45,10:15,09:36,11:00,c
+train_1419.jpg,train/train_1419.jpg,이 봉투에 적힌 문구는 무엇인가요?,영업 시간이 변경되었습니다,저희 매장 휴무입니다,저희 게임 정상 영업 합니다,오늘은 쉬는 날입니다,c
+train_1429.jpg,train/train_1429.jpg,이 식당 메뉴판에 없는 음식은 무엇인가요?,등심돈까스,김치찌개,부추새우전,통문어보쌈,b
+train_1435.jpg,train/train_1435.jpg,이 책자의 제목은 무엇인가요?,대전캠퍼스 안내도,취업준비 가이드북,SW 외 전공자를 위한 안내서,AI 시대의 성공 전략,b
+train_1436.jpg,train/train_1436.jpg,이 사진에 보이는 큰 글자들은 무엇이라고 적혀 있나요?,Itaewon,YongSan,GangNam,HongDae,b
+train_1441.jpg,train/train_1441.jpg,이 건물에 입주해 있는 피부과 의원의 이름은 무엇인가요?,아웃백,로하스,스핀볼링,블리비의원,d
+train_1442.jpg,train/train_1442.jpg,이미지 속 'Joung Ho Shop' 간판에서 제공하는 서비스는 무엇인가요?,금연 구역 안내,건강 기능 식품 판매,돈 환전 서비스,24시간 ATM 서비스,c
+train_1446.jpg,train/train_1446.jpg,사진 속 건물 2층에 있는 '하이멘토학원'에서 상담할 때 연락할 전화번호는 무엇인가요?,541-5899,545-1236,546-3105,545-7774,c
+train_1449.jpg,train/train_1449.jpg,이 건물의 이름은 무엇인가요?,원룸,장덕로,장덕로50번길,파밀리아,d
+train_1456.jpg,train/train_1456.jpg,벽에 쓰여진 글자는 무엇인가요?,TERRACE COFFEE,TERRAROSA COFFEE SHOP,TERRAROSA COFFEE HOUSE,TERRAROSA COFFEE,d
+train_1461.jpg,train/train_1461.jpg,이 공간의 안내판 위에 적힌 영어 단어 중 '교육'을 의미하는 단어는 무엇인가요?,APPLY,EDUCATION,INTRODUCTION,WELCOME,b
+train_1464.jpg,train/train_1464.jpg,더티 초코 케이크는 어떤 맛의 컨셉을 보여주는 제품인가요?,바닐라 향이 진한 부드러운 케이크,코코아 파우더가 입가에 잔뜩 묻게 되는 더티초코 컨셉,커피와 어울리는 고소한 맛의 케이크,과일 토핑이 풍부한 상큼한 케이크,b
+train_1470.jpg,train/train_1470.jpg,포스터에서 '파이썬 아주 그냥 죽여死 버려!'라는 문구가 적혀 있는 곳은 어디인가요?,MEGA MAG,서울4반,Samsung SW:AI Academy For Youth,SSAFY 한 햄찌,b
+train_1480.jpg,train/train_1480.jpg,이 창고에 쌓여 있는 과자의 맛 중 하나로 적혀 있지 않은 것은 무엇인가요?,사워크림 어니언,오리지널,바베큐,초코,c
+train_1486.jpg,train/train_1486.jpg,이 건물의 간판에 적힌 연구원의 이름은 무엇인가요?,(재)서울문화연구원,(재)금강문화유산연구원,(재)부산문화유산연구원,(재)대전문화유산연구원,b
+train_1487.jpg,train/train_1487.jpg,이 건물에 있는 식당의 이름은 무엇인가요?,갯벌 바지락 칼국수,해물 바지락 칼국수,갯벌 조개 칼국수,바지락 국수 전문점,a
+train_1496.jpg,train/train_1496.jpg,위 이미지에 있는 간판에서 소개하는 책 제목은 무엇인가요?,해피엔딩에서 너를 기다릴게,암흑이의 기도,혼자 사는 할아버지 이야기,사랑과 전쟁,a
+train_1499.jpg,train/train_1499.jpg,건물 벽면에 적힌 한의원 이름은 무엇인가요?,청담한의원,서울한의원,한빛한의원,소원한의원,d
+train_1509.jpg,train/train_1509.jpg,이 건물에 있는 학원의 주요 과목으로 올바르게 연결된 것은 무엇인가요?,강남 어학원 - 영어 전문,강남 어학원 - 과학 전문,이스턴 영 어학원 - 영어 전문,이스턴 영 어학원 - 수학 전문,c
+train_1515.jpg,train/train_1515.jpg,이 사진 속 간판에 적힌 문구는 무엇인가요?,JEJU INTERNATIONAL AIRPORT,WELCOME TO JEJU,JEJU TRAVEL GUIDE,HELLO JEJU,d
+train_1518.jpg,train/train_1518.jpg,이 건물은 무엇이라고 적혀 있나요?,서울역,광주역,부산역,대전역,c
+train_1524.jpg,train/train_1524.jpg,이 간판에 적힌 문구 중에서 페스티벌 이름은 무엇인가요?,SOUND BERRY FESTA '26,SOUND BERRY FESTIVAL '26,SOUND BERRY FESTIVAL '27,SOUND BERRY FESTA '27,a
+train_1527.jpg,train/train_1527.jpg,이 건물 7층에 입주해 있는 병원 이름은 무엇인가요?,강남12의원,미네뜨 성형외과,처음처럼 성형외과,로하셀 한의원,b
+train_1531.jpg,train/train_1531.jpg,'오늘 두부' 가게 간판에 적힌 내용 중 맞는 것은 무엇인가요?,두부는 매주 월요일에 만듭니다.,두부는 20% 할인 중입니다.,저희 두부는 수입콩을 사용합니다.,100% 국산콩으로 매일 아침 두부를 만듭니다.,d
+train_1532.jpg,train/train_1532.jpg,이 도로 표지판에 적힌 도로 이름은 무엇인가요?,우산로,광주경찰청로,광주인력개발원로,스촌산단로,a
+train_1534.jpg,train/train_1534.jpg,현수치킨에서 낮 타임 대박 이벤트로 제공하는 것은 무엇인가요?,음료 1+1,맥주 1+1,치킨 마늘소스 무료,치킨 1+1,b
+train_1536.jpg,train/train_1536.jpg,사진 속 상자에 적힌 '시간을 달리는 트라이앵글'은 어떤 장르의 게임인가요?,3인용 머더 미스터리,2인용 롤플레잉 게임,1인용 퍼즐 게임,4인용 머더 미스터리,a
+train_1544.jpg,train/train_1544.jpg,이 전시 부스의 이름은 무엇인가요?,스마트시티 연구센터,로봇자동화 연구소,인공지능그랜드ICT 연구센터,AI 기술혁신 센터,c
+train_1546.jpg,train/train_1546.jpg,이 배너에 적힌 TRADERS CAFE 결제 방법으로 맞는 것은 무엇인가요?,신용/직불카드만 결제 가능하다,모든 결제 수단 가능하다,현금만 가능하다,QR코드 스캔 불가능하다,a
+train_1547.jpg,train/train_1547.jpg,운동 결과 화면에 표시된 운동 시간은 얼마인가요?,4분 58초,20분 0초,8분 2초,33분 8초,d
+train_1552.jpg,train/train_1552.jpg,사진 속 'BUSAN XYLITOL CANDY' 제품 중 레몬 맛으로 적힌 것은 무엇인가요?,Haeundae Lemon,Haeundae Mint,Gwangalli Mint,Gwangalli Lemon,a
+train_1557.jpg,train/train_1557.jpg,사진 속 도로명 표지판에 적힌 도로 이름은 무엇인가요?,사망사고 발생지점,덕영대로,위험 DANGER,덕영 대로,b
+train_1569.jpg,train/train_1569.jpg,이 지하철역의 이름은 무엇인가요?,강남역,미금역,정자역,수서역,c
+train_1578.jpg,train/train_1578.jpg,이 사진 속 역 이름은 무엇인가요?,대전역,서울역,부산역,동대구역,d
+train_1596.jpg,train/train_1596.jpg,이 티켓의 유효기간은 언제까지인가요?,25.06.30(일),25.07.21(토),25.06.21(토),25.05.21(토),c
+train_1599.jpg,train/train_1599.jpg,6th Avenue 커피 전문점 입구 앞에 '여기가 커피 맛집'이라고 적힌 표지판에 적힌 문구 중 맞는 것은?,여기가 빙수 맛집,여기가 베이커리 맛집,여기가 아이스크림 맛집,여기가 커피 맛집,d
+train_1600.jpg,train/train_1600.jpg,사진 속에서 1.5L 제품 중 가장 저렴한 가격으로 판매되는 것은 무엇인가요?,자뎅 복숭아이아이스티,자뎅 까페리얼망고에이드,오뚜기 양조식초,진국사골곰탕,c
+train_1607.jpg,train/train_1607.jpg,옷에 붙어 있는 패치에 적힌 글자는 무엇인가요?,DARE,ADER,DEAR,READ,b
+train_1626.jpg,train/train_1626.jpg,이 사진에서 '네비게이션'과 관련된 서비스는 어디로 가야 하나요?,왼쪽,오른쪽,뒤로,직진,b
+train_1628.jpg,train/train_1628.jpg,이 사진에 보이는 간판 중 '닥터클린의원'에서 제공하는 주요 서비스는 무엇인가요?,피부과 및 토익 강의,한의원 진료,영어 학원,일반의원 및 피부과,d
+train_1629.jpg,train/train_1629.jpg,테일리스터디카페 목동점에서 4주 자유석 이용권의 가격은 얼마인가요?,"89,000원","100,000원","79,000원","99,000원",a
+train_1647.jpg,train/train_1647.jpg,'스폰지밥 락 페스타' 카페 메뉴에서 가격이 가장 비싼 메뉴는 무엇인가요?,가보자고! 바다 페스티벌 빙수,F.U.N! 스폰지밥 오렌지 피나콜라다,"짜증 눙도 원하는 대로, 징징이 무드 커피","DJ, 드랍 더 치즈! 파파 피자",d
+train_1649.jpg,train/train_1649.jpg,이 표지판에서 '절대 주차금지'가 적용되는 대상은 무엇인가요?,외부 차량,내부 차량,오토바이,자전거,a
+train_1650.jpg,train/train_1650.jpg,사진 속 버스에 적혀 있는 회사 이름은 무엇인가요?,한강관광,부산고속관광,예양고속관광,서울투어버스,c
+train_1657.jpg,train/train_1657.jpg,이 안내문에 따르면 소득을 목적으로 한 시간이라도 일했을 때 반드시 해야 하는 것은 무엇인가요?,일용근로자 등록을 해야 한다,신고하지 않아도 된다,근로 형태를 변경해야 한다,소득 신고를 해야 한다,d
+train_1659.jpg,train/train_1659.jpg,'오지마 포차' 가게에 붙어 있는 안내문에 적혀 있는 문구는 무엇인가요?,오지마 포차 예약 필수,"어서 오세요, 오지마 포차입니다",와!네~ 오지마 포차!,오늘만 특별 할인,c
+train_1667.jpg,train/train_1667.jpg,사진 속 식당의 전화번호는 무엇인가요?,262-6619,7008,465-1234,465-4200,d
+train_1678.jpg,train/train_1678.jpg,사진 속 알람시계 PLUGGET의 가격은 얼마인가요?,"\19,900","\14,900","\9,900","\24,900",b
+train_1682.jpg,train/train_1682.jpg,"이 제품에 붙어 있는 스티커에 따르면, 이 제품은 어느 지역의 스마트그린산업단지에서 제조되었나요?",부산광역시,경상남도,대구광역시,서울특별시,b
+train_1685.jpg,train/train_1685.jpg,이 사진에 나온 'NEW 남부극장'은 어느 시장 안에 위치한 시설인가요?,도깨비야시장,남대문시장,부산자갈치시장,광장시장,a
+train_1700.jpg,train/train_1700.jpg,이 표지판에서 '열린마당'에 대해 설명하는 문구는 무엇인가요?,열린마당은 24시간 개방되어 있습니다.,열린마당은 예약제로 운영됩니다.,열린마당은 관리자만 출입할 수 있습니다.,이곳은 모두가 이용 가능한 열린마당입니다.,d
+train_1717.jpg,train/train_1717.jpg,사진 속 '청정원 Aglio olio' 파스타 소스의 가격은 얼마인가요?,"8,300원","10,500원","6,950원","12,000원",b
+train_1722.jpg,train/train_1722.jpg,이 가게가 폐업하는 이유로 적혀 있는 내용은 무엇인가요?,직원 부족으로 인해,고객의 불만이 많아서,임대료가 너무 비싸서,절도와 키오스크 고장 등 영업 방해가 많아서,d
+train_1726.jpg,train/train_1726.jpg,대형세탁기 코스 중에서 '살균세탁'의 가격은 얼마인가요?,"7,500원","4,500원","5,500원","6,500원",c
+train_1730.jpg,train/train_1730.jpg,이미지 속 선수 유니폼에 적힌 이름과 번호는 무엇인가요?,처리노스 46,김민수 23,천성호 7,이승엽 10,a
+train_1731.jpg,train/train_1731.jpg,이 사진에 보이는 간판의 한자 이름은 무엇인가요?,密林??,密會館,密碼學校,秘密書店,b
+train_1739.jpg,train/train_1739.jpg,'삼성청년SW·AI아카데미'에서 제시한 10가지 성공 수칙 중 '기본 에티켓을 충실히 지킨다'에 해당하는 행동은 무엇인가요?,과정 수료 후 본인의 모습을 그려보고 목표에 집중한다.,자신이 부족하거나 열정이 식지 않도록 꾸준히 노력한다.,"시간약속, 바른 언행, 정리정돈 등 에티켓을 준수한다.","매일 고생하고 학습하며, 대화를 잘하고 기록한다.",c
+train_1741.jpg,train/train_1741.jpg,사진 속에 보이는 브랜드 이름은 무엇인가요?,HARRY WILSON,HARRY WINSTON,HARRIS WINTON,HARVEY WINSLOW,b
+train_1743.jpg,train/train_1743.jpg,이미지에 있는 '경고' 표지 옆에 적힌 문구는 무엇인가요?,안전모착용,출입금지,고장주의,고압전기경고,d
+train_1750.jpg,train/train_1750.jpg,이미지 속 프로틴 음료에 적힌 단백질 함량은 얼마인가요?,20g,10g,25g,15g,a
+train_1756.jpg,train/train_1756.jpg,이 제품의 1회 섭취량은 얼마인가요?,1포(20g),1회(50g),1회(100g),1포(40g),d
+train_1759.jpg,train/train_1759.jpg,이 서점의 이름은 무엇인가요?,영풍문고,교보문고,반디앤루니스,YES24,b
+train_1760.jpg,train/train_1760.jpg,아래 도로에 노란색 글씨로 적힌 문구는 무엇인가요?,소방차 지선 응용,소방차 전용 구역,소방차 전용,소방차 진입 금지,c
+train_1762.jpg,train/train_1762.jpg,사진 속 음식점에서 판매하는 '한우소고기 국밥'의 가격은 얼마인가요?,"7,000원","9,000원","10,000원","8,000원",b
+train_1763.jpg,train/train_1763.jpg,㈜공간의파티에서 소개하는 기술의 주된 목적은 무엇인가요?,스마트폰 애플리케이션 개발,고객 맞춤형 웹사이트 제작,친환경 에너지 솔루션 제공,산업 현장의 효율적이고 가성비 있는 디지털 전환·AI 전환,d
+train_1769.jpg,train/train_1769.jpg,이 간판에 적힌 상호명은 무엇인가요?,한강 미술관,서울 골동품,등대 갤러리,신촌 앤틱샵,c
+train_1770.jpg,train/train_1770.jpg,오른쪽 사람의 흰색 티셔츠에 적힌 브랜드 이름은 무엇인가요?,patagonia,SPORTING CLUB CB,C.B MASTERS,Stand Dives,a
+train_1771.jpg,train/train_1771.jpg,이 가게 간판에 적힌 가게 이름은 무엇인가요?,YUPPDUK,케이타워,BAS BURGER,CRAFTED BURGER,c
+train_1773.jpg,train/train_1773.jpg,이 표지판에서 자전거와 킥보드 이용자에게 어떤 행동을 요구하고 있나요?,자전거와 킥보드를 내려서 끌고 걸어가세요,자전거와 킥보드를 수리하세요,자전거와 킥보드를 타고 지나가세요,자전거와 킥보드를 주차하세요,a
+train_1777.jpg,train/train_1777.jpg,다음 중 이미지 속 포스트잇에 적힌 내용으로 올바른 것은 무엇인가요?,규동 ♥♥,우리 아빠 은환은 이 포즈 맞는 바보야~,정은 적인 윰녀!! 2023. 12. 29 하더쿠우어~~,"이재훈, 방상우 외과장",a
+train_1787.jpg,train/train_1787.jpg,'서울온한의원' 간판에 적혀 있지 않은 진료 항목은 무엇인가요?,야간진료,다이어트,피부과 진료,추나통증,c
+train_1789.jpg,train/train_1789.jpg,이 사진 속 큰 글자 조형물에 적힌 단어는 무엇인가요?,OSAKA,TOYA,SAPPORO,TOKYO,b
+train_1791.jpg,train/train_1791.jpg,이 표지판에 나와 있는 시장 이름이 아닌 것은 무엇인가요?,중합상가,서부아침시장,달달영우리,공설시장,c
+train_1793.jpg,train/train_1793.jpg,이 영화 포스터에 적힌 개봉일은 언제인가요?,12월 3일,11월 30일,12월 25일,1월 1일,a
+train_1794.jpg,train/train_1794.jpg,사진 속 부동산 간판에 적힌 전화번호는 무엇인가요?,02-1234-5678,010-6263-7744,010-9876-5432,501-0008,d
+train_1797.jpg,train/train_1797.jpg,사진 속 간판에 적힌 상호명은 무엇인가요?,원메이드,샤인뷰티,JK 두피부띠끄,신창정,c
+train_1801.jpg,train/train_1801.jpg,Mountain View Inn의 와이파이 비밀번호는 무엇인가요?,mtnview18,mountainview,mtview18,mountain18,a
+train_1803.jpg,train/train_1803.jpg,W coffee에서 바닐라 라떼의 가격은 얼마인가요?,4.0,4.3,5.5,3.5,b
+train_1804.jpg,train/train_1804.jpg,'오늘 하루가' 식당의 영업 시작 시간은 언제인가요?,오전 7시,오전 10시,오후 10시,오후 7시,b
+train_1807.jpg,train/train_1807.jpg,다음 중 '검은 콩' 두유 음료에 포함된 견과류가 아닌 것은 무엇인가요?,호두,캐슈넛,잣,아몬드,b
+train_1813.jpg,train/train_1813.jpg,이 사진 속 파티용품 중에서 숫자 5가 두 개 달린 파티 캔들 가격은 얼마인가요?,"\2,000","\3,000",\500,"\1,000",c
+train_1815.jpg,train/train_1815.jpg,녹색 책 표지에 적힌 도널드 노먼이 설명하는 책의 주제는 무엇인가요?,생물학 기초,한국 현대사,디자인의 심리학,컴퓨터 프로그래밍,c
+train_1817.jpg,train/train_1817.jpg,이 식당의 전문 메뉴는 무엇인가요?,된장찌개 전문,불고기 전문,민물 매운탕 전문,해물 찜 전문,c
+train_1821.jpg,train/train_1821.jpg,사진에 보이는 시장의 이름은 무엇인가요?,경기동전당포,통인시장,부암동시장,한전기,b
+train_1822.jpg,train/train_1822.jpg,서준호 씨의 오늘 식사 메뉴 중에서 '왕돈까스'는 어떤 번호에 해당하나요?,D. 왕돈까스,B. 문어해물짬뽕밥,A. 산라면 + 도시락,C. 왕갈비탕,a
+train_1824.jpg,train/train_1824.jpg,이 주차장에서 제한 속도는 얼마인가요?,20km/h,30km/h,50km/h,40km/h,a
+train_1830.jpg,train/train_1830.jpg,이미지에 보이는 '일미닭갈비·파전' 식당은 건물 몇 층에 있나요?,2층,1층,4층,3층,a
+train_1834.jpg,train/train_1834.jpg,"사진전 굿즈 구매 제한은 1인당 몇 종류, 몇 개까지인가요?",3종류 3개,1종류 1개,2종류 5개,1종류 3개,d
+train_1849.jpg,train/train_1849.jpg,사진 속 메뉴판에서 '삼?撈'의 가격은 얼마인가요?,80,90,70,60,a
+train_1855.jpg,train/train_1855.jpg,사진 속 왼쪽 과자의 이름은 무엇인가요?,망고 칩스,바나나 칩스,코코넛 칩스,감자 칩스,c
+train_1858.jpg,train/train_1858.jpg,두 표의 공연 날짜는 언제인가요?,2026년 07월 05일,2026년 06월 25일,2026년 07월 10일,2026년 06월 30일,a
+train_1862.jpg,train/train_1862.jpg,이 거리에서 볼 수 있는 음식점 상호명으로 옳은 것은 무엇인가요?,광장시장,서울김치찌개,명동설렁탕,부산횟집,c
+train_1872.jpg,train/train_1872.jpg,이미지 속 떡도리탕 강남본점의 웨이팅 현황에서 2~4인 팀과 6인석 팀의 대기 인원은 각각 몇 팀인가요?,"2~4인 팀 0팀, 6인석 팀 8팀","2~4인 팀 4팀, 6인석 팀 4팀","2~4인 팀 5팀, 6인석 팀 3팀","2~4인 팀 8팀, 6인석 팀 0팀",d
+train_1877.jpg,train/train_1877.jpg,이 지하철역 플랫폼에서 다음 역으로 향하는 방향은 어디인가요?,동작 방면,삼각지역 방면,신용산 방면,서울역 방면,c
+train_1880.jpg,train/train_1880.jpg,이 건물 3층에 있는 학원 이름은 무엇인가요?,빌리언EM어학원,킹 당구클럽,리틀킹학원,기탄 사고력교실,c
+train_1894.jpg,train/train_1894.jpg,병에 붙어 있는 라벨에 적힌 브랜드 이름은 무엇인가요?,SINGHA,ECIPSE,SAMSUNG,CHUPA CHUPS,a
+train_1903.jpg,train/train_1903.jpg,이 그림 속에 적힌 말은 무엇인가요?,즐거운 하루!,멋진 하루!,좋은 하루!,행복한 하루!,c
+train_1904.jpg,train/train_1904.jpg,하삼동커피에서 아메리카노의 가격은 얼마인가요?,"1,800원","2,500원","3,000원","1,500원",a
+train_1914.jpg,train/train_1914.jpg,사진 속 아이스크림과 냅킨에 적힌 카페의 이름은 무엇인가요?,Cafe Mocha,Sweet Time,Ocean Breeze,Hugely,d
+train_1919.jpg,train/train_1919.jpg,이 버스 정류장의 이름은 무엇인가요?,감동 hair salon,황금 8244,베러 먼데이 커피,중흥 1지구 더원시그니처중문,d
+train_1921.jpg,train/train_1921.jpg,이 광고판에서 TVING 구독료는 얼마라고 적혀 있나요?,"월 2,900원","월 4,900원","월 5,000원","월 3,900원",d
+train_1924.jpg,train/train_1924.jpg,이미지 속 두 영화 포스터 중 아래쪽 포스터의 제목은 무엇인가요?,이터널스,블랙 위도우,토르: 러브 앤 썬더,닥터 스트레인지,c
+train_1926.jpg,train/train_1926.jpg,이 이미지에 나온 커피 광고에서 '맛도 디자인도 NEW'라고 표현된 커피의 종류는 무엇인가요?,과테말라 안티구아 원두커피,에티오피아 예가체프 원두커피,브라질 산토스 원두커피,콜롬비아 수프리모 원두커피,d
+train_1943.jpg,train/train_1943.jpg,사진 속 큰 종이에 적힌 문구는 무엇인가요?,TRUE LOVE,HILLSBURRY DARK HORSE,Welcome to Bagel world!,WHY ARE WE ALL BORN DIFFERENT AND WHY DO WE ALL STRIVE TO BE THE SAME?,c
+train_1945.jpg,train/train_1945.jpg,이 깃발에 적힌 글자는 무엇인가요?,SYDNEY,PERTH,MELBOURNE,BRISBANE,d
+train_1946.jpg,train/train_1946.jpg,이미지에 보이는 식당 중 '이자카야'라는 단어가 쓰인 간판의 상호명은 무엇인가요?,홈런 PC,한국?店,好 (하오),이자카야 미나상,d
+train_1949.jpg,train/train_1949.jpg,이 모형 전시회의 제목은 무엇인가요?,레고 축제,創意積木模型展,브릭 아트 전시,창작 모형 대회,b
+train_1952.jpg,train/train_1952.jpg,이 참가증에 적힌 참가자의 소속 대학은 어디인가요?,고려대학교,연세대학교,서울대학교,한양대학교,a
+train_1965.jpg,train/train_1965.jpg,가방에 붙어 있는 패치에 적힌 문구는 무엇인가요?,good luck,masma rulez.,hello kitty,welcome home,b
+train_1966.jpg,train/train_1966.jpg,별의커비 미스커버리 피규어 콜렉션 5에서 '낚시꾼 커비' 피규어는 어떤 모자를 쓰고 있나요?,빨간색 베레모,노란색 왕관,베이지색 밀짚 모자,파란색 야구 모자,c
+train_1968.jpg,train/train_1968.jpg,이 장소의 이름은 무엇인가요?,FLOWER GARDEN,ORCHID HAVEN,GARDEN OF ROSES,TROPICAL PARADISE,b
+train_1982.jpg,train/train_1982.jpg,"STARLINK 기기 옆 안내문에 따르면, STARLINK가 제공하는 서비스는 무엇인가요?",전 세계 모바일 통신,전 세계 항공 교통 관제,전 세계 위성 TV 서비스,전 세계 고속 인터넷,d
+train_1986.jpg,train/train_1986.jpg,사진 속 물티슈 제품 중 150매가 들어있는 제품의 색상은 무엇인가요?,파란색,하늘색,노란색,초록색,a
+train_1987.jpg,train/train_1987.jpg,왼쪽 포스터에 적혀 있는 문구는 무엇인가요?,나를 돌보는 건강한 휴가,나를 위해. 지구를 위해.,무더운 여름 시원한 충전,"무더운 여름, 몸의 수분과 리듬을 생각하며",c
+train_1993.jpg,train/train_1993.jpg,이 표지판에 적힌 놀이기구 이름 중 오른쪽 방향을 가리키는 것은 무엇인가요?,Let's TWIST,Rolling X-Train,Double Rock Spin,Championship Rodeo,d
+train_1995.jpg,train/train_1995.jpg,이 가게에서 삼겹살과 목심을 카드 할인으로 5일간 얼마에 판매하나요?,"2,000원","1,500원","1,090원",500원,c
+train_2008.jpg,train/train_2008.jpg,오리온 카스타드 상자에 적혀 있는 가성비 체크 개수는 몇 개인가요?,20개,40개,30개,10개,c
+train_2016.jpg,train/train_2016.jpg,이 카페에서 무료 와이파이 이용 시 입력해야 하는 아이디(ID)는 무엇인가요?,ID: Net_2ndC,ID: Cafe_Sulbing,ID: Free_WiFi123,ID: Sulbing_WiFi,a
+train_2021.jpg,train/train_2021.jpg,사진에 보이는 'BK' 간판 아래에 적힌 글자는 무엇인가요?,락커룸,락밴드 공연장,락볼링장,락클라이밍장,c
+train_2024.jpg,train/train_2024.jpg,"이 식당의 영업시간 안내에 따르면, 점심 마지막 주문 시간은 몇 시인가요?",17:00,19:50,14:20,15:00,c
+train_2037.jpg,train/train_2037.jpg,"다음 중 600g 유자 제품의 할인 전 가격이 21,350원인 제품은 무엇인가요?",유자생강,자당유자,유자감귤,완도유자,a
+train_2043.jpg,train/train_2043.jpg,이 빌딩의 5층에 위치한 곳은 어디인가요?,하이브 가든 & 베이커리 (HIVE GARDEN & BAKERY),오시리스 라운지 (OSIRIS LOUNGE),크리스피 제이드 (CRISPY JADE),스카이 브런치 (SKY BRUNCH),c
+train_2047.jpg,train/train_2047.jpg,이 사진 속 비상벨에 적힌 긴급 전화번호는 무엇인가요?,110 상담센터,112 경찰서,120 시청,119 소방서,d
+train_2048.jpg,train/train_2048.jpg,이미지에 보이는 광고 문구에 따르면 경성대학교가 지원하는 금액은 얼마인가요?,3년간 1000억원 지원,5년간 1000억원 지원,1년간 500억원 지원,5년간 500억원 지원,b
+train_2054.jpg,train/train_2054.jpg,"공영주차장 이용 안내에 따르면, 어떤 행위를 할 경우 과태료가 부과됩니까?",장기방치 차량에 주차장 사용료 부과,"쓰레기, 담배꽁초 등 무단투기 시 과태료 부과",주차구획선 내에 주차하지 않을 경우 과태료 부과,"도난, 파손 등 피해 발생 시 과태료 부과",b
+train_2055.jpg,train/train_2055.jpg,이 안내판에 표시된 하천 주변 생태공원이 아닌 것은 무엇인가요?,삼락생태공원,울숙도생태공원,부산생태공원,맥도생태공원,c
+train_2065.jpg,train/train_2065.jpg,이 안내문에 따르면 계단걷기를 일주일에 몇 층 이상 하면 심근경색 사망위험이 20% 감소한다고 되어 있나요?,20층 이상,25층 이상,10층 이상,15층 이상,a
+train_2069.jpg,train/train_2069.jpg,이 두 영화 티켓에서 상영되는 영화의 제목은 무엇인가요?,기생충,라이온 킹,어벤져스,엘리멘탈(자막),d
+train_2079.jpg,train/train_2079.jpg,오늘의 점심 메뉴 중 제육볶음 정식의 가격은 얼마인가요?,"9,000원","8,000원","7,500원","8,500원",d
+train_2080.jpg,train/train_2080.jpg,대경사과원예농협에서 광고하는 정기예탁금의 최고 연 이자율은 얼마인가요?,3.5%,5.0%,4.0%,2.5%,a
+train_2084.jpg,train/train_2084.jpg,사진 속 음식점에서 제공하는 칼국수 메뉴는 무엇인가요?,김치칼국수,부원칼국수,비빔칼국수,해물칼국수,b
+train_2086.jpg,train/train_2086.jpg,사진 속 라면 용기 중 '참깨라면'에 적힌 문구 중 옳은 것은 무엇인가요?,계란이 들어 있어요,매운맛이 강해요,즉석에서 조리하세요,해물 맛이 진해요,a
+train_2087.jpg,train/train_2087.jpg,이 장소에서 와이파이 비밀번호는 무엇인가요?,ria30397777,ria3037977,ria303977,ria3039777,d
+train_2096.jpg,train/train_2096.jpg,이 사진에서 시식용 빵 옆에 놓여 있는 휴지 상자에 적힌 영어 단어는 무엇인가요?,purepiece,tissuebox,breadbox,freshpiece,a
+train_2097.jpg,train/train_2097.jpg,풍전가 식당에서 장어덮밥 반마리의 가격은 얼마인가요?,"12,000원","20,000원","10,000원","15,000원",d
+train_2102.jpg,train/train_2102.jpg,이 팝콘의 맛은 무엇인가요?,버터맛,치즈맛,카라멜맛,들기름볶음김치맛,d
+train_2109.jpg,train/train_2109.jpg,이 이미지에 보이는 NH농협캐피탈의 홍보 문구는 무엇인가요?,"금융을 더 쉽게, 더 빠르게",금융의 새로운 시작,당신의 꿈을 응원합니다,더 나은 내일을 위한 금융,d
+train_2114.jpg,train/train_2114.jpg,이 건물 안내판에 적힌 '헬스보이짐 X 필라걸'에서 제공하지 않는 운동 서비스는 무엇인가요?,기구필라테스,헬스,골프,PT,d
+train_2123.jpg,train/train_2123.jpg,이미지에 보이는 결제 화면에서 총 상품 개수와 결제 금액은 얼마인가요?,"총 상품 3개, 10,000원","총 상품 5개, 12,500원","총 상품 2개, 8,900원","총 상품 4개, 11,600원",d
+train_2130.jpg,train/train_2130.jpg,이 사진 속 건물에 크게 보이는 노란색 별 옆에 적힌 일본어 문구는 무엇입니까?,北海道はサッポロビ?ル,炭火居酒屋 まつくね,北海道はSeicomart,カラオケまねきねこ,a
+train_2131.jpg,train/train_2131.jpg,이 가게의 간판에 적힌 상호명은 무엇인가요?,바다횟집,수수원,행복한 빵집,달콤한 카페,b
+train_2136.jpg,train/train_2136.jpg,다음 중 'Signature Breakfast' 메뉴에 포함된 음식이 아닌 것은 무엇인가요?,Salmon and Pohang Spinach Eggs Benedict,Imsil Cheese French Omelet,Busan Daejeo Tomato Baked Eggs,Fried egg,d
+train_2146.jpg,train/train_2146.jpg,이 이미지에 보이는 초록색 카드에 적힌 브랜드 이름은 무엇인가요?,스타벅스,커피빈,던킨도너츠,파리바게뜨,a
+train_2147.jpg,train/train_2147.jpg,사진에 보이는 옷 포장지에 적힌 '위너또또브이크롭 반팔티'의 색상은 무엇인가요?,검 백 파 2컬러,흰 검 회색 소라 4컬러,검 백 파 3컬러,흰 검 소라 핑 4컬러,b
+train_2148.jpg,train/train_2148.jpg,이미지에 걸려 있는 티셔츠에 적힌 문구는 무엇인가요?,매일의 기록,데일리 베이직 - 코튼 티셔츠,한라산,숲 속 산책,b
+train_2153.jpg,train/train_2153.jpg,사진 속 계단 위에 놓인 두 병 중에서 빨간 뚜껑이 달린 병의 색상은 무엇인가요?,녹색,갈색,노란색,빨간색,b
+train_2154.jpg,train/train_2154.jpg,이 간판에 적힌 가게 이름은 무엇인가요?,SALT COFFEE,BREAD & COFFEE,BETON,SALTY BREAD,c
+train_2162.jpg,train/train_2162.jpg,이 건물 B2층에는 어떤 공간이 있나요?,카페,노래방,방탈출 제로월드,헬스장,c
+train_2173.jpg,train/train_2173.jpg,이 사진에서 매장 입구에 세워진 안내판에 적혀 있는 문구는 무엇인가요?,클리어 세일 런스,클리어 세일 랜스,클리어 SALE 런스,클리어 SALE 랜스,c
+train_2174.jpg,train/train_2174.jpg,이 치킨 메뉴판에 적힌 후라이드 치킨 가격은 얼마인가요?,"15,000원","12,000원","13,000원","10,000원",b
+train_2178.jpg,train/train_2178.jpg,이 TV 뒷면에 붙어 있는 노란색 경고 표지판에 적힌 글자는 무엇인가요?,머리 조심해,주의 하세요,조심하세요,머리 조심,d
+train_2185.jpg,train/train_2185.jpg,이 안내문에서 탈모 관리가 필요한 사람의 증상으로 올바른 것은 무엇인가요?,두피가 가렵거나 비듬이 있는 분,눈이 자주 피로한 분,손톱이 부러지는 분,피부가 건조한 분,a
+train_2186.jpg,train/train_2186.jpg,"화양동 주민센터 게시판에 안내된 새마을문고 회원 모집 안내에서, 회원가입 신청서 제출 장소로 알맞은 곳은 어디인가요?",화양동 도서관 1층,화양동 새마을문고 사무실,화양동 복지관,화양동 주민센터 2층 안내 데스크,d
+train_2193.jpg,train/train_2193.jpg,이 건물에 입주해 있는 병원의 이름은 무엇인가요?,근로복지공단 구미의원,엘리트치과병원,법무법인 로하스,라비의원,b
+train_2207.jpg,train/train_2207.jpg,이 건물의 몇 층에 해당하는 곳인지 표시된 숫자는 무엇인가요?,3층,4층,2층,1층,c
+train_2208.jpg,train/train_2208.jpg,이 간판에서 판매하는 주 메뉴는 무엇인가요?,불고기,순두부 아이스크림과 커피,김치찌개,비빔밥,b
+train_2210.jpg,train/train_2210.jpg,의류수거함에 넣으면 안 되는 물품은 무엇인가요?,"상처 난 의류, 이불","속옷, 양말, 이불, 기타 오염물품","속옷, 양말, 기타 오염물품",옷감이 훼손된 의류,b
+train_2223.jpg,train/train_2223.jpg,다음 중 이미지에 보이는 카드에 적힌 문구가 아닌 것은 무엇인가요?,소중한,가슴,손을 잡고,행복한 웃음꽃 피어나게,d
+train_2232.jpg,train/train_2232.jpg,이 이미지 속 노란색 상자에 적힌 제품 이름은 무엇인가요?,콩알탄 FESTIVAL SNAPPER,파티 폭죽 PARTY SNAPPER,불꽃놀이 PARTY SNAPPER,콩알탄 PARTY SNAPPER,d
+train_2234.jpg,train/train_2234.jpg,도시철도 역구내 및 열차 내에서 반입 금지된 배터리는 무엇인가요?,일반 AA 배터리,니켈수소 배터리,대용량 리튬배터리(160Wh 초과),알카라인 배터리,c
+train_2237.jpg,train/train_2237.jpg,이 건물 1층에 있는 가게의 이름은 무엇인가요?,세무사 박동현,CFO 아웃소싱,사내복지기금,나무 동물 병원,d
+train_2241.jpg,train/train_2241.jpg,"이미지에 나온 메모리 상태에서 0x102 주소에 저장된 int 값을 읽어 8을 더한 후 0x104 주소에 저장할 때, 원래 값을 유지하는 주소는 어디인가요?",0x102,0x105,0x107,0x104,a
+train_2245.jpg,train/train_2245.jpg,다음 중 21:01에 출발하는 KTX 열차의 도착역은 어디인가요?,강릉,대전,부산,서울/행신,d
+train_2248.jpg,train/train_2248.jpg,이 진열대에서 '캐치! 피규어 키링' 박스에 적힌 문구는 무엇인가요?,두근두근! 어떤 포켓몬이 나올까?,귀여운 포켓몬 친구들 만나기,포켓몬 배틀 시작!,포켓몬과 함께 모험을 떠나요!,a
+train_2253.jpg,train/train_2253.jpg,사진 속에서 '대추차' 제품의 가격은 얼마인가요?,"8,386원","5,590원","9,086원","6,980원",a
+train_2254.jpg,train/train_2254.jpg,사진 속에 보이는 '모락셀라' 제품은 어떤 용도로 사용되는 제품인가요?,세탁 세제,냄새제거 부스터,손 세정제,섬유 유연제,b
+train_2255.jpg,train/train_2255.jpg,야구 경기장 외야 담장에 붙어 있는 광고판 중 '프리미엄 복합청수'라는 문구가 적힌 브랜드 이름은 무엇인가요?,금성백조,한화생명금융서비스,DEEPS,부루펜,c
+train_2265.jpg,train/train_2265.jpg,이 건물 간판에 적힌 장소 이름은 무엇인가요?,인천 송도 센트럴파크,부산 사직 야구장,서울 월드컵 경기장,수원 케이티 위즈 파크,d
+train_2269.jpg,train/train_2269.jpg,이 건물에 있는 간판 중 디즈니 관련 상호명은 무엇인가요?,EL CAPITAN,Ghirardelli,Hocus Pocus,Disney Studio Store,b
+train_2277.jpg,train/train_2277.jpg,이 약국의 이름은 무엇인가요?,한방과학,편의Shop,역삼문구,수온누리약국,d
+train_2284.jpg,train/train_2284.jpg,이 쿠키 포장지에 적힌 초코칩 함유량은 얼마인가요?,초코칩 5.25% 함유,초코칩 10% 함유,초코칩 7.5% 함유,초코칩 3.69% 함유,d
+train_2287.jpg,train/train_2287.jpg,사진 속 여성용 양말 중 2개들이 세트 가격은 얼마인가요?,"3,900원","4,800원","5,500원","5,900원",d
+train_2291.jpg,train/train_2291.jpg,이 이미지 속에 적힌 문구는 무엇인가요?,추억 속의 한 장면,깊게 각인된 잊혀진 시간,행복한 기억 모음,다음 단계로 이동,b
+train_2297.jpg,train/train_2297.jpg,"이 공항 보안 대기 구역 안내판에 따르면, AISLE 7의 대기 시간은 얼마인가요?",약 10분,약 3분,약 15분,5분 미만,d
+train_2311.jpg,train/train_2311.jpg,이 제품의 주요 성분은 무엇인가요?,"국화 80%, 사과 20%","홍차 50%, 자몽 50%","녹차 70%, 레몬 30%","장미 60%, 라임 40%",a
+train_2312.jpg,train/train_2312.jpg,"이 X-Ray실 앞에 붙어 있는 안내문에 따르면, X-RAY 촬영을 위해 어떻게 해야 하나요?",앞에서 대기하세요.,손을 소독하세요.,신분증을 제시하세요.,마스크를 착용하세요.,a
+train_2322.jpg,train/train_2322.jpg,이 사진에서 초록색 간판에 적힌 가게 이름은 무엇인가요?,시온교회,우분투북스,아시아마트,쏘뷰티쌀롱,b
+train_2324.jpg,train/train_2324.jpg,이 가게의 간판에 적힌 상호명은 무엇인가요?,All'Antico Vinaio,Firenze Pizzeria,Vinoteca Firenze,Antico Caff?,a
+train_2327.jpg,train/train_2327.jpg,삼성청년 SW·AI 아카데미 SSAFY 16기 모집의 지원 기간은 언제부터 언제까지인가요?,4월 27일(목)부터 5월 11일(목)까지,3월 1일(수)부터 3월 31일(금)까지,6월 1일(목)부터 6월 15일(목)까지,5월 1일(월)부터 5월 30일(화)까지,a
+train_2328.jpg,train/train_2328.jpg,올바른속내과의 위치는 몇 층인가요?,3층,2층,4층,1층,a
+train_2338.jpg,train/train_2338.jpg,마리골드의 컵팥빙수 가격은 얼마인가요?,"3,000원","5,000원","4,000원","2,500원",c
+train_2348.jpg,train/train_2348.jpg,사진 속 간판 중 전화번호가 472*3660인 곳은 어디인가요?,하미 에스테틱,대구리 족발 보쌈,재즈 노래타운,인동 꽃집,d
+train_2361.jpg,train/train_2361.jpg,투명한 플라스틱 상자 속에 적힌 문구 중 빨간색 글씨로 적힌 문구는 무엇인가요?,영광도움의 성경 Cu.,LEGIO NARAE,하는 이의 뜰무.,하늘의 뜰무.,a
+train_2376.jpg,train/train_2376.jpg,이 주차장의 평일 운영 시간은 언제부터 언제까지인가요?,토요일 07:00 ~ 17:00,평일 06:00 ~ 22:00,평일 07:00 ~ 17:00,토요일 06:00 ~ 22:00,b
+train_2380.jpg,train/train_2380.jpg,이 차량 내비게이션 화면에 표시된 도로 이름은 무엇인가요?,서동구 유성대로,유성구 서동대로,동서구 유성대로,유성구 동서대로,d
+train_2385.jpg,train/train_2385.jpg,이 사진에 보이는 피자 박스에 적힌 브랜드 이름은 무엇인가요?,맛있는피자,이재모Pizza,피자킹,서울피자,b
+train_2390.jpg,train/train_2390.jpg,이 사진 속 건물에 적힌 글자는 무엇인가요?,더샵 중앙로역 센터폴,중앙로 더샵 센터폴,중앙역 더샵 로센터폴,더샵 중앙역 로센터폴,a
+train_2391.jpg,train/train_2391.jpg,이 공연장에서 보이는 무대 위 조명이 어떤 색인가요?,보라색,파란색,초록색,빨간색,a
+train_2393.jpg,train/train_2393.jpg,이 승강장 표지판에 표시된 노선 중에 포함되지 않은 도시는 어디인가요?,목포,진주,부산,서울,d
+train_2395.jpg,train/train_2395.jpg,이 제품의 용량은 얼마인가요?,350ml,500ml,709ml,1L,c
+train_2405.jpg,train/train_2405.jpg,이 건물 외벽에 적힌 문구 중에서 '꿈이 모이는 도시'라는 표현과 함께 어떤 지역명을 언급하고 있나요?,명동,이태원,강남,홍대,c
+train_2410.jpg,train/train_2410.jpg,이 가게의 여름휴가 기간은 언제인가요?,8월 15일 ~ 19일,8월 10일 ~ 14일,8월 1일 ~ 5일,7월 30일 ~ 8월 3일,b
+train_2413.jpg,train/train_2413.jpg,이 병원에서 제공하지 않는 진료 과목은 무엇인가요?,관절클리닉,척추클리닉,통증클리닉,안과,d
+train_2420.jpg,train/train_2420.jpg,이 가게의 이름은 무엇인가요?,금미품,돈미풍,돈미품,돈미품식당,c
+train_2425.jpg,train/train_2425.jpg,오른쪽 노란색 안내문에 적힌 주의사항은 무엇인가요?,넘어짐 주의,오토바이 통행 시 사람과 충돌 주의,미끄럼 주의,자전거 통행 주의,b
+train_2433.jpg,train/train_2433.jpg,이 사진에 보이는 큰 초록색 표지판에는 어떤 부대 이름이 적혀 있나요?,제55보병사단,제54기계화사단,제56보병사단,제55기계화사단,a
+train_2440.jpg,train/train_2440.jpg,벽에 적혀 있는 글자는 무엇인가요?,MES QUE UN HOTEL,MES QUE UN BAR,MES QUE UN CLUB,MES QUE UN CAFE,c
+train_2448.jpg,train/train_2448.jpg,책꽂이에 꽂힌 책 중에서 '모비 딕(Moby Dick)'의 저자는 누구인가요?,어니스트 헤밍웨이,마크 트웨인,헤르만 멜빌,J.K. 롤링,c
+train_2450.jpg,train/train_2450.jpg,사진 속 간판에 적힌 전화번호는 무엇인가요?,010.5555.6666,010.1234.5678,010.8996.3029,010.9876.5432,c
+train_2452.jpg,train/train_2452.jpg,제주 필리 포크 바게뜨 샌드위치의 스파이시 맛은 어떤 특징을 가지고 있나요?,매콤달달 스파이시,달콤짭짤 오리지널,달달한 맛만 있는,매운맛만 강한,a
+train_2458.jpg,train/train_2458.jpg,샌드위치 포장지에 적힌 문구 중 올바른 것은 무엇인가요?,DAILY FRESH SANDWICH,DAILY SANDWICH FRESH,FRESH DAILY SANDWICH,FRESH SANDWICH DAILY,a
+train_2459.jpg,train/train_2459.jpg,이 승강기의 운행 층은 어디인가요?,"5, 6, 7, 8층","1, 2, 3, 4층","13, 14, 15, 16층","9, 10, 11, 12층",a
+train_2460.jpg,train/train_2460.jpg,"이 표지판에 따르면, 수영역은 어느 노선으로 환승할 수 있나요?",2호선,4호선,3호선,1호선,c
+train_2463.jpg,train/train_2463.jpg,오른쪽 화면에서 10번째 프레임의 점수는 얼마인가요?,70,78,87,108,c
+train_2477.jpg,train/train_2477.jpg,이 건물에 있는 부동산 사무소의 이름은 무엇인가요?,숍가나 부동산,가나 공인중개사 사무소,가나 부동산,숍슈밍,b
+train_2483.jpg,train/train_2483.jpg,이 이미지에 보이는 제품 브랜드명은 무엇인가요?,rvm,rbo,rb n,rbm,d
+train_2485.jpg,train/train_2485.jpg,이 버스 정류장의 이름은 무엇인가요?,동작역,노량진,대방동,사당,a
+train_2487.jpg,train/train_2487.jpg,영수증에 적혀 있는 바닐라라떼 가격은 얼마인가요?,"6,000","4,500","5,500","5,000",c
+train_2489.jpg,train/train_2489.jpg,이 도로 표지판에 따르면 '창동문화체육센터'는 어느 방향에 있나요?,오른쪽,뒤,왼쪽,직진,a
+train_2495.jpg,train/train_2495.jpg,이 안내판에 적힌 '미끄럼주의'의 영어 번역은 무엇인가요?,CAUTION WET FLOOR,FLOOR CLEANING IN PROGRESS,SLIPPERY WHEN WET,WATCH YOUR STEP,a
+train_2496.jpg,train/train_2496.jpg,이 주유소에서 주유 거래 시 주차 자리에 대해 어떤 안내를 하고 있나요?,주차 금지 구역 안내,주유 후 차량 이동 금지 안내,승용차 주유거래시 주차자리 지정,화물차 주유거래시 주차자리 지정,d
+train_2497.jpg,train/train_2497.jpg,이 바지의 허리 둘레는 얼마인가요?,70~75cm,98~104cm,75~81cm,80~90cm,c
+train_2500.jpg,train/train_2500.jpg,이 가게에서 수리하지 않는 항목은 무엇인가요?,자동차 수리,조명전기,화장실 수리,문수리,a
+train_2534.jpg,train/train_2534.jpg,이 건물에 붙어 있는 간판 중 편의점의 이름은 무엇인가요?,이마트24,세븐일레븐,CU,GS25,d
+train_2537.jpg,train/train_2537.jpg,사진 속 음료수 병에 적힌 제품명은 무엇인가요?,레몬에이드,그린티,오렌지주스,블랙보리,d
+train_2538.jpg,train/train_2538.jpg,사진 속 가게 '수빈'의 전화번호는 무엇인가요?,033-642-5159,033-648-6068,033-648-5159,031-3569,b
+train_2540.jpg,train/train_2540.jpg,이 사진에 보이는 편의점의 이름은 무엇인가요?,GS25,7-Eleven,이마트24,CU,a
+train_2541.jpg,train/train_2541.jpg,이 표지판에 적힌 '식당 출구' 표시는 어느 방향을 가리키고 있나요?,위쪽,아래쪽,오른쪽,왼쪽,d
+train_2551.jpg,train/train_2551.jpg,이 장소의 3층에서 열리는 전시회의 이름은 무엇인가요?,HAGI,하기 시간 여행사 사진관,시간 여행가 대환영,TIME TRAVEL,b
+train_2555.jpg,train/train_2555.jpg,'아이! 깨끗해' 핸드솝 용기에 적혀 있는 항균 효과는 몇 퍼센트인가요?,85%,90%,99.9%,95%,c
+train_2557.jpg,train/train_2557.jpg,세 병의 술 중 가운데 병에 적힌 이름은 무엇인가요?,밤막걸리,1000억 유산균 막걸리,참이슬,옥수수 동동주,b
+train_2560.jpg,train/train_2560.jpg,이 제품들의 가격은 얼마인가요?,3000원,4000원,3500원,4500원,c
+train_2561.jpg,train/train_2561.jpg,사진 속 전광판에 적힌 문구는 무엇인가요?,출입문 주의,대형 공기청정기 작동 중,모니터 미운영 (선로 미사용),도봉산 장암 방향,c
+train_2566.jpg,train/train_2566.jpg,사진 속 과자 중에서 허니통통 옆에 있는 과자의 이름은 무엇인가요?,허니통통,GOLD CORN CHIPS,체다 치즈포,별첨와플,b
+train_2569.jpg,train/train_2569.jpg,이 가게의 간판에 적힌 상호명은 무엇인가요?,새한전기 조명,서울전기 조명,새빛전기 조명,한빛조명 전기,a
+train_2577.jpg,train/train_2577.jpg,이 초콜릿 제품명은 무엇인가요?,Hershey's,Lotte,Bouchard,Nestle,c
+train_2579.jpg,train/train_2579.jpg,사진 속 노란색 간판에 적힌 글자는 무엇인가요?,카페 드림,꾸악 꾸악,행복한 하루,코끼리,b
+train_2582.jpg,train/train_2582.jpg,이 도로 표지판에 따르면 '법원'과 '검찰청'은 어느 방향에 있나요?,직진,오른쪽,뒤쪽,왼쪽,a
+train_2586.jpg,train/train_2586.jpg,사진 속 건물에 입주해 있는 병원이나 의원 중 '성형외과'가 포함된 곳은 어디인가요?,미타임피부과,올리브 성형외과,서울위드치과,너-서울 의원,b
+train_2593.jpg,train/train_2593.jpg,이 기둥에 붙어 있는 표지판에 적힌 문구는 무엇인가요?,흡연구역,조심하세요,주차금지,금연,d
+train_2601.jpg,train/train_2601.jpg,이번 열차는 어떤 열차인가요?,무정차 열차,회송 열차,급행 열차,일반 열차,b
+train_2625.jpg,train/train_2625.jpg,계단에 붙어 있는 안내문 중 '계단조심'이라는 문구와 함께 영어로 적힌 문구는 무엇인가요?,Caution Steps,Step Carefully,Be Careful with Stair,Watch Your Step,d
+train_2626.jpg,train/train_2626.jpg,이 떡의 총 중량은 얼마인가요?,600 g,450 g,540 g,500 g,c
+train_2628.jpg,train/train_2628.jpg,이 행사는 언제 시작된다고 안내하고 있나요?,잠시 후 시작됩니다.,내일 시작됩니다.,지금 시작합니다.,오늘 오후 3시에 시작합니다.,a
+train_2629.jpg,train/train_2629.jpg,'TAEYEON The 10th Anniversary Exhibition' 공식 MD 상품 중 후드티 세트(hoodie set)의 가격은 얼마인가요?,"\55,000","\32,000","\18,000","\79,000",d
+train_2630.jpg,train/train_2630.jpg,이미지 속 텍스트에 따르면 'NEAR AND DEAR' 행사는 어느 도시에 열렸나요?,부산,대구,서울,인천,a
+train_2633.jpg,train/train_2633.jpg,이 책의 제목은 무엇인가요?,소년과 두더지와 여우와 말,소년과 두더지와 여우와 닭,소년과 두더지와 고양이와 말,소년과 토끼와 여우와 말,a
+train_2635.jpg,train/train_2635.jpg,이 음료수 캔에 적혀 있는 제품 이름은 무엇인가요?,고향집 식혜,서울우유,초코에몽,칸타타,a
+train_2641.jpg,train/train_2641.jpg,사진 속 'CUZ' 바버샵의 영업 시간은 어떻게 되나요?,매일 오전 9시부터 오후 6시까지,평일 오전 10시부터 오후 7시까지,매일 오전 11시부터 오후 8시까지,주말 오전 11시부터 오후 5시까지,c
+train_2642.jpg,train/train_2642.jpg,이 장소의 이름은 무엇인가요?,길 따라 꽃드리,꽃길따라 민간정원,전북특별자치도 민간정원 15호,길따라 꽃길,a
+train_2644.jpg,train/train_2644.jpg,이 사진에 있는 역 이름은 무엇인가요?,Hauptbahnhof,Potsdamer Platz,Alexanderplatz,Berliner Tor,d
+train_2648.jpg,train/train_2648.jpg,사진 속 편의점 이름은 무엇인가요?,7-Eleven,CU,GS25,Ministop,b
+train_2650.jpg,train/train_2650.jpg,이 식당에서 오늘의 시세 100g당 가격은 얼마인가요?,"10,000원","12,000원","8,000원","15,000원",b
+train_2655.jpg,train/train_2655.jpg,이미지 속 택배차 뒷문에 적힌 문구 중 '한진아 일요일 공휴일엔' 다음에 나오는 내용은 무엇인가요?,안전 운행하자!,좀 쉬자!,더 일하자!,일찍 출발하자!,b
+train_2665.jpg,train/train_2665.jpg,이 병에 적힌 술 이름은 무엇인가요?,吟純 (긴준),純吟 (준긴),純米 (준마이),吟? (긴조),b
+train_2667.jpg,train/train_2667.jpg,사진 속 '핫브레이크' 제품의 내용량은 얼마인가요?,42g,135kcal,50g,45g,d
+train_2671.jpg,train/train_2671.jpg,이 가게의 간판에 적혀 있는 상호명은 무엇인가요?,스타일에 반하다,전국최초1등당첨점,담배,복권판매점,d
+train_2673.jpg,train/train_2673.jpg,이 사진 속 안내판에 적힌 글자는 무엇인가요?,KT 맵핑,KT 맵,KT 맵스,KT 맵북,b
+train_2683.jpg,train/train_2683.jpg,이 문구는 무엇을 설명하고 있나요?,손잡이 청소 방법,엘리베이터 이용 방법,신대방 역 위치 안내,비상시 손잡이를 젖히면 문이 열린다,d
+train_2685.jpg,train/train_2685.jpg,이 이미지에 보이는 'eclipse'껌 상자에 적혀 있는 맛은 무엇인가요?,사과향,자몽향,포도향,복숭아향,c
+train_2692.jpg,train/train_2692.jpg,중앙빌딩 6층에 위치한 곳은 무엇인가요?,고른이치과의원,이원기 내과,이성실 요리커피제빵학원,Fang PC Caffe,c
+train_2696.jpg,train/train_2696.jpg,이 사진에서 보이는 상점 간판 중 일본어로 적힌 것은 무엇인가요?,アコム (Acom),ヤクルト (Yakult),イケア (Ikea),ユニクロ (Uniqlo),a
+train_2699.jpg,train/train_2699.jpg,이 영화 입장권에 적힌 상영관 종류는 무엇인가요?,3D 일반관,4DX 3D,일반 2D 상영관,IMAX LASER 2D,d
+train_2701.jpg,train/train_2701.jpg,이 건물에 있는 영어학원의 층수는 몇 층인가요?,3층,5층,4층,2층,c
+train_2704.jpg,train/train_2704.jpg,이 표지판에서 '식품코너'는 어느 방향을 가리키고 있나요?,위쪽 오른쪽 방향,왼쪽 방향,오른쪽 방향,아래쪽 방향,c
+train_2706.jpg,train/train_2706.jpg,이 이미지 속 증명서의 제목은 무엇인가요?,골프 클럽 안내서,홀인원 증명서,골프 대회 안내문,회원 가입 신청서,b
+train_2710.jpg,train/train_2710.jpg,이 문서에 따르면 휴게실에서 보관이 금지된 식품은 무엇인가요?,소비기한이 지난 근무 식품,모든 개인 식품,"무표시 식품, 소비기한 초과 식품 등 조리에 적합하지 않은 식품",근무복과 평상복,c
+train_2715.jpg,train/train_2715.jpg,사진 속 라면 제품 'Samyang Buldak'의 맛은 무엇인가요?,짜장 맛,카르보나라 맛,탄탄멘 맛,김치 맛,b
+train_2723.jpg,train/train_2723.jpg,사진에 보이는 책 중 '빅데이터분석기사 필기'와 관련된 책의 출판사 이름은 무엇인가요?,길벗,eduwill,이지스퍼블리싱,한빛미디어,b
+train_2728.jpg,train/train_2728.jpg,사진 속 안내문에 따르면 CCTV 촬영 중일 때 어떤 조치가 이루어지나요?,매장 내 모든 고객에게 알림이 갑니다.,도난 발생 시 즉시 경고 방송이 나갑니다.,MD 분실 시 자료화면을 경찰에 제공 중입니다.,사고 발생 시 보험 처리가 자동으로 됩니다.,c
+train_2733.jpg,train/train_2733.jpg,이 비행기 좌석 앞쪽에 꽂혀 있는 안내책자에는 어떤 항공기 기종이 적혀 있나요?,B777-300,A380-800,B737-900,A350-900,a
+train_2735.jpg,train/train_2735.jpg,사진에 보이는 올리브 오일 병에 적혀 있는 올리브 오일의 특징은 무엇인가요?,30°C 핫 프레스 유기농 올리브 오일,27°C 콜드 프레스 유기농 엑스트라 버진 올리브 오일,25°C 콜드 프레스 유기농 엑스트라 버진 올리브 오일,27°C 콜드 프레스 일반 올리브 오일,b
+train_2736.jpg,train/train_2736.jpg,사진 속 음료수 캔의 브랜드 중 복숭아 맛이 있는 브랜드는 무엇인가요?,ABSOLUT VODKA,Cass,핫식스,코카콜라,a
+train_2737.jpg,train/train_2737.jpg,현재 재생 중인 노래의 제목은 무엇인가요?,봄날 - 방탄소년단,눈의 꽃 - 김범수,꽃길 - 아이유,Loser - 빅뱅,d
+train_2738.jpg,train/train_2738.jpg,이미지에 나오는 호랑이 캐릭터가 말하는 내용은 무엇인가요?,호랑이는 멸종위기 동물입니다,사회를 위해 자원으로 다시 활용해요,자원을 아껴 쓰지 맙시다,환경보호는 어렵지 않아요,b
+train_2739.jpg,train/train_2739.jpg,이 주유기에서 9번 노즐은 어떤 연료를 주입하는 데 사용되나요?,LPG,등유,휘발유,경유,d
+train_2742.jpg,train/train_2742.jpg,2025 스테이블코인 제도화 국회 세미나가 개최되는 날짜는 언제인가요?,2023년 5월 1일,2024년 12월 10일,2026년 1월 15일,2025년 8월 25일,d
+train_2745.jpg,train/train_2745.jpg,이 이미지에서 '상림호떡' 제품은 어느 위치에 있나요?,중간 진열대 맨 아래 선반,오른쪽 진열대 맨 위 선반,왼쪽 진열대 가장 아래 선반,중간 진열대 중앙 선반,d
+train_2748.jpg,train/train_2748.jpg,이 치킨 가게의 이름은 무엇인가요?,교촌 CHICKEN,bHC CHICKEN,네네 CHICKEN,bbq CHICKEN,b
+train_2749.jpg,train/train_2749.jpg,왼쪽 검은색 안내문에 적힌 문구는 무엇인가요?,출입 금지!,문 열림 주의!,조심하세요!,안전 제일!,b
+train_2751.jpg,train/train_2751.jpg,이 가게의 상호명은 무엇인가요?,RECORDE PIZZA,TORIKIZOKU,토리키조쿠,레코드 피자,b
+train_2753.jpg,train/train_2753.jpg,이 트럭에 적혀 있는 회사 이름은 무엇인가요?,(주)만하,(주)만호,(주)만화방,(주)만화,a
+train_2756.jpg,train/train_2756.jpg,사진 속 가게의 오픈 시간은 언제인가요?,09:00,07:00,22:00,10:00,b
+train_2759.jpg,train/train_2759.jpg,이 건물의 간판에 적힌 상호명은 무엇인가요?,도큐핸즈,돈키호테,도톤보리,롯데마트,b
+train_2765.jpg,train/train_2765.jpg,냉장고 안에 있는 'Lala Sweet' 아이스크림 중 칼로리가 355kcal인 맛은 무엇인가요?,라라스윗 딸기,라라스윗 치즈케이크,라라스윗 바닐라,라라스윗 초콜릿,b
+train_2771.jpg,train/train_2771.jpg,노들길 주민회관 광고 문구에서 '노들길'을 구성하는 각 단어가 설명하는 내용으로 올바른 것은 무엇인가요?,"노: 빠르고, 들: 이기고, 길: 잃게 만드는 샷포로 생맥주 한잔!","노: 빠르고, 들: 이기고, 길: 잃게 만드는 샷포로生맥주 한잔!","노: 빠르고, 들: 이기고, 길: 잃게 만드는","노: 빠르고, 들: 이기고, 길: 잃게 만드는 샷포로 생맥주 한잔",b
+train_2780.jpg,train/train_2780.jpg,이 전시회에 나온 작가의 이름은 무엇인가요?,Jeff Koons,Ron Mueck,Damien Hirst,Mark Quinn,b
+train_2791.jpg,train/train_2791.jpg,광명사회체육센터 수영 회원권 3개월 할인된 가격은 얼마인가요?,"220,000원","210,000원","240,000원","195,000원",b
+train_2793.jpg,train/train_2793.jpg,"3층 안내판에 따르면, 3층에 위치한 곳이 아닌 것은 무엇인가요?",의류·잡화·홈퍼니싱·스포츠·애완용품,식당가,Toysrus,유아동 의류,a
+train_2794.jpg,train/train_2794.jpg,다음 중 이미지에 보이는 간판 이름이 아닌 것은 무엇인가요?,루나가든,푸르넷,코다리,블루베리,d
+train_2815.jpg,train/train_2815.jpg,검은색 병에 적힌 브랜드 이름은 무엇인가요?,Gucci,Calvin Klein,Dior,Chanel,b
+train_2820.jpg,train/train_2820.jpg,이 건물 2층에 위치한 업소의 이름은 무엇인가요?,노래방,법무사 김승미,하트 노래 연습장,리얼펍 살얼음맥주,c
+train_2821.jpg,train/train_2821.jpg,벽에 붙어 있는 나무판에 적힌 문구는 무엇인가요?,Happiness comes with every sunrise.,Enjoy the little things in life.,Dream big and dare to fail.,Life is better when you enjoy it.,d
+train_2829.jpg,train/train_2829.jpg,이 전신주 표지판에 적힌 '테헤란로'의 주소 번호는 무엇인가요?,3-22,4-20,5-30,4-24,d
+train_2831.jpg,train/train_2831.jpg,사진에 보이는 식당 중 치킨을 판매하는 가게의 이름은 무엇인가요?,용왕노래방,대포항 횟집,웰빙 자담치킨 & 호프,세교시,c
+train_2849.jpg,train/train_2849.jpg,"이 제품 상자에 적힌 내용 중, 제품의 길이는 얼마인가요?",350 mm,250 mm,450 mm,550 mm,c
+train_2852.jpg,train/train_2852.jpg,이 도로에서 차량 운행 제한 중 '축하중'의 최대 허용 무게는 얼마인가요?,10t,4.0m,40t,16.7m,a
+train_2856.jpg,train/train_2856.jpg,이 광고에서 소화를 잘 되게 하기 위해 위에 대해 해야 할 일은 무엇인가요?,위를 움직여 줘야 한다,위를 눌러야 한다,위를 차갑게 해야 한다,위를 따뜻하게 해야 한다,a
+train_2859.jpg,train/train_2859.jpg,이 볼링점수판에서 2B팀의 최종 점수는 얼마인가요?,90점,115점,108점,205점,a
+train_2862.jpg,train/train_2862.jpg,이 건물 입구 간판에 적힌 문구 중 '음식백화점'이라는 글자의 색상 조합은 무엇인가요?,음식과 백화점 모두 파란색,음식과 백화점 모두 빨간색,"음식은 파란색, 백화점은 빨간색","음식은 빨간색, 백화점은 파란색",d
+train_2865.jpg,train/train_2865.jpg,이 과자 봉지에 적힌 브랜드명은 무엇인가요?,해태,오리온,농심,롯데,c
+train_2871.jpg,train/train_2871.jpg,이 떡볶이 가게에서 순대김밥의 가격은 얼마인가요?,4000원,5000원,3000원,6000원,b
+train_2879.jpg,train/train_2879.jpg,사진 속 중앙에 있는 노란색 글씨가 적힌 표지판에 적힌 글자는 무엇인가요?,소년이 온다,동장군,함께 사는 특별시,소년이 간다,a
+train_2884.jpg,train/train_2884.jpg,사진 속 건물에 있는 간판 중 '고등영어'를 가르치는 학원의 이름은 무엇인가요?,하이퍼고등영어,서울국어논술학원,에이스과학,펜톤미술학원,a
+train_2889.jpg,train/train_2889.jpg,이 사진에 보이는 주황색 차량 앞에 적힌 번호판 번호는 무엇인가요?,88라8888,12나3456,99다7777,88가1234,a
+train_2899.jpg,train/train_2899.jpg,"이 락커 사용 안내에 따르면, 락커 운영 시간은 언제부터 언제까지인가요?",운영 시간 05:00 - 24:00,운영 시간 06:00 - 22:00,운영 시간 24시간,운영 시간 09:00 - 21:00,a
+train_2903.jpg,train/train_2903.jpg,이 영화 입장권에서 상영 시작 시간은 언제인가요?,2026년 8월 9일 15:32,2026년 8월 9일 11:00,2026년 8월 9일 12:30,2026년 8월 10일 12:30,c
+train_2905.jpg,train/train_2905.jpg,영수증에 적힌 김밥 가격은 얼마인가요?,"3,500원","8,000원","5,000원","11,500원",a
+train_2909.jpg,train/train_2909.jpg,이 가게의 이름은 무엇인가요?,분식 마을,행복한 분식,도란도란 슈퍼,도란 분식집,c
+train_2912.jpg,train/train_2912.jpg,포스터에 적힌 '가루의 필수조건'은 무엇인가요?,건강하기,정확하기,재미있기,빠르기,a
+train_2913.jpg,train/train_2913.jpg,응급환자가 발생했을 때 연락해야 하는 사내 방재센터 전화번호는 무엇인가요?,054-479-5119,119,1544-1234,02-345-6789,a
+train_2914.jpg,train/train_2914.jpg,이 건물에 입주한 업체의 업종은 무엇인가요?,식당,서점,남성의류,여성의류,d
+train_2921.jpg,train/train_2921.jpg,이 장소에서 'Cafe Komachi-Chaya'는 어떤 방향으로 가야 하나요?,왼쪽,오른쪽,뒤로,직진,d
+train_2925.jpg,train/train_2925.jpg,이 이미지에서 벽에 적힌 문구 중 대회와 관련된 문구는 무엇인가요?,GRAY START,EASY HOLD,2024 COMPETITION CHALLENGE,NAVY TOP,c
+train_2928.jpg,train/train_2928.jpg,위 사진에 보이는 '도야 짬뽕' 가게의 전화번호는 무엇인가요?,123-4567,987-6543,555-1234,956-2335,d
+train_2936.jpg,train/train_2936.jpg,사진 속 파란색 건물에 적힌 카페 이름은 무엇인가요?,24 OPEN 무인카페,김밥천국,egg cafe 24,EGG CAFE 24,d
+train_2938.jpg,train/train_2938.jpg,사진 속 음료 중에서 '프로핏 SPORTS' 제품의 가격은 얼마인가요?,"2,800원","2,900원","2,700원","2,400원",a
+train_2942.jpg,train/train_2942.jpg,이 버스가 운행하는 노선 번호는 무엇인가요?,홍성03,울산04,서광02,남구01,d
+train_2944.jpg,train/train_2944.jpg,이미지의 술 진열대 위에 적힌 'SPIRITS' 아래에 쓰인 한글은 무엇인가요?,소주,맥주,와인,양주,d
+train_2946.jpg,train/train_2946.jpg,사진에 보이는 식당의 이름은 무엇인가요?,암생밥,네일.속네일.무릎성형,나주혁신도시점,퍼스트짐,a
+train_2948.jpg,train/train_2948.jpg,이 가게의 이름은 무엇인가요?,소무시무법,백동화로,백화점,청수정,b
+train_2955.jpg,train/train_2955.jpg,오늘통닭 가게 앞에 있는 메뉴판에서 '오늘통닭 신메뉴'에 포함된 음식은 무엇인가요?,오늘 바삭닭다리,직화오징어 훈제와 소면,커리머스터드 왕 감자튀김,페퍼로니 피자,a
+train_2959.jpg,train/train_2959.jpg,이 사진 속 건물의 역 이름은 무엇인가요?,송정역,광주송정역,광주역,광산역,b
+train_2969.jpg,train/train_2969.jpg,이 간판에 적힌 문구 중 옳은 것은 무엇인가요?,대한안경 브랜드 즐거운 안경쇼핑,국민안경 브랜드 행복한 안경쇼핑,대한안경 브랜드 행복한 안경쇼핑,국민안경 브랜드 즐거운 안경쇼핑,d
+train_2970.jpg,train/train_2970.jpg,이 사진에서 'pie room' 매장 입구에 적힌 작은 간판에 적힌 문구는 무엇인가요?,빵 커피,빵과 커피,pie coffee,pie room,a
+train_2971.jpg,train/train_2971.jpg,사진 속 상자와 종이봉투에 적힌 브랜드 이름은 무엇인가요?,NOK SEN,Calvin Klein,NOKSEN,Calvin Klein Jeans,a
+train_2972.jpg,train/train_2972.jpg,이 건물 4층에 위치한 '김영천 수학학원'의 문의 전화번호는 무엇인가요?,T. 02-1234-5678,T. 062-716-3800,T. 010-9876-5432,T. 959-2550,d
+train_2973.jpg,train/train_2973.jpg,사진에 보이는 대전 생수병에 적힌 내용 중 옳은 것은 무엇인가요?,용량이 500 mL이다.,칼로리가 585 kcal이다.,제품명이 칠성 사이다이다.,설탕이 포함되어 있다.,b
+train_2975.jpg,train/train_2975.jpg,냉장고 문에 있는 고추장 용기에서 '해찬들 고추장' 제품에 적힌 영어 문구는 무엇인가요?,HOT PEPPER SAUCE,SWEET SOY BEAN PASTE,SEASONED SOY BEAN PASTE,HOT PEPPER PASTE,d
+train_2976.jpg,train/train_2976.jpg,다음 중 이미지 속 포스터에 적힌 뮤지컬 제목이 아닌 것은 무엇인가요?,완벽한 하루,미르마니,에코의 노래,베드타임스토리,c
+train_2977.jpg,train/train_2977.jpg,다음 중 이미지 속 책 제목으로 올바른 것은 무엇인가요?,임베디드 시스템 분석 설계,웹 개발 실무,데이터베이스 구조,기계 학습 입문,a
+train_2984.jpg,train/train_2984.jpg,'유린기 돈까스' 메뉴가 위치한 층은 어디인가요?,스타시티몰 1층,스타시티몰 2층,스타시티몰 지하1층,스타시티몰 지하2층,c
+train_2985.jpg,train/train_2985.jpg,이미지에 보이는 노란색 현수막에 적힌 문구 중 옳은 것은 무엇인가요?,"위험한 도시, 혼자 만들어요","안전한 도시, 혼자 만들어요","안전한 도시, 함께 만들어요","위험한 도시, 함께 만들어요",c
+train_2990.jpg,train/train_2990.jpg,2026 쿠팡플레이 시리즈 경기 일정은 언제인가요?,7월 15일 (토) 오후 6시,8월 10일 (월) 오후 9시,9월 1일 (금) 오후 7시,8월 5일 (수) 오후 8시,d
+train_2999.jpg,train/train_2999.jpg,이 식당의 간판에 적힌 음식 종류는 무엇인가요?,비빔밥,냉면,숯불구이,김치찌개,c
+train_3003.jpg,train/train_3003.jpg,get coffee 매장에서 즉석 원두커피 가격 인하 행사 중입니다. ICE 아메리카노 XL의 가격은 얼마인가요?,"\1,200","\1,300","\1,500","\1,000",b
+train_3013.jpg,train/train_3013.jpg,이 거리의 간판 중 '테마 라이브'가 위치한 층은 어디인가요?,3층,1층,4층,2층,a
+train_3027.jpg,train/train_3027.jpg,아래 카드에서 '퇴사도우미'가 강조한 서비스의 특징은 무엇인가요?,24시간 상담 가능,탑 콜 1순위,무료 법률 상담,최저가 보장,b
+train_3029.jpg,train/train_3029.jpg,이 영화 입장권에서 관람하는 영화의 제목은 무엇인가요?,왕의 경비병,왕과 사는 남자,왕의 심복,왕과 사는 여자,b
+train_3033.jpg,train/train_3033.jpg,이 조각상 앞에 놓인 작은 팻말에 적힌 이름은 무엇인가요?,해상케이블카,천사랑,케이블카 안전,목포역,b
+train_3036.jpg,train/train_3036.jpg,이 가게에서 브런치 구매 시 추가로 얼마에 아메리카노(R)를 살 수 있나요?,"1,500원","3,500원","3,000원","2,500원",d
+train_3042.jpg,train/train_3042.jpg,주차장 출입구에 부착된 노란색 안내문에 적힌 문구는 무엇인가요?,"주차 요금은 시간당 2,000원입니다.",이곳은 무료 주차장입니다.,다음에도 역삼동 주차장에서 만나요!,주차 금지 구역입니다.,c
+train_3050.jpg,train/train_3050.jpg,사진 속 담배 상자에 적힌 브랜드 이름은 무엇인가요?,Marlboro,Camel,MEVIUS,ESSE,c
+train_3051.jpg,train/train_3051.jpg,책 제목에 포함된 내용 중 이 책이 다루지 않는 분야는 무엇인가요?,금융,경제,프로그래밍,경영,c
+train_3052.jpg,train/train_3052.jpg,이 제품의 에너지 효율 등급은 무엇인가요?,1등급,5등급,7등급,3등급,d
+train_3056.jpg,train/train_3056.jpg,이 사진 속 표지판에 적힌 문구는 무엇인가요?,쓰레기투기금지,수영금지,출입금지,낚시금지,d
+train_3065.jpg,train/train_3065.jpg,마그네슘 플러스 제품이 주로 도움을 주는 건강 분야는 무엇인가요?,알레르기 기능 개선,간 건강,멜라토닌 보충,"에너지, 신경, 근육건강",d
+train_3072.jpg,train/train_3072.jpg,이 간판에 적힌 가게의 전문 분야는 무엇인가요?,향음식전문점,카페,한식뷔페,중국요리전문점,a
+train_3077.jpg,train/train_3077.jpg,이 가게에서 판매하는 'カットメロン' 한 조각의 가격은 얼마인가요?,300엔,500엔,700엔,1000엔,b
+train_3078.jpg,train/train_3078.jpg,이 제품의 맛은 무엇인가요?,플레인 요거트,망고 요거트,딸기 요거트,블루베리 그릭 요거트,d
+train_3090.jpg,train/train_3090.jpg,"'오늘의 부상자'에 대한 안내문에 따르면, 이 빵은 어떤 상태인가요?",모두 신선하고 상태가 완벽한 빵입니다.,"오늘 막 구워서 아주 맛있지만, 조금 상처가 나버린 아이들입니다.",오래되어서 맛이 떨어진 빵입니다.,냉동된 빵으로 해동 후 판매하는 제품입니다.,b
+train_3093.jpg,train/train_3093.jpg,이 책의 제목은 무엇인가요?,WEB 3.0 NEXT ECONOMY,디지털 마케팅 전략,인공지능과 미래 사회,블록체인 혁명,a
+train_3094.jpg,train/train_3094.jpg,이 곳에서 물과 반찬을 이용하는 방법으로 적절한 것은 무엇인가요?,반찬은 무료가 아니다,셀프로 가져가야 한다,직원이 가져다 준다,주문할 때 요청해야 한다,b
+train_3104.jpg,train/train_3104.jpg,이 자전거 공기주입기 보관함에 적힌 문구는 무엇인가요?,사용 후 정리해주세요,고장 시 연락 바랍니다,무료로 사용하세요,공기 주입 중입니다,a
+train_3107.jpg,train/train_3107.jpg,다음 중 이미지에 보이는 만화책 시리즈 이름은 무엇인가요?,하이큐!!,원피스,블리치,나루토,a
+train_3114.jpg,train/train_3114.jpg,이 건물에 입주한 의료기관 이름으로 옳은 것은 무엇인가요?,알앤 비성형외과,리앤웰성형외과 의원,이민을 치과,모두 정답이다,b
+train_3115.jpg,train/train_3115.jpg,이 돌에 새겨진 문구 중 'I-PLEX 광주' 바로 아래에 적힌 문구는 무엇인가요?,"INFORMATION, INTEGRITY, INSPIRATION","INNOVATE, INCUBATE, IMPLEMENT","IDEA, INCUBATION, INNOVATION","IDEAS, INCLUSION, INITIATIVE",c
+train_3118.jpg,train/train_3118.jpg,유심 교체 시 삼성페이 이용을 위해 필요한 조치는 무엇인가요?,교체 전 해당 기능 해제 필요,본인 인증 1회 필요,재등록 필수,결제 수단 재등록 필요,b
+train_3119.jpg,train/train_3119.jpg,사진 속 상점 이름 중 휴대폰 판매점의 이름은 무엇인가요?,큰손통신,한글학과 의원,비와이씨,덕수파스타,a
+train_3120.jpg,train/train_3120.jpg,산본척척마취통증의학과의원에서 제공하는 치료 방법이 아닌 것은 무엇인가요?,물리치료,항암치료,체외충격파,도수치료,b
+train_3122.jpg,train/train_3122.jpg,이 간판에 적힌 치킨 메뉴 이름은 무엇인가요?,Chickenjoy,Chickenfest,Chickenbite,Chickensmile,a
+train_3140.jpg,train/train_3140.jpg,사진 속 폰케이스 프린터기 위에 적힌 글씨는 무엇인가요?,폰케이스 프린터,폰케이스 프린트,폰케이스 프린팅,폰케이스 프린터기,a
+train_3141.jpg,train/train_3141.jpg,이 제품의 원산지는 어디인가요?,콜롬비아,에티오피아,브라질,케냐,b
+train_3146.jpg,train/train_3146.jpg,"'아동 안전 꿈들이 보호구역' 안내판에 따르면, 위급 상황 발생 시 가장 먼저 연락해야 하는 전화번호는 무엇인가요?",182,119,112,117,c
+train_3148.jpg,train/train_3148.jpg,Busan Cloud Day 2023 행사는 어느 날짜에 개최되나요?,2023년 7월 5일,2023년 7월 15일,2023년 6월 5일,2023년 8월 5일,a
+train_3153.jpg,train/train_3153.jpg,이 열차의 모델명에 적힌 글자는 무엇인가요?,N700 Express,N700 Supreme,N700 Rapid,N700 Limited,b
+train_3154.jpg,train/train_3154.jpg,이 컵에는 어떤 변화가 있을 때 추가로 발자국 무늬가 나타나나요?,컵을 흔들면,평상시에,뜨거운 물을 넣으면,찬가을 때,d
+train_3157.jpg,train/train_3157.jpg,이 교차로 표지판에 적혀 있지 않은 곳은 어디인가요?,삼전사거리,삼성역,강남역,법원 검찰청,c
+train_3159.jpg,train/train_3159.jpg,이 그림에 적힌 문구의 내용은 무엇인가요?,차가 지나가니 잠시 기다려요,천천히 운전하세요 사고 조심,내 앞길 막지 마라 가보자고 드릉드릉,길을 비켜 주세요 안전하게 가요,c
+train_3160.jpg,train/train_3160.jpg,이 가게 간판에 적힌 상호명은 무엇인가요?,참한우횡성,한우참횡성,횡성한우참,횡성참한우,d
+train_3175.jpg,train/train_3175.jpg,DEEPX DX - M1의 ImageNet 2012 데이터셋에서의 정확도(Accuracy)는 얼마인가요?,80.37,85.12,80.84,75.00,c
+train_3178.jpg,train/train_3178.jpg,다음 중 이미지에 보이는 멀티비타민 제품의 이름은 무엇인가요?,뉴얼+ 이플 멀티비타민,이플+ 뉴멀티,멀티플러스 비타민,뉴멀티비타민,a
+train_3203.jpg,train/train_3203.jpg,사진 속 응모권에 적힌 번호 중 가장 큰 숫자는 무엇인가요?,1295,1155,1914,2374,d
+train_3208.jpg,train/train_3208.jpg,이 건물에 있는 간판들 중에서 노래방을 뜻하는 일본어 단어는 무엇인가요?,とめ手羽,ジャンカラ,ホルモン,ふとっぱら,b
+train_3214.jpg,train/train_3214.jpg,이 사진 속 상점이 영업하는 시간은 언제인가요?,오전 9시부터 오후 10시까지,오후 12시부터 오후 9시까지,오전 10시부터 오후 11시까지,24시간 영업,d
+train_3215.jpg,train/train_3215.jpg,이 사진에 보이는 상점의 이름은 무엇인가요?,홈플러스,이마트,다이소,롯데마트,c
+train_3222.jpg,train/train_3222.jpg,사진 속에서 '새우깡' 제품의 가격은 얼마인가요?,"1,260원","2,180원","2,440원","2,250원",c
+train_3225.jpg,train/train_3225.jpg,"'솔닭 평일 점심특선'에서 1인 가격이 12,900원인 메뉴는 무엇인가요?",개인레슨 전문,셀프바 + 음료수 + 공기밥 무제한,솔뚜껑 순살간장찜닭,솔뚜껑 순살매콤찜닭,c
+train_3228.jpg,train/train_3228.jpg,포스터에 소개된 '추억의 수박화채 마빙'의 가격은 얼마인가요?,M 3.7 L 4.6,M 3.7 L 4.4,M 3.5 L 4.4,M 3.5 L 4.6,c
+train_3234.jpg,train/train_3234.jpg,화면 오른쪽 위에 표시된 게임기 이름은 무엇인가요?,HAPPY ZZANG 3000 II,ULTIMATE ARCADE 4000,SUPER GAME 2000,MEGA PLAY 5000,a
+train_3245.jpg,train/train_3245.jpg,바닐라빈 시리즈 중에서 가장 저렴한 음료의 가격은 얼마인가요?,"3,400원","3,100원","3,900원","4,500원",b
+train_3252.jpg,train/train_3252.jpg,사진 속 가게 간판에 적혀 있는 가게 이름은 무엇인가요?,맛있는떡볶이,행복한베이커리,바른RC중장비카페,착한커피전문점,c
+train_3265.jpg,train/train_3265.jpg,이 건물의 이름은 무엇인가요?,호반빌리지,호반스위트타워,호반아파트,호반스위트빌,d
+train_3272.jpg,train/train_3272.jpg,이 가게의 영업시간은 어떻게 되나요?,11:00 - 21:00,10:00 - 22:00,12:00 - 20:00,09:00 - 18:00,c
+train_3275.jpg,train/train_3275.jpg,이 그림 속 간판이나 표지판에 적힌 내용 중 '오늘의 메뉴'로 나온 음식은 무엇인가요?,마을광장,닭장,감자발,감자닭강정,d
+train_3276.jpg,train/train_3276.jpg,이마트에서 판매 중인 펩시콜라 500ml 5병의 묶음 가격은 얼마인가요?,"7,120원","5,000원","6,000원","1,680원",c
+train_3278.jpg,train/train_3278.jpg,이 장치 상단에 적힌 문구는 무엇인가요?,안전 운행,천천히 가세요,조심 운전,주의 보행,a
+train_3280.jpg,train/train_3280.jpg,이 도로 표지판에 적힌 내용 중 올바른 것은 무엇인가요?,안녕히 가십시오 Good-bye,안녕히 가십시오 Good-bye 서울특별시,Good-bye 서울특별시,안녕히 가십시오,b
+train_3283.jpg,train/train_3283.jpg,이 건물에 있는 가게 중 '럭키보이 스크린골프 연습장'이 제공하는 서비스는 무엇인가요?,스크린 골프 연습장,커피 전문점,음료 판매점,고기구이 전문점,a
+train_3285.jpg,train/train_3285.jpg,휘트니스 출입 시 지문인식 시스템이 잘 작동하지 않을 경우 안내문에 따르면 어떻게 해야 하나요?,바구니에 비치된 스프레이로 물을 한번 뿌린 후 이용한다,관리사무실에 직접 방문하여 신고한다,지문 인식을 다시 등록한다,출입을 중지하고 휴식을 취한다,a
+train_3286.jpg,train/train_3286.jpg,이 표지판에서 '조명'과 함께 표기된 단어는 무엇인가요?,장판,전기,리모델링,도배,b
+train_3292.jpg,train/train_3292.jpg,"이 건물 1층 공간을 임대하고자 할 때, 연락해야 할 전화번호는 무엇인가요?",010-9876-5432,02-345-6789,010-8597-4495,010-1234-5678,c
+train_3296.jpg,train/train_3296.jpg,사진 속 음료수 중 '서울우유'에 적혀 있는 것은 무엇인가요?,허니버터칩,삼다수,나 100%,ED?YA COFFEE,c
+train_3298.jpg,train/train_3298.jpg,이 건물에 있는 '별빛치과' 전화번호는 무엇인가요?,051-624-0000,051-624-1234,051-624-2875,051-624-2760,c
+train_3301.jpg,train/train_3301.jpg,사진 속 빨간색 주차금지 표지판에 적힌 문구는 무엇인가요?,협조 부탁 드립니다. 주차금지,주차 요금은 시간당 1000원입니다.,주차 허용 구역입니다.,주차 시 견인 조치합니다.,a
+train_3309.jpg,train/train_3309.jpg,이 사진에서 보이는 크레페 가게의 이름은 무엇인가요?,OH!CREPE,GALLETTE,CR?PES,CREPE HOUSE,a
+train_3310.jpg,train/train_3310.jpg,"다음 중 '모든 사람들은 실수를 해, 그래서 연필 뒤에 지우개가 달려있는 거야'라는 문구가 적힌 문장은 무엇인가요?","If you love someone, you must have faith that he will do the right thing","Everyone makes mistakes, that's why they put erasers in the backs of pencils","If you find that you're not, I hope you have the strength to start all over again","No te arrepientas de nada, porque en un momento era exactamente lo que quer?as",b
+train_3315.jpg,train/train_3315.jpg,검덴탈린S 에스(GUM Dental Rinse S)의 용도는 무엇인가요?,잇몸 강화용,치아 미백용,구강 내 세정 및 구취 제거용,충치 예방용,c
+train_3326.jpg,train/train_3326.jpg,이 건물에 입점해 있는 약국의 이름은 무엇인가요?,연세비엔피의원,아리따운 여성의원,CUCKOO,유명 약국,d
+train_3327.jpg,train/train_3327.jpg,이 표지판에서 무엇을 주의하라고 경고하고 있나요?,추락 위험,화재 위험,미끄럼 위험,전기 감전 위험,a
+train_3330.jpg,train/train_3330.jpg,이 음식점의 전화번호는 무엇인가요?,031-987-6543,02-955-8252,02-123-4567,010-1111-2222,b
+train_3342.jpg,train/train_3342.jpg,이 광고에서 헬스 월 이용 가격은 얼마인가요?,"50,000원","33,000원","20,000원","9,900원",b
+train_3345.jpg,train/train_3345.jpg,이 장소에서 흡연 시 부과되는 벌칙금은 얼마인가요?,15만원,25만원,20만원,10만원,d
+train_3354.jpg,train/train_3354.jpg,이 건물에 위치한 노래 연습장은 몇 층에 있나요?,5층,4층,3층,2층,c
+train_3360.jpg,train/train_3360.jpg,이 이미지에 보이는 작은 부적들의 가격은 각각 얼마인가요?,500원과 1000원,300원과 700원,1500원과 2500원,1000원과 2000원,a
+train_3371.jpg,train/train_3371.jpg,이 건물에 있는 '논두렁갈비' 식당은 몇 층에 위치해 있나요?,3층,4층,1층,2층,d
+train_3375.jpg,train/train_3375.jpg,'워셔블 밀라노 립 크루넥 스웨터' 가격은 얼마인가요?,"\39,900","\69,900","\59,900","\49,900",d
+train_3382.jpg,train/train_3382.jpg,이 버스정류장 표지판에 적혀 있는 내용은 무엇인가요?,지하철역 출입구,택시승강장,주차장 안내,버스승강장,d
+train_3388.jpg,train/train_3388.jpg,이미지 속 태극기에서 볼 수 있는 영어 문구는 무엇인가요?,BELIEVE IN YOURSELF,NEVER GIVE UP,JUST DO IT,IMPOSSIBLE IS NOTHING,d
+train_3393.jpg,train/train_3393.jpg,초록색 봉지에 적힌 제품 이름은 무엇인가요?,하루 한줌 견과,리얼 데일리너츠,건강한 견과,매일 우유,b
+train_3405.jpg,train/train_3405.jpg,스노캣을 타고 지나가다 발견할 수 있는 비밀스러운 장소는 어디인가요?,거대한 지하 금고실,넓은 사막 한가운데,깊은 호수 밑,높은 산 정상,a
+train_3413.jpg,train/train_3413.jpg,이 건물 3층에 위치한 '텐코인' 가게의 한글 표기 이름은 무엇인가요?,텐코인 음식점,텐코인 카페,텐코인 편의점,군인노래연습장 텐코인,d
+train_3418.jpg,train/train_3418.jpg,이 세정제의 제품명은 무엇인가요?,동성클리너,동성만능크리너,세정제,만능크리너,b
+train_3421.jpg,train/train_3421.jpg,사진 속 큰 분홍색 간판에 적힌 내용은 무엇인가요?,주말 휴진 안내,매일 야간 진료,긴급 연락처 안내,정기 휴일 공지,b
+train_3424.jpg,train/train_3424.jpg,이 사진에 있는 안내문 중 '출입 금지'라고 적힌 곳은 어디인가요?,시립도서관 출입 금지,대학병원 입구,천주교 성지,신천지 출입 금지,d
+train_3425.jpg,train/train_3425.jpg,음료 컵에 적힌 문구는 무엇인가요?,MONSTER COFFEE,BEAST TEA,MONSTER TEA,BEAST COFFEE,a
+train_3434.jpg,train/train_3434.jpg,"전기차 충전 가이드에 따르면, 충전기를 사용할 때 어떤 행동이 금지되어 있나요?",80% 초과 충전 자제,커넥터를 항상 원위치,충전기 충격 금지,젖은 손으로 충전기 사용은 금지,a
+train_3448.jpg,train/train_3448.jpg,이 전기설비 박스에 붙어 있는 흰색 스티커에는 어떤 내용을 안내하고 있나요?,전기 케이블 절대 절단 금지,전기설비 점검 중,고장 시 연락처 안내,"중고차, 수출차, 폐차 전국 최고가 매입, 50만원 더",d
+train_3453.jpg,train/train_3453.jpg,제품 설명에 따르면 모발 길이가 어깨선일 때 권장 사용량은 얼마인가요?,1개 반~2개,1개,3개 이상,5개 이상,a
+train_3459.jpg,train/train_3459.jpg,이 건물 입구 앞에 세워진 표지판에 적힌 문구 중 맞는 것은 무엇인가요?,가장 빠른 인터넷 제공,24시간 보안 서비스,당신에게 집중하는 오피스,친환경 건물 인증 완료,c
+train_3463.jpg,train/train_3463.jpg,'유어스' 브랜드의 상주동씨꿀단 수정과 한 봉지의 가격은 얼마인가요?,"3,000원","1,900원","2,600원","2,200원",c
+train_3465.jpg,train/train_3465.jpg,"칠판에 쓰인 내용을 보면, △ABC의 넓이와 관련된 식으로 옳은 것은 무엇인가요?",Area(△ABC) = π + (α + β + γ),Area(△ABC) = π - (α + β + γ),Area(△ABC) + ∠A + ∠B + ∠C = π,Area(△ABC) - ∠A - ∠B - ∠C = π,b
+train_3466.jpg,train/train_3466.jpg,이미지의 노란 버스에 붙어 있는 현수막에 적힌 가을학기 개강일은 언제인가요?,9월 1일,9월 15일,10월 1일,8월 20일,a
+train_3468.jpg,train/train_3468.jpg,이 커튼 제품은 자외선과 빛을 몇 퍼센트 이상 차단한다고 적혀 있나요?,70% 이상,80% 이상,99.9% 이상,90% 이상,c
+train_3474.jpg,train/train_3474.jpg,이미지에 보이는 '베트남 쌀국수'의 가격은 얼마인가요?,"7,500원","3,000원","5,000원","6,500원",c
+train_3484.jpg,train/train_3484.jpg,이 제품의 단백질 함량은 얼마인가요?,12g,9g,20g,15g,a
+train_3486.jpg,train/train_3486.jpg,이 가게에서는 어떤 음식을 주로 판매하는가?,김치찌개와 불고기,냉면과 삼겹살,곰탕과 직화뼈구이,비빔밥과 떡볶이,c
+train_3495.jpg,train/train_3495.jpg,이 건물 3층에 있는 가게 이름은 무엇인가요?,Queen 노래방,Star 카페,Moon 서점,King PC방,a
+train_3507.jpg,train/train_3507.jpg,"청춘 꼬마김밥 가게의 영업시간 안내에 따르면, 어떤 요일이 휴무인가요?",일요일,월요일,토요일,화요일,d
+train_3518.jpg,train/train_3518.jpg,이 사진에 보이는 상점의 이름은 무엇인가요?,홈플러스,다이소,이마트,롯데마트,b
+train_3523.jpg,train/train_3523.jpg,사진 속 만화책이 진열된 서가의 구역 번호는 무엇인가요?,G38-5,G38-4,G37-3,G39-1,b
+train_3524.jpg,train/train_3524.jpg,이 가게 간판에 적힌 메뉴는 무엇인가요?,부동산,숙성 대광어,양꼬치,참숯불구이,b
+train_3525.jpg,train/train_3525.jpg,이미지 속 제품 광고에서 '대맥약엽(大?若葉)' 주스의 주요 성분으로 강조된 것은 무엇인가요?,100% 청색 채소즙,44가지 한방 약재 혼합,44가지 재료 혼합,100% 야채즙,a
+train_3537.jpg,train/train_3537.jpg,이 건물에 있는 병원 중 전화번호가 '951-3200'인 곳은 어디인가요?,박주형 내과 의원,THE GLASS 안경,수 치과 의원,운남 으랏차 마취 통증의학과 의원,a
+train_3542.jpg,train/train_3542.jpg,사진 속에 보이는 파란색 글자는 무엇인가요?,KOREA,PYTHON,SEOUL,SSAFY,d
+train_3544.jpg,train/train_3544.jpg,사진 속 과자 '에이스'의 내용량은 얼마인가요?,45개,72g,198g,73g,d
+train_3547.jpg,train/train_3547.jpg,이 식당에서 '직화 무뼈 닭발'을 먹을 때 제공된 김에 닭발을 올리고 찍어 먹으라고 안내된 소스는 무엇인가요?,케첩 또는 머스타드,간장 또는 고추장,마요네즈 또는 청양마요소스,된장 또는 쌈장,c
+train_3548.jpg,train/train_3548.jpg,사진 속 보드게임 '16식스틴' 상자에 적혀 있는 'PREMIUM CARD SLEEVE'의 가격은 얼마인가요?,6195,5890,6590,4570,c
+train_3556.jpg,train/train_3556.jpg,이 건물의 이름은 무엇인가요?,연세대학교,한국과학기술원,조선이공대학교,서울대학교,c
+train_3562.jpg,train/train_3562.jpg,이 벽에 적힌 글에서 '어찌하여 우리는 헤어지고 생각나는 사람들입니까?' 다음에 나오는 문장은 무엇인가요?,울지 않는다면서 먼저 눈썹이 젖어,들국화: 2,말로는 잊어버리라고 잊어버리라고......,말로는 멋있다면서 다시 생각이 나서,c
+train_3571.jpg,train/train_3571.jpg,이 건물 2층에 있는 노래연습장의 이름은 무엇인가요?,소풍 노래연습장,행복 노래연습장,뚝배기 노래연습장,부대찌개 노래연습장,a
+train_3573.jpg,train/train_3573.jpg,이 사진 속 가게 간판에 적힌 이름은 무엇인가요?,OAKBERRY ACAI,Auntie Anne's,Starbucks,Dunkin' Donuts,a
+train_3586.jpg,train/train_3586.jpg,좋순애 황둔 쌀찐빵 가게에서 판매하는 찐빵 종류가 아닌 것은 무엇인가요?,흰 쌀찐빵,단호박 쌀찐빵,감자 쌀찐빵,옥수수 쌀찐빵,c
+train_3589.jpg,train/train_3589.jpg,이 지하철 역 출구 번호는 무엇인가요?,4번 출구,2번 출구,1번 출구,3번 출구,a
+train_3594.jpg,train/train_3594.jpg,이 가게의 정기휴일은 언제인가요?,매주 화요일,매주 월요일,매주 금요일,매주 수요일,a
+train_3596.jpg,train/train_3596.jpg,탑 공인중개사 사무소에서 제공하는 서비스는 무엇인가요?,자동차 수리 서비스,음식 배달 서비스,부동산과 인테리어를 한 번에,여행 예약 서비스,c
+train_3597.jpg,train/train_3597.jpg,이 냉동고에서 베스킨라빈스 파인트 아이스크림 2개를 사면 얼마에 구매할 수 있나요?,"17,900원","16,500원","12,900원","9,900원",d
+train_3601.jpg,train/train_3601.jpg,사진 속 사과주스 상자에 적힌 칼로리는 얼마인가요?,163kcal,250kcal,200kcal,100kcal,a
+train_3602.jpg,train/train_3602.jpg,이 음식점의 간판에 적힌 전문 요리는 무엇인가요?,한국 전통 음식,이탈리아 파스타 전문,일본 우동 전문,중국 요리 전문,c
+train_3603.jpg,train/train_3603.jpg,모션데스크 프리미엄의 매장 할인가격은 얼마인가요?,"630,000원","770,000원","1,000,000원","887,000원",b
+train_3604.jpg,train/train_3604.jpg,이 이미지에 나온 뮤지컬의 제목은 무엇인가요?,캣츠,안나 카레니나,레미제라블,오페라의 유령,b
+train_3605.jpg,train/train_3605.jpg,이 건물에 입주해 있는 기관이나 업체 중 '법무법인'이라는 명칭이 붙은 곳은 어디인가요?,근로복지공단 구미의원,블리비의원 피부과,스핀볼링,법무법인 로하스,d
+train_3617.jpg,train/train_3617.jpg,왼쪽 제품에 적힌 리얼 커버 리퀴드의 색상 이름은 무엇인가요?,라이트 크림 08,세미 매트 06,세미 매트 08,라이트 크림 06,b
+train_3620.jpg,train/train_3620.jpg,서울 암사동 유적 표지판에 적힌 내용 중 '서울 암사동 유적'을 영어로 올바르게 표기한 것은 무엇인가요?,Seoul Amsa Historic Site,Seoul Amsadong Ruins,Seoul Amsa Ruins,Seoul Amsadong Relics,b
+train_3621.jpg,train/train_3621.jpg,이 도로 표지판에 따르면 순천과 학산으로 가려면 어느 방향으로 가야 하나요?,왼쪽으로 가야 한다,직진해야 한다,오른쪽으로 가야 한다,유턴해야 한다,b
+train_3623.jpg,train/train_3623.jpg,이 이미지에 나온 'OVEN CARBONARA' 크림 스파게티의 특징으로 맞는 것은 무엇인가요?,저칼로리 다이어트 식품,오븐에서 더 잘고 깊은 크림의 맛,매운맛이 강한 소스 포함,채식 전용 메뉴,b
+train_3625.jpg,train/train_3625.jpg,이 포스터에서 QR 스탬프 랠리 참여를 위해 방문해야 하는 장소는 어디인가요?,롯데월드타워 월드파크,남산타워,서울숲 공원,한강시민공원,a
+train_3627.jpg,train/train_3627.jpg,이 지하도 입구의 이름은 무엇인가요?,TOKYO MALL,SUBNADE,SHINJUKU STATION,NANBA PLAZA,b
+train_3632.jpg,train/train_3632.jpg,이 비행기의 항공사는 어디인가요?,에어부산,대한항공,아시아나항공,진에어,b
+train_3633.jpg,train/train_3633.jpg,오른쪽 주문기기에 표시된 샌드위치 이름은 무엇인가요?,맘모스샌드 초당옥수수,불고기샌드,감자샌드,치즈샌드,a
+train_3636.jpg,train/train_3636.jpg,이 건물의 4층에 위치한 병원 이름은 무엇인가요?,기찬 통증의학과,행복한 치과,서울 정형외과,속시원 내과,d
+train_3646.jpg,train/train_3646.jpg,이 건물의 2층에 위치한 부동산 사무소의 전화번호는 무엇인가요?,123-4567,755-2400,010-1234-5678,02-987-6543,b
+train_3647.jpg,train/train_3647.jpg,영수증에 적힌 '슈프림순살치킨'의 가격은 얼마인가요?,"3,900원","9,900원","4,300원","4,900원",b
+train_3650.jpg,train/train_3650.jpg,출렁다리 통행이 금지되는 강풍의 순간 최대풍속은 몇 m/s인가요?,20m/s,14m/s,10m/s,25m/s,a
+train_3655.jpg,train/train_3655.jpg,이미지 속 금연구역 안내문에 적힌 내용 중 올바른 것은 무엇인가요?,흡연 시 과태료 10만원 부과,금연구역은 실외만 해당됩니다,담배만 금지하며 전자담배는 허용됩니다,전자담배도 안됩니다!,d
+train_3656.jpg,train/train_3656.jpg,이 커피의 맛에 대해 설명한 내용 중 맞는 것은 무엇인가요?,달콤한 바닐라 향과 부드러운 우유 맛이 조화롭습니다.,강한 쓴맛과 진한 스모크 향이 느껴집니다.,상큼한 과일 향과 밝은 산미가 특징입니다.,"진한 다크초콜릿의 무게와 함께 건과류, 카라멜 향이 부드럽게 어울립니다.",d
+train_3657.jpg,train/train_3657.jpg,우리동네 알뜰유심 전문매장에서 가장 저렴한 요금제의 월 요금은 얼마인가요?,"월 4,950원","월 10,000원","월 33,500원","월 17,400원",a
+train_3659.jpg,train/train_3659.jpg,배달의민족에서 진행하는 이디야커피 프로모션 기간은 언제부터 언제까지인가요?,8월 1일(화)부터 8월 15일(화)까지,7월 27일(월)부터 8월 2일(일)까지,6월 20일(화)부터 7월 20일(목)까지,7월 1일(월)부터 7월 31일(수)까지,b
+train_3667.jpg,train/train_3667.jpg,이 주차된 차량들에 적힌 전화번호는 무엇인가요?,1800-1234,1522-8820,031-123-4567,010-9876-5432,b
+train_3671.jpg,train/train_3671.jpg,이 매장의 영업시간은 언제부터 언제까지인가요?,토~일 11:00~23:00,월~금 10:00~22:00,매일 08:00~20:00,월~일 09:30~24:00,d
+train_3674.jpg,train/train_3674.jpg,이 장소의 이름은 무엇인가요?,라면 박물관,라면 도서관,라면 가게,라면 카페,b
+train_3678.jpg,train/train_3678.jpg,이 사진이 찍힌 장소의 특징으로 가장 알맞은 것은 무엇인가요?,대학교 캠퍼스이다.,야시장 거리이다.,공항 출입구이다.,지하철 역 내부이다.,b
+train_3680.jpg,train/train_3680.jpg,이 계단 입구에 있는 지하철역 이름은 무엇인가요?,연수역,부평역,부산역,망미역,d
+train_3682.jpg,train/train_3682.jpg,이 게시판에 붙일 때 사용하면 안 되는 것은 무엇인가요?,일체의 테이프 및 접착제,끈,핀,자석 이용,a
+train_3693.jpg,train/train_3693.jpg,이 사진에 보이는 간판의 한자 이름은 무엇인가요?,東京動物園,動物公園,日本動物園,上野動物園,d
+train_3696.jpg,train/train_3696.jpg,사진에 보이는 파란색 도로 표지판에 적힌 '언주로'까지의 거리는 얼마인가요?,500m,1km,100m,300m,d
+train_3697.jpg,train/train_3697.jpg,이 이미지에 나온 '애플 PC' 가게가 언제 영업하는지에 대한 안내문에는 무엇이라고 적혀 있나요?,평일 오후 1시부터 10시까지,24시간 영업,주말 휴무,오전 9시부터 오후 6시까지,b
+train_3722.jpg,train/train_3722.jpg,이 부동산 광고에서 상담 문의 전화번호는 무엇인가요?,010-1234-5678,293-8500,010-2860-3166,293-8388,d
+train_3723.jpg,train/train_3723.jpg,노란색 경고문에 적힌 내용 중 올바른 것은 무엇인가요?,여기는 쓰레기 배출장이 맞습니다!,이곳은 배출장소가 아닙니다!,이곳은 주차장입니다!,이곳은 흡연 구역입니다!,b
+train_3725.jpg,train/train_3725.jpg,이 게시판에서 '소식란'과 '신착도서' 중 오른쪽에 위치한 항목은 무엇인가요?,공지사항,이벤트 안내,소식란,신착도서,d
+train_3728.jpg,train/train_3728.jpg,책상 위에 놓인 초콜릿의 카카오 함량은 얼마인가요?,72%,82%,90%,75%,b
+train_3730.jpg,train/train_3730.jpg,쿠키에 써져 있는 이름 중 '송재'가 적힌 쿠키는 어느 박스에 있나요?,모든 박스에 있음,아래 박스,오른쪽 위 박스,왼쪽 위 박스,d
+train_3734.jpg,train/train_3734.jpg,이 건물에 입주해 있는 7층 사무실은 무엇인가요?,대한 LPG 협회,스 트 란 트,에스피테크놀러지,주식회사 다일테크,b
+train_3736.jpg,train/train_3736.jpg,건물에 붙어 있는 간판에 적힌 식당 이름은 무엇인가요?,영진족발,봄내쌈밥,돼지국밥,봄내멸치쌈밥,d
+train_3758.jpg,train/train_3758.jpg,이 책들 중에서 'AWS로 구현하는 CI/CD 배포 업무'라는 제목의 책은 어떤 주제를 다루나요?,모바일 앱 개발 기초,클라우드 컴퓨팅과 AWS 서비스 활용,데이터베이스 설계와 관리,웹 디자인과 사용자 경험,b
+train_3762.jpg,train/train_3762.jpg,이 전기 설비에 붙어 있는 경고 문구 중 '특고압 위험' 다음에 적힌 문구는 무엇인가요?,작업 금지,절대 접근 금지,접근 엄금,출입 금지,c
+train_3763.jpg,train/train_3763.jpg,이 건물 임대 안내문에 따르면 2층의 면적은 몇 평인가요?,85평,60평,100평,25평,b
+train_3768.jpg,train/train_3768.jpg,이 건물의 2층에 있는 병원의 이름은 무엇인가요?,박윤혁 내과,타임골드,박윤혁치과 의원,메가커피,c
+train_3779.jpg,train/train_3779.jpg,이 건물 외벽에 적혀 있지 않은 브랜드는 무엇인가요?,TUMI,ADIDAS,LACOSTE,TOMMY HILFIGER,b
+train_3801.jpg,train/train_3801.jpg,이 역의 이름은 무엇인가요?,ゆす (YUSU),ふくおか (FUKUOKA),ちょうじゃばる (CH?JABARU),はるまち (HARUMACHI),d
+train_3806.jpg,train/train_3806.jpg,이 접시에 담긴 재료 중에서 'れんこん'은 무엇인가요?,버섯,상추,연근,배추,c
+train_3808.jpg,train/train_3808.jpg,전자식 셔터 방화설비 2단 연동제어기에서 '염감지기(방제실)'가 동작할 때 어떤 현상이 나타나나요?,전기 공급이 차단된다.,화재경보음이 울리거나 경보등이 점등된다.,자동으로 소방호스가 작동된다.,경보가 해제되고 시스템이 초기화된다.,b
+train_3810.jpg,train/train_3810.jpg,냅킨 상자에 쓰여진 문구의 내용은 무엇인가요?,"식사후, 의자는 제자리에 :) 휴지는 한 장 씩","식사전, 손을 씻으세요",음식은 남기지 말고 다 드세요,음료는 여기에서만 드세요,a
+train_3813.jpg,train/train_3813.jpg,왼쪽 포스터에 적힌 문구 중 올바른 내용은 무엇인가요?,화재에는 대피 먼저 안전에는 소화 먼저,화재에는 대비 먼저 안전에는 대피 먼저,화재에는 대피 먼저 안전에는 대비 먼저,화재에는 소화 먼저 안전에는 대피 먼저,c
+train_3816.jpg,train/train_3816.jpg,다음 중 이미지에 보이는 식사 메뉴의 이름이 아닌 것은 무엇인가요?,김밥,샌드위치 COMBO,샐러드,도시락,a
+train_3819.jpg,train/train_3819.jpg,이미지 속에 나란히 놓인 병들 중 오른쪽에 위치한 두 병에 적힌 맥주 브랜드 이름은 무엇인가요?,HITE,Cass,참이슬,처음처럼,b
+train_3823.jpg,train/train_3823.jpg,이 제품의 브랜드명은 무엇인가요?,Blue Label,Scotch Whisky,John Walker & Sons,Johnnie Walker,a
+train_3828.jpg,train/train_3828.jpg,이 조형물에 적힌 글자는 무엇인가요?,청풍호수공원,청풍리조트,청풍호수,청풍관광지,c
+train_3832.jpg,train/train_3832.jpg,이 이미지에 적힌 문구 중에서 SSAFY와 관련된 문구는 무엇인가요?,SSAFY 16기 입학을 축하합니다,SSAFY 15기 졸업을 축하합니다,SSAFY 17기 입학을 축하합니다,SSAFY 16기 합격을 축하합니다,a
+train_3835.jpg,train/train_3835.jpg,"가구 관리 시 주의사항에 따르면, 가구를 손상시킬 수 있으므로 절대 사용하지 말아야 할 것은 무엇인가요?",세제,물,솔벤트,물티슈,d
+train_3837.jpg,train/train_3837.jpg,이 광고에서 '명함' 제작 가격은 얼마인가요?,오백장 사만원,오백장 이만원,오백장 만원,오백장 삼만원,c
+train_3838.jpg,train/train_3838.jpg,이 술병 라벨에 적힌 이름은 무엇인가요?,참이슬,청하,한라산,맑은린,d
+train_3842.jpg,train/train_3842.jpg,사진 속 간판에 적힌 공인중개사 사무소 이름은 무엇인가요?,이화 공인중개사,서울 공인중개사,행복 공인중개사,한빛 공인중개사,a
+train_3845.jpg,train/train_3845.jpg,이 건물 2층에 위치한 'LAFA STUDIO'에서 제공하지 않는 서비스는 무엇인가요?,포트폴리오,예중 예고 미래 입시,성인취미,카페 음료 서비스,d
+train_3846.jpg,train/train_3846.jpg,이 비석에 새겨진 글의 제목은 무엇인가요?,관동별곡,청산별곡,동해물과 백두산이,서동요,a
+train_3848.jpg,train/train_3848.jpg,이 가게에서 현금 인출 시 수수료는 얼마인가요?,수수료 0원,수수료 100원,수수료 500원,"수수료 1,000원",a
+train_3851.jpg,train/train_3851.jpg,이 버스정류장 이름은 무엇인가요?,금연버스 정류장,한국자산신탁 센터필드,대한사회복지회,역삼역 포스코타워역삼,c
+train_3853.jpg,train/train_3853.jpg,이 사진에 보이는 가게 이름은 무엇인가요?,미가 참숯구이,한식당 도리,김밥천국,다락 숯불구이,a
+train_3854.jpg,train/train_3854.jpg,이 사진 속 건물의 이름은 무엇인가요?,한국외국어대학교,서울대학교,연세대학교,고려대학교,a
+train_3859.jpg,train/train_3859.jpg,이재모 Pizza 부산역점의 영업 시작 시간은 몇 시인가요?,오전 9:00,오후 5:00,오전 10:30,오후 12:00,c
+train_3866.jpg,train/train_3866.jpg,노란 바탕의 세로로 쓰인 큰 글씨는 무엇을 광고하고 있나요?,가전제품 세일,중고 가구,사무용 가구,커튼 블라인드,d
+train_3867.jpg,train/train_3867.jpg,사진 속 간판에서 볼 수 있는 가게 이름은 무엇인가요?,德榮大押,押大榮德,TAK WING PAWN SHOP,榮德大押,b
+train_3870.jpg,train/train_3870.jpg,이 이미지에 있는 간판에 적힌 이름은 무엇인가요?,Pokemon Magic Woods,Pokemon Secret Forest,Pokemon Hidden Grove,Pokemon Mystery Land,b
+train_3872.jpg,train/train_3872.jpg,이 이미지에서 'SSAFY 16기' 입학 축하 카드에 적힌 문구는 무엇인가요?,SSAFY 16기 환영합니다,SSAFY 15기 입학을 축하합니다,SSAFY 16기 입학을 축하합니다,SSAFY 16기 졸업을 축하합니다,c
+train_3885.jpg,train/train_3885.jpg,군사독재정권 시절 2층 공간에는 어떤 방들이 있었나요?,"식당, 도서관, 상담실","강당, 직원 휴게실, 서재","직원실 2개소, 교환실, 판단실","회의실 3개, 창고, 화장실",c
+train_3890.jpg,train/train_3890.jpg,이 제품의 브랜드 이름은 무엇인가요?,다우니,강력탈취,페브리즈,미스틱,c
+train_3891.jpg,train/train_3891.jpg,'막창천국' 가게 간판에 적힌 내용 중 맞는 것은 무엇인가요?,대한민국 5대 막창,서울시 3대 막창,서울시 5대 막창,대한민국 3대 막창,d
+train_3894.jpg,train/train_3894.jpg,이 한의원 간판에 적힌 전화번호는 무엇인가요?,233-2700,233-2900,233-2800,233-2801,c
+train_3895.jpg,train/train_3895.jpg,'로큰롤은 멈추지 않아!' 부스에서 판매하는 LILY/토모리 일러스트의 크기는 얼마인가요?,100 x 150mm,148 x 105mm,210 x 297mm,200 x 200mm,b
+train_3899.jpg,train/train_3899.jpg,사진에 보이는 파란색과 흰색 포장의 과자 이름은 무엇인가요?,크라운 산도,오리온 초코파이,크라운 샌도,롯데 샌드,a
+train_3908.jpg,train/train_3908.jpg,벽에 붙어 있는 빨간색 표지판에 적혀 있는 내용은 무엇인가요?,세콤경비구역 SECOM 1588-8259,화장실 위치 안내,출입금지 구역,화재경보장치 작동중,a
+train_3918.jpg,train/train_3918.jpg,이 식당의 세트메뉴 중에서 가장 저렴한 가격은 얼마인가요?,"69,000원","15,000원","17,000원","79,000원",b
+train_3927.jpg,train/train_3927.jpg,"세탁코스 중에서 6,000원에 이용할 수 있는 것은 무엇인가요?",표준세탁,제로드럼세탁,이불세탁,향균온수,b
+train_3929.jpg,train/train_3929.jpg,이 표지판에 적힌 주의사항은 무엇인가요?,화재주의 불을 가까이하지 마세요,낙상주의 계단을 조심하세요,고압주의 전기 위험 지역입니다,미끄럼주의 난간을 잡고 이동하세요,d
+train_3931.jpg,train/train_3931.jpg,이 지하도 상가 출입구의 번호는 무엇인가요?,9,8,10,7,b
+train_3933.jpg,train/train_3933.jpg,이 가게의 칠판에 적힌 문구 중 맞는 것은 무엇인가요?,"Fresh baked Bagels, Homemade soup, Tea & Drink, Beer, Sandwich","Fresh baked Bagels, Homemade salad, Coffee & Drink, Beer, Sandwich","Fresh baked Bagels, Homemade soup, Coffee & Drink, Beer, Sandwich","Fresh baked Cookies, Homemade soup, Coffee & Drink, Beer, Sandwich",c
+train_3948.jpg,train/train_3948.jpg,이 사진 속 문구 중 제주공항에서 방문객을 환영하는 문구는 무엇인가요?,혼저옵서 INTERNATIONAL AIRPORT,INTERNATIONAL AIRPORT 제주공항,WELCOME to 제주공항,WELCOME JEJU 혼저옵서 환영합니다,d
+train_3953.jpg,train/train_3953.jpg,이 행사에서 Sony Interactive Entertainment Korea의 대표로 소개된 사람의 이름은 무엇인가요?,김민수,이서연,박지훈,안도 테츠야,d
+train_3955.jpg,train/train_3955.jpg,건물 외벽에 적힌 '아름다운 화이트 치과'의 야간 진료 가능한 요일은 무엇인가요?,월 목,화 금,수 토,일,a
+train_3961.jpg,train/train_3961.jpg,이 건물의 간판에 적힌 호텔 이름은 무엇인가요?,프리티 호텔,프리마 호텔,프리미어 호텔,프리즌 호텔,c
+train_3977.jpg,train/train_3977.jpg,"이 스키틀즈 오리지널 포장지에 적힌 내용 중, 포장지 무게와 칼로리 정보는 무엇인가요?",50 g (200 kcal),40 g (150 kcal),60 g (210 kcal),45 g (180 kcal),d
+train_3981.jpg,train/train_3981.jpg,사진 속 과자 봉지에 적힌 내용 중 올바른 것은 무엇인가요?,Sweet & Sour Fruit Candy,Fresh Melon,Pure PREMIUM,Kanro Melon Gummy,c
+train_3991.jpg,train/train_3991.jpg,"카페 벽에 붙어 있는 안내문에 따르면, 1인당 무엇을 한 잔씩 주문해야 하나요?",1인 1디저트,1인 1음식,1인 1주문,1인 1음료,d
+train_3992.jpg,train/train_3992.jpg,이 할인 행사에서 30만원 이상 구매 시 제공되는 추가 할인 금액은 얼마인가요?,8만원 추가 할인,4만원 추가 할인,6만원 추가 할인,2만원 추가 할인,b
+train_3996.jpg,train/train_3996.jpg,잔느 랑방 EDP 50ml의 할인된 가격은 얼마인가요?,"69,000원","97,000원","58,200원","50,000원",c
+train_4002.jpg,train/train_4002.jpg,'운명적인 16116반' 포스터에 적힌 규칙 중 '질문 적극적으로 하기'는 몇 번째 규칙인가요?,5번째,7번째,9번째,3번째,b
+train_4007.jpg,train/train_4007.jpg,이 건물 입구에 적힌 문구는 무엇인가요?,Welcome to the National Art Museum,Welcome to the National Science Museum,Welcome to the National Football Museum,Welcome to the National History Museum,c
+train_4008.jpg,train/train_4008.jpg,이 입장권은 어디에서 사용 가능한가요?,여의도 한강공원,서울광장 스케이트장,잠실 야구장,코엑스 아쿠아리움,b
+train_4026.jpg,train/train_4026.jpg,이 제품 'VATTERNKAR 바텐카르'의 가격은 얼마인가요?,"\52,900","\49,000","\26,000","\34,900",d
+train_4027.jpg,train/train_4027.jpg,이 껌의 맛은 무엇인가요?,야생 딸기맛,포도맛,사과맛,복숭아맛,a
+train_4039.jpg,train/train_4039.jpg,이 가게의 전문 음식은 무엇인가요?,닭갈비,해산물,소고기구이,돼지구이,d
+train_4043.jpg,train/train_4043.jpg,'후라이드 참 잘하는 집'에서 후라이드 방문포장 가격은 얼마인가요?,"8,000원","15,000원","12,000원","10,000원",c
+train_4045.jpg,train/train_4045.jpg,이 건물에 위치한 병원 이름은 무엇인가요?,건강검진센터,삼성연합의원,연동치과,서울병원,b
+train_4048.jpg,train/train_4048.jpg,이 사진은 어느 공항의 출입국 심사대인지 텍스트를 보고 알 수 있는 것은 무엇인가요?,나리타 공항,김포공항,인천국제공항,이스탄불 공항,d
+train_4050.jpg,train/train_4050.jpg,이 가게 창문에 붙어 있는 포스터에 적혀 있는 빵 이름은 무엇인가요?,밤티말빵 마리또쪼쪼,밤티빵 마리또쪼,밤티말빵 마리또,밤티말빵 마리또쪼,d
+train_4051.jpg,train/train_4051.jpg,소화전 사용법 중 두 번째 단계는 무엇인가요?,밸브 열기(왼쪽),불끄기,호스 감기,호스 꺼내기,a
+train_4053.jpg,train/train_4053.jpg,"사진 속에 보이는 대형 광고판에서 'SUPER """"DRY""""'라고 적힌 맥주 브랜드는 무엇인가요?",Asahi,Yebisu,Sapporo,Kirin,a
+train_4059.jpg,train/train_4059.jpg,사진 속 노란색 포장지에 적힌 제품 이름은 무엇인가요?,Natural Cool,CHOUPFE Soleil,Lay's 감자칩,Borra Noter BACON CHEESE,d
+train_4076.jpg,train/train_4076.jpg,다음 중 텍스트에 언급된 장소는 어디인가요?,인도 사막,아프리카 사막,사막 없음,사하라 사막,a
+train_4084.jpg,train/train_4084.jpg,이 사물에 붙어 있는 숫자는 무엇인가요?,342,432,243,234,c
+train_4087.jpg,train/train_4087.jpg,"삼성청년SW·AI아카데미 취업지원 서비스 안내에 따르면, 2단계 취업지원 프로그램에서 제공하는 내용은 무엇인가요?",직업 심리검사 및 취업역량 진단,전문 컨설턴트의 진로 및 취업 상담,단계별 취업 경쟁력 제고 교육 실시 및 자기소개서 작성법 등,기업과의 만남의 장 제공 및 채용박람회,c
+train_4088.jpg,train/train_4088.jpg,SSAFY 웰컴킷 인증 이벤트에서 참여 방법 중 STEP01에 해당하는 내용은 무엇인가요?,이벤트 페이지에 접속해 회원가입을 한다,아래 QR로 참여 인증을 한다,참여 신청서를 작성한다,인증샷 찍은 사진 후기를 SNS에 올린다,d
+train_4094.jpg,train/train_4094.jpg,2026 전남광주 미래산업 박람회는 어느 날짜에 열리나요?,10.1(일) - 10.4(수),8.15(화) - 8.18(금),7.20(목) - 7.23(일),9.2(수) - 9.5(토),d
+train_4098.jpg,train/train_4098.jpg,이 버스의 이번 정류장은 어디인가요?,하차태그 미태그시 추가요금 발생,잠실대교북단(미),잠실광역환승센터,이중,c
+train_4118.jpg,train/train_4118.jpg,이 버스 내 안내문에서 모집하는 임상시험 대상자는 어떤 질병을 가진 사람들인가요?,천식 및 알레르기 환자,심장질환 환자,제2형 당뇨 및 고혈압 환자,관절염 환자,c
+train_4121.jpg,train/train_4121.jpg,이 건물에 입주한 식당의 이름은 무엇인가요?,부대포령 쭈빠기,GS25,한발 뒷고기,남성컷트 전문점,c
+train_4126.jpg,train/train_4126.jpg,왼쪽 병에 적혀 있는 제품은 무엇인가요?,PANCAKE Shaker,PFANNKUCHEN Shaker,WAFFLE Shaker,CREPE Shaker,a
+train_4129.jpg,train/train_4129.jpg,이미지 속 '락토핏 골드' 프로바이오틱스 제품의 가격은 얼마인가요?,"12,900원","10,900원","9,900원","11,900원",b
+train_4132.jpg,train/train_4132.jpg,사진 속 간판에 적힌 부동산 이름은 무엇인가요?,골프존 전용 주차장,역삼역삼역점,The미래부동산,골프존파크,c
+train_4139.jpg,train/train_4139.jpg,이 이미지에 적혀 있는 해시태그 중 하나가 아닌 것은 무엇인가요?,#이케아광명점,#서울청계점,#광명농장,#파르마레,b
+train_4141.jpg,train/train_4141.jpg,포스터에 적힌 앨범 릴리스 파티의 날짜는 언제인가요?,2024.01.10(TUE),2026.07.24(FRI),2025.12.01(WED),2023.06.15(THU),b
+train_4146.jpg,train/train_4146.jpg,이 소화기에 붙어 있는 스티커에서 '대전광역시 소방본부'가 기증한 물품임을 알 수 있습니다. 이 스티커에 적혀 있는 문구 중 올바른 것은 무엇인가요?,광주광역시 소방본부 기증,서울특별시 소방본부 기증,대전광역시 소방본부 기증,부산광역시 소방본부 기증,c
+train_4151.jpg,train/train_4151.jpg,사진 속 건물에 적힌 글씨 중 '까르띠엠 7.0'과 함께 쓰인 단어는 무엇인가요?,아이파크,롯데,삼성,현대,d
+train_4152.jpg,train/train_4152.jpg,미남역 1번 출구로 나가면 어디로 갈 수 있나요?,연산시장,대동병원,동래구청,내성교차로,d
+train_4157.jpg,train/train_4157.jpg,"이 전광판에 적힌 문구에 따르면, 이번 역은 어떤 역인가요?",대화역,종착역,주엽역,중작역,a
+train_4160.jpg,train/train_4160.jpg,이 표지판에 안내된 장소들이 모두 가리키는 방향은 어디인가요?,왼쪽,아래쪽,위쪽,오른쪽,d
+train_4165.jpg,train/train_4165.jpg,이 가게의 상호명은 무엇인가요?,애견 호텔,애견 셀프 전문 상,내가 할 개!,셀프 미용,c
+train_4167.jpg,train/train_4167.jpg,사진 속 고투명 특수비닐 중형(2m x 2.2m)의 가격은 얼마인가요?,"\2,000","\5,000","\3,000","\4,000",c
+train_4172.jpg,train/train_4172.jpg,이 음료수의 제품명은 무엇인가요?,포카리스웨트,레몬에이드,게토레이,파워에이드,a
+train_4173.jpg,train/train_4173.jpg,이 공기청정기의 정격 전원은 무엇인가요?,220 V~ 60 Hz,110 V~ 50 Hz,110 V~ 60 Hz,220 V~ 50 Hz,a
+train_4183.jpg,train/train_4183.jpg,이 건물 입구에 적힌 글자는 무엇인가요?,multiversity,multicampus,multilibrary,multiservice,b
+train_4193.jpg,train/train_4193.jpg,"이 버스 이용 안내문에 따르면, 기내용 캐리어 크기 제한은 어떻게 되어 있나요?",기내용 24인치 이내,기내용 20인치 이내,기내용 18인치 이내,기내용 22인치 이내,b
+train_4194.jpg,train/train_4194.jpg,이 사진 속 분리수거함에서 '모든종이'는 어느 칸에 버려야 하나요?,왼쪽 칸,오른쪽 칸,가운데 칸,위에 있는 칸,c
+train_4197.jpg,train/train_4197.jpg,이 매장의 '단색 면타월'에 대해 안내된 내용 중 옳은 것은 무엇인가요?,단색 면타월은 3겹으로 제작되었습니다.,단색 면타월은 100% 합성섬유로 만들어졌습니다.,단색 면타월은 비치타월과 같은 사이즈입니다.,단색 면타월은 부드러운 수분 흡수력이 뛰어납니다.,d
+train_4199.jpg,train/train_4199.jpg,이 제품 'Insect World'에 들어있는 곤충 모형의 개수는 몇 개입니까?,60 PCS,30 PCS,40 PCS,50 PCS,d
+train_4200.jpg,train/train_4200.jpg,이 사진 속 문구 'HELLO JEJU'가 있는 곳은 어디와 관련이 있나요?,부산광역시,인천공항,제주도,서울특별시,c
+train_4202.jpg,train/train_4202.jpg,포스터에 적힌 'folk code'와 함께 나타난 네 가지 단어 중 올바른 것은 무엇인가요?,행복,친구,사랑,용기,d
+train_4206.jpg,train/train_4206.jpg,사진 속 천에 적힌 'HOW TO MAKE YOURSELF FEEL BETTER?'의 두 번째 방법은 무엇인가요?,REWARD YOURSELF,TAKE A BREAK TO LAUGH,REMIND YOURSELF TO MAINTAIN PERSPECTIVE,TAKE A FEW MINUTES TO BREATHE DEEP,a
+train_4208.jpg,train/train_4208.jpg,사진 속 'もちぷよ' 상품의 가격은 얼마인가요?,150원 (세금 포함 162원),120원 (세금 포함 130원),100원 (세금 포함 108원),110원 (세금 포함 119원),d
+train_4210.jpg,train/train_4210.jpg,"이 건물의 6층 비상 대피 안내문에 따르면, 이 안내문은 어떤 층의 대피 계획을 나타내고 있나요?",6층,8층,5층,7층,a
+train_4217.jpg,train/train_4217.jpg,맨홀 뚜껑에 적혀 있는 글자는 무엇인가요?,상수도,하수도,가스,전기,b
+train_4221.jpg,train/train_4221.jpg,서진프라자 건물에 적혀 있는 전화번호는 무엇인가요?,042-822-0708,042-888-0708,042-700-8220,042-123-4567,a
+train_4223.jpg,train/train_4223.jpg,포스터에 적힌 전문가의 전문 분야는 무엇인가요?,렌즈 코팅 전문가,누진 렌즈 전문가의 비전 컨설팅,안경 도수 측정 전문가,안경 디자인 전문가,b
+train_4224.jpg,train/train_4224.jpg,2026 서울 마라톤과 관련된 행사는 언제 열리나요?,3월 13일 금요일부터 3월 15일 일요일까지,4월 1일,3월 26일,3월 1일,a
+train_4231.jpg,train/train_4231.jpg,다음 중 '마그비 액티브' 제품이 개선하는 증상이 아닌 것은 무엇인가요?,근육경련 및 혈액순환 개선제,"신경통, 관절통",두통과 치통,운동 후 근육통,c
+train_4237.jpg,train/train_4237.jpg,이 가게 간판에 적힌 주요 업종은 무엇인가요?,미용실,전자 제품 판매,음식점,유압 부품 일절,d
+train_4241.jpg,train/train_4241.jpg,사진 속에서 분홍색 용기에 적힌 내용은 무엇인가요?,주방세제,섬유유연제,세탁세제,욕실세정제,b
+train_4242.jpg,train/train_4242.jpg,이 식당의 전문 메뉴는 무엇인가요?,고사리육개장,설렁탕,김치찌개,된장찌개,a
+train_4246.jpg,train/train_4246.jpg,이 포스터에 따르면 '서울야외도서관'은 어느 기간 동안 운영되나요?,2027년 1월부터 6월까지,2026년 5월부터 12월까지,2025년 3월부터 10월까지,2026년 4월부터 11월까지,d
+train_4249.jpg,train/train_4249.jpg,Amazon Bedrock AgentCore가 직접 서버 관리를 필요 없게 하는 기능은 무엇이라고 적혀 있나요?,AI Integration,Security,Serverless,Orchestration,c
+train_4250.jpg,train/train_4250.jpg,사진 속 와인 병 라벨에 적힌 제조 연도는 무엇인가요?,1997,1995,1996,1994,c
+train_4251.jpg,train/train_4251.jpg,이 아이스크림의 맛은 무엇인가요?,바닐라,녹차,초콜릿,딸기,a
+train_4273.jpg,train/train_4273.jpg,이 키보드의 모델명은 무엇인가요?,MK107,MK110,MK108,MK109,c
+train_4274.jpg,train/train_4274.jpg,이 건물 외벽에 붙어 있는 행사명은 무엇인가요?,롯데월드타워,UCLG,서울시립미술관,코엑스,b
+train_4280.jpg,train/train_4280.jpg,이 문에 붙어 있는 파란색 안내문에는 어떤 내용이 적혀 있나요?,회의 중 출입 금지,청소 중 출입 금지,작업 중 출입 금지,임직원 근무공간 관계자외 출입금지,d
+train_4291.jpg,train/train_4291.jpg,빨간색 간판에 적힌 'joyparty' 대전점에서 제공하는 서비스가 아닌 것은 무엇인가요?,이벤트,파티,벌룬,음식 배달,d
+train_4293.jpg,train/train_4293.jpg,빅토리아 왁싱에서 첫 방문 이벤트로 남자 왁싱과 여자 왁싱 가격은 각각 얼마인가요?,"남자왁싱 75,000원 여자왁싱 55,000원","남자왁싱 55,000원 여자왁싱 35,000원","남자왁싱 65,000원 여자왁싱 45,000원","남자왁싱 60,000원 여자왁싱 40,000원",c
+train_4302.jpg,train/train_4302.jpg,이 사진 속 병에 적힌 맥주의 맛은 무엇인가요?,사과 맛,망고 맛,복숭아 맛,포도 맛,b
+train_4303.jpg,train/train_4303.jpg,'라플레시아의 보물창고' 간판에 적힌 내용 중 올바른 것은 무엇인가요?,라플레시아의 보물창고 RAPLESIA'S TREASURE GROVE,캡슐 토이 CAPSULE TOY,라플레시아의 보물창고 RAPLESIA'S TREASURE GROOVE,제목 쇼룸 MD SHOW ROOM,a
+train_4304.jpg,train/train_4304.jpg,이 이미지 속에 적힌 '매일 아침마다 표어를 쓰고 있습니다.'라는 문구가 포함된 종이에는 무엇에 대해 묻고 있나요?,내일의 계획은 무엇인지,가장 좋아하는 음식은 무엇인지,어떤 마음가짐으로 오늘을 보내고 싶은지,오늘의 날씨는 어떤지,c
+train_4305.jpg,train/train_4305.jpg,사진 속 상자에 적힌 글씨는 무엇인가요?,빙그레,매일유업,남양,서울우유,c
+train_4314.jpg,train/train_4314.jpg,사진 속 상점의 이름은 무엇인가요?,EYEGLASS,EYESAVER,아이세이버안경,아이세이버,b
+train_4315.jpg,train/train_4315.jpg,이 사진 속 빨간색 컵에 적힌 브랜드 이름은 무엇인가요?,FIVE GUYS,MCDONALD'S,WENDY'S,BURGER KING,a
+train_4318.jpg,train/train_4318.jpg,다음 중 이미지에 보이는 대화에서 '4반 이종혁'이 추천한 것은 무엇인가요?,4반 이인호,5반 이동,4반 민딱기,5반 류효정,c
+train_4319.jpg,train/train_4319.jpg,사진 속 간판에 적힌 역 이름은 무엇인가요?,부산역,광주송정역,서울역,대전역,b
+train_4321.jpg,train/train_4321.jpg,이 식당의 이름은 무엇인가요?,죽갈비,족발 전문점,마곡G,초밥·숙,a
+train_4324.jpg,train/train_4324.jpg,이 사진에 보이는 편의점 이름은 무엇인가요?,GS25,7-ELEVEN,MINISTOP,CU,b
+train_4337.jpg,train/train_4337.jpg,이 식당의 간판에 적힌 이름은 무엇인가요?,맛집,전주옥,한식당,완주옥,d
+train_4339.jpg,train/train_4339.jpg,이 장소의 이름은 무엇인가요?,YELLOWSTONE NATIONAL PARK,GOLDEN GATE BRIDGE,GRAND CANYON NATIONAL PARK,DIAMOND HEAD STATE MONUMENT,d
+train_4347.jpg,train/train_4347.jpg,이 사진에 보이는 간판 중 '초원 삼겹살' 간판의 연락처 전화번호는 무엇인가요?,287가 2425,472-7020,051-1000,051-0001,b
+train_4348.jpg,train/train_4348.jpg,이 사진에 보이는 '티각태각' 제품에 적힌 문구 중 올바른 것은 무엇인가요?,수입산 원료 사용,명인의 손길이 담긴 전통 부각,최신 기술로 만든 과자,화학 첨가물이 많은 스낵,b
+train_4349.jpg,train/train_4349.jpg,이 건물의 이름은 무엇인가요?,수직주차,대가공인중개사,리더스 부동산,라오빌,d
+train_4350.jpg,train/train_4350.jpg,이 승강기 검사합격증명서에 따르면 다음 검사 신청은 언제까지 해야 하나요?,2025년 10월 1일까지,2023년 2월 1일까지,2025년 9월 24일까지,2026년 10월 18일까지,d
+train_4353.jpg,train/train_4353.jpg,건물에 붙어 있는 현수막에서 안내하는 '거치형 토지리턴제' 관련 전화번호는 무엇인가요?,053) 603-2597,053) 603-2596,053) 603-2599,053) 603-2595,b
+train_4354.jpg,train/train_4354.jpg,녹산산단 바른어린이집에서 운영하는 어린이집의 운영시간은 언제인가요?,6:30 ~ 19:00,9:00 ~ 18:00,7:30 ~ 19:30,8:00 ~ 20:00,c
+train_4358.jpg,train/train_4358.jpg,사진 속 음식의 이름과 가격은 무엇인가요?,"콩국수 10,000원","비빔밥 8,000원","김치찌개 7,000원","된장찌개 6,000원",a
+train_4361.jpg,train/train_4361.jpg,봄봄성수점에서 음식을 남기면 부과되는 금액은 얼마인가요?,"2,000원","3,000원","5,000원","1,000원",b
+train_4367.jpg,train/train_4367.jpg,이 가게의 이름은 무엇인가요?,와플 하우스,화성 장,수지공 커피,이송당 도나츠,d
+train_4375.jpg,train/train_4375.jpg,이 제품의 가격은 얼마인가요?,"3,000원","10,000원","5,000원","1,000원",a
+train_4379.jpg,train/train_4379.jpg,사진에 보이는 약국의 이름은 무엇인가요?,부원 약국,진 만두,가로별 약국,스마일 치과,a
+train_4385.jpg,train/train_4385.jpg,왼쪽 건물에 적혀 있는 이름은 무엇인가요?,빌리브,더샵,오션퍼스트,호반베르디움,c
+train_4387.jpg,train/train_4387.jpg,영화 입장권에 적힌 영화 제목은 무엇인가요?,인터스텔라,기생충,미니언즈 & 몬스터즈,어벤져스: 엔드게임,c
+train_4388.jpg,train/train_4388.jpg,사진에 보이는 건물 간판에 적힌 글자는 무엇인가요?,대림아파트,서울시청,엘크루,롯데렌터카,d
+train_4409.jpg,train/train_4409.jpg,이 가게의 이름은 무엇인가요?,전국 김밥 일주,맛있는 김밥집,김밥 포장마차,서울 김밥 여행,a
+train_4416.jpg,train/train_4416.jpg,이 표지판에 적힌 '소화전'의 영어 표기는 무엇인가요?,FIRE HOSE,FIRE HYDRANT,FIRE ALARM,FIRE EXTINGUISHER,b
+train_4419.jpg,train/train_4419.jpg,벽에 붙어 있는 포스터에 적힌 커피와 디저트 가게의 이름은 무엇인가요?,SWEET MOMENTS,COFFEE & DESSERT,TWO SOME PLACE,PREMIUM COFFEE,c
+train_4421.jpg,train/train_4421.jpg,이 이미지에 보이는 '제공 Serving' 아래에 적힌 숫자 중 하나는 무엇인가요?,6061,6178,6073,6383,a
+train_4424.jpg,train/train_4424.jpg,왼쪽 로또 복권에 적힌 1등 당첨 번호는 무엇인가요?,01 08 20 33 34 41 7,09 10 12 26 30 44 4,02 06 15 29 36 42 3,03 05 13 18 25 43 2,b
+train_4429.jpg,train/train_4429.jpg,이 이미지 속에서 밤 푸딩의 가격은 얼마인가요?,"6,500원","5,500원","4,500원","7,500원",b
+train_4432.jpg,train/train_4432.jpg,사진에 나온 '연세라인업' 간판에 적힌 서비스 내용으로 옳지 않은 것은?,리프팅,비만클리닉,치과,피부과,c
+train_4437.jpg,train/train_4437.jpg,다음 중 이미지 속에 있는 두 가지 빅 에그의 이름으로 옳은 것은 무엇인가요?,"딸기 빅에그, 블루베리 빅에그","허니비 빅에그, 레인보우 마카롱 빅에그","바닐라 빅에그, 레인보우 마카롱 빅에그","허니비 빅에그, 초코 빅에그",b
+train_4442.jpg,train/train_4442.jpg,"태광타워의 공개공지 안내판에 따르면, 이 건물의 총 층수는 몇 층인가요?",지상 15층,지상 25층,지상 20층,지상 10층,a
+train_4444.jpg,train/train_4444.jpg,"이 배너에 따르면, 기초훈련 참가 인원은 몇 명까지 선착순으로 모집하나요?",15명,25명,10명,20명,d
+train_4446.jpg,train/train_4446.jpg,이 가방에 적힌 브랜드 이름은 무엇인가요?,PUMA,NIKE,ADIDAS,THE NORTH FACE,d
+train_4450.jpg,train/train_4450.jpg,우리동네 GS 앱을 사용하면 편의점 배달 서비스를 몇 시간 이내에 받을 수 있나요?,1시간 이내,2시간 이내,30분 이내,3시간 이내,a
+train_4451.jpg,train/train_4451.jpg,프로모션 메뉴 구매 시 아메리카노 가격은 얼마인가요?,4천 원,3천 원,5천 원,2천 원,b
+train_4461.jpg,train/train_4461.jpg,이 식당 간판에 적힌 주요 메뉴는 무엇인가요?,김치찌개·된장찌개,삼겹살·불고기,갈비탕·설렁탕,해물아구찜·대구뽈찜,d
+train_4463.jpg,train/train_4463.jpg,이 건물 1층에 입점해 있는 편의점의 이름은 무엇인가요?,7-Eleven,GS25,CU,Mini Stop,b
+train_4468.jpg,train/train_4468.jpg,이 간판의 화살표가 가리키는 곳은 어디인가요?,지하 1층 매장,건물 안 1층 복도 끝,2층 사무실,건물 밖 주차장,b
+train_4476.jpg,train/train_4476.jpg,이 사물함의 번호 중 가장 높은 번호는 무엇인가요?,2-27,2-22,2-33,2-16,c
+train_4479.jpg,train/train_4479.jpg,이 이미지에 보이는 음료 컵에 적힌 위스키 브랜드 이름은 무엇인가요?,LABEL 5,BLACK LABEL,GOLD LABEL,RED LABEL,a
+train_4486.jpg,train/train_4486.jpg,이 카페에서 제공하지 않는 것은 무엇인가요?,와이파이 ID와 비밀번호,외부음식 반입금지 안내,여분의 컵,음료 주문 시 할인 쿠폰,c
+train_4489.jpg,train/train_4489.jpg,이 가게의 주요 메뉴는 무엇인가요?,베트남 쌀국수 (PH?),한국 비빔밥,일본 라멘,중국 딤섬,a
+train_4507.jpg,train/train_4507.jpg,"이미지 속 메뉴판에 따르면, '갈쌈냉면'의 가격은 얼마인가요?","17,000원","13,000원","11,000원","15,000원",d
+train_4509.jpg,train/train_4509.jpg,이 상자에 적힌 브랜드 이름은 무엇인가요?,Korean Honey Cake,Tokyo Sweet Box,Fukusaya Cube Castella,Seoul Dessert Co.,c
+train_4518.jpg,train/train_4518.jpg,커피숍 메뉴판에 적힌 아메리카노 가격은 얼마인가요?,5.0,4.5,6.0,3.5,b
+train_4525.jpg,train/train_4525.jpg,이 사진에 보이는 역 이름은 무엇인가요?,대구역,서울역,광주역,부산역,d
+train_4533.jpg,train/train_4533.jpg,SSAFY 게시판에 공지된 '자기소개서 심화 분석' 강의는 몇 월 며칠에 진행되나요?,8월 25일,8월 30일,7월 15일,9월 1일,a
+train_4536.jpg,train/train_4536.jpg,이 사진에 보이는 간판 중 여성 전용이라는 문구가 있는 곳은 어디인가요?,BAR 2F,SKY LOUNGE,곰포차,여성전용,d
+train_4548.jpg,train/train_4548.jpg,사진 속 제품 중에서 '3 PACK'이 표시된 과자는 무엇인가요?,빈치,쿠크다스,오리온,버터와플,b
+train_4565.jpg,train/train_4565.jpg,이 이미지에서 'TODAY'S CHEF' 아래에 적힌 이름 중 세 번째 이름은 무엇인가요?,Sakihane Huya,Tenko Shibuki,Sakura Yuki,Hanako Nana,d
+train_4572.jpg,train/train_4572.jpg,사진 속 과자 이름은 무엇인가요?,초코파이,비츠,빼빼로,비쵸비,d
+train_4576.jpg,train/train_4576.jpg,이 이미지에 보이는 다이어리 커버에 적힌 문구 중 올바른 것은 무엇인가요?,SSAFYlog 행복한 하루,SSAFYlog 기록하는 하루,STANLEY 기록하는 하루,STANLEY 행복한 하루,b
+train_4578.jpg,train/train_4578.jpg,이 음식점 간판에 적혀 있지 않은 메뉴는 무엇인가요?,된장전골,불고기,牛수육,옥된장,b
+train_4581.jpg,train/train_4581.jpg,"이 도로 표지판에 따르면, 버스 전용 차로가 운영되는 시간은 언제인가요?","6:00~18:00, 9:00~21:00","7:00~19:00, 8:00~20:00","6:30~19:30, 7:30~20:30","7:00~20:00, 8:00~19:00",b
+train_4582.jpg,train/train_4582.jpg,사진에 보이는 'Enaak' 과자의 맛은 무엇인가요?,치즈맛,매운맛,달콤한 맛,스모크드 바비큐,d
+train_4592.jpg,train/train_4592.jpg,버스 승객 안전 규칙 중 잘못된 내용은 무엇인가요?,운행 중 자리 이동 안하기,차량이 승강장에 정확하게 미리 일어나지 않기,어르신 등 교통약자에게 자리 양보하기,차내에서 조용히 대화하고 휴대폰 사용 안하기,b
+train_4598.jpg,train/train_4598.jpg,사진 속 서랍에 보이는 과자 봉지 중에 '초코파이'가 적힌 과자는 어떤 색 봉지일까요?,빨간색 봉지,초록색 봉지,노란색 봉지,파란색 봉지,a
+train_4611.jpg,train/train_4611.jpg,이 가게 간판에 적힌 전화번호는 무엇인가요?,623-0251,010-9876-5432,123-4567,555-1212,a
+train_4618.jpg,train/train_4618.jpg,이 돌에 적힌 한글 문구는 무엇인가요?,과물온천탕,과물노천탕,과물목욕탕,과물노천장,b
+train_4619.jpg,train/train_4619.jpg,이 무대 화면에 보이는 연극 제목은 무엇인가요?,FLEABAG,레 미제라블,오페라의 유령,HAMLET,a
+train_4621.jpg,train/train_4621.jpg,이 아파트 주차장 입구에 적힌 아파트 이름은 무엇인가요?,삼경남아파트,경남역삼아파트,역삼동아파트,역삼경남아파트,d
+train_4623.jpg,train/train_4623.jpg,사진 속 표지판에 적힌 '2D CAFE'는 몇 층에 있나요?,5층,4층,2층,3층,d
+train_4637.jpg,train/train_4637.jpg,이 목욕탕의 이용 가능 시간은 언제인가요?,"15:00 - 24:00, 6:00 - 9:00","9:00 - 15:00, 24:00 - 6:00","10:00 - 22:00, 5:00 - 8:00","13:00 - 23:00, 7:00 - 10:00",a
+train_4640.jpg,train/train_4640.jpg,신세계 하이퍼그라운드가 언제 오픈할 예정인가요?,2025년 12월,2026년 9월,2023년 9월,2024년 6월,b
+train_4648.jpg,train/train_4648.jpg,사진에 보이는 간식 중 '홈런볼' 초코맛의 포장지 색깔은 무엇인가요?,빨간색,초록색,노란색,파란색,b
+train_4651.jpg,train/train_4651.jpg,이미지 속 텍스트에서 제안하는 바람직한 행동은 무엇인가요?,친구와 여행을 자주 가자,서로 선물한 좋은 단어들로 상대방을 채워주길 바란다,서로 자주 만나 영화를 보자,매일 운동을 하자,b
+train_4657.jpg,train/train_4657.jpg,이 건물 2층에 위치한 전문점은 무엇인가요?,바이연,사진관,속눈썹연장 전문점 클레어#,GS25 편의점,c
+train_4666.jpg,train/train_4666.jpg,이 주차 공간의 위치를 나타내는 안내판에 적힌 글자는 무엇인가요?,B3 4,C1 3,D4 2,A2 5,a
+train_4669.jpg,train/train_4669.jpg,사진 속 '벨베데레 (Belvedere)' 장미의 특징으로 맞는 것은 무엇인가요?,독일에서 유래하지 않음,작고 향이 약함,향이 매우 강하며 꽃이 큼,색이 주황색임,c
+train_4670.jpg,train/train_4670.jpg,이 건물의 이름은 무엇인가요?,VISION CENTER,INSPIRE ARENA,HARMONY HALL,DREAM STADIUM,b
+train_4685.jpg,train/train_4685.jpg,이미지에 적힌 아이스크림 할인 행사에서 6개를 구매할 경우 가격은 얼마인가요?,"6,000원","7,900원","22,500원","9,900원",d
+train_4687.jpg,train/train_4687.jpg,이 건물의 외벽에 적힌 글자는 무엇인가요?,카리나 오피스텔,카리나 빌딩,카리나 호텔,카리나 아파트,a
+train_4690.jpg,train/train_4690.jpg,이 두부 제품의 포장지에 적힌 원재료 함량은 얼마인가요?,80% 국산콩,100% 국산콩,30% 국산콩,50% 국산콩,b
+train_4691.jpg,train/train_4691.jpg,이 피트니스 센터 신학기 개강 이벤트에서 12개월 이용권 가격은 얼마인가요?,"528,000원","5,500원","198,000원","330,000원",d
+train_4705.jpg,train/train_4705.jpg,이 야구장에 적혀 있는 구단 이름은 무엇인가요?,BUSAN BEARS,LOTTE GIANTS,SEOUL HEROES,DAEGU TIGERS,b
+train_4721.jpg,train/train_4721.jpg,커피베어 매장 앞에 붙어 있는 종이에 적힌 내용은 무엇인가요?,이천원 케이크,천원 빵,천원 커피,무료 시음,b
+train_4725.jpg,train/train_4725.jpg,이 사진에 보이는 '라인성형외과'는 몇 층에 위치해 있나요?,4층,1층,2층,3층,d
+train_4752.jpg,train/train_4752.jpg,이 자동차의 번호판에 적힌 번호는 무엇인가요?,282무 3032,282모 3023,282모 3032,283모 3032,c
+train_4754.jpg,train/train_4754.jpg,이 건물 2층에 있는 가게는 무엇을 전문으로 하나요?,양꼬치 전문점,양갈비 전문점,단체룸 완비 카페,코인 노래방,b
+train_4755.jpg,train/train_4755.jpg,BEXCO 전시회장 외벽에 걸린 포스터에서 2024년 조용필 콘서트가 열리는 날짜는 언제인가요?,2024.12.20(금) 오후 6시,2024.11.20(수) 오후 7시,2024.10.15(화) 오후 5시,2024.12.25(수) 오후 8시,d
+train_4756.jpg,train/train_4756.jpg,이 간판에 적힌 커피숍 이름은 무엇인가요?,COFFEE Camel 6,Space Logic COFFEE,Camel 6 COFFEE,6 Camel COFFEE,c
+train_4757.jpg,train/train_4757.jpg,이 건물의 간판에 적힌 글자는 무엇인가요?,예약전용,초대홀,식당 입구,남도예담,b
+train_4762.jpg,train/train_4762.jpg,국내선 출발 안내 표지판에 적힌 차량 최대 허용 무게는 얼마인가요?,20t,10t,25t,15t,a
+train_4769.jpg,train/train_4769.jpg,사진관 대여 서비스의 가격은 얼마인가요?,"2시간 10,000원","2시간 14,000원","1시간 10,000원","1시간 14,000원",b
+train_4771.jpg,train/train_4771.jpg,"이 비상 대피 안내문에 따르면, 화재 시 대피 방법으로 올바른 행동은 무엇인가요?",불이야 하고 크게 외친다,연기 속에서 최대한 머문다,119에 신고하지 않는다,엘리베이터를 타고 빨리 대피한다,a
+train_4782.jpg,train/train_4782.jpg,이 CD 매장 코너에서 주로 취급하는 음악 장르는 무엇인가요?,록,재즈,K-POP,J-POP,d
+train_4790.jpg,train/train_4790.jpg,가게의 영업 시작 시간은 언제인가요?,PM 12:00,AM 10:00,AM 9:00,AM 11:00,d
+train_4801.jpg,train/train_4801.jpg,사진 속 간판에 적힌 '太??'은 무엇을 의미하나요?,모자,치마,가방,선글라스,b
+train_4819.jpg,train/train_4819.jpg,사진 속 공인중개사사무소의 전화번호는 무엇인가요?,033-737-1238,033-633-7808,637-7676,033-633-7800,d
+train_4822.jpg,train/train_4822.jpg,사진 속 책의 제목은 무엇인가요?,오늘도 화이팅,함께할수록 즐거운,행복한 하루,어떻게 맨날 잘해요,d
+train_4830.jpg,train/train_4830.jpg,이 간판에 적힌 음식점의 이름은 무엇인가요?,서울 손 국수,고향 손 칼국수,대전 칼국수,고향 집 밥,b
+train_4832.jpg,train/train_4832.jpg,사진 속 자동 사진 촬영 부스에서 사진 한 장의 가격은 얼마인가요?,10 유로,3 유로,1 유로,5 유로,b
+train_4833.jpg,train/train_4833.jpg,이 사진에 있는 도로변 표지판에 적힌 내용은 무엇인가요?,주차금지 견인지역,속도 제한 30km,횡단보도 주의,주차허용 구역,a
+train_4849.jpg,train/train_4849.jpg,이 건물의 이름은 무엇입니까?,경희빌딩,ADT,테헤란빌딩,케이티텔레캅,a
+train_4852.jpg,train/train_4852.jpg,이 사진 속 표지판에 적힌 도로 이름은 무엇인가요?,삼성로,강남대로,코엑스로,테헤란로 38길,d
+train_4855.jpg,train/train_4855.jpg,이미지 속에서 '샐러드'라는 글자가 적힌 곳은 어디인가요?,도시락,샌드위치 COMBO,샐러드,SSAFY,c
+train_4857.jpg,train/train_4857.jpg,이 건물 2층에 위치한 음식점은 어떤 종류의 음식을 주로 제공하나요?,일식,피자,중식,조개구이,d
+train_4859.jpg,train/train_4859.jpg,OOZY COFFEE 매장 입구에 적힌 할인 이벤트 내용은 무엇인가요?,모든 음료 20% 할인,건대&세종대생 직원의 이벤트 10% 할인,주말 한정 15% 할인,첫 방문 고객 무료 음료 제공,b
+train_4862.jpg,train/train_4862.jpg,2026년 우리가 바라는 안전한 학교 공모전의 접수 기간은 언제부터 언제까지인가요?,2026. 8. 1.(토) ~ 10. 15.(목),2026. 7. 15.(수) ~ 9. 30.(금),2026. 7. 1.(수) ~ 9. 11.(금),2026. 6. 1.(월) ~ 8. 31.(월),c
+train_4867.jpg,train/train_4867.jpg,사진 속 가게에서 6개 세트를 구매하면 가격은 얼마인가요?,"3,500엔","4,000엔","2,500엔","2,900엔",d
+train_4872.jpg,train/train_4872.jpg,이미지에 보이는 이름표에서 '삼성청년SW·AI아카데미' 소속인 사람의 이름은 무엇인가요?,최현지,박지훈,이민수,김세현,a
+train_4882.jpg,train/train_4882.jpg,사진 속 간판에 적힌 메뉴가 아닌 것은 무엇인가요?,하모회,생고기낙지탕탕이,병어회,참치회,d
+train_4884.jpg,train/train_4884.jpg,이 판매점에서 판매하는 해산물은 무엇인가요?,건어물 세트,조미 김자반,건조 다시마,해안 참 멸치,d
+train_4895.jpg,train/train_4895.jpg,이 가방에 달려 있는 리본에 적힌 글자는 무엇인가요?,MANDARINO,MANDARINAS,MANDARINA,MANDARIN,c
+train_4900.jpg,train/train_4900.jpg,다음 중 이미지에 보이는 '콕콕초코' 제품의 특징으로 맞는 것은 무엇인가요?,데코펜으로 콕콕 만들어 먹는 초코,키보드 모양의 초콜릿,버터 마늘 맛 프레첼,바삭한 식감의 감자칩,a
+train_4901.jpg,train/train_4901.jpg,'나눔문화 확산 프로젝트' 포스터에 소개된 기부 시스템은 무엇인가요?,희망 나눔 센터,나눔 키오스크,사랑의 열매 나눔 벽,사랑의 기부함,b
+train_4902.jpg,train/train_4902.jpg,이 보드게임의 제목은 무엇인가요?,Tools 게임,손병호 게임,천사 카드 게임,주루 마블,d
+train_4904.jpg,train/train_4904.jpg,TV 화면에 표시된 게임 중 '포켓몬스터 레츠고! 이브이' 옆에 있는 게임은 무엇인가요?,스플래툰 3,마리오 파티 슈퍼스타즈,버블 버블 4 프렌즈,젤다의 전설 꿈꾸는 섬,d
+train_4910.jpg,train/train_4910.jpg,사진 속 간판에서 전화번호 464-0001~2가 적힌 업체는 무엇인가요?,치과의원,삼성레미안,삼성세탁,용인대삼성태권도장,b
+train_4913.jpg,train/train_4913.jpg,사진 속 표지판에 적힌 문구는 무엇인가요?,희망의 시작 첫땅!,새로운 도전의 땅,행복의 출발점,꿈을 이루는 곳,a
+train_4915.jpg,train/train_4915.jpg,이 도로 표지판에 적힌 내용 중 맞는 것은 무엇인가요?,속도 제한 30,양보 YIELD,주차 금지,멈춤 STOP,b
+train_4924.jpg,train/train_4924.jpg,'메가트루 파워' 비타민이 효과를 주는 증상으로 옳지 않은 것은 무엇인가요?,구내염,신경통,피로회복,고혈압,d
+train_4928.jpg,train/train_4928.jpg,이미지에 보이는 액체세제 'Act'z' 제품의 용량은 얼마인가요?,1.5L + 1.5L,4.5kg,3.0L + 500mL,2.7L,c
+train_4929.jpg,train/train_4929.jpg,이 사진에서 '소화기 사용방법' 안내문에 적힌 첫 번째 단계는 무엇인가요?,용기의 핀을 뽑는다,호스를 불쪽으로 향한다,손잡이를 꼭 잡는다,손잡이를 누른다,a
+train_4930.jpg,train/train_4930.jpg,한돈한마리 식당의 '돼지 한마리 모듬 A' 세트의 가격은 얼마인가요?,"26,000원","31,000원","28,000원","33,000원",d
+train_4931.jpg,train/train_4931.jpg,이 이미지 속 전시장에 전시된 차량 브랜드는 무엇인가요?,Mercedes-Benz,BMW,Audi,Tesla,d
+train_4932.jpg,train/train_4932.jpg,이 지하철역 표지판에 적힌 역 이름은 무엇인가요?,신도림,영등포,구로,대림,a
+train_4937.jpg,train/train_4937.jpg,이 입구 아치형 간판에 적혀 있는 문구 중 올바른 것은 무엇인가요?,Sweet Winter,Happy Holiday,Holiday Season,Sweet Holiday,d
+train_4943.jpg,train/train_4943.jpg,이 도로 표지판에 표시된 '문정로'까지의 거리는 얼마인가요?,150m,200m,50m,100m,a
+train_4945.jpg,train/train_4945.jpg,이 리모컨에 적혀 있는 모델 번호는 무엇인가요?,BN59-01234B,BN60-01180A,BN59-01180A,BN58-01180A,c
+train_4951.jpg,train/train_4951.jpg,이 사진에 보이는 역 이름은 무엇인가요?,오송역,오수역,오송역사,오산역,a
+train_4961.jpg,train/train_4961.jpg,아몬드 크림 치즈 스틱 프레즐의 가격은 얼마인가요?,6.7,7.2,5.5,6.0,a
+train_4968.jpg,train/train_4968.jpg,"이 지하철 역의 표지판에 따르면, '丸ノ?線 Marunouchi Line' 4번 승강장에서 향하는 최종 목적지는 어디인가요?",本?三丁目 Hongo-sanchome,池袋 Ikebukuro,赤坂見附 Akasaka-mitsuke,銀座 Ginza,b
+train_4973.jpg,train/train_4973.jpg,이 책의 제목은 무엇인가요?,정보처리기사 실기 FINAL 모의고사 문제,수제비 2026,수험생 입장에서 제대로 쓴 비법서,수제비 2025,a
+train_4980.jpg,train/train_4980.jpg,이 식당에서 제공하는 라면 메뉴 중 하나는 무엇인가요?,된장찌개,김치찌개,진지스칸 매운 맛 라면,불고기,c
+train_4981.jpg,train/train_4981.jpg,이 물병 라벨에 적힌 용량은 얼마인가요?,650ml,750ml,500ml,1000ml,a
+train_4985.jpg,train/train_4985.jpg,이 도로 옆 가판대에서 판매하는 복숭아 1박스의 가격은 얼마인가요?,"50,000원","30,000원","10,000원","20,000원",b
+train_4986.jpg,train/train_4986.jpg,이 현수막에 적힌 경고 내용은 무엇인가요?,화재 위험,뱀 출몰 주의,미끄럼 주의,낙석 주의,b
+train_4988.jpg,train/train_4988.jpg,사진에 보이는 주유소 이름은 무엇인가요?,GS 칼텍스,Hyundai Oilbank,SK 주유소,S-Oil,b
+train_4993.jpg,train/train_4993.jpg,위 제품의 '위프 에브리 모먼트 파인스틸'에 해당하는 에센셜은 무엇인가요?,소나무 딥 에센셜,파인스틸 에센셜,라벤더 딥 에센셜,프레시 허브 에센셜,b
+train_4995.jpg,train/train_4995.jpg,도원빌딩 5층에 입주해 있는 클리닉의 이름은 무엇인가요?,연세라인업피부과 성형외과 비만클리닉,행복한약국,법무법인 이신,한국정보산업연합회,a
+train_5000.jpg,train/train_5000.jpg,사진 속 오레오 BTS 제품에 적혀 있는 맛은 무엇인가요?,오레오 딸기맛,오레오 바닐라맛,오레오 초코맛,오레오 호떡맛,d
+train_5009.jpg,train/train_5009.jpg,사물함 비밀번호키 사용법에서 '잠금'을 할 때 어떤 행동을 해야 하나요?,비밀번호를 2번 연속 입력한다,문을 닫고 원하는 4자리 숫자를 누른다,사물함 문을 두 번 닫는다,잠금 때 눌렀던 4자리 숫자를 누른다,b
+train_5022.jpg,train/train_5022.jpg,이 식당 간판에 적힌 상호명은 무엇인가요?,떡갈비.zip,쪽갈비.zip,족발.zip,쭈꾸미.zip,b
+train_5025.jpg,train/train_5025.jpg,이 커피숍에서 아메리카노 가격은 얼마인가요?,1800원,2000원,1200원,1500원,d
+train_5030.jpg,train/train_5030.jpg,이 매장의 상호명은 무엇인가요?,WIGGLE WIGGLE,WIGGLE SHOP,WIGGLELAND,COUNTER,a
+train_5032.jpg,train/train_5032.jpg,이 가게의 간판에 적힌 상호명은 무엇인가요?,싱싱 현대 횟수,싱싱 현대 회숯,싱싱 현대 회수,싱싱 현대 회 수,c
+train_5034.jpg,train/train_5034.jpg,이 커피숍의 간판에 적힌 가게 이름은 무엇인가요?,억만커피,만억커피,백억커피,천억커피,c
+train_5035.jpg,train/train_5035.jpg,이 이미지에 보이는 가게 이름은 무엇인가요?,스타벅스,커피빈,이디야커피,투썸플레이스,a
+train_5036.jpg,train/train_5036.jpg,이 교차로에서 '상서교2길' 표지판은 어느 쪽에 있나요?,위쪽에 있다,아래쪽에 있다,왼쪽에 있다,오른쪽에 있다,a
+train_5037.jpg,train/train_5037.jpg,이 표지판에 적힌 경고 문구의 내용은 무엇인가요?,쿵! 머리 조심하세요!,조심! 발 조심하세요!,쿵! 손 조심하세요!,주의! 발 밟지 마세요!,a
+train_5040.jpg,train/train_5040.jpg,이 제품의 맛은 무엇인가요?,망고 맛,바나나 맛,딸기 맛,포도 맛,a
+train_5047.jpg,train/train_5047.jpg,소화기 사용법 중 올바른 첫 번째 단계는 무엇인가요?,노즐을 화살표로 향한다.,밸브를 돌린다.,안전핀을 뽑는다.,손잡이를 꽉 쥔다.,c
+train_5054.jpg,train/train_5054.jpg,건물 2층 창문에 붙어 있는 '임대' 안내문에 적힌 전화번호는 무엇인가요?,T.555-1212,T.987-6543,T.961-8989,T.123-4567,c
+train_5056.jpg,train/train_5056.jpg,사진 속 노란색 간판에 적힌 일본어 'レモン'은 어떤 의미인가요?,바나나,사과,오렌지,레몬,d
+train_5076.jpg,train/train_5076.jpg,이 광고판에 등장하는 PLAVE는 GS25와 어떤 관계인가요?,GS25는 PLAVE의 제품을 판매하지 않는다,GS25에서 PLAVE를 만날 수 있다,PLAVE는 GS25의 새로운 이름이다,PLAVE는 GS25의 경쟁사이다,b
+train_5081.jpg,train/train_5081.jpg,이 가게 간판에 적힌 메뉴는 무엇인가요?,달콤한 치킨,매운 등갈비찜,뜨거운 된장찌개,시원한 냉면,b
+train_5082.jpg,train/train_5082.jpg,이 선반에 진열된 통조림 제품의 브랜드명은 무엇인가요?,RED TOMATO,PLUM DELIGHT,TUSCAN TOMATOES,GOLDEN TUSCANY,d
+train_5092.jpg,train/train_5092.jpg,이 이미지 속 'あわじグリ?ン館' 입장권의 성인 1인 입장료는 얼마인가요?,"?2,000","?1,200",?900,"?1,500",b
+train_5102.jpg,train/train_5102.jpg,이 가게 유리창에 여러 번 반복해서 적혀 있는 브랜드 이름은 무엇인가요?,The HOOLALA Co.,Cass,COOL BEER,HOOLALA,d
+train_5105.jpg,train/train_5105.jpg,다음 중 이미지 속 봉투에 적혀 있지 않은 이름은 무엇인가요?,라유,재현,민준,성호,c
+train_5106.jpg,train/train_5106.jpg,이 가게의 상호명은 무엇인가요?,매운족발나라,한방족발,야들야들한 야한족발,인동족발집,c
+train_5108.jpg,train/train_5108.jpg,이 건물에 입원실이 있다는 표시가 적힌 층은 어디인가요?,3층,5층,4층,2층,a
+train_5113.jpg,train/train_5113.jpg,이 표지판에 적힌 내용 중 올바른 것은 무엇인가요?,유료 순환 셔틀 버스 탑승장,무료 순환 셔틀 버스 탑승장,유료 공항 셔틀 버스 탑승장,무료 공항 셔틀 버스 탑승장,b
+train_5114.jpg,train/train_5114.jpg,이 사진 속 현수막에 적힌 2024 해달맞이 생활체육교실은 어느 기관에서 주최하고 있나요?,중구청과 중구체육회,대한체육회와 중구체육회,대한체육회와 서울시청,중구청과 서울시청,b
+train_5126.jpg,train/train_5126.jpg,'서서 자는 갈치'에 대해 설명한 내용 중 옳은 것은?,갈치는 눕거나 잠을 자지 않고 서서 잔다.,갈치는 잠을 자지 않는다.,갈치는 항상 잠을 자는 상태로 먹이를 잡는다.,갈치는 잠을 자지 않고 헤엄치면서 잔다.,a
+train_5127.jpg,train/train_5127.jpg,이 사진이 찍힌 장소는 어디인가요?,음식점 내부,전자제품 매장,책 축제 행사장,영화관 로비,c
+train_5129.jpg,train/train_5129.jpg,이 봉투에 부착된 라벨에 적힌 내용 중 올바른 것은 무엇인가요?,소형폐기물,일반쓰레기,대형폐기물,재활용품,c
+train_5130.jpg,train/train_5130.jpg,이 간판에 적힌 치킨 이름은 무엇인가요?,양념 치킨,바베큐 치킨,홀랄라 치킨,후라이드 치킨,c
+train_5134.jpg,train/train_5134.jpg,이 카페에서 새롭게 출시한 'Banh mi' 오리지널불고기 샌드위치의 일반 가격은 얼마인가요?,"10,400원","8,500원","9,000원","7,600원",d
+train_5145.jpg,train/train_5145.jpg,사진 속 금연구역 안내판에 적혀 있지 않은 문구는 무엇인가요?,이곳은 금연구역입니다,금연구역에서는 음식물을 드실 수 있습니다,흡연은 지정된 흡연구역을 이용해 주시기 바랍니다,NO!! SMOKING,b
+train_5146.jpg,train/train_5146.jpg,이 건물의 주소는 무엇인가요?,테헤란로 122,테헤란로 2212,테헤란로 212,테헤란로 221,c
+train_5152.jpg,train/train_5152.jpg,다음 중 '둥'자 항렬을 가진 도미가 아닌 것은 무엇인가요?,벵에돔,능성어,감성돔,참돔,b
+train_5171.jpg,train/train_5171.jpg,벽에 부착된 빨간색 물건 위에 적혀 있는 문구는 무엇인가요?,휴대용조명등,응급처치용품,비상소화기,화재경보기,a
+train_5173.jpg,train/train_5173.jpg,이 건물에 있는 노래연습장 광고에 적힌 전화번호는 무엇인가요?,010-5689-2200,010-5559-9822,T.473-9745,T.473-7227,c
+train_5186.jpg,train/train_5186.jpg,사진에 보이는 가게 간판에 적힌 이름은 무엇인가요?,서울칼국수,명동떡볶이,부산갈비집,해운대153해물탕전문,d
+train_5187.jpg,train/train_5187.jpg,이 건물 6층에 위치한 곳은 무엇인가요?,공증,셀리데이,좋은 산부인과,피부과,b
+train_5191.jpg,train/train_5191.jpg,"냉장고에 붙어 있는 보호 식품 관리표에 따르면, 주중 점심 식사 담당자는 누구인가요?",이선영,최영희,박진수,김미숙,d
+train_5195.jpg,train/train_5195.jpg,사진 속 간판에 적힌 렌터카 업체 이름은 무엇인가요?,도요타 렌터카,혼다 렌터카,마쓰다 렌터카,닛산 렌터카,a
+train_5203.jpg,train/train_5203.jpg,사진 속 버스 정류장 7번 승강장에서 갈 수 없는 목적지는 어디인가요?,양덕원,원주,성남,동서울,b
+train_5204.jpg,train/train_5204.jpg,벽에 붙어 있는 포스터에 공통적으로 적혀 있는 단어는 무엇인가요?,카페 엑스히비션,요루시카,필름로그,푸쉬,b
+train_5212.jpg,train/train_5212.jpg,이 사진 속 표지판에 적힌 내용은 무엇인가요?,부산시 지하철역,서울시 버스정류장,대전시 주차금지 구역,여주시 택시승강장,d
+train_5215.jpg,train/train_5215.jpg,두 용기 중에서 '카레빵'이라고 적힌 용기의 라벨 배경 색깔은 무엇인가요?,파란색과 빨간색,분홍색과 보라색,노란색과 갈색,초록색과 흰색,c
+train_5217.jpg,train/train_5217.jpg,"냉장고 문에 붙어 있는 안내문에 따르면, 사용 후 반드시 해야 할 일은 무엇인가요?",사용 후 반드시 시건장치함 잠금,사용 후 청소하기,사용 후 문을 열어두기,사용 후 내용물 점검,a
+train_5220.jpg,train/train_5220.jpg,스티커에 적힌 문구는 무엇인가요?,고양이를 만지지 마세요,고양이 식비를 위해 일하고 있습니다,고양이가 음식을 먹고 있습니다,고양이는 이 카페의 마스코트입니다,b
+train_5221.jpg,train/train_5221.jpg,이 전시 벽면에 적힌 제목은 무엇인가요?,국내외 사적지 조사 보존,국내외 자료수집과 도서발간,연구를 통해 독립정신을 바로 세우다,한국독립운동사연구소 개소와 학술연구,c
+train_5222.jpg,train/train_5222.jpg,이미지에 있는 임대 문의 전화번호 중 가장 오른쪽에 적힌 번호는 무엇인가요?,010-9466-2999,010-9468-1233,010-3888-0113,010-5530-4920,a
+train_5226.jpg,train/train_5226.jpg,사진 속 '컵불닭냉면' 메뉴의 가격은 얼마인가요?,"6,800원","7,200원","5,500원","8,500원",a
+train_5229.jpg,train/train_5229.jpg,이 가게에서 '旬のおまかせにぎり' 세트의 가격은 얼마인가요?,3300円,3600円,1480円,1980円,a
+train_5236.jpg,train/train_5236.jpg,이 사진 속 상점의 이름은 무엇인가요?,Tom N Toms Coffee,The Coffee Bean,Starbucks,Caff? Bene,b
+train_5240.jpg,train/train_5240.jpg,이 라벨에 적힌 구입금액은 얼마인가요?,A000065324,2.8GHz,20111220,9367400,d
+train_5241.jpg,train/train_5241.jpg,이 이미지 속 상점의 이름은 무엇인가요?,스탁버스,스타벅스,스벅스,스타벅,b
+train_5248.jpg,train/train_5248.jpg,사진 속 감자칩 제품의 이름은 무엇인가요?,Coca-Cola plus,ULTRA GARLIC,SUPER DRY,POCARI SWEAT,b
+train_5250.jpg,train/train_5250.jpg,주차장 내에 금연구역임을 알리는 표지판에 적힌 내용 중 올바른 것은 무엇인가요?,주차 가능,음주운전 금지,흡연구역,불법주차 금지,d
+train_5252.jpg,train/train_5252.jpg,이 SOS 전화기 위에 붙어 있는 안내문에 CCTV 설치 목적은 무엇이라고 적혀 있나요?,고객 서비스를 위해 설치되었다,고객 편의를 위해 설치되었다,화재 진압을 위해 설치되었다,범죄예방과 고객안전을 위해 설치되었다,d
+train_5253.jpg,train/train_5253.jpg,이 사진이 촬영된 공항의 이름은 무엇인가요?,제주공항,김해공항,김포공항,인천공항,a
+train_5255.jpg,train/train_5255.jpg,이 스탠드업 코미디 클럽의 라인업에 포함된 코미디언이 아닌 사람은 누구인가요?,박성군,신승수,이준혁,문자완,c
+train_5258.jpg,train/train_5258.jpg,이미지 속 에너지 음료 캔에 적혀 있는 문구 중 'ZERO SUGAR'와 함께 표시된 제품명은 무엇인가요?,BURN ENERGY DRINK,RED BULL SUGAR FREE,MONSTER ENERGY ULTRA,ROCKSTAR ZERO SUGAR,c
+train_5262.jpg,train/train_5262.jpg,매천고등학교와 매천중학교는 각각 몇 미터 거리에 있나요?,50m,200m,100m,150m,c
+train_5263.jpg,train/train_5263.jpg,이 사진에서 '소원성취'라는 문구가 적힌 표지판이 걸려 있는 곳은 무엇을 의미하나요?,역사적인 전쟁터,전통 공예품을 파는 가게,소원을 이루어 준다는 의미의 장소,음식을 판매하는 식당,c
+train_5265.jpg,train/train_5265.jpg,이 버스 정류장에서 107번 버스가 도착 예정인 시간은 얼마입니까?,4분,3분,8분,11분,d
+train_5272.jpg,train/train_5272.jpg,사진 속에 적힌 문구의 내용은 무엇인가요?,사랑은 시간이 지나도 변하지 않는 감정이다.,"사랑은 언제나 우리 곁에 있지만, 쉽게 볼 수는 없다.","모두가 사랑을 찾아 헤매이지만 아무도 찾을 수 없을 거야. 결국, 그 증거만 남아 있을 뿐이니까.","행복은 멀리 있지 않고, 바로 지금 여기 있다.",c
+train_5278.jpg,train/train_5278.jpg,이 이미지에서 '아랑' 역을 맡은 배우의 이름은 무엇인가요?,이승준,유리아,김주헌,서영주,b
+train_5281.jpg,train/train_5281.jpg,이 건물의 상호명은 무엇인가요?,Haeorum,해태건설주식회사,해오름,주차금지,c
+train_5285.jpg,train/train_5285.jpg,이 행사에서 14시에 예정된 일정은 무엇인가요?,[글로벌 웹툰 게임스] TALK TALK! 토크쇼,[브롤스타즈] 최강 라이벌 매치,포인트 팡팡! 코드퀘스트,개막식,b
+train_5289.jpg,train/train_5289.jpg,이 가게의 상호명은 무엇인가요?,4242 Sandwich,GS Pay,Cafe A,Lifestyle Platform,a
+train_5290.jpg,train/train_5290.jpg,메뉴판에 적힌 '세송이버섯탕수육'의 가격은 어떻게 되어 있나요?,"소 9,000원, 대 14,000원","소 12,000원, 대 18,000원","소 11,000원, 대 16,000원","소 10,000원, 대 15,000원",c
+train_5295.jpg,train/train_5295.jpg,순환 01A 버스의 첫 차 출발 시간은 언제인가요?,22:00,05:40,22:10,06:00,b
+train_5296.jpg,train/train_5296.jpg,카페 입구에 있는 칠판에 적힌 수박 주스의 가격은 얼마인가요?,"5,000원","8,000원","6,000원","7,000원",c
+train_5306.jpg,train/train_5306.jpg,사진 속 노트에 적힌 '드미트리 마론첸코의 <Cut off>'에 관한 설명 중 옳은 것은 무엇인가요?,아이폰으로 촬영한 사진이다.,드미트리 마론첸코는 러시아 사관가가 아니다.,사진에는 성동감 있는 포착이 적다.,드미트리 마론첸코는 한국 작가이다.,a
+train_5308.jpg,train/train_5308.jpg,이 선크림 광고에서 'Top Pick'으로 소개된 제품은 무엇인가요?,맑은쌀 선크림,산뜻한 쿨진정 선크림,진주 선크림,아쿠아프레쉬 선크림,a
+train_5310.jpg,train/train_5310.jpg,이미지에 표시된 생맥주 한 잔의 가격은 얼마인가요?,"2,900원","4,000원","3,500원","2,500원",a
+train_5314.jpg,train/train_5314.jpg,이 조형물에 적힌 날짜는 무엇인가요?,2월 20일,4월 10일,1월 15일,3월 5일,a
+train_5318.jpg,train/train_5318.jpg,이 가게의 이름은 무엇인가요?,HALF BAGEL,FULL BAGEL,BAGEL KING,BAGEL HOUSE,a
+train_5322.jpg,train/train_5322.jpg,명성고깃집 간판에 적힌 전문 분야는 무엇인가요?,한우전문점,숯불구이 전문점,백탄특수부위 전문점,양념갈비 전문점,c
+train_5327.jpg,train/train_5327.jpg,이 약국 간판에 적힌 글자는 무엇인가요?,원,병,약,식,c
+train_5328.jpg,train/train_5328.jpg,이 가게의 상호명은 무엇인가요?,Candy finger,Sweet candy,Finger candy,Finger sweet,c
+train_5333.jpg,train/train_5333.jpg,장애인 화장실은 몇 층에 있나요?,5층,7층,6층,8층,b
+train_5336.jpg,train/train_5336.jpg,이 휴게실 문에 붙어 있는 문구 중 '문을 꼭 닫고 다닙시다!'의 의미로 가장 적절한 것은 무엇인가요?,문을 열고 다녀도 된다,문을 잠그지 않아도 된다,문을 항상 닫아 두어야 한다,문을 열어 놓아야 한다,c
+train_5338.jpg,train/train_5338.jpg,이 식당의 상호명은 무엇인가요?,홍대라멘,멘야무사시,자가제면 면야마츠리,하카타 라멘 면야마츠리,d
+train_5339.jpg,train/train_5339.jpg,사진 속 상품 가격표에 적힌 두 상품의 가격은 얼마인가요?,각 1500엔,각 990엔,각 1200엔,각 500엔,b
+train_5341.jpg,train/train_5341.jpg,아래 표지판에 적힌 내용 중 통제구역에서 금지된 행위는 무엇인가요?,관계자 외 출입금지,사진촬영금지,흡연금지,주차금지,a
+train_5357.jpg,train/train_5357.jpg,이미지에 나온 '맑은 재첩국' 한 팩의 중량은 얼마인가요?,500g,200g,300g,1kg,a
+train_5366.jpg,train/train_5366.jpg,이미지에 적힌 문구 중 가운데 세로로 적힌 한자 12자는 무엇인가요?,지방쓰기 한지를 위에 올려 놓고 써 보세요,현 증 조 고 유 인 김 해 김 씨 신 위,12자,顯 曾 祖 姑 孺 人 金 海 金 氏 神 位,d
+train_5367.jpg,train/train_5367.jpg,다음 중 이미지에 보이는 차 이름이 아닌 것은 무엇인가요?,GREEN TEA OCEAN,EARL GREY AMOUR,PINK FLAMINGO,SAKURA SAKURA,a
+train_5370.jpg,train/train_5370.jpg,이 기계 화면에 적힌 문구 중 맞는 것은 무엇인가요?,제로는 세상을 구원한다,제로 스토어에서 50% 할인 중이다,이제는 ZERO가 세상을 지배한다,제로 스토어는 다이어트에 좋다,c
+train_5379.jpg,train/train_5379.jpg,이 사진 속 표지판에 적힌 내용은 무엇인가요?,택시 승강장,서울 시내버스 정류장,공항버스 타는 곳,지하철 입구,c
+train_5385.jpg,train/train_5385.jpg,사진 속 빨간 등불에 적힌 글자는 무엇인가요?,台北,九?,新北,台中,b
+train_5403.jpg,train/train_5403.jpg,사진 속 파란색 음료의 브랜드 이름은 무엇인가요?,메가 MGC 커피,포카리스웨트,게토레이,파워 에이드,d
+train_5433.jpg,train/train_5433.jpg,이 이미지에 보이는 책 표지에 적힌 과목 이름은 무엇인가요?,국어영역 문법·작문·문학,과학영역 물리학 I,수학영역 미적분 II,영어영역 듣기·말하기,c
+train_5434.jpg,train/train_5434.jpg,사진 속 커피숍 간판에 적힌 이름은 무엇인가요?,COMPOSE COFFEE,유정보석,구구 떡볶이,PARIS BAGUETTE,a
+train_5436.jpg,train/train_5436.jpg,이 골든 티켓에서 당첨 등수는 무엇인가요?,1등 당첨,3등 당첨,4등 당첨,2등 당첨,b
+train_5445.jpg,train/train_5445.jpg,세 개의 상자에 적힌 문구 중 빨간색 상자에 적힌 문구는 무엇인가요?,너무 멋있어,항상 행복하세요,오늘 하루도 힘내세요~,어른인데 나가 놀고 싶어요,c
+train_5454.jpg,train/train_5454.jpg,사진 속 도로에 표시된 제한 속도는 얼마인가요?,30,50,40,20,a
+train_5457.jpg,train/train_5457.jpg,다음 중 두 번째 현수막에 적힌 내용으로 올바른 것은 무엇인가요?,부분 국비 전기실무 & 전기기능사 산재근로자를 위한 훈련,전액 자비 전기실무 & 전기기능사 산재근로자 교육,부분 자비 전기실무 & 전기기능사 안전교육,전액 국비 전기실무 & 전기기능사 산재근로자를 위한 훈련,d
+train_5462.jpg,train/train_5462.jpg,이 건물에 적힌 간판에 나온 상호명은 무엇인가요?,해도지회장,해도지초장,신호활어쎈타,신호활어회센터,d
+train_5466.jpg,train/train_5466.jpg,매장 내에서 제공하지 않는 1회용품은 무엇인가요?,1회용 비닐봉투,1회용 컵(플라스틱 컵),1회용 접시,1회용 나무젓가락,b
+train_5469.jpg,train/train_5469.jpg,이 안내문에 따르면 KTX 10호차는 어디에 대기해야 하나요?,중간 통로에서 대기한다,안내문에는 대기 장소가 없다,10-18호차 쪽에서 대기한다,1-9호차 쪽에서 대기한다,c
+train_5470.jpg,train/train_5470.jpg,이 건물 입구에 적혀 있는 건물 이름은 무엇인가요?,송도중앙타워,송도서부타워,인천중앙타워,송도동부타워,a
+train_5471.jpg,train/train_5471.jpg,이 곳의 점심시간은 언제인가요?,12:20 ~ 13:20,12:00 ~ 13:00,11:50 ~ 12:50,13:00 ~ 14:00,a
+train_5475.jpg,train/train_5475.jpg,노란색 용기에 적혀 있는 제품의 이름은 무엇인가요?,100% 단일성분 세제,과탄산소다,손이 좋아하는 주방세제,SUGAR BUBBLE 주방세제,b
+train_5480.jpg,train/train_5480.jpg,건물 3층에 임대 중인 공간의 용도는 무엇인가요?,"카페, 음식점","사무실, 병의원, 치과교정과","노래방, PC방","헬스장, 요가원",b
+train_5483.jpg,train/train_5483.jpg,현재까지 작성된 자기소개서를 어디로 제출해야 하나요?,admin@honam.ac.kr,2021055@honam.ac.kr,contact@honam.ac.kr,2021055@honam.edu,b
+train_5499.jpg,train/train_5499.jpg,이 표지판에 따르면 불법 주차 시 어떤 조치가 취해지나요?,경고장 발부,단속 및 견인 조치,주차 허용,과태료 부과,b
+train_5508.jpg,train/train_5508.jpg,이 사진에 나온 투표소 이름은 무엇인가요?,서구4 제9투표소,부평3 제5투표소,계양1 제7투표소,계양2 제8투표소,d
+train_5510.jpg,train/train_5510.jpg,이 제품의 이름은 무엇인가요?,짱구는 못말려 볼펜,크레용 신짱 스티커,짱구는 못말려 메탈 키링,짱구는 못말려 인형,c
+train_5511.jpg,train/train_5511.jpg,사진 속에 붙어 있는 종이에는 어떤 문구가 적혀 있나요?,영업 시간: 오전 9시부터,서울역 도착 10분 전,오늘의 메뉴: 바베큐 치킨,시베리아급 냉방 중,d
+train_5517.jpg,train/train_5517.jpg,이 사진에 적힌 다리의 이름은 무엇인가요?,브루클린 다리,로즈맨 브리지,황금문 다리,매디슨 카운티의 다리,d
+train_5527.jpg,train/train_5527.jpg,GS25 초특가 세일 행사에서 8월 한 달 동안 딱 한 달만 진행되는 CJ 맛밤 60G 4팩 세트의 가격은 얼마인가요?,"3,600원","3,900원","14,500원","2,300원",c
+train_5534.jpg,train/train_5534.jpg,사진 속 음식 가게의 간판에 적힌 음식 이름은 무엇인가요?,Bavarian Beer,SELFRIDGES & CO,German XL-Sausage,PORKY PIG,d
+train_5538.jpg,train/train_5538.jpg,사진 속 타로 카드 중 'ACE of CUPS' 카드에는 어떤 그림이 그려져 있나요?,9개의 막대기를 들고 있는 사람,등에 등불을 든 노인,잔을 들고 있는 사람,잔에서 물이 흘러나오는 컵,d
+train_5540.jpg,train/train_5540.jpg,SSAFY 월간 멘투유 EP.06의 주제는 무엇인가요?,역량과 직무 경험 차이,AI 모델 개발,서비스 개발 경험,알고리즘 공부 방법론,a
+train_5541.jpg,train/train_5541.jpg,이 간판에 적혀 있는 문구는 무엇인가요?,빵 하나의 즐거움,맛있는 빵 가게,신선한 빵 매일,빵과 커피 전문점,a
+train_5549.jpg,train/train_5549.jpg,이 건물에서 진행하는 전시회의 주인공은 누구인가요?,레오나르도 다 빈치,클로드 모네,빈센트 반 고흐,파블로 피카소,c
+train_5551.jpg,train/train_5551.jpg,"이 화장실 안내문에 따르면, 화장실은 어디에 있나요?",건물 내부 오른쪽에 있습니다.,건물 내부 왼쪽에 있습니다.,"나가서 오른쪽, 건물입구에 있습니다.","나가서 왼쪽, 건물입구에 화장실이 있습니다.",d
+train_5557.jpg,train/train_5557.jpg,이 사진에 보이는 편의점의 이름은 무엇인가요?,CU,이마트24,GS25,7-Eleven,c
+train_5558.jpg,train/train_5558.jpg,오른쪽 증서에 적힌 전공은 무엇인가요?,컴퓨터공학 전공,기계공학 전공,화학공학 전공,전기공학 전공,a
+train_5564.jpg,train/train_5564.jpg,이 이미지에 적힌 문구 중 커피와 디저트에 대해 희망하는 내용은 무엇인가요?,Dessert,A Twosome Place,WE HOPE OUR COFFEE & DESSERTS FILL YOUR DAYS,A Twosome Place Presents Pleasant Coffee & Dessert Experience.,c
+train_5567.jpg,train/train_5567.jpg,위 사진의 초록색 도로 표지판에 표시된 '성읍'의 숫자는 무엇입니까?,3,1,4,2,d
+train_5573.jpg,train/train_5573.jpg,이 사진에 보이는 보드게임카페의 이름은 무엇인가요?,Red Button,상상의문,Blue Elephant,New Aura,a
+train_5576.jpg,train/train_5576.jpg,이 사진에 보이는 자동차 번호판의 번호는 무엇인가요?,39고 5023,39고 5302,39고 5033,39고 5032,d
+train_5581.jpg,train/train_5581.jpg,이 도로에서 허용되는 차량 종류는 무엇인가요?,대형 차량만 허용,이륜차만 허용,승용차 및 소형화물차 1.5t 미만,모든 대형 차량,c
+train_5582.jpg,train/train_5582.jpg,SAMHO 빌딩 3층에 위치한 곳은 무엇인가요?,DEVIL DICE,TIME COMPANY,볼 노래타운,속성화로,d
+train_5589.jpg,train/train_5589.jpg,벽에 붙은 안내문에 따르면 계단 이동 시 주의할 점은 무엇인가요?,계단을 오를 때 휴대전화 사용 금지,"미끄럼·낙상 주의, 난간을 꼭 잡고 이동할 것",계단을 두 줄로 올라갈 것,계단에서 뛰지 말 것,b
+train_5590.jpg,train/train_5590.jpg,이 가게에서 오후 8시까지 할인하는 메뉴는 무엇인가요?,어묵우동탕,맵닭골뱅이무침,매콤해우동,아이스 생맥주,d
+train_5598.jpg,train/train_5598.jpg,다음 중 이미지에 보이는 제품의 이름으로 올바른 것은 무엇인가요?,동원 참치,동원 스팸,스팸 클래식 싱글,스팸 클래식 싱글과 동원 고추참치,d
+train_5608.jpg,train/train_5608.jpg,이 표지판에 적힌 문구 중 CCTV가 작동 중이라는 내용을 정확히 표현한 것은 무엇인가요?,에스원 경비 중,에스원 CCTV 작동중,에스원 CCTV 정지,에스원 출입금지,b
+train_5613.jpg,train/train_5613.jpg,VOLT BEAN 요일 이벤트에서 금요일에 할인하는 음료는 무엇인가요?,딸기라떼,복숭아아이스티,자두에이드,다크원아메리카노,c
+train_5616.jpg,train/train_5616.jpg,이 카페의 이름은 무엇인가요?,투썸플레이스,이디야커피,스타벅스,빽다방,d
+train_5629.jpg,train/train_5629.jpg,이 건물의 간판에 적힌 글자는 무엇인가요?,AOB,OAB,BOA,BAO,d
+train_5630.jpg,train/train_5630.jpg,'선로출입문 출입절차' 안내문에 따르면 비정기적 선로출입 시 반드시 받아야 하는 것은 무엇인가요?,출입 허가증 발급,사전 신고서 제출,출입 등록 카드 작성,사전 통보 후 통제,d
+train_5631.jpg,train/train_5631.jpg,사진에 보이는 '알레드제로'의 정제 용량은 얼마인가요?,120 mg,240 mg,180 mg,60 mg,a
+train_5633.jpg,train/train_5633.jpg,사진 속 봉투에 적힌 상호명은 무엇인가요?,맛있는 집,서울 빵집,"여기, 구움",행복한 카페,c
+train_5641.jpg,train/train_5641.jpg,이 건물에 입주한 병원 또는 클리닉 중 '성형외과'가 적힌 곳은 어디인가요?,CU 편의점,법무법인 새명,이민음치과,리앤웰성형외과,d
+train_5644.jpg,train/train_5644.jpg,사진 속 세탁소 이름은 무엇인가요?,장덕숯불갈비촌,수완장덕점,북권판매점,코인토피아,d
+train_5650.jpg,train/train_5650.jpg,이 사진 속 에어컨 실외기 브랜드는 무엇인가요?,캐리어,LG,대우,삼성,d
+train_5651.jpg,train/train_5651.jpg,이 사진에 보이는 졸업 축하 배너에 따르면 경북대학교 IT대학 컴퓨터학부 졸업식은 언제 열리나요?,2024년 2월 21일 오전 11:00,2023년 2월 21일 오전 11:00,2023년 3월 1일 오후 2:00,2024년 3월 1일 오후 2:00,a
+train_5652.jpg,train/train_5652.jpg,폴메디슨 히알루론산 아이크림의 할인 전 가격은 얼마인가요?,"17,900원","14,000원","4,000원","69,000원",d
+train_5656.jpg,train/train_5656.jpg,이 표지판에 적힌 전화번호는 무엇인가요?,031-123-4567,010-9876-5432,032-937-5800,042-555-1234,c
+train_5662.jpg,train/train_5662.jpg,'간부RC 역량강화과정' 강의가 열리는 날짜는 언제인가요?,8월 20일(목),8월 23일(일),8월 21일(금),8월 22일(토),c
+train_5698.jpg,train/train_5698.jpg,마징가부동산에서 전문적으로 취급하는 매물 종류가 아닌 것은 무엇인가요?,"아파트, 오피스텔","자동차, 오토바이","토지, 상가","빌딩, 건물",b
+train_5699.jpg,train/train_5699.jpg,오큐시스 점안액의 권장 소비자가격은 얼마인가요?,"10,000원","20,000원","14,000원","16,500원",d
+train_5700.jpg,train/train_5700.jpg,"이미지에 나오는 표에서, Weather 데이터셋에 대해 Suf?ciency 값이 가장 낮은 방법(Method)은 무엇인가요?",IG,DAED,LIME,SHAP,a
+train_5702.jpg,train/train_5702.jpg,이 안내문에서 과실수 병해충 예방을 위해 사용한 것은 무엇인가요?,비료 살포,가지치기,농약 살포,물 주기,c
+train_5704.jpg,train/train_5704.jpg,이 간판에 적힌 역 이름은 무엇인가요?,?草? (아사쿠사역),新宿? (신주쿠역),東京? (도쿄역),銀座? (긴자역),a
+train_5709.jpg,train/train_5709.jpg,이 가게의 상호명은 무엇인가요?,모던베이커리,빵굽는집,모카베이커리,코롬방 제과점,d
+train_5711.jpg,train/train_5711.jpg,이 건물 외벽에 적힌 글자는 무엇인가요?,Better Book,Butter Book,Battery Book,Bitter Book,b
+train_5715.jpg,train/train_5715.jpg,이 사진 속의 공원 이름은 무엇인가요?,장지문화공원,한강시민공원,서울숲공원,남산공원,a
+train_5720.jpg,train/train_5720.jpg,빨간색 책 표지에 적힌 책 제목은 무엇인가요?,요조와 임경선의 교환일기,문학동네,여자로 살아가는 우리들에게,교토의 밤 산책,c
+train_5722.jpg,train/train_5722.jpg,사진 속 건물에 적힌 'MUSINSA'는 무엇을 나타내는 것일까요?,음식점 이름,병원 이름,건물 이름,학교 이름,c
+train_5729.jpg,train/train_5729.jpg,이 사진에 나온 대한지방행정공제회의 2026년도 신입직원 채용 필기전형 시험 날짜는 언제인가요?,2026년 6월 6일,2026년 5월 6일,2025년 6월 6일,2026년 7월 6일,a
+train_5736.jpg,train/train_5736.jpg,이 소화전 사용법 중 두 번째 단계는 무엇인가요?,벨브열기,소화기 사용,호스 빼내기,불 끄기,a
+train_5740.jpg,train/train_5740.jpg,이 사진에서 보이는 건물 이름은 무엇인가요?,메디타워,서울타워,코엑스,테헤란로 빌딩,a
+train_5741.jpg,train/train_5741.jpg,이 제품의 정식 명칭은 무엇인가요?,multivitamin gummy jelly,energy star multivitamins,HerbaLand vegetarian vitamin,HerbaLand energy booster,b
+train_5763.jpg,train/train_5763.jpg,LG Aimers 8기 AI Hackathon 행사는 어디에서 열리나요?,서울시청,LG인화원,연암홀,코엑스,b
+train_5769.jpg,train/train_5769.jpg,냉장고에 들어있는 캔 음료의 브랜드 이름은 무엇인가요?,Sprite,All Free,Pepsi,Coca Cola,b
+train_5778.jpg,train/train_5778.jpg,사진 속 건물에 적힌 글씨 중에서 회계 및 세무 관련 서비스를 제공하는 곳의 이름은 무엇인가요?,제일정보컴퓨터학원,친환경수소전기버스,동남회계·세무법인,종로실용음악학원,c
+train_5783.jpg,train/train_5783.jpg,이 책 표지에 적힌 잡지 이름은 무엇인가요?,Future WORLD,Galaxy MAGAZINE,Amazing STORIES,Astounding SCIENCE FICTION,d
+train_5794.jpg,train/train_5794.jpg,판다세트B에 포함되지 않은 메뉴는 무엇인가요?,치즈스틱,모쪼유부,빙홍차,옥수수소시지,c
+train_5800.jpg,train/train_5800.jpg,이 간판에서 'PRESENT' 글자 중 빨간색으로 표시된 글자는 무엇인가요?,S,P,E,R,a
+train_5808.jpg,train/train_5808.jpg,'우리동네GS' 앱으로 편의점/마트를 이용할 때 GS Pay 결제 시 제공되는 혜택은 무엇인가요?,무료 배달,최대 5% 할인,최대 10% 할인+적립,3천원 할인,c
+train_5815.jpg,train/train_5815.jpg,이 간판에 적힌 글자는 무엇입니까?,호두빵,호두과자,본호두과자,본호두,d
+train_5817.jpg,train/train_5817.jpg,다음 중 이미지에 보이는 음료의 이름과 가격이 올바르게 짝지어진 것은 무엇인가요?,"딸기쿠키프라페 - 3,500원","메가에이드 - 4,200원","큐브라떼 - 4,200원","메가리카노 - 3,900원",c
+train_5821.jpg,train/train_5821.jpg,이 경기에서 두산 베어스의 24번 선수 이름은 무엇인가요?,정진호,카메론,박건호,최주환,b
+train_5828.jpg,train/train_5828.jpg,책 '아포칼립스' 표지에 적힌 문구 중 올바른 것은 무엇인가요?,"'21세기 패권, 무엇으로 결정되는가'",'세계 질서의 기원이 된 제국의 탄생부터','문명의 종말은 어떻게 새로운 시작이 되는가','국내 최초 공개! 페르시아와 로마·바빌로니아 편견',c
+train_5833.jpg,train/train_5833.jpg,오뚜기 칼국수 전문점 간판에 적힌 전화번호는 무엇인가요?,532-3868,987-6543,010-1234-5678,123-4567,a
+train_5840.jpg,train/train_5840.jpg,이 건물 꼭대기에 빨간색으로 적힌 글자는 무엇인가요?,OLD YORKER,NEW YORKER,NEW YORK,YORK NEW,b
+train_5841.jpg,train/train_5841.jpg,이 버스 안에서 이용할 수 있는 무료 와이파이의 이름은 무엇인가요?,GG BUS WiFi,GG FREE WiFi,BUS FREE WiFi,경기 무료 WiFi,a
+train_5842.jpg,train/train_5842.jpg,이 건물 2층에 위치한 식당의 이름은 무엇인가요?,하트진경,뻔띠하우스,제로당식당,효린스,c
+train_5844.jpg,train/train_5844.jpg,이미지에 보이는 과자 중에서 '버터와플' 과자 상자에는 무엇이라고 적혀 있나요?,바삭한 식감의 와플,과자의 귀족 버터와플,달콤한 맛의 와플,고소한 맛의 버터와플,b
+train_5845.jpg,train/train_5845.jpg,이 화면에 표시된 세 곳 중 하나가 아닌 것은 무엇인가요?,서울대,연세대,한양대,카이스트,c
+train_5847.jpg,train/train_5847.jpg,이미지에 보이는 빨간색 세로 간판에 적힌 글자는 무엇인가요?,?光裕?,롯데백화점,한신백화점,新光三越,d
+train_5855.jpg,train/train_5855.jpg,사진 속 건물에 적힌 글귀 중 맞는 것은 무엇인가요?,마세라티 강남지점,마세라티 강남센터,마세라티 강남서비스,마세라티 서울서비스,c
+train_5863.jpg,train/train_5863.jpg,이 책상에 놓인 이름표에 적힌 이름은 무엇인가요?,Compose Coffee,삼성청년SW,한상규,AI아카데미,c
+train_5872.jpg,train/train_5872.jpg,사진 속에 보이는 '천하제빵' 명패 아래에 적힌 문구는 무엇인가요?,완판의 달인 임동석,최고의 제빵사 김민수,베이킹 마스터 이수진,대한민국 제과기능장 박지훈,a
+train_5880.jpg,train/train_5880.jpg,이 도로 표지판에 따르면 '올림픽대로' 방향은 어느 쪽인가요?,오른쪽,직진,왼쪽,없음,b
+train_5881.jpg,train/train_5881.jpg,이 가게의 이름은 무엇인가요?,백토리 도예공방,토리 도예공방,백토리 도자기집,한토리 도예공방,a
+train_5884.jpg,train/train_5884.jpg,이 시계 화면에 표시된 시간은 언제인가요?,08:45,10:15,12:26,14:30,c
+train_5890.jpg,train/train_5890.jpg,이 건물의 간판에 적힌 회사 이름은 무엇인가요?,SYNC ENTERTAINMENT,SAFE PRODUCTION,SAFE ENTERTAINMENT,SYNC PRODUCTION,a
+train_5895.jpg,train/train_5895.jpg,이 가게 유리문에 붙은 손글씨 안내문에 적힌 내용은 무엇인가요?,마스크 착용을 꼭 해주세요.,영업시간은 오전 9시부터 오후 9시까지입니다.,오늘은 휴무입니다.,덥습니다. 옆 문을 열어봐 주세요.~,d
+train_5896.jpg,train/train_5896.jpg,이 사진 속에 보이는 깻잎의 가격은 얼마인가요?,990원,"1,200원",800원,"1,500원",a
+train_5903.jpg,train/train_5903.jpg,이 가게에서 'たこ?' 6개 묶음의 가격은 얼마인가요?,550엔,380엔,600엔,450엔,d
+train_5905.jpg,train/train_5905.jpg,사진 속 작은 포장지에 적힌 글자는 무엇을 나타내고 있나요?,일본어로 된 제품 설명,영어로 된 브랜드명,한국어로 된 제품 이름,중국어로 된 안내문,a
+train_5909.jpg,train/train_5909.jpg,이 그림에서 여자아이가 남자아이에게 한 말은 무엇인가요?,생일 축하해,고마워 오빠,고마워 사랑해,오빠 생일 축하해,d
+train_5912.jpg,train/train_5912.jpg,이 그림에서 '밸브닫기'는 어떤 동작을 의미하나요?,밸브를 여는 것,밸브를 교체하는 것,밸브를 청소하는 것,밸브를 닫는 것,d
+train_5914.jpg,train/train_5914.jpg,이 장바구니에 담긴 과자 중 '고소한 맛'을 강조하는 제품은 무엇인가요?,오리온 땅콩크림,크라운 산도,롯데 칸쵸,오리온 고소미,d
+train_5917.jpg,train/train_5917.jpg,사진 속 간판에 적힌 '화평교회'는 몇 층에 위치하고 있나요?,6층,3층,4층,5층,d
+train_5921.jpg,train/train_5921.jpg,사진 속 밀가루 중에서 1kg 기준으로 가장 저렴한 가격은 얼마인가요?,"1,730원","2,220원","5,590원","2,350원",a
+train_5930.jpg,train/train_5930.jpg,오늘의 이행시에서 '추위'와 관련된 내용으로 맞는 것은 무엇인가요?,따뜻한 커피 한잔,시원한 맥주 한 잔,추어탕 한 그릇...,위모 소주 한 병이요~,c
+train_5932.jpg,train/train_5932.jpg,이 프로모션에서 신한 슈퍼SOL로 결제하면 아메리카노 최대 얼마의 혜택을 받을 수 있나요?,최대 5천원 혜택,최대 2천원 혜택,최대 1천원 혜택,최대 3천원 혜택,b
+train_5936.jpg,train/train_5936.jpg,이 이미지에 적힌 문구 중 'SSAFY 16기'와 함께 무엇을 축하한다고 적혀 있나요?,성공을 축하합니다,입학을 축하합니다,취업을 축하합니다,졸업을 축하합니다,b
+train_5938.jpg,train/train_5938.jpg,롯데리아에서 회원 전용 리워드를 받으려면 어떻게 해야 하나요?,QR 코드를 찍고 할인 받기,영수증을 제출하기,매장 방문 시 쿠폰 받기,계산대에서 직접 요청하기,a
+train_5939.jpg,train/train_5939.jpg,사진 속 기둥에 붙어 있는 전단지에는 어떤 내용을 홍보하고 있나요?,중고차 판매,영어 학원 등록,피자 배달 서비스,당일 대출 100%,d
+train_5940.jpg,train/train_5940.jpg,사진 속 건물에 적힌 간판에 쓰인 상호명은 무엇인가요?,중국집,김밥천국,부대찌개,한식뷔페,c
+train_5944.jpg,train/train_5944.jpg,사진 속 벽에 적힌 글귀 중 '세상에 빛의 여자' 다음에 이어지는 문장은 무엇인가요?,뭔 무해 네가 아닌데,그대가 빛나는 이유는,세상에 없는 여자,누구보다 빛나는 너,a
+train_5947.jpg,train/train_5947.jpg,이 표지판에 적힌 문구는 무엇인가요?,It's not the entrance!,Please use the main door.,Open from 9 AM to 9 PM,Welcome to our cafe!,a
+train_5951.jpg,train/train_5951.jpg,이 간판에 적힌 내용으로 맞는 것은 무엇인가요?,쿠키 판매 중,커피 할인해요,빙수 팔아요,음료 무료 시음,c
+train_5959.jpg,train/train_5959.jpg,이 거리의 이름은 무엇인가요?,BROADWAY,GREENE ST,5TH AVENUE,WALL ST,b
+train_5964.jpg,train/train_5964.jpg,이 현수막에 따르면 어떤 방식의 음식물쓰레기 종량제가 시행되고 있나요?,RFID방식,바코드 방식,QR코드 방식,무게 측정 방식,a
+train_5965.jpg,train/train_5965.jpg,다음 중 이미지에 보이는 책 제목이 아닌 것은 무엇인가요?,자바와 함께하는 자료구조의 이해,파이썬으로 배우는 머신러닝,데이터 통신과 네트워크,컴퓨터 구조,b
+train_5967.jpg,train/train_5967.jpg,이 건물에 입점해 있는 미용실의 이름은 무엇인가요?,낙킴,코발트미용실,우발아트,홍헤어,d
+train_5970.jpg,train/train_5970.jpg,사진 속 버스에 적힌 문구는 무엇인가요?,JEJU ISLAND TOUR,SEOUL CITY TOUR,BUSAN CITY TOUR,DAEGU CITY TOUR,c
+train_5971.jpg,train/train_5971.jpg,이 도로 표지판들 중 '진입 금지'라는 문구가 적힌 표지판은 어떤 모양인가요?,네모난 흰색 판,사각형,삼각형,원형,d
+train_5973.jpg,train/train_5973.jpg,이 사진 속 양념통 중 'RED PEPPER'라고 적힌 양념통에는 무엇이 들어 있나요?,후추,소금,고추가루,설탕,c
+train_5978.jpg,train/train_5978.jpg,벽에 붙어 있는 포스터에 적힌 영화 제목은 무엇인가요?,THE PARTY,LA FETE,THE DANCE,LA BOUM,d
+train_5983.jpg,train/train_5983.jpg,이 사진에서 볼 수 있는 공원의 이름은 무엇인가요?,청계천공원,한강시민공원,동문시장공원,중앙문화공원,d
+train_5989.jpg,train/train_5989.jpg,이 배에 적힌 문구는 무엇인가요?,Haeundae Cruise,Sea Breeze,Busan Ferry,Ocean Explorer,a
+train_5990.jpg,train/train_5990.jpg,사진 속 노란색 아이스크림 포장지에 적힌 제품명은 무엇인가요?,부드러운,더블초코칩,빵또아,콘칩,c
+train_5993.jpg,train/train_5993.jpg,이 카페에서 와이파이 비밀번호는 무엇인가요?,a029912377,Twosome_2G,Twosome_5G,Twosome_2023,a
+train_5997.jpg,train/train_5997.jpg,이 건물에 위치한 치과의 이름은 무엇인가요?,신웅타워,알앤비성형외과,이민웅치과,리앤웰성형외과의원,c
+train_6000.jpg,train/train_6000.jpg,이 자판기에서 뽑을 수 있는 만두는 어떤 모습인가요?,노란색과 분홍색 캐릭터 모양 만두,하트 모양 만두,사각형 만두,곰돌이와 토끼 모양 만두,a
+train_6008.jpg,train/train_6008.jpg,이 AED 자동 심장 제세동기 기기에서 문을 열면 어떤 경고가 울린다고 적혀 있나요?,문을 열면 전원이 켜집니다.,문을 열면 자동으로 119에 신고됩니다.,문을 열면 경고음이 울립니다.,문을 열면 기기가 작동합니다.,c
+train_6010.jpg,train/train_6010.jpg,이 건물에 입주해 있는 치과 이름은 무엇인가요?,신 승 세 무 회 계,용 인 대 유 도 관,유 디 치 과,NH 농 협 은 행,c
+train_6012.jpg,train/train_6012.jpg,이 건물에 적힌 간판 중 영어로 되어 있는 상호명은 무엇인가요?,LG WHIS,たぬき,GONGGAN,LG WHISA,c
+train_6014.jpg,train/train_6014.jpg,고척 스카이돔 앞에 위치한 현수막에 적힌 마을축제 개최 연도는 무엇인가요?,2025년,2026년,2023년,2024년,b
+train_6022.jpg,train/train_6022.jpg,이미지에 보이는 '아라비아따' 소스에 포함된 토마토 함량은 얼마인가요?,45%,75.4%,65.4%,54%,c
+train_6032.jpg,train/train_6032.jpg,8층 803호에 입주해 있는 곳은 무엇인가요?,(주)정진,(주)제이원홀딩스,스터디카페,(주)영진에셋,c
+train_6048.jpg,train/train_6048.jpg,전자레인지 위에 놓인 눈사람 모형들의 특징으로 맞는 것은 무엇인가요?,모두 검은 장갑을 끼고 있다,모두 파란 목도리를 하고 있다,모두 빨간 모자를 쓰고 있다,모두 초록색 스카프를 하고 있다,c
+train_6049.jpg,train/train_6049.jpg,이 간판에 적힌 가게 이름은 무엇인가요?,THE BUFFIT LABS,THE BUFFIT,THE BUFFIT LAB,THE BUFFET LAB,c
+train_6050.jpg,train/train_6050.jpg,동별 안내판에 따르면 110동은 어느 방향으로 가야 합니까?,직진,뒤로,왼쪽,오른쪽,a
+train_6051.jpg,train/train_6051.jpg,노란색 간판에 적혀 있는 주요 단어는 무엇인가요?,음식점,카페,문구,서점,c
+train_6052.jpg,train/train_6052.jpg,이 건물에 있는 식당 중 38년 전통이 있다고 적힌 음식점은 무엇인가요?,부대찌개,오겹살,노래 연습장,손짜장,d
+train_6069.jpg,train/train_6069.jpg,이 가게 창문에 적힌 문구 중 맞는 것은 무엇인가요?,We Bake BURGER bodaciously!!,We Make BURGER bodaciously!!,We Make PIZZA bodaciously!!,We Cook BURGER deliciously!!,b
+train_6074.jpg,train/train_6074.jpg,이 역에서 화장실까지 거리는 얼마나 됩니까?,30m,10m,20m,50m,a
+train_6082.jpg,train/train_6082.jpg,이 GS25 편의점 행사 포스터에서 500ml 블랙커피(1400)의 가격은 얼마인가요?,1900원,1400원,6000원,2800원,b
+train_6091.jpg,train/train_6091.jpg,억삼와인 포레스트의 영업 마감 시간은 언제인가요?,18:00,23:30,21:00,22:00,b
+train_6094.jpg,train/train_6094.jpg,'눈물이 펑펑' 김밥집에서 야채 김밥의 가격은 얼마인가요?,"2,000원","3,500원","4,500원","2,500원",b
+train_6095.jpg,train/train_6095.jpg,모니터 받침대에 적혀 있는 브랜드 이름은 무엇인가요?,SAMSUNG,APPLE,LG,DELL,a
+train_6099.jpg,train/train_6099.jpg,전통 대장간에서 '물무건'의 역할은 무엇인가요?,담금질을 하기 위해 쇠를 뜨겁게 달구는 불을 유지한다.,쇠가 열에 달구어졌는지 확인하기 위해 불꽃을 산소로 불어넣는다.,쇠를 망치로 두들겨 모양을 만든다.,쇠를 물에 담가 식히는 역할을 한다.,b
+train_6116.jpg,train/train_6116.jpg,이 표지에 적힌 이름은 무엇인가요?,이영희,신현준,김민수,박지훈,b
+train_6119.jpg,train/train_6119.jpg,컴포즈커피의 스페셜티 블렌딩 커피는 주로 어떤 원두를 베이스로 사용하나요?,케냐 원두,과테말라 원두,"브라질, 콜롬비아 원두",에티오피아 원두,c
+train_6120.jpg,train/train_6120.jpg,이 표지판에 적힌 내용 중 올바른 것은 무엇인가요?,차량 진입 금지,보행 시 차량 주의,자동차 출입 금지,보행자 전용 도로,b
+train_6124.jpg,train/train_6124.jpg,이 사진에 보이는 도로명 표지판에 적힌 도로명은 무엇인가요?,테헤란로 34길,테헤란로 30길,테헤란로 32길,테헤란로 50길,a
+train_6127.jpg,train/train_6127.jpg,이 가게에서 판매하는 주요 제품은 무엇인가요?,속초 오징어,속초 막걸리 술빵,속초 김치찌개,속초 해물탕,b
+train_6138.jpg,train/train_6138.jpg,이 건물에 입점해 있는 음식점의 이름은 무엇인가요?,사보로 FRESH SHABUSHABU,롯데리아,스타벅스,사랑모아 금융서비스,a
+train_6144.jpg,train/train_6144.jpg,이 이미지에 있는 대구축산농협 홍보 문구에서 강조하는 내용은 무엇인가요?,최신 식품 조리 기술 보유,믿을 수 있는 안전한 우리 먹거리,가장 저렴한 가격 보장,친환경 농산물 인증,b
+train_6146.jpg,train/train_6146.jpg,이 제품의 이름은 무엇인가요?,오뚜기 비빔면,오뚜기 잡채밥,오뚜기 잡채,오뚜기 라면,c
+train_6149.jpg,train/train_6149.jpg,이 역에서 하남검단산 방향으로 출발하는 열차가 출발하는 시간은 언제인가요?,18:33,19:00,17:45,07:30,a
+train_6152.jpg,train/train_6152.jpg,이 필통에 적힌 문구들 중 올바른 것은 무엇인가요?,피할 수 없다면 놀아라,피할 수 없다면 슬퍼해라,피할 수 없다면 참아라,피할 수 없다면 즐겨라,d
+train_6156.jpg,train/train_6156.jpg,이 사진 속 건물에 보이는 상호명 중 올바른 것은 무엇인가요?,STARBUCKS,OLIVE YOUNG,E-MART,PARIS BAGUETTE,d
+train_6158.jpg,train/train_6158.jpg,이 사진에 보이는 음료 중에서 캔으로 된 음료는 무엇인가요?,환타,펩시,사이다,코카콜라,b
+train_6172.jpg,train/train_6172.jpg,이 건물에 입점해 있는 식당의 대표 메뉴로 적힌 것은 무엇인가요?,레전드 양궁장,키다리 약국,노래타운,간바지 연탄 고추장 불고기,d
+train_6173.jpg,train/train_6173.jpg,이 건물에 입주해 있는 성형외과의 이름은 무엇인가요?,법무법인 새명,리앤웰성형외과,수안,이민 음치과,b
+train_6176.jpg,train/train_6176.jpg,이 식당의 간판에 적힌 식당 이름은 무엇인가요?,만두전골 디안,디안 만두집,만두전골 집,디안 만두전골,d
+train_6178.jpg,train/train_6178.jpg,이 안내문에서 '호출방법' 중 Step.03에 해당하는 내용은 무엇인가요?,원하는 목적지 선택,지정 정류장에서 호출 차량 탑승,이용할 차량 선택/호출,앱 설치·회원가입,c
+train_6180.jpg,train/train_6180.jpg,이 안내판에서 '엘리베이터'가 위치한 곳까지의 거리는 얼마인가요?,40m,10m,30m,20m,c
+train_6186.jpg,train/train_6186.jpg,"이 지하철역 안내문에 따르면, 부정승차는 어떤 행위입니까?",무료 이용 권장,할인 승차권 사용,범죄행위,합법적인 승차 방법,c
+train_6195.jpg,train/train_6195.jpg,사진 속 책의 제목은 무엇인가요?,컴퓨터활용능력 필기 2024 기본서,정보처리기사 실기 2024 기본서,정보처리기사 필기 2024 기본서,정보처리기사 필기 2023 기본서,c
+train_6201.jpg,train/train_6201.jpg,이 가게의 '크마세트' 가격은 얼마인가요?,"4,200원","3,500원","2,900원","1,800원",c
+train_6202.jpg,train/train_6202.jpg,이 현수막에서 공모전의 주제는 무엇인가요?,청년 창업 아이디어 공모전,AI를 활용한 지역상권 활성화 아이디어 공모전,스마트 시티 개발 아이디어 공모전,환경 보호를 위한 아이디어 공모전,b
+train_6203.jpg,train/train_6203.jpg,이 건물의 빨간색 간판에 적힌 음식은 무엇인가요?,라멘,타코야키,스시,우동,b
+train_6205.jpg,train/train_6205.jpg,이 건물의 명칭은 무엇인가요?,부산지방검찰청,서울지방중소벤처기업청,부산지방중소벤처기업청,부산지방경찰청,c
+train_6219.jpg,train/train_6219.jpg,이 사진에 보이는 'Glico' 광고판에서 주인공이 하고 있는 동작은 무엇인가요?,점프하는 모습,걷는 모습,달리기 하는 모습,춤추는 모습,c
+train_6226.jpg,train/train_6226.jpg,이 문이 가리키는 방의 이름은 무엇인가요?,프리액션밸브실,유수검지장치실,경고 구역,통제구역,a
+train_6234.jpg,train/train_6234.jpg,칸타타 더블샷 바닐라 라떼 200ml의 가격은 얼마인가요?,"1,800원","1,500원","1,400원","2,500원",d
+train_6235.jpg,train/train_6235.jpg,이 가게 간판에 적힌 가게 이름은 무엇인가요?,인덕원 맛집,몽골 선교회,바위섬,철판구이,c
+train_6236.jpg,train/train_6236.jpg,이 나무 안내판에 적힌 문구의 내용은 무엇인가요?,이곳은 출입 금지 구역입니다,쓰레기를 반드시 가져가세요,우장산을 아끼고 사랑합시다,산책로에서 자전거를 타지 마세요,c
+train_6251.jpg,train/train_6251.jpg,이 사진 속 포스터에 적힌 투어 이름은 무엇인가요?,Dolphin Apartment,Ocean View,City Lights,Sunset Boulevard,a
+train_6252.jpg,train/train_6252.jpg,이 도로 표지판에 적혀 있는 제한 속도는 얼마인가요?,50 km/h,70 km/h,80 km/h,60 km/h,d
+train_6253.jpg,train/train_6253.jpg,대박 떡볶이 가게에서 세일 중인 어묵 3개의 가격은 얼마인가요?,"1,000원","5,000원","3,000원","2,000원",d
+train_6254.jpg,train/train_6254.jpg,이 음향신호기의 안내 메시지는 누구를 위한 것인가요?,시각장애인용입니다.,어린이용입니다.,청각장애인용입니다.,노인용입니다.,a
+train_6261.jpg,train/train_6261.jpg,왼쪽 스크린에서 01B 팀의 최종 점수는 얼마인가요?,42,30,57,51,a
+train_6264.jpg,train/train_6264.jpg,이 건물 외벽에 걸려 있는 광고판에 적힌 디저트 이름은 무엇인가요?,딸기케이크,바닐라푸딩,망고시루,초콜릿무스,c
+train_6265.jpg,train/train_6265.jpg,단체전 1등을 차지한 팀은 어느 팀인가요?,꼬치네,건사공,정통대,기시디,b
+train_6270.jpg,train/train_6270.jpg,이 책의 제목은 무엇인가요?,영어 회화 무작정 따라하기,해커스 토익 기출 보카,토익 LC 완성,기초 일본어 단어장,b
+train_6274.jpg,train/train_6274.jpg,이 화면에서 '선불요금'으로 적힌 금액은 얼마인가요?,"20,000원","30,000원","40,000원","10,000원",b
+train_6286.jpg,train/train_6286.jpg,이 건물에 있는 '맨즈플랜헤어' 매장은 어느 위치에 있나요?,고대 안암2초점,고대 안암4초점,고대 안암3초점,고대 안암5초점,b
+train_6289.jpg,train/train_6289.jpg,이 두유 팩에 적혀 있는 1회 제공량 고칼슘 두유의 칼슘 함량은 얼마인가요?,100mg,250mg,150mg,200mg,d
+train_6296.jpg,train/train_6296.jpg,'오드펠로우즈' 아이스크림을 직접 개발한 미슐랭 레스토랑 셰프의 이름은 무엇인가요?,Kim Yuna,Lee Min Ho,John Smith,Sam Mason,d
+train_6300.jpg,train/train_6300.jpg,이미지 속 빵의 이름은 무엇인가요?,찰보리 소보로빵,찰보리 크림치즈빵,찰보리 생크림뜸뽁식빵,찰보리 단팥빵,c
+train_6305.jpg,train/train_6305.jpg,이 가방에 들어있는 과일 건조 제품의 종류는 무엇인가요?,건조 망고만,건조 바나나와 망고 믹스,건조 망고와 파인애플 믹스,건조 파인애플만,c
+train_6310.jpg,train/train_6310.jpg,이 가게의 이름은 무엇인가요?,work in progress,2F,carhartt,相席 カラオケ,c
+train_6316.jpg,train/train_6316.jpg,이 가게 앞에 그려진 로봇 그림에 적힌 문구는 무엇인가요?,FREE DRINK,FREE ROBOT,OPEN NOW,ROBOT CAFE,b
+train_6326.jpg,train/train_6326.jpg,사진 속 인물의 주요 경력 중 '18년 ~ 20년' 기간에 있었던 직장은 어디인가요?,연세대학교,Language,Market D,SKT Brain,d
+train_6328.jpg,train/train_6328.jpg,이곳에서 제공하는 와이파이 이름은 무엇인가요?,코로나 WIFI,인연합치과 WIFI,엘리베이터 WIFI,소화기 WIFI,b
+train_6329.jpg,train/train_6329.jpg,사진 속 모나미 유성매직 제품에 포함된 펜의 개수는 몇 개인가요?,8본입,12본입,10본입,6본입,a
+train_6336.jpg,train/train_6336.jpg,이 전시된 곤충 표본들이 발견된 마을 이름은 무엇인가요?,나가사키 마을,교토 마을,오나 마을,도쿄 마을,c
+train_6340.jpg,train/train_6340.jpg,이 도로 표지판에 적힌 육교 이름은 무엇인가요?,인동가산로,삼성육교,서울가산로,대구육교,b
+train_6343.jpg,train/train_6343.jpg,이 식당의 이름은 무엇인가요?,진가네 돼지갈비,진가네 대구갈비,수정사우나,대구식당 진가네,b
+train_6351.jpg,train/train_6351.jpg,이 건물 3층에 입주해 있는 병원이나 클리닉이 아닌 것은 무엇인가요?,치항외과,서경근피부비뇨기과,신세계 스마일 아카데미 & 라이브 스튜디오,밀란(가발),c
+train_6352.jpg,train/train_6352.jpg,이 사진에 보이는 '다올 DANCE STUDIO'의 문의 연락처는 무엇인가요?,010-2068-7858,02-2068-7858,010-1234-5678,02-1234-5678,a
+train_6354.jpg,train/train_6354.jpg,사진 속 간판에 적힌 음식점 이름은 무엇인가요?,탕케에 약환영,노래바,순남 시래기,양자강,c
+train_6356.jpg,train/train_6356.jpg,<가나디 그리는 법>에서 3단계에서 귀의 가로 세로 위치를 참고해 그려야 하는 것은 무엇인가요?,귀,입,눈,코,c
+train_6359.jpg,train/train_6359.jpg,이 사진 속 도넛 모양 간판에 적힌 글자는 무엇인가요?,SANDY'S DOUGHNUTS,SANDY'S DONUTS,RANDY'S DONUTS,RANDY'S DOUGHNUT,c
+train_6364.jpg,train/train_6364.jpg,중산집 전주 물갈비 조리법에서 2단계에 준비해야 하는 생수의 양은 얼마인가요?,500 ml,700 ml,300 ml,"1,000 ml",a
+train_6367.jpg,train/train_6367.jpg,메뉴판에 따르면 '새우라면'의 가격은 얼마인가요?,"6,000원","10,000원","18,000원","5,000원",a
+train_6388.jpg,train/train_6388.jpg,이 사진에 보이는 두 상점의 이름은 무엇인가요?,"커피 오아시스, GS25","커피 오아시스, CU","스타벅스, CU","투썸플레이스, GS25",a
+train_6396.jpg,train/train_6396.jpg,MSI 익스피리언스 데이 1주년 기념 행사에서 2부 시작 시간은 언제인가요?,17:00,14:00,15:00,13:00,c
+train_6403.jpg,train/train_6403.jpg,이 사진 속 건물의 간판에 적힌 상호명은 무엇인가요?,생활안전 CCTV,진 미용타운,달구벌대로329길,진 카페,b
+train_6404.jpg,train/train_6404.jpg,이 빵집의 이름은 무엇인가요?,Sweet Home,Fast Bakery,Slow Bread,Bread & Butter,c
+train_6405.jpg,train/train_6405.jpg,사진 속 가게 '빈소 나주곰탕 5번'에서 제공하는 음식은 무엇인가요?,김밥,떡볶이,비빔밥,곰탕,d
+train_6406.jpg,train/train_6406.jpg,영화 입장권에 적힌 영화 제목은 무엇인가요?,명탐정 코난: 척안의 잔영 (자막),겨울왕국 2,어벤져스: 엔드게임,기생충,a
+train_6421.jpg,train/train_6421.jpg,이 사진에 보이는 안내판에 적힌 문구는 무엇인가요?,진입금지,서행,주차금지,출차주의,d
+train_6424.jpg,train/train_6424.jpg,이 공간 벽면에 적힌 글자는 무엇인가요?,SOFTY,SSAFY,SUNDAY,SAFETY,b
+train_6429.jpg,train/train_6429.jpg,사진 속 햅쌀 드림밥에 적힌 쌀의 품종은 무엇인가요?,햅쌀,신동진쌀,일품쌀,조생종 쌀,a
+train_6438.jpg,train/train_6438.jpg,칠판에 붙어 있는 'Wanted' 포스터에 적힌 현상금은 얼마인가요?,$50 billion,$50 million,$500 thousand,$5 million,a
+train_6440.jpg,train/train_6440.jpg,점심특선 메뉴에 포함되지 않은 것은 무엇인가요?,물회,가지미구이,불고기,매운탕,c
+train_6441.jpg,train/train_6441.jpg,이미지에 보이는 'EUTHYMOL' 제품은 무엇과 관련된 것인가요?,핸드크림,치약과 칫솔,열쇠고리,노트북 케이스,b
+train_6443.jpg,train/train_6443.jpg,이 기구에 장착된 무게 추의 무게는 얼마인가요?,10kg,20kg,25kg,15kg,b
+train_6448.jpg,train/train_6448.jpg,이 건물의 간판에 적힌 'NH농협' 곡약지점이 위치한 곳의 이름은 무엇인가요?,서울중앙농협 곡약지점,안양원예농협 곡약지점,대구농협 곡약지점,부산원예농협 곡약지점,b
+train_6455.jpg,train/train_6455.jpg,이 사진에서 간판과 포스터에 반복적으로 적혀 있는 문구는 무엇인가요?,금연,나즈드라비 강남점,NA ZDRAV?!,Pilsner Urquell,c
+train_6458.jpg,train/train_6458.jpg,이 도로 바닥에 적힌 글자는 무엇을 의미하나요?,속도 제한 구역,주차 금지 구역,야간 안전 운전 구역,어린이 보호 구역,d
+train_6459.jpg,train/train_6459.jpg,이 우유 팩에 적혀 있는 원유의 등급은 무엇인가요?,국산 2B등급 원유 90%,수입산 1A등급 원유 100%,국산 3C등급 원유 80%,국산 1A등급 원유 100%,d
+train_6468.jpg,train/train_6468.jpg,이미지에 보이는 '가보정'에서 소개하는 가보정의 의미는 무엇인가요?,맛있고 건강한 음식점입니다.,친절하고 빠른 서비스를 뜻합니다.,아름답고 큰집이라는 의미입니다.,전통을 지키는 한식집입니다.,c
+train_6473.jpg,train/train_6473.jpg,미카도스시 구미진평점에서 모든 접시의 균일 가격은 얼마인가요?,"1,900원","2,500원",900원,"1,200원",a
+train_6482.jpg,train/train_6482.jpg,이 사진에 보이는 '하이드우' 제품은 무엇과 관련된 제품인가요?,스티커,컬러 점토,색연필,퍼즐,b
+train_6494.jpg,train/train_6494.jpg,사진 속 소독제 병에 적혀 있는 살균 효과는 몇 %인가요?,99.9%,100%,90%,95.5%,a
+train_6496.jpg,train/train_6496.jpg,이 사진에서 보이는 지하철 역 이름은 무엇인가요?,판교,선릉,잠실,강남,a
+train_6500.jpg,train/train_6500.jpg,이 도로 표지판에 표시된 도로 이름은 무엇인가요?,강남대로,삼성로,테헤란로,역삼로,c
+train_6502.jpg,train/train_6502.jpg,"이미지에 보이는 가격표에 따르면, 양념 돈 불고기의 100g 가격은 얼마인가요?","2,280원","1,480원","2,000원","9,500원",b
+train_6514.jpg,train/train_6514.jpg,이 사진에 보이는 표지판 중에서 호텔을 가리키는 표지판에는 어떤 영어 단어가 적혀 있나요?,HOTEL,FOREST ZOO,Entrance,YUFUIN FLORAL VILLAGE,d
+train_6515.jpg,train/train_6515.jpg,이 노트에 적힌 문구 중 'SSAFY 생활을 ___하는 하루'에서 빈칸에 들어갈 단어는 무엇인가요?,기획하는,공부하는,즐기는,기록하는,d
+train_6517.jpg,train/train_6517.jpg,사진 속 노란색 현수막에 적힌 문구 중 맞는 것은 무엇인가요?,기다려주는 깜빡이 켜는 배려운전 양보운전,깜빡이 켜는 배려운전 기다려주는 양보운전,양보운전 깜빡이 켜는 배려운전 기다려주는,배려운전 기다려주는 양보운전 깜빡이 켜는,b
+train_6525.jpg,train/train_6525.jpg,이 약국 간판에 적힌 전화번호는 무엇인가요?,752-1316,2522-0000,1568-0000,100-2000,a
+train_6527.jpg,train/train_6527.jpg,이 안내문에 따르면 '세븐테마카페'는 몇 층에 위치해 있나요?,3층~5층,8층~10층,1층~3층,6층~7층,d
+train_6528.jpg,train/train_6528.jpg,'슬림형 탄산정수기'의 주요 특징으로 올바른 것은 무엇인가요?,터치리스 기능이 없어 비접촉 출수가 불가능하다,IoT 센서 및 모니터링을 통한 소모품 발주 및 오류 안내로 관리가 쉬움,가정용 정수기가 아닌 산업용 정수기이다,탄산수 출수는 버튼 출수만 가능하다,b
+train_6533.jpg,train/train_6533.jpg,이 인형 뽑기 기계에서 한 사람이 뽑을 수 있는 경품 개수는 몇 개인가요?,2점,1점,무제한,3점,b
+train_6538.jpg,train/train_6538.jpg,이 메시지 보드에서 2025년 11월 14일부터 16일까지 개최되는 행사의 이름은 무엇인가요?,MUSIC FIESTA 2025,LIVE CONCERT 2025,WONDERLIVE 2025,K-POP FESTIVAL 2025,c
+train_6546.jpg,train/train_6546.jpg,다음 중 이미지에 보이는 책 제목이 아닌 것은 무엇인가요?,처음 시작하는 파이썬,컴퓨터 밀바탕의 비밀,데이터 과학 입문,헷즈온 머신러닝 3판,c
+train_6549.jpg,train/train_6549.jpg,이 건물에 입주해 있는 학원 이름은 무엇인가요?,NH농협은행,연세외국어학원,김영재치과,다빈치 성형외과 피부과,b
+train_6555.jpg,train/train_6555.jpg,이 가게 간판에 적혀 있는 문구는 무엇인가요?,맛있는 분식집,원조 제일 돌솥,신선한 채소 가게,전통 한식 전문,b
+train_6556.jpg,train/train_6556.jpg,사진 속에 걸려 있는 두 개의 큰 현수막에 적힌 글자는 무엇인가요?,"市場, ?業中","酒具屋筋, 千客万?","大?出し, 感謝祭","?迎, 商店街",b
+train_6560.jpg,train/train_6560.jpg,이 표지판에 적힌 문구 중 잘못된 것은 무엇인가요?,주정차금지,주차금지,견인차량주의,견인지역,c
+train_6561.jpg,train/train_6561.jpg,야구 경기장 스코어보드에 나온 선수 박준순의 타율은 얼마인가요?,0.310,0.286,0.313,0.299,b
+train_6564.jpg,train/train_6564.jpg,이 도로 표지판에 적힌 도로 이름은 무엇인가요?,역삼로,논현로94길,강남대로,테헤란로,b
+train_6566.jpg,train/train_6566.jpg,이 이미지에 보이는 영어 단어는 무엇인가요?,Welcome,Goodbye,Greetings,Hello,c
+train_6570.jpg,train/train_6570.jpg,사진 속 책자 표지에 적힌 제목은 무엇인가요?,SSAFY 교육과정 안내,SSAFY 취업성공 후기집,SSAFY 졸업생 명단,SSAFY 취업지원 안내서,b
+train_6576.jpg,train/train_6576.jpg,8월 25일에 진행되는 15기 8월 취업특강의 강의 주제는 무엇인가요?,이력서 작성법,취업 동향 분석,자기소개서 심화 분석,면접 준비 전략,c
+train_6588.jpg,train/train_6588.jpg,외부 고객께서는 어느 층에서 안내를 받아야 합니까?,1층,지하 1층,2층,3층,a
+train_6599.jpg,train/train_6599.jpg,이 베이글의 종류와 가격이 올바르게 짝지어진 것은 무엇인가요?,"트리플 치즈 베이글 - 4,200원","탐중 플레인 베이글 - 3,300원","트리플 치즈 베이글 - 3,300원","탐중 플레인 베이글 - 3,900원",b
+train_6604.jpg,train/train_6604.jpg,이 건물에 붙어 있는 광고에서 'FOD'는 무엇과 관련된 것인가요?,온라인 쇼핑,스포츠 경기 중계,영화 서비스,음악 스트리밍,c
+train_6624.jpg,train/train_6624.jpg,사진 속 메뉴판에서 신경추빵 20개 가격은 얼마인가요?,"22,000원","20,000원","18,000원","25,000원",a
+train_6626.jpg,train/train_6626.jpg,뭉티기는 어떤 조건에서 판매되는 음식인가요?,당일 도축한 한우 우둔살을 24시간 이내에만 판매한다,한우 등심을 48시간 이내에 판매한다,주말과 공휴일에만 판매한다,냉동된 소고기를 일주일에 한 번 판매한다,a
+train_6627.jpg,train/train_6627.jpg,왼쪽 주문기 화면에 나온 '맘모스샌드' 메뉴에 적힌 맛은 무엇인가요?,초당 수제 찹쌀떡,흑임자 크림,딸기 생크림,허니버터,a
+train_6645.jpg,train/train_6645.jpg,이미지에 보이는 간판 중 '청미나리 농장'과 관련된 전화번호는 무엇인가요?,555-1234,555-9789,02)568-0630,02)123-4567,c
+train_6650.jpg,train/train_6650.jpg,이 샐러드의 이름은 무엇인가요?,곤약밥연어포케샐러드,참치회덮밥,야채비빔밥,닭가슴살샐러드,a
+train_6653.jpg,train/train_6653.jpg,이 장소에서 개최되는 행사는 무엇인가요?,마로니에 어린이공원 개장식,도서관 개관식,한강 마라톤 대회,서울시청 축제,a
+train_6664.jpg,train/train_6664.jpg,이 사진에 보이는 편의점의 이름은 무엇인가요?,LAWSON,7-Eleven,GS25,FamilyMart,a
+train_6665.jpg,train/train_6665.jpg,새동아직업전문학교에서 모집하는 국비 직업훈련 교육생 연령 조건으로 옳은 것은?,20세 이상 65세 미만,15세 이상 75세 미만,18세 이상 80세 미만,10세 이상 70세 미만,b
+train_6670.jpg,train/train_6670.jpg,사진 속에서 사람이 들고 있는 두 가지 간식의 맛 종류는 무엇인가요?,"녹차 케이크, 더블초코 케이크","피스타치오 초코 케이크, 당근 케이크","피스타치오 초코 케이크, 더블초코 케이크","녹차 케이크, 당근 케이크",c
+train_6688.jpg,train/train_6688.jpg,이 건물의 awning(차양)에 적힌 문구는 무엇인가요?,대한불교조계종,대한예수교장로회 충현교회,서울시립대학,충현초등학교,b
+train_6693.jpg,train/train_6693.jpg,이 건물 간판에 적힌 회사명은 무엇인가요?,창익 떡,창익 떡집,창의 떡,창의 떡집,a
+train_6696.jpg,train/train_6696.jpg,사진에 보이는 '이춘복참치' 간판에 적힌 전화번호는 무엇인가요?,02-743-4558,02-734-4555,02-734-5548,02-734-4558,d
+train_6701.jpg,train/train_6701.jpg,오른쪽에 있는 주황색 쓰레기통에 적힌 글자는 무엇인가요?,일반쓰레기,음식물쓰레기,대형쓰레기,재활용쓰레기,a
+train_6710.jpg,train/train_6710.jpg,이 가게의 상호명은 무엇인가요?,파스타하우스,바질숲,스테이크하우스,이탈리안키친,b
+train_6713.jpg,train/train_6713.jpg,이 영수증에서 계산된 총 금액은 얼마인가요?,"10,000원","15,000원","13,000원","12,000원",b

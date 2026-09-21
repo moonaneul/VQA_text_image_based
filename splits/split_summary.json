@@ -1,0 +1,81 @@
+{
+  "seed": 20260921,
+  "val_fraction": 0.2,
+  "random": {
+    "train_rows": 5373,
+    "val_rows": 1341,
+    "question_template_overlap": 95,
+    "exact_image_overlap": 0,
+    "train_answer_distribution": {
+      "a": 1361,
+      "b": 1316,
+      "c": 1373,
+      "d": 1323
+    },
+    "val_answer_distribution": {
+      "a": 339,
+      "b": 328,
+      "c": 343,
+      "d": 331
+    },
+    "train_category_distribution": {
+      "scene_text": 2671,
+      "other": 1399,
+      "price": 718,
+      "spatial": 230,
+      "phone": 174,
+      "menu": 128,
+      "count": 42,
+      "color": 11
+    },
+    "val_category_distribution": {
+      "scene_text": 668,
+      "other": 348,
+      "price": 180,
+      "spatial": 57,
+      "phone": 43,
+      "menu": 31,
+      "count": 10,
+      "color": 4
+    }
+  },
+  "grouped": {
+    "train_rows": 5371,
+    "val_rows": 1343,
+    "question_template_overlap": 0,
+    "exact_image_overlap": 0,
+    "train_answer_distribution": {
+      "a": 1371,
+      "b": 1306,
+      "c": 1373,
+      "d": 1321
+    },
+    "val_answer_distribution": {
+      "a": 329,
+      "b": 338,
+      "c": 343,
+      "d": 333
+    },
+    "train_category_distribution": {
+      "scene_text": 2670,
+      "other": 1394,
+      "price": 716,
+      "spatial": 233,
+      "phone": 176,
+      "menu": 128,
+      "count": 43,
+      "color": 11
+    },
+    "val_category_distribution": {
+      "scene_text": 669,
+      "other": 353,
+      "price": 182,
+      "spatial": 54,
+      "phone": 41,
+      "menu": 31,
+      "count": 9,
+      "color": 4
+    }
+  },
+  "group_definition": "Connected components sharing a normalized question template or exact image SHA-256."
+}

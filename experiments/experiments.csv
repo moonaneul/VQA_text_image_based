@@ -1,0 +1,1 @@
+run_id,timestamp,stage,model,prompt,resolution,quantization,split,seed,rows,overall_accuracy,scene_text_accuracy,phone_accuracy,price_accuracy,menu_accuracy,count_accuracy,color_accuracy,spatial_accuracy,other_accuracy,lb_score,notes,artifacts
