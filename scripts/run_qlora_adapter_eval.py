@@ -48,6 +48,11 @@ def main() -> None:
     parser.add_argument("--resolution", choices=sorted(RESOLUTION_PRESETS), default="standard")
     parser.add_argument("--seed", type=int, default=20260921)
     parser.add_argument("--run-id", required=True)
+    parser.add_argument(
+        "--save-choice-probs",
+        action="store_true",
+        help="Save id,p_a,p_b,p_c,p_d using first-step logits normalized over choices a-d.",
+    )
     args = parser.parse_args()
 
     random.seed(args.seed)
@@ -83,11 +88,23 @@ def main() -> None:
     )
     model.eval()
 
+    choice_token_ids = {}
+    if args.save_choice_probs:
+        for choice in CHOICES:
+            token_ids = processor.tokenizer.encode(choice, add_special_tokens=False)
+            if len(token_ids) != 1:
+                raise RuntimeError(
+                    f"Choice {choice!r} is not a single token: {token_ids}. "
+                    "Choice-probability export assumes one token per answer choice."
+                )
+            choice_token_ids[choice] = token_ids[0]
+
     if torch.cuda.is_available():
         torch.cuda.reset_peak_memory_stats()
 
     device = model_input_device(model)
     records = []
+    probability_records = []
     started = time.time()
 
     for row in tqdm(frame.itertuples(index=False), total=len(frame), desc="qlora-eval"):
@@ -125,12 +142,37 @@ def main() -> None:
         }
 
         with torch.inference_mode():
-            generated = model.generate(
-                **inputs,
-                max_new_tokens=4,
-                do_sample=False,
-                use_cache=True,
-            )
+            if args.save_choice_probs:
+                generated_output = model.generate(
+                    **inputs,
+                    max_new_tokens=4,
+                    do_sample=False,
+                    use_cache=True,
+                    return_dict_in_generate=True,
+                    output_scores=True,
+                )
+                generated = generated_output.sequences
+
+                first_step_scores = generated_output.scores[0][0]
+                choice_logits = torch.stack([
+                    first_step_scores[choice_token_ids[choice]]
+                    for choice in CHOICES
+                ]).float()
+                choice_probs = torch.softmax(choice_logits, dim=0).detach().cpu().tolist()
+                probability_records.append({
+                    "id": row.id,
+                    **{
+                        f"p_{choice}": float(prob)
+                        for choice, prob in zip(CHOICES, choice_probs)
+                    },
+                })
+            else:
+                generated = model.generate(
+                    **inputs,
+                    max_new_tokens=4,
+                    do_sample=False,
+                    use_cache=True,
+                )
 
         prompt_length = inputs["input_ids"].shape[1]
         text = processor.batch_decode(
@@ -159,6 +201,14 @@ def main() -> None:
     predictions = pd.DataFrame(records)
     predictions.to_csv(run_dir / "predictions.csv", index=False, encoding="utf-8-sig")
 
+    if args.save_choice_probs:
+        probabilities = pd.DataFrame(probability_records)
+        probabilities.to_csv(
+            run_dir / "choice_probabilities.csv",
+            index=False,
+            encoding="utf-8-sig",
+        )
+
     metrics = compute_metrics(predictions)
     elapsed = time.time() - started
     peak_vram_gb = (
@@ -178,6 +228,12 @@ def main() -> None:
         "resolution_pixels": RESOLUTION_PRESETS[args.resolution],
         "quantization": "none",
         "decision_method": "generation",
+        "choice_probabilities_saved": bool(args.save_choice_probs),
+        "choice_probability_definition": (
+            "first_generation_step_softmax_normalized_over_a_b_c_d"
+            if args.save_choice_probs
+            else None
+        ),
         "seed": args.seed,
         "rows": int(len(predictions)),
         "elapsed_seconds": elapsed,
