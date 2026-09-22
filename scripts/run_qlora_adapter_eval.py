@@ -187,7 +187,7 @@ def main() -> None:
         latency_seconds = time.perf_counter() - infer_started
 
         answer = getattr(row, "answer", None)
-        is_labeled = answer in CHOICES
+        is_labeled = isinstance(answer, str) and answer in CHOICES
         records.append({
             "id": row.id,
             "prediction": prediction,
