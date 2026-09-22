@@ -52,15 +52,14 @@ def model_device(model) -> torch.device:
     return torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-def build_prompt(row) -> str:
-    return (
-        f"{DIRECT_PROMPT}\n\n"
-        f"질문: {row.question}\n"
-        f"(a) {row.a}\n"
-        f"(b) {row.b}\n"
-        f"(c) {row.c}\n"
-        f"(d) {row.d}"
-    )
+def build_prompt(row, choice_order: str = CHOICES) -> str:
+    options = {choice: getattr(row, choice) for choice in CHOICES}
+    lines = [
+        f"{DIRECT_PROMPT}\n\n질문: {row.question}",
+    ]
+    for display_label, original_choice in zip(CHOICES, choice_order):
+        lines.append(f"({display_label}) {options[original_choice]}")
+    return "\n".join(lines)
 
 
 def main() -> None:
@@ -81,7 +80,21 @@ def main() -> None:
     parser.add_argument("--max-pixels", type=int, default=640 * 28 * 28)
     parser.add_argument("--quantization", choices=["4bit", "none"], default="4bit")
     parser.add_argument("--max-samples", type=int)
+    parser.add_argument(
+        "--choice-order",
+        default=CHOICES,
+        help=(
+            "Original-choice order displayed as labels a/b/c/d. "
+            "Use 'abcd' for P0 or 'bcda' for P1. "
+            "Saved p_a..p_d are always remapped back to original-choice identity."
+        ),
+    )
     args = parser.parse_args()
+
+    if len(args.choice_order) != 4 or set(args.choice_order) != set(CHOICES):
+        raise ValueError(
+            f"--choice-order must be a permutation of {CHOICES!r}; got {args.choice_order!r}"
+        )
 
     frame = pd.read_csv(args.csv, encoding="utf-8-sig")
     if args.max_samples:
@@ -146,7 +159,7 @@ def main() -> None:
             "role": "user",
             "content": [
                 {"type": "image", "image": image},
-                {"type": "text", "text": build_prompt(row)},
+                {"type": "text", "text": build_prompt(row, args.choice_order)},
             ],
         }]
         chat = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
@@ -164,7 +177,14 @@ def main() -> None:
                 last_pos = int(inputs["input_ids"].shape[1]) - 1
             next_logits = outputs.logits[0, last_pos]
             choice_logits = next_logits.index_select(0, choice_ids_tensor).float()
-            p = torch.softmax(choice_logits, dim=0).detach().cpu().tolist()
+            p_display = torch.softmax(choice_logits, dim=0).detach().cpu().tolist()
+
+        # Display label a/b/c/d may point to a permuted original choice.
+        # Remap probabilities back to original choice identity so downstream
+        # artifacts always use p_a/p_b/p_c/p_d consistently.
+        p = [0.0, 0.0, 0.0, 0.0]
+        for display_idx, original_choice in enumerate(args.choice_order):
+            p[CHOICES.index(original_choice)] = float(p_display[display_idx])
 
         pred_idx = max(range(4), key=lambda i: p[i])
         prediction = CHOICES[pred_idx]
@@ -215,6 +235,8 @@ def main() -> None:
         "model_path": str(args.model_path),
         "adapter_path": str(args.adapter_path) if args.adapter_path else None,
         "decision_method": "four_choice_next_token_scoring",
+        "choice_order": args.choice_order,
+        "probability_identity": "original_choice_after_remap",
         "rows": int(len(pred_df)),
         "min_pixels": args.min_pixels,
         "max_pixels": args.max_pixels,
