@@ -13,6 +13,7 @@ def main() -> None:
     parser.add_argument("--train-csv", type=Path, required=True)
     parser.add_argument("--val-csv", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--expected-val-rows", type=int, default=1007)
     args = parser.parse_args()
 
     train = pd.read_csv(args.train_csv, encoding="utf-8-sig")
@@ -20,6 +21,16 @@ def main() -> None:
 
     if "id" not in train.columns or "id" not in val.columns:
         raise ValueError("Both train and validation CSVs must contain an id column.")
+
+    if len(val) != args.expected_val_rows:
+        raise ValueError(
+            f"Validation CSV has {len(val)} rows, expected {args.expected_val_rows}. "
+            "Refusing to build the training complement because this is not the fixed VAL-A file."
+        )
+    if train["id"].astype(str).duplicated().any():
+        raise ValueError("train.csv contains duplicate IDs; cannot safely build complement.")
+    if val["id"].astype(str).duplicated().any():
+        raise ValueError("Validation CSV contains duplicate IDs; cannot safely build complement.")
 
     val_ids = set(val["id"].astype(str))
     out = train[~train["id"].astype(str).isin(val_ids)].copy()
@@ -29,6 +40,10 @@ def main() -> None:
         raise RuntimeError(f"Train/VAL-A ID overlap remains: {len(overlap)}")
 
     expected = len(train) - len(val_ids)
+    if expected <= 0:
+        raise RuntimeError(
+            f"Training complement would be empty/non-positive: train={len(train)}, val_unique={len(val_ids)}."
+        )
     if len(out) != expected:
         raise RuntimeError(
             f"Unexpected row count: got {len(out)}, expected {expected}. "
