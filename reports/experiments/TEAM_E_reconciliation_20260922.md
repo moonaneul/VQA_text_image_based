@@ -89,3 +89,84 @@ The B3P3 probability artifact is still required in the analysis environment:
 `output/baseline/B3P3_test_QLoRA_probs_v2/choice_probabilities.csv`
 
 Once supplied, perform the planned CPU-only ID-joined analysis against the current 80/20 team ensemble before proposing any new GPU work.
+
+
+## Current-best update — 2026-09-22 afternoon
+
+The earlier blocker was resolved: TEAM-C896, Permutation-8B, and B3P3 probability artifacts were available for CPU-only joining.
+
+### B3P3 ensemble contribution
+
+Starting from the team-reported 80/20 best:
+- TEAM-C896 80%
+- Permutation-8B 20%
+- Public LB **0.95144**
+
+B3P3 showed non-trivial test diversity relative to the existing Qwen3 ensemble. One conservative candidate preserved the existing 4:1 TEAM-C896:Permutation-8B ratio while assigning 5% to B3P3:
+
+- TEAM-C896 **76%**
+- Permutation-8B **19%**
+- B3P3 **5%**
+
+This changed only **12 / 6,714** test argmax predictions relative to the 80/20 system.
+
+Observed Public LB:
+- **0.95204**
+
+This is an improvement of **+0.00060** over 0.95144.
+
+### Qwen3-VL-8B fine-tuning branch
+
+A TEAM-C-inspired local Qwen3-VL-8B QLoRA experiment was then run with a fixed configuration:
+- 4-bit NF4 double quantization, BF16 compute
+- LoRA r=32, alpha=64, dropout=0.05
+- q/k/v/o targets
+- LR=2e-4, 1 epoch, grad accumulation=16
+- 50% choice permutation
+- four-choice next-token cross-entropy
+- train 5,707 / fixed VAL-A 1,007
+- 640 image setting
+
+Controlled VAL-A comparison:
+- base 8B: **947/1,007 = 94.0417%**
+- FT-8B: **952/1,007 = 94.5382%**
+- rescue 22
+- regression 17
+- net +5
+- changed predictions 42
+- McNemar exact two-sided p=**0.5224**
+
+The signal is positive but not statistically significant.
+
+FT-8B test inference then completed for all 6,714 rows.
+
+One conservative 5% FT-8B ensemble candidate was evaluated:
+- TEAM-C896 **72.20%**
+- Permutation-8B **18.05%**
+- B3P3 **4.75%**
+- FT-8B **5.00%**
+
+This candidate changed only **9 / 6,714** test argmax predictions relative to the 0.95204 system.
+
+Observed Public LB:
+- **0.95263**
+
+### Current best observed state
+
+**Public LB = 0.95263**
+
+Current mixture:
+- TEAM-C896 72.20%
+- Permutation-8B 18.05%
+- B3P3 4.75%
+- FT-8B 5.00%
+
+Score progression recorded in this workspace:
+- D-PERM: **0.95055**
+- TEAM-C896 80 + Permutation-8B 20: **0.95144**
+- + B3P3 5% conservative diversity candidate: **0.95204**
+- + FT-8B 5% conservative diversity candidate: **0.95263**
+
+The original handoff remains a historical snapshot. This section records the newer locally observed state and should not be used to silently rewrite earlier experiment history.
+
+Do not perform dense Public-LB weight tuning around the successful 5% B3P3 or FT-8B additions.
