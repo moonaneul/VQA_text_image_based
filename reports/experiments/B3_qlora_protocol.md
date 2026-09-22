@@ -104,3 +104,73 @@ The trainer is corrected to:
 The smoke gate is unchanged, with two explicit additions:
 - non-zero first gradient norm
 - non-zero adapter parameter L2 change
+
+
+---
+
+## Post-protocol result note — 2026-09-22
+
+This section records results obtained after the protocol above was written. It does **not** rewrite the preregistered gate.
+
+### B3-P3 inner-dev outcome
+
+Using the locked first configuration trained on the 3,294-row inner train:
+- B0: **271/300 = 90.33%**
+- QLoRA: **275/300 = 91.67%**
+- wrong→right (rescue): **10**
+- right→wrong (regression): **6**
+- net gain: **+4**
+- McNemar exact p: **0.4544982910**
+
+The preregistered B3-P3 promotion gate required **net +4 or better AND <=4 regressions**. Therefore this run **did not pass the preregistered promotion gate**.
+
+### One-time frozen-holdout confirmation of the same adapter
+
+After the inner-dev result, the same 3,294-row-trained adapter
+`B3P3_r8_lr5e5_epoch1` was evaluated once on the frozen 400-row QLoRA holdout without further QLoRA tuning.
+
+Important protocol distinction:
+- this was **not** the originally specified B3-P4 retraining on all 3,594 qlora_train rows;
+- no 3,594-row retrain was performed before this holdout evaluation;
+- the holdout had previously been used for fixed B0/router comparison, but not for QLoRA hyperparameter selection.
+
+Paired result:
+- B0: **361/400 = 90.25%**
+- B3P3 QLoRA: **369/400 = 92.25%**
+- delta: **+2.00 percentage points**
+- both correct: **356**
+- B0 only / regression: **5**
+- QLoRA only / rescue: **13**
+- both wrong: **26**
+- net gain: **+8**
+- prediction disagreement rate: **5.5%**
+- McNemar exact p: **0.0962524414**
+
+Category deltas on this holdout included:
+- scene_text: **90.37% → 92.66%**, net +5
+- other: **92.38% → 96.19%**, net +4
+- price: unchanged
+- spatial: unchanged
+- menu: net -1
+
+Interpretation:
+- the direction of improvement observed on inner dev reproduced on the frozen holdout and exceeded the protocol's practical 365/400 threshold;
+- however, because the original inner-dev promotion gate failed and the prescribed 3,594-row retraining step was not performed, this result must be described as a **one-time confirmation of the existing B3P3 adapter**, not as a clean execution of the original B3-P4 path;
+- p=0.096 does not justify a p<0.05 statistical-significance claim.
+
+### Test inference artifact status
+
+The same B3P3 adapter completed inference on all **6,714** test rows with direct prompt + standard resolution.
+Reported run:
+- rows: **6,714 / 6,714**
+- elapsed: **4,161.28 s (~69.35 min)**
+- peak allocated VRAM: **7.39 GB**
+- parse/test-gold metrics: unavailable because test has no answer labels
+
+Artifacts produced locally:
+- `output/baseline/B3P3_test_QLoRA_probs_v2/predictions.csv`
+- `output/baseline/B3P3_test_QLoRA_probs_v2/choice_probabilities.csv`
+
+The probability file stores `id,p_a,p_b,p_c,p_d`, defined as first-generation-step logits normalized over choices a/b/c/d. These are candidate scores, not calibrated probabilities of correctness.
+
+Public leaderboard score remains **unconfirmed** in this report.
