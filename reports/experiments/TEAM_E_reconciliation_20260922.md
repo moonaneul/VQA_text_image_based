@@ -44,3 +44,48 @@ Therefore:
 4. Once team probabilities are available, run CPU-only complementarity analysis before considering any new ensemble submission.
 
 No new training or inference is authorized by this note.
+
+
+## Latest team artifact update — 2026-09-22 11:52 KST report
+
+A teammate supplied three probability artifacts and a newer Public LB state after the original TEAM_AI_HANDOFF snapshot:
+
+- TEAM-C 896 P0: `TEAM-C896_P0_probs.csv`, Fine-tuned Qwen3-VL-4B, image token 896, n_perm=1, team-reported Public LB **0.94518**
+- Local Qwen3-VL-4B zero-shot: `EXP-001T_test_scoring.csv`, team-reported Public LB **0.92701**
+- Local Qwen3-VL-8B P0+P1 permutation: `EXP-003T_8B_P0P1_PERM.csv`, team-reported Public LB **0.94250**
+
+The teammate additionally reports the latest team best as:
+- **TEAM-C896 80% + Permutation-8B 20%**
+- Public LB **0.95144**
+
+This is newer than the original handoff snapshot's D-PERM 0.95055. Treat it as a **newer TEAM_REPORTED state** until the team Decision Log / registry is synchronized; do not silently rewrite the historical handoff snapshot.
+
+### Uploaded artifact integrity checks
+
+The three supplied CSVs were inspected directly:
+- each has **6,714 rows**
+- all three have identical ID sets
+- duplicate IDs: **0**
+- no NaN/non-finite candidate scores after normalization
+- four-choice score sums normalize cleanly to 1
+
+Pairwise argmax disagreement on test:
+- TEAM-C896 vs Permutation-8B: **390 / 6,714 = 5.81%**
+- TEAM-C896 vs Local-4B: **357 / 6,714 = 5.32%**
+- Permutation-8B vs Local-4B: **429 / 6,714 = 6.39%**
+
+Three-model agreement pattern:
+- all three same: **6,146**
+- TEAM-C896 = Permutation-8B only: **178**
+- TEAM-C896 = Local-4B only: **211**
+- Permutation-8B = Local-4B only: **139**
+- all three different: **40**
+
+Using weighted log probabilities with weights TEAM-C896=0.80 and Permutation-8B=0.20, the reconstructed 80/20 ensemble changes **130** test argmax predictions relative to TEAM-C896 and **270** relative to Permutation-8B. Test gold is unavailable, so these changes are diversity diagnostics only.
+
+### Remaining blocker for B3P3 complementarity
+
+The B3P3 probability artifact is still required in the analysis environment:
+`output/baseline/B3P3_test_QLoRA_probs_v2/choice_probabilities.csv`
+
+Once supplied, perform the planned CPU-only ID-joined analysis against the current 80/20 team ensemble before proposing any new GPU work.
