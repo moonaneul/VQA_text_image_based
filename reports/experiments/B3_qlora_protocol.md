@@ -174,3 +174,36 @@ Artifacts produced locally:
 The probability file stores `id,p_a,p_b,p_c,p_d`, defined as first-generation-step logits normalized over choices a/b/c/d. These are candidate scores, not calibrated probabilities of correctness.
 
 Public leaderboard score remains **unconfirmed** in this report.
+
+
+## Downstream ensemble contribution — 2026-09-22
+
+After the B3P3 test probability artifact was combined with the stronger Qwen3 team components, B3P3 was evaluated as a small diversity component rather than as a replacement primary model.
+
+Reference before B3P3 addition:
+- TEAM-C896 80%
+- Permutation-8B 20%
+- observed Public LB **0.95144**
+
+Single conservative candidate:
+- TEAM-C896 76%
+- Permutation-8B 19%
+- B3P3 5%
+
+This preserved the original 4:1 ratio between TEAM-C896 and Permutation-8B while allocating 5% to B3P3.
+
+Effect on test predictions:
+- changed argmax answers: **12 / 6,714**
+
+Observed Public LB:
+- **0.95204**
+
+Delta:
+- **+0.00060** vs 0.95144
+
+This provides downstream evidence that B3P3 contributes useful ensemble diversity even though its original inner-dev promotion gate was not passed.
+
+Important limitations:
+- test gold is unavailable, so the 12 changed answers cannot be labeled as item-level rescues/regressions;
+- this does not retroactively convert the original B3-P3 gate failure into a pass;
+- no dense weight search was performed around the successful 5% setting.
