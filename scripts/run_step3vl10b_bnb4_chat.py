@@ -119,6 +119,7 @@ def main() -> None:
         args.model_path,
         trust_remote_code=True,
         local_files_only=True,
+        fix_mistral_regex=True,
     )
 
     quant_config = BitsAndBytesConfig(
