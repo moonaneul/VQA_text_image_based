@@ -29,7 +29,7 @@ def main() -> None:
     parser.add_argument(
         "--sample-submission",
         type=Path,
-        default=Path("sample_submission.csv"),
+        default=Path("data/sample_submission.csv"),
     )
     parser.add_argument(
         "--output",
