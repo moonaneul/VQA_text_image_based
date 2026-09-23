@@ -260,13 +260,14 @@ def main() -> None:
         answer = getattr(row, "answer", None)
         is_labeled = isinstance(answer, str) and answer in CHOICES
 
+        is_parsed = isinstance(prediction, str) and prediction in CHOICES
         records.append({
             "id": row.id,
             "prediction": prediction,
             "raw_response": str(response),
-            "parsed": prediction in CHOICES,
+            "parsed": is_parsed,
             "answer": answer,
-            "correct": (prediction == answer) if is_labeled and prediction else False if is_labeled else None,
+            "correct": (prediction == answer) if is_labeled and is_parsed else False if is_labeled else None,
             "category": row.category,
             "image_tiles": int(pixel_values.shape[0]),
         })
