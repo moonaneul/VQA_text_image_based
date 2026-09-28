@@ -1,113 +1,118 @@
 # SSAFY 16기 2회차 VQA Challenge
 
-이미지와 한국어 질문, 네 개의 선택지에서 정답 하나를 고르는 VQA 대회 프로젝트입니다. 원본 데이터는 `data/`에 그대로 두고, 재현 가능한 EDA·검증 분할·베이스라인 실행·실험 기록을 분리합니다.
+> **프로젝트 상태: 종료 (2026-09-28)**  
+> 이미지 + 한국어 질문 + 4지선다(a~d) 정답을 맞히는 VQA 경진대회 프로젝트입니다.
 
-## 현재 결론
+이 저장소는 더 이상 실험을 진행하지 않습니다.  
+나중에 다시 볼 때는 **[최종 정리](reports/FINAL_REPORT.md)** 를 먼저 읽으면 됩니다.
 
-- train/dev/test 이미지와 CSV는 모두 존재하며 손상되거나 누락된 이미지는 없습니다.
-- train의 68.7%, test의 67.7%가 질문 문구 기준으로 장면 텍스트·가격·전화번호·메뉴 판독형입니다.
-- 실제 표본도 간판, 메뉴판, 포스터, 가격표, 날짜, 전화번호처럼 작은 글자를 정확히 읽어야 풀리는 문제가 중심입니다.
-- 첫 모델은 이미 로컬에 준비된 `Qwen2.5-VL-3B-Instruct`의 zero-shot 추론으로 고정합니다. LoRA보다 먼저 prompt와 해상도의 효과를 측정합니다.
-- 주 평가는 정답과 질문 유형을 함께 층화한 random 80/20 split입니다. 동일 질문 템플릿과 동일 이미지가 양쪽에 걸치지 않는 grouped split을 함께 보고 일반화 차이를 측정합니다.
-- dev의 5개 응답은 정답으로 간주하지 않습니다. 2,026행에서 최다 득표가 3개이고, 4개 이상 일치는 한 건도 없으며 465행은 최다 득표 동률입니다.
+## 최종 결과
 
-상세 근거는 `reports/eda/README.md`에 있습니다. 모델링 전략은 `reports/modeling_strategy.md`, ablation 계획은 `experiments/ablation_plan.md`에 정리합니다.
+- 최종 기준 Public LB: **0.95263**
+- 최종 방식: 여러 VLM의 4지선다 확률을 **weighted log probability ensemble**로 결합
+- 최종 로컬 제출 파일:
+  `output/ENSEMBLE_TEAM722_PERM1805_B3P3_0475_FT8B_05.csv`
 
-## 폴더 구조
+최종 ensemble:
+
+| Component | Weight |
+|---|---:|
+| TEAM-C896 | 72.20% |
+| Permutation-8B | 18.05% |
+| B3P3 | 4.75% |
+| FT Qwen3-VL-8B 640 P0 | 5.00% |
+
+> Public LB는 공개 리더보드 관측값입니다. test 정답은 제공되지 않았으므로 item-level 정답 여부는 알 수 없습니다.
+
+## 가장 중요한 결론
+
+처음에는 OCR-heavy 데이터라서 "글자를 더 잘 읽는 것"이 핵심이라고 생각했지만, 실제 오답 125개를 전수 분류한 결과는 달랐습니다.
+
+- number/text binding: **33.6%**
+- OCR recognition: **16.8%**
+- question understanding: **16.0%**
+- visual/spatial reasoning: **14.4%**
+- exact-string confusion: **10.4%**
+- target localization: **5.6%**
+- ambiguity/label: **3.2%**
+
+특히 binding + question understanding + spatial reasoning을 합친 reasoning/association 계열이 **64%**였습니다.
+
+즉 이 프로젝트에서 가장 큰 학습은:
+
+> **OCR이 많이 등장하는 데이터셋이라고 해서 OCR 자체가 가장 큰 병목인 것은 아니다.  
+> 실제 오류를 직접 분류해야 무엇을 개선해야 하는지 알 수 있다.**
+
+## 실제로 효과가 있었던 것
+
+1. **Qwen3-VL-8B QLoRA**
+   - base 947/1007 = 94.04%
+   - fine-tuned 952/1007 = 94.54%
+   - rescue 22 / regression 17 / net +5
+
+2. **서로 다른 모델을 작은 비중으로 ensemble**
+   - TEAM-C896 + Permutation-8B: Public LB **0.95144**
+   - + B3P3 5%: **0.95204**
+   - + FT-8B 5%: **0.95263**
+
+3. **작은 변화도 paired comparison으로 검증**
+   - 단순 accuracy만 보지 않고
+   - wrong→right(rescue)
+   - right→wrong(regression)
+   - disagreement
+   - category별 변화
+   를 함께 확인했습니다.
+
+## 효과가 없거나 채택하지 않은 것
+
+- OCR 강조 prompt
+- global high-resolution만 적용
+- output-format / constrained choice scoring
+- price/phone prompt routing
+- tiled crop/zoom
+- FT-8B P0+P1 replacement
+- FT-8B 896-profile replacement
+- MiniCPM-V-4.5
+- InternVL3-8B
+- Step3-VL-10B
+
+실패 실험을 억지로 살리지 않고, 미리 정한 gate를 넘지 못하면 종료했습니다.
+
+## 나중에 다시 볼 문서
+
+읽는 순서:
+
+1. **[reports/FINAL_REPORT.md](reports/FINAL_REPORT.md)** — 전체 결과와 공부용 정리
+2. **[reports/model_evolution.md](reports/model_evolution.md)** — 모델 변화만 빠르게 보기
+3. **[experiments/README.md](experiments/README.md)** — 실험을 어떻게 비교했는지
+4. `reports/experiments/` — 세부 raw experiment archive
+
+## 폴더
 
 ```text
-data/                         원본 CSV와 이미지. 수정하지 않음
-downloads/models/             로컬 사전학습 모델
-scripts/run_eda.py            CSV·이미지 무결성 및 분포 분석
-scripts/make_splits.py        random/grouped validation 생성
-scripts/run_vlm_baseline.py   validation 평가와 test 추론
-scripts/compare_runs.py       동일 샘플 기준 두 실험 paired 비교
-configs/                      고정된 실험 설정과 실행 예시
-splits/                       생성된 train/validation CSV
-reports/eda/                  EDA 요약, 표본, 이미지 메타데이터
-reports/modeling_strategy.md  모델링 의사결정과 진입 기준
-experiments/experiments.csv   실험 결과 누적 기록
-experiments/ablation_plan.md  순차 ablation 설계
-prompts/                      모델링 전문가 프롬프트
-output/baseline/              실행별 예측, 지표, 제출 파일
+data/                 원본 데이터
+splits/               validation / holdout split
+scripts/              학습·평가·비교 스크립트
+experiments/          실험 기록 규칙과 experiments.csv
+reports/FINAL_REPORT.md
+                      최종 정리
+reports/experiments/  상세 실험 archive
+output/               로컬 실행 결과 및 제출 파일 (Git 비추적 항목 포함)
 ```
 
-## 권장 실행 순서
+## 프로젝트에서 익힌 핵심 개념
 
-프로젝트 루트에서 기존 가상환경을 사용합니다.
+- VLM / VQA
+- zero-shot baseline
+- QLoRA / LoRA
+- 4-bit NF4 quantization
+- choice-token scoring
+- paired evaluation
+- McNemar test
+- validation / confirmation / holdout 분리
+- error taxonomy
+- ensemble diversity
+- weighted log probability ensemble
+- Public LB overfitting 방지
 
-```powershell
-.\baseline\Scripts\python.exe .\scripts\run_eda.py --data-dir .\data --output-dir .\reports\eda
-.\baseline\Scripts\python.exe .\scripts\make_splits.py --data-dir .\data --output-dir .\splits --metadata .\reports\eda\image_metadata.csv
-```
-
-먼저 50개로 모델 로딩과 출력 파싱을 확인합니다.
-
-```powershell
-.\baseline\Scripts\python.exe .\scripts\run_vlm_baseline.py --csv .\splits\val_random.csv --prompt direct --resolution standard --max-samples 50
-```
-
-## B0: 첫 번째 실제 baseline
-
-변수는 고정합니다.
-
-- model: Qwen2.5-VL-3B-Instruct
-- prompt: direct
-- resolution: standard (~0.8MP max)
-- quantization: none
-- decision: free generation
-- seed: 20260921
-
-random validation을 먼저 실행합니다.
-
-```powershell
-.\baseline\Scripts\python.exe .\scripts\run_vlm_baseline.py `
-  --csv .\splits\val_random.csv `
-  --prompt direct `
-  --resolution standard `
-  --run-id B0_random_direct_standard
-```
-
-그다음 같은 설정을 grouped validation에 적용합니다.
-
-```powershell
-.\baseline\Scripts\python.exe .\scripts\run_vlm_baseline.py `
-  --csv .\splits\val_grouped.csv `
-  --prompt direct `
-  --resolution standard `
-  --run-id B0_grouped_direct_standard
-```
-
-W&B를 사용할 경우 두 명령에 `--wandb --wandb-group B0`를 추가합니다.
-
-각 run은 다음을 남깁니다.
-
-- `predictions.csv`: sample-level answer/prediction/correct/category/raw output/latency
-- `run.json`: config, input CSV hash, git commit, environment, aggregate metrics, runtime/VRAM
-- `experiments/experiments.csv`: run summary
-- W&B 사용 시 evaluation artifact
-
-B0 결과가 확정되기 전에는 prompt, resolution, OCR, QLoRA를 동시에 변경하지 않습니다.
-
-## 다음 ablation
-
-B0 뒤에는 한 번에 한 변수만 바꿉니다.
-
-1. A1: `direct -> ocr_deliberate`, standard resolution 고정
-2. A2: winning prompt + high resolution
-3. A3: winning prompt + low resolution
-4. A4: best prompt/resolution에서 generation -> constrained choice scoring
-5. A5: 오류 분석이 요구할 때만 external OCR
-6. A6: inference-side 개선이 포화된 뒤에만 QLoRA
-
-두 run의 차이는 `scripts/compare_runs.py`로 paired 비교합니다.
-
-## 실험 원칙
-
-1. 한 번에 한 요소만 바꿉니다.
-2. random과 grouped validation 점수를 함께 기록합니다.
-3. 전체 accuracy와 질문 유형별 accuracy, OCR-heavy accuracy를 함께 봅니다.
-4. test 제출은 validation에서 선택한 설정으로만 만듭니다.
-5. dev 응답은 신뢰도 분석 전까지 학습 정답으로 사용하지 않습니다.
-6. LoRA를 시작할 때는 assistant 정답 토큰만 loss에 포함합니다. 기존 실습 노트북처럼 전체 prompt를 labels로 복사하지 않습니다.
-7. 작은 accuracy 차이는 sample-level paired change를 확인한 뒤 채택합니다.
+세부 설명은 [최종 정리](reports/FINAL_REPORT.md)에 남겨 두었습니다.
